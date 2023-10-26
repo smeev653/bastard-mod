@@ -271,7 +271,7 @@ estate_church_independent_inquisition = {
 		stability_cost_modifier = 0.1
 	}
 	benefits = {
-		adm_advisor_cost = -0.15
+		adm_advisor_cost = -0.10
 	}
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
@@ -549,7 +549,7 @@ estate_church_clerical_ministers = {
 			religion_group = muslim
 		}
 		modifier = {
-			monthly_piety = 0.001
+			monthly_piety = 0.01
 		}
 	}
 	conditional_modifier = {
@@ -650,7 +650,7 @@ estate_church_freedom_of_interpretation = {
 	penalties = {
 	}
 	benefits = {
-		monthly_piety = -0.001
+		monthly_piety = -0.01
 	}
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
@@ -694,7 +694,10 @@ estate_church_clerical_oversight = {
 			is_absolutism_active = yes
 		}
 	}
-}
+	modifier = {
+		monthly_splendor = 3
+	}
+}	
 
 estate_church_inwards_perfection = {
 	icon = privilege_grant_autonomy

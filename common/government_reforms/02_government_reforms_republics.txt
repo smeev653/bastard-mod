@@ -267,7 +267,6 @@ merchants_reform = {
 	modifiers = {
 		max_absolutism = -10
 		merchants = 1
-		reduced_trade_penalty_on_non_main_tradenode = 0.5
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -361,7 +360,6 @@ venice_merchants_reform = {
 		merchants = 1
 		yearly_corruption = -0.1
 		monarch_lifespan = 0.25
-		reduced_trade_penalty_on_non_main_tradenode = 0.5
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -1018,6 +1016,8 @@ veche_republic = {
 		merchants = 1
 		governing_capacity = 100
 		max_absolutism = 10
+		has_streltsy = yes
+		allowed_streltsy_fraction = 0.1
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -1125,6 +1125,8 @@ great_veche_republic = {
 		merchants = 1
 		max_absolutism = 20
 		governing_capacity = 350
+		has_streltsy = yes
+		allowed_streltsy_fraction = 0.2
 	}
 
 	custom_attributes = {
@@ -1358,9 +1360,6 @@ colonial_government = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-		enables_estate_nobles = yes
-		enables_estate_burghers = yes
-		enables_estate_church = yes
 	}
 	effect = {
 		hidden_effect = {
@@ -1423,9 +1422,6 @@ crown_colony_government = {
 		development_cost = 0.30
 		land_forcelimit_modifier = -0.20
 		global_manpower_modifier = -0.20
-		enables_estate_nobles = yes
-		enables_estate_burghers = yes
-		enables_estate_church = yes
 	}
 	effect = {
 		hidden_effect = {
@@ -1489,18 +1485,12 @@ private_enterprise_colony_government = {
 		development_cost = 0.30
 		land_forcelimit_modifier = -0.20
 		global_manpower_modifier = -0.20
-		enables_estate_nobles = yes
-		enables_estate_burghers = yes
-		enables_estate_church = yes
 	}
 
 	custom_attributes = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-		enables_estate_nobles = yes
-		enables_estate_burghers = yes
-		enables_estate_church = yes
 	}
 	effect = {
 		hidden_effect = {
