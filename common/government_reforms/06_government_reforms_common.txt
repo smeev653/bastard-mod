@@ -3034,10 +3034,10 @@ swiss_mercenary_reform = {
 		}
 	}
 	modifiers = {
-		mercenary_cost = -0.25
+		mercenary_cost = -0.1
 		possible_condottieri = 0.5
 		merc_leader_army_tradition = 0.33
-		mercenary_discipline = 0.05
+		mercenary_discipline = 0.025
 	}
 	conditional = {
 		allow = { has_dlc = "Domination" }
@@ -3063,9 +3063,9 @@ expanded_black_army_reform = {
 		primary_culture = hungarian
 	}
 	modifiers = {
-		mercenary_manpower = 1
-		war_taxes_cost_modifier = -0.5
-		army_tradition_from_battle = 1
+		mercenary_manpower = 0.1
+		war_taxes_cost_modifier = -1
+		army_tradition_from_battle = 0.5
 		allow_mercenary_drill = yes
 	}
 	trigger = {
@@ -3765,7 +3765,7 @@ embrace_the_economic_theory_reform = {
 		}
 	}
 	modifiers = {
-		interest = -0.5
+		interest = -0.25
 		inflation_reduction = 0.2
 	}
 	ai = {

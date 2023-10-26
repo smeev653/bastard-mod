@@ -22,7 +22,7 @@ feudalism_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		vassal_income = 0.25
+		vassal_income = 0.1
 		nobles_influence_modifier = 0.05
 		maratha_exclusive_influence_modifier = 0.05
 		rajput_exclusive_influence_modifier = 0.05
@@ -158,6 +158,8 @@ austrian_archduchy_reform = {
 		liberty_desire_from_subject_development = -0.33
 		nobles_influence_modifier = 0.05
 		maratha_exclusive_influence_modifier = 0.05
+		monarch_diplomatic_power = 2
+		vassal_income = 0.1
 		rajput_exclusive_influence_modifier = 0.05
 	}
 	custom_attributes = {
@@ -320,20 +322,16 @@ feudal_france_reform = {
 			}
 		}
 	}
-	fixed_rank = 2
 	lock_level_when_selected = yes
 
 	modifiers = {
 		nobles_influence_modifier = 0.1
-		vassal_income = 0.2
+		vassal_income = 0.1
 		max_absolutism = -50
 	}
 
 	custom_attributes = {
-		locked_government_type = yes
 		has_appanages = yes
-		need_crownland_to_annex = yes
-		nobility_loyalty_hit_on_integration = yes
 	}
 }
 
@@ -773,7 +771,7 @@ iqta = {
 	legacy_equivalent = iqta_legacy
 	queen = no
 	modifiers = {
-		vassal_income = 0.33
+		vassal_income = 0.2
 		global_tax_modifier = 0.05
 	}
 
@@ -1412,7 +1410,7 @@ barbary_sultanate_reform = {
 	icon = "barbary_eyalet_government"
 	allow_normal_conversion = yes
 	potential = {
-		culture_group = maghrebi
+		tag = MOR
 	}
 	queen = no
 	nation_designer_trigger = {
@@ -2113,6 +2111,7 @@ al_andalusia_government = {
 	}
 	modifiers = {
 		idea_cost = -0.1
+		core_creation = -0.1
 		tolerance_of_heathens_capacity = 2
 		tolerance_heathen = 1
 	}
@@ -2164,9 +2163,9 @@ prussian_monarchy = {
 		global_unrest = -2
 		global_autonomy = -0.075
 		max_absolutism = 10
-		monarch_military_power = 3
+		monarch_military_power = 2
 		nobles_loyalty_modifier = 0.1
-		governing_capacity_modifier = -0.5
+		governing_capacity_modifier = -0.33
 	}
 
 	conditional = {
@@ -2268,7 +2267,7 @@ prussian_monarchy_base = {
 		max_absolutism = 10
 		monarch_military_power = 3
 		nobles_loyalty_modifier = 0.1
-		governing_capacity_modifier = -0.5
+		governing_capacity_modifier = -0.33
 	}
 
 	conditional = {
@@ -2300,6 +2299,7 @@ austrian_dual_monarchy = {
 		num_accepted_cultures = 2
 		global_unrest = -2
 		monarch_diplomatic_power = 2
+		vassal_income = 0.1
 		promote_culture_cost = -0.33
 	}
 }
@@ -2395,7 +2395,7 @@ tsardom = {
 	}
 
 	modifiers = {
-		global_manpower_modifier = 0.20
+		global_manpower_modifier = 0.15
 		yearly_absolutism = 0.5
 		global_autonomy = -0.05
 		governing_capacity = 350
@@ -2566,6 +2566,13 @@ mamluk_government = {
 		}
 		heir = no
 		foreign_slave_rulers = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		has_janissaries = yes
+		custom_attributes = {
+			enables_estate_janissaries = yes
+		}
 	}
 }
 
@@ -4281,6 +4288,14 @@ enforce_privileges_reform = {
 		maratha_exclusive_influence_modifier = 0.1
 		rajput_exclusive_influence_modifier = 0.1
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
+	custom_attributes = {
+		seizing_land_no_rebels = yes
+	}
 	ai = {
 		factor = 1
 		modifier = {
@@ -4301,6 +4316,14 @@ quash_noble_power_reform = {
 		nobles_influence_modifier = -0.1
 		maratha_exclusive_influence_modifier = -0.1
 		rajput_exclusive_influence_modifier = -0.1
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
+	custom_attributes = {
+		seizing_land_no_rebels = yes
 	}
 	ai = {
 		factor = 1
@@ -4323,8 +4346,14 @@ grant_noble_castle_rights_reform = {
 		maratha_exclusive_influence_modifier = 0.05
 		rajput_exclusive_influence_modifier = 0.05
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 	custom_attributes = {
-		on_fort_built_nobles_loyalty = yes	#5 Loyalty
+		on_fort_built_nobles_loyalty = yes
+		seizing_land_no_rebels = yes	#5 Loyalty
 	}
 	ai = {
 		factor = 1
@@ -4354,8 +4383,14 @@ maintain_nobles_status_quo_reform = {
 		meritocracy = 0.5
 		stability_cost_modifier = -0.15
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 	custom_attributes = {
 		free_noble_levies = yes
+		seizing_land_no_rebels = yes
 	}
 	ai = {
 		factor = 1
@@ -4381,6 +4416,12 @@ grant_military_command_reform = {
 	}
 	custom_attributes = {
 		recruiting_generals_increases_nobles_loyalty = yes
+		seizing_land_no_rebels = yes
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
 	}
 	ai = {
 		factor = 1
@@ -4402,6 +4443,11 @@ grant_nobles_electorate_reform = {
 		maratha_loyalty_modifier = 0.1
 		rajput_loyalty_modifier = 0.1
 		no_stability_loss_on_monarch_death = yes
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
 	}
 	effect = {
 		hidden_effect = {
@@ -4470,7 +4516,12 @@ blackmail_nobility_reform = {
 		allow_free_estate_privilege_revocation = yes
 	}
 	custom_attributes = {
-		seizing_land_no_rebels_from_estate_nobles = yes
+		seizing_land_no_rebels = yes
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
 	}
 	ai = {
 		factor = 0
@@ -4495,6 +4546,14 @@ enforce_trader_privileges_reform = {
 	modifiers = {
 		trade_range_modifier = 0.3
 		trade_efficiency = 0.05
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
+	custom_attributes = {
+		seizing_land_no_rebels = yes
 	}
 	ai = {
 		factor = 2
@@ -4927,7 +4986,7 @@ centralize_reform = {
 			has_dlc = "Leviathan"
 		}
 		custom_attributes = {
-			centralize_state_half_refund = yes
+			#centralize_state_half_refund = yes
 			#centralize_state_no_reform_cost = yes
 			#centralize_state_development = yes
 		}
