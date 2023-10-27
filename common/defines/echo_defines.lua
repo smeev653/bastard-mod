@@ -141,7 +141,6 @@ NDefines.NMilitary.NAVAL_DOCTRINE_MIN_FORCE_LIMIT = 15
 NDefines.NMilitary.BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.0	-- Multiplier for morale damage taken by backrow
 NDefines.NMilitary.BACK_LINE_STRENGTH_DAMAGE_TAKEN_MODIFIER = 0.0
 NDefines.NMilitary.BACK_LINE_REINFORCE_SPEED = 40
-NDefines.NMilitary.INSUFFICIENT_SUPPORT = -0.5
 NDefines.NMilitary.TRANSPORT_SHIP_SAILORS_COST = 20					-- 1 = 1 men in cost.
 NDefines.NMilitary.LIGHT_SHIP_SAILORS_COST = 50					-- 1 = 1 men in cost.
 NDefines.NMilitary.GALLEY_SHIP_SAILORS_COST = 50
