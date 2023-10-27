@@ -268,7 +268,7 @@ development_scaled = {
 }
 
 capital_city = {
-	fort_level = 1
+	fort_level = 2
 	local_governing_cost = -10
 }
 
@@ -682,7 +682,7 @@ cancelled_loan = {
 
 bank_loan = {
 	build_cost = 0.005
-	global_colonial_growth = -2.5}
+}
 
 inflation = {
 	#build_cost = 0.01									#1% for each inflation step.
@@ -1461,6 +1461,7 @@ subject_nation = {
 	land_forcelimit	= -3
 	naval_forcelimit = -6
 	caravan_power = -0.9
+	defensiveness = -0.5
 }
 
 vassal_nation = {
