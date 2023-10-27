@@ -87,8 +87,7 @@ NDefines.NCountry.PROMOTE_INVESTMENTS_TRADEPOWER = 0
 NDefines.NCountry.PROMOTE_INVESTMENTS_INFLATION = 0
 NDefines.NCountry.INNOVATIVENESS_AHEAD_OF_TIME_BONUS = 0.005
 NDefines.NCountry.INNOVATIVENESS_FIRST_REACHED_TECH_LEVEL = 4.0  -- Innovativeness bonus to first country (or countries) to reach a certain tech level.
-NDefines.NCountry.INNOVATIVENESS_FIRST_PICKED_IDEA = 2.0			-- Innovativeness bonus to first country (or countries) to pick an idea.													
-NDefines.NCountry.MAXIMUM_ADVISOR_SKILL = 7							
+NDefines.NCountry.INNOVATIVENESS_FIRST_PICKED_IDEA = 2.0			-- Innovativeness bonus to first country (or countries) to pick an idea.																		
 NDefines.NCountry.SCRIPTED_ADVISOR_DISCOUNT = 0.75				-- Multiplier on cost for advisors scripted with discount=yes
 NDefines.NCountry.PS_RAISE_TARIFFS = 25
 NDefines.NCountry.PS_LOWER_TARIFFS = 10
