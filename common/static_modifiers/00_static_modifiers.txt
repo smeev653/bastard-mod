@@ -264,7 +264,7 @@ development = {
 }
 
 development_scaled = {
-	local_development_cost = 0.02
+	local_development_cost = 0.03
 }
 
 capital_city = {
@@ -1498,7 +1498,7 @@ eyalet_modifier = {
 
 #scales to amount of up-to-date forts compared to total development
 maintained_forts = {
-	army_tradition = 1
+	#army_tradition = 1
 }
 
 gov_rank_1 = {
