@@ -418,6 +418,9 @@ estate_nobles_advisors = {
 	penalties = {
 		stability_cost_modifier = 0.1
 	}
+	is_valid = {
+		always = no
+	}
 	can_select = { 
 		NOT = { has_estate_privilege = estate_maratha_advisor }
 		NOT = { has_estate_privilege = estate_rajput_advisor }
