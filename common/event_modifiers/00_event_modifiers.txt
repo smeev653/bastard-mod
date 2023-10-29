@@ -3,7 +3,7 @@
 ##################################################################################################
 
 national_bank_interest = {
-	interest = -0.5
+	interest = -0.25
 }
 
 national_bank_inflation = {
@@ -308,7 +308,7 @@ cut_government_investments = {
 }
 
 debt_funding_plan = {
-	interest = -0.5
+	interest = -0.25
 }
 
 tax_reform = {
@@ -1544,7 +1544,7 @@ papal_indulgence = {
 }
 
 usury_forgiven = {
-	interest = -0.25
+	interest = -0.15
 	inflation_reduction = 0.1
 	yearly_corruption = -0.04
 	religion = yes
@@ -4691,7 +4691,7 @@ fortezza_di_sant_andrea = {
 }
 
 ven_monte_nuovo = {
-	interest = -0.5
+	interest = -0.375
 }
 
 ven_venetian_first = {
@@ -4981,7 +4981,7 @@ bra_robber_baron_resurgence = {
 }
 
 bra_kreditwerk = {
-	interest = -1
+	interest = -0.25
 	global_autonomy = 0.05
 }
 
@@ -5376,7 +5376,7 @@ great_fire = {
 
 first_bank_usa = {
 	global_tax_modifier = 0.10
-	interest = -2
+	interest = -0.25
 }
 
 us_mint = {
@@ -7595,7 +7595,7 @@ individual_creeds_aspect_modifier = {
 	advisor_pool = 2 
 }
 allow_usury_aspect_modifier = {
-	interest = -0.5
+	interest = -0.15
 }
 translated_bibles_aspect_modifier = {
 	institution_spread_from_true_faith = 0.25
@@ -8191,7 +8191,7 @@ merchant_society = {
 }
 
 impressed_financial_sector = {
-	interest = -0.25
+	interest = -0.1
 	trade_efficiency = 0.1
 }
 
@@ -8680,7 +8680,7 @@ military_perfectionism = {
 }
 
 renegotiated_loans = {
-	interest = -0.25
+	interest = -0.1
 }
 
 cruel_overlord = {
@@ -10931,7 +10931,7 @@ passive_resistance = {
 }
 
 preferred_jain_bankers = {
-	interest = -0.5
+	interest = -0.25
 }
 
 preferred_brahmin_bankers = {
@@ -10939,7 +10939,7 @@ preferred_brahmin_bankers = {
 }
 
 jain_administration = {
-	interest = -0.5
+	interest = -0.25
 	yearly_corruption = -0.02
 }
 
@@ -12053,7 +12053,7 @@ revolution_higher_taxes_for_debts = {
 }
 
 revolution_administrative_reforms = {
-	interest = -1
+	interest = -0.25
 	inflation_reduction = 0.1
 }
 
@@ -13322,7 +13322,7 @@ council_of_the_chamber_mod = {
 
 council_of_finance_mod = {
 	inflation_reduction = 0.05
-	interest = -0.5
+	interest = -0.25
 }
 
 council_of_the_inquisition_mod = {
@@ -13397,7 +13397,7 @@ PRU_bitter_resistance = {
 }
 
 BRA_reformed_kreditwerk = {
-	interest = -0.5
+	interest = -0.25
 }
 BRA_abolished_kreditwerk = {
 	production_efficiency = 0.1
@@ -13602,7 +13602,7 @@ estate_nobles_expedition_rights_scaling = {
 }
 estate_burghers_promote_burgher_bookkeeping_scaling = {
 	inflation_action_cost = -0.5
-	interest = -0.5
+	interest = -0.25
 	state_maintenance_modifier = -0.25
 }
 
