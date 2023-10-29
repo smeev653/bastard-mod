@@ -1,5 +1,4 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-235;87;sea;1271;-1;-1;-1;-1;Kent-Calais
 333;4559;sea;1300;-1;-1;-1;-1;Majorca-Minorca
 4560;333;sea;1295;-1;-1;-1;-1;Ibiza-Majorca
 366;4565;sea;1471;-1;-1;-1;-1;Canaries
@@ -95,7 +94,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 146;3003;sea;1319;3174;1294;3175;1294;Athens - Euboea
 3003;164;sea;1319;3190;1287;3191;1286;Euboea - Cyclades
 31;4152;lake;4139;3232;1827;3235;1835;Savolax - Kuusamo
-1751;226;sea;1293;-1;-1;-1;-1;Ceuta-Gibraltar
 4353;4352;sea;1397;-1;-1;-1;-1;Leyte-Cebu
 4351;4352;sea;1397;-1;-1;-1;-1;Buglas-Cebu
 4699;4698;sea;1312;-1;-1;-1;-1;Arta-Cephalonia
