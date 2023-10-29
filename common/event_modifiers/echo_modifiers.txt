@@ -77,7 +77,7 @@ hired_conquistador = {
 }
 
 echo_development = {
-	development_cost = -0.125
+	development_cost = -0.1
 }
 
 burnt_development = {
