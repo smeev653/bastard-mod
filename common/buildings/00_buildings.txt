@@ -315,6 +315,20 @@ shipyard = {
 fort_15th = {
 	cost = 200
 	time = 30
+	build_trigger = {
+		NOT = {
+				area_for_scope_province = {
+					owner = {
+						tag = ROOT
+					}
+					OR = {
+						has_building = fort_15th
+						has_construction = fort_15th
+					}
+					NOT = { is_capital = yes }
+				}
+			}
+	}		
 	modifier = {
 		fort_level = 2
 	}
@@ -383,10 +397,6 @@ fort_15th = {
 	on_obsolete = {
 	}
 	
-	modifier = {
-		fort_level = 2
-		allowed_num_of_buildings = -2
-	}
 	
 	onmap = yes
 	influencing_fort = yes
@@ -560,10 +570,25 @@ regimental_camp = {
 fort_16th = {
 	cost = 400
 	time = 30
+	build_trigger = {
+		NOT = {
+				area_for_scope_province = {
+					owner = {
+						tag = ROOT
+					}
+					OR = {
+						has_building = fort_15th
+						has_construction = fort_15th
+						has_building = fort_16th
+						has_construction = fort_16th
+					}
+					NOT = { is_capital = yes }
+				}
+			}
+	}
 	make_obsolete = fort_15th
 	modifier = {
 		fort_level = 4
-		allowed_num_of_buildings = -2
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1031,12 +1056,28 @@ training_fields = {
 fort_17th = {
 	cost = 600
 	time = 30
-
+	build_trigger = {
+		NOT = {
+				area_for_scope_province = {
+					owner = {
+						tag = ROOT
+					}
+					OR = {
+						has_building = fort_15th
+						has_construction = fort_15th
+						has_building = fort_16th
+						has_construction = fort_16th
+						has_building = fort_17th
+						has_construction = fort_17th
+					}
+					NOT = { is_capital = yes }
+				}
+			}
+	}
 	make_obsolete = fort_16th
 
 	modifier = {
 		fort_level = 6
-		allowed_num_of_buildings = -2
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1482,13 +1523,31 @@ conscription_center = {
 fort_18th = {
 	cost = 800
 	time = 30
-
+	build_trigger = {
+		NOT = {
+				area_for_scope_province = {
+					owner = {
+						tag = ROOT
+					}
+					OR = {
+						has_building = fort_15th
+						has_construction = fort_15th
+						has_building = fort_16th
+						has_construction = fort_16th
+						has_building = fort_17th
+						has_construction = fort_17th
+						has_building = fort_18th
+						has_construction = fort_18th
+					}
+					NOT = { is_capital = yes }
+				}
+			}
+	}
 
 	make_obsolete = fort_17th
 
 	modifier = {
 		fort_level = 8
-		allowed_num_of_buildings = -2
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
