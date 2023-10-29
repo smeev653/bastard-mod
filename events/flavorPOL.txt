@@ -1811,20 +1811,20 @@ country_event = {
 		months = 1
 		}
 	
-	option = {
-		name = flavor_pol.18.a #We must retain the Jagiellon Dynasty
-		ai_chance = { 
-			factor = 75 
-		}
-		LIT = { 
-			country_event = { id = flavor_lit.16 }
-		}
-		if = {
-			limit = { has_dlc = "Lions of the North" }
-			custom_tooltip = pol_impact_future_missions_tt 
-			set_country_flag = pol_chose_pu_flag
-		}
-	}
+	#option = {
+	#	name = flavor_pol.18.a #We must retain the Jagiellon Dynasty
+	#	ai_chance = { 
+	#		factor = 75 
+	#	}
+	#	LIT = { 
+	#		country_event = { id = flavor_lit.16 }
+	#	}
+	#	if = {
+	#		limit = { has_dlc = "Lions of the North" }
+	#		custom_tooltip = pol_impact_future_missions_tt 
+	#		set_country_flag = pol_chose_pu_flag
+	#	}
+	#}
 	
 	option = {
 		name = flavor_pol.18.b #Appoint a Local Noble.
@@ -1832,9 +1832,9 @@ country_event = {
 			factor = 25
 		}
 		define_ruler = {
-			change_dip = 4
-			change_adm = 4
-			change_mil = 4
+			change_dip = 3
+			change_adm = 3
+			change_mil = 3
 			max_random_adm = 5
 			max_random_dip = 5
 			max_random_mil = 5
