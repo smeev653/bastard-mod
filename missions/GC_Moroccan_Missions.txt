@@ -80,9 +80,6 @@ gc_morocco_1 = {
 		}
 		
 		trigger = {
-			1110 = {
-				is_strongest_trade_power = ROOT
-			}
 			if = {
 				limit = {
 					has_dlc = "Dharma"
