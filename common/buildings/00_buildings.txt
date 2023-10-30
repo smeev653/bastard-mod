@@ -481,6 +481,7 @@ dock = {
 		local_sailors_modifier = 0.5
 		local_has_man_of_war = yes
 		local_has_galleass = yes
+		allowed_num_of_buildings = 1
 	}
 	
 	on_built = {
@@ -1377,6 +1378,7 @@ drydock = {
 		local_sailors_modifier = 1.0
 		local_has_man_of_war = yes
 		local_has_galleass = yes
+		allowed_num_of_buildings = 1
 	}
 	
 	on_built = {
