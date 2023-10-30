@@ -404,7 +404,7 @@ country_event = {
 			clr_country_flag = strengthened_signoria_flag
 		}
 		else = {
-			add_scaled_republican_tradition = -8
+			add_scaled_republican_tradition = -6
 		}
 		if = {
 			limit = { 
@@ -651,7 +651,7 @@ country_event = {
 			clr_country_flag = strengthened_signoria_flag
 		}
 		else = {
-			add_scaled_republican_tradition = -8
+			add_scaled_republican_tradition = -6
 		}
 		if = {
 			limit = { 
