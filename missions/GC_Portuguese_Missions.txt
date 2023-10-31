@@ -1201,6 +1201,7 @@ gc_por_4 = {
 					name = "cape_trade_established"
 					duration = -1
 			}
+		}	
 	}
 	
 	gc_por_conquers_zanzibar = {
