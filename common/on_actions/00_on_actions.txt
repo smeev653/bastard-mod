@@ -1135,7 +1135,7 @@ on_new_monarch = {
 		flavor_ori.7			# Hamvira Victorious
 		flavor_kbo.1			# The two branches of the Sayfawa dynasty
 		flavor_kbo.8			# Sayfawa pretenders
-		flavor_zan.5			# Coup of Coup of Suleiman and Muhammad al-Mazlum.
+		#flavor_zan.5			# Coup of Coup of Suleiman and Muhammad al-Mazlum.
 		purple_phoenix.1		# BYZ pretenders
 		flavor_pol.3480			# The Pacta Conventa
 		protestantism_events.15	# Catholic Leaning Monarch
