@@ -2142,6 +2142,8 @@ prussian_monarchy = {
 			has_unlocked_government_reform_tooltip = {
 				government_reform = prussian_monarchy
 			}
+			has_reform = prussian_monarchy
+			have_had_reform = prussian_monarchy
 		}
 	}
 	legacy_equivalent = prussian_monarchy_legacy
