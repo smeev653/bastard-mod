@@ -4300,7 +4300,7 @@ quash_noble_power_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.10
 		nobles_influence_modifier = -0.1
 		maratha_exclusive_influence_modifier = -0.1
 		rajput_exclusive_influence_modifier = -0.1
@@ -5155,14 +5155,14 @@ regional_council_reform = {
 		}
 	}
 	modifiers = {
-		state_maintenance_modifier = -0.33
+		state_maintenance_modifier = -0.5
 	}
-	conditional = {
-		allow = { has_dlc = "Mandate of Heaven" }
-		custom_attributes = {
-			unlock_special_state_edicts = yes
-		}
-	}
+	#conditional = {
+	#	allow = { has_dlc = "Mandate of Heaven" }
+	#	custom_attributes = {
+	#		unlock_special_state_edicts = yes
+	#	}
+	#}
 }
 
 representation_of_the_crown_reform = {
@@ -5268,8 +5268,8 @@ ottoman_provincial_government_system_reform = {
 		}
 	}
 	modifiers = {
-		global_tax_modifier = 0.15
-		vassal_income = 0.25
+		global_tax_modifier = 0.10
+		vassal_income = 0.1
 		promote_culture_cost = -0.25
 	}
 	conditional = {

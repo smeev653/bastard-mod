@@ -1134,7 +1134,7 @@ secure_clergy_power_reform = {
 	}
 	modifiers = {
 		church_influence_modifier = 0.05
-		adm_advisor_cost = -0.1
+		#adm_advisor_cost = -0.1
 	}
 	effect = {
 		hidden_effect = {
