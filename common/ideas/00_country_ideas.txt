@@ -2166,43 +2166,7 @@ ARA_ideas = {
 	}
 }
 
-MUG_ideas = {
-	start = {
-		core_creation = -0.25
-		cavalry_power = 0.20
-	}
-	
-	bonus = {
-		technology_cost = -0.05
-	}
-	
-	trigger = {
-		tag = MUG
-	}
-	free = yes
-	
-	mansabdari_system = {
-		discipline = 0.05
-	}
-	control_of_the_ulema = {
-		global_unrest = -1
-	}
-	mughal_ibadat_khana = {
-		idea_cost = -0.1
-	}
-	an_indian_padshah = {
-		free_mil_policy = 1
-	}
-	zabt_system = {
-		global_tax_modifier = 0.1
-	}
-	mughal_architecture = {
-		prestige = 1
-	}
-	fatawa_e_alamgiri = {
-		stability_cost_modifier = -0.10
-	}
-}
+
 
 TIM_ideas = {
 	start = {
@@ -4343,47 +4307,7 @@ GEO_ideas = {
 	}
 }
 
-AFG_ideas = {
-	start = {
-		army_tradition = 0.5
-		global_own_trade_power = 0.1
-	}
-	
-	bonus = {
-		general_cost = -0.33
-	}
-	
-	trigger = {
-		tag = AFG
-	}
-	free = yes
-	
-	pashtunwali = {
-		war_exhaustion_cost = -0.10
-	}
-	shadows_of_the_hindu_kush = {
-		defensiveness = 0.25
-	}
-	tureh = {
-		global_manpower_modifier = 0.2
-	}
-	afghan_diaspora = {
-		diplomatic_reputation = 1
-	}
-	durrani_imperialism = {
-		cavalry_power = 0.15
-	}
-	institutionalized_loya_jirga = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.3
-		meritocracy = 1
-		horde_unity = 1
-	}
-	graveyard_of_empires = {
-		hostile_attrition = 1
-	}
-}
+
 
 WAL_ideas = {
 	start = {
