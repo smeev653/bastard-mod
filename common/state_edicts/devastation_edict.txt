@@ -1,0 +1,65 @@
+edict_devastation_edict = {
+	potential = {
+		NOT = {
+			FROM = {
+				area_for_scope_province = {
+					has_building = gc_bureaucracy_manufactory
+				}
+			}
+		}
+	}
+	
+	allow = {
+	}
+	
+	modifier = {
+		local_monthly_devastation = -0.25
+		local_autonomy = -0.025
+	}
+	
+	color = {  46 187 508  }
+	
+	
+	ai_will_do = {
+		factor = 0
+	
+		modifier = {
+			factor = 500
+				any_province_in_state = {
+						devastation = 1
+				}
+		}
+	}
+	
+}
+
+gc_edict_devastation_edict_1 = {
+	potential = {
+		FROM = {
+			area_for_scope_province = {
+				has_building = gc_bureaucracy_manufactory
+			}
+		}
+	}
+	allow = {
+	}
+	modifier = {
+		local_monthly_devastation = -0.5
+		local_autonomy = -0.05
+	}
+	
+	color = {  46 187 508  }
+	
+	
+	ai_will_do = {
+		factor = 0
+	
+		modifier = {
+			factor = 500
+				any_province_in_state = {
+						devastation = 1
+				}
+		}
+	}
+	
+}
