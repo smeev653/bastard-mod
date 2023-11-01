@@ -2165,17 +2165,18 @@ french_missions_2_Continuation_b = {
 			crown_land_share = 50 
 		}
 		effect = { 
-			if = {
-				limit = { has_reform = feudal_france_reform }
-				#remove_government_reform = feudal_france_reform 
-				add_government_reform = absolutist_france_reform
-			}
-			else = { change_government_reform_progress = 100 }
-			hidden_effect = {
-				unlock_government_reform = {
-					government_reform = absolutist_france_reform
-				}
-			}
+			change_government_reform_progress = 500 
+			#if = {
+			#	limit = { has_reform = feudal_france_reform }
+			#	#remove_government_reform = feudal_france_reform 
+			#	add_government_reform = absolutist_france_reform
+			#}
+			#else = { change_government_reform_progress = 100 }
+			#hidden_effect = {
+			#	unlock_government_reform = {
+			#		government_reform = absolutist_france_reform
+			#	}
+			#}
 			#custom_tooltip = fra_5_gov_cap_adm_adv_tt 
 			#set_country_flag = 5_gov_cap_bonus_flag 
 		}

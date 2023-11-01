@@ -378,19 +378,7 @@ absolutist_france_reform = {
 		}
 	}
 	trigger = {
-		OR = {
-			AND = { 
-				tag = FRA 
-				OR = {
-					has_reform = absolutist_france_reform
-					have_had_reform = absolutist_france_reform
-				}
-			}
-			AND = {
-				is_playing_custom_nation = yes
-				have_had_reform = absolutist_france_reform
-			}
-		}
+		always = no
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 50
