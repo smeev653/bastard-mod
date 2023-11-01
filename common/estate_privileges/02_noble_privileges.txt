@@ -525,7 +525,7 @@ estate_nobles_french_strong_duchies = {
 	penalties = {
 	}
 	benefits = {
-		diplomatic_upkeep = 3
+		diplomatic_upkeep = 2
 		reduced_liberty_desire_on_same_continent = 10
 	}
 	conditional_modifier = {
