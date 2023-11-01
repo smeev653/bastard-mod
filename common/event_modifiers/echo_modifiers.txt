@@ -29,8 +29,9 @@ echo_provincial_investment_cmod = {
 
 free_colonist = {
 	colonists = 2
-	range = 0.5
+	range = 10
 	global_colonial_growth = 15
+	may_explore = yes
 }
 
 urbanisation = {
@@ -71,9 +72,11 @@ echo_militaryreform_cooldown = {
 }
 
 hired_explorer = {
+	may_explore = yes
 }
 
 hired_conquistador = {
+	may_explore = yes
 }
 
 echo_development = {
@@ -86,6 +89,7 @@ burnt_development = {
 # Por Modifier
 echo_por_colonist = {
 	colonists = 1
+	may_explore = yes
 }
 
 enacted_states_general_reform = {

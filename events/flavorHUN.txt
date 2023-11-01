@@ -28,8 +28,8 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-    days = 1
-
+		days = 1
+	}
 	option = {
 		ai_chance = { factor = 50 }
 		trigger = {
