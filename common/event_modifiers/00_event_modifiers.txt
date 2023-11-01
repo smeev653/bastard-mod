@@ -1305,7 +1305,7 @@ sunday_schools = {
 }
 
 bad_discipline = {
-	discipline = -0.05
+	#discipline = -0.05
 }
 
 good_discipline = {
@@ -12274,7 +12274,7 @@ its_not_gold = {
 }
 
 the_rule_of_god = {
-	land_morale = 0.05
+	#land_morale = 0.05
 	discipline = 0.05
 }
 
@@ -12294,8 +12294,8 @@ avert_thy_mortal_eyes = {
 }
 
 the_dying_of_the_light = {
-	land_morale = -0.05
-	discipline = -0.05
+	#land_morale = -0.05
+	#discipline = -0.05
 }
 
 an_eye_for_an_eye = {
