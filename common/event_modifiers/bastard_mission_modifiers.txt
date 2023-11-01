@@ -28,3 +28,9 @@ bs_bur_realm_united_mod = {
 	local_production_efficiency = 0.25
 	trade_goods_size_modifier = 0.15
 }
+
+norman_resurgence = {
+	ae_impact = -0.5
+	province_warscore_cost = -0.5
+	land_morale = 0.2
+}

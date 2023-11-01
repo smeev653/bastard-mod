@@ -11,15 +11,19 @@ elector = yes
 		name = "Maria I"
 		dynasty = "d'Aragó"
 		birth_date = 1429.11.19
-		dip = 3
-		mil = 3
-		adm = 3
+		dip = 4
+		mil = 4
+		adm = 4
 		female = yes
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = careful_personality
 }
-
+1444.10.10 = { add_country_modifier = {
+				name = "norman_resurgence"
+				duration = 1825
+			}	
+		}
 1713.4.12 = {
 	monarch = {
 		name = "Vittorio Amedeo II"
