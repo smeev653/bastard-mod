@@ -633,7 +633,7 @@ age_of_absolutism = {
 	
 		ab_allow_edict_of_absolutism = {
 			modifier = {
-				years_of_nationalism = -15
+				core_creation = -0.2
 			}
 			ai_will_do = {
 				factor = 10
