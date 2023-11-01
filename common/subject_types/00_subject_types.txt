@@ -69,7 +69,7 @@ default = {
 	opinion_cost_to_join_offensive_wars = 0   #Defines how much opinion the subject loses of the overlord to call the subject into an offensive war. Applied if you do not have Leviathan
 	opinion_cost_to_join_defensive_wars = 0   #Defines how much opinion the subject loses of the overlord to call the subject into a defensive war. Applied if you do not have Leviathan
 	opinion_cost_instead_of_favors_cost = no   #Determines if the subject requires favors or opinion to join a the war. If set "yes" then it requires the aforementioned opinion costs - regardless if Leviathan is active or not. "No" is the default setting
-	opinion_on_subject_integration = -30 #Determines how much opinion they actually lose when a fellow subject gets integrated.
+	opinion_on_subject_integration = 30 #Determines how much opinion they actually lose when a fellow subject gets integrated.
 	joins_colonial_wars = no
 	can_be_integrated = no
 	can_release_and_play = no							# "Release Colony" in SubjectView
@@ -450,9 +450,9 @@ appanage = {
 	enforce_culture = no
 	seize_territory = no
 	#(enable)
-	contribute_to_capital = yes
+	#contribute_to_capital = yes
 	return_land = yes
-	conscript_general = yes
+	#conscript_general = yes
 	
 	# Modifiers
 	
