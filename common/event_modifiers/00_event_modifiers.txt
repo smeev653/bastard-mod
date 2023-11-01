@@ -6980,7 +6980,7 @@ unsanitary_suburbs = {
 }
 
 new_men = {
-	advisor_cost = -0.15
+	advisor_cost = -0.10
 }
 
 conflict_within_city = {
