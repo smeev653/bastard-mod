@@ -3690,7 +3690,7 @@ rus_russian_disaster = {
 				trigger = {
 					trade_goods = grain
 				}
-				years = 4
+				years = 2
 			}
 		}
 

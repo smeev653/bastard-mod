@@ -174,7 +174,7 @@ convert_the_steppes = {
 }
 
 baltic_ambition_new = {
-	trade_efficiency = 0.15
+	trade_efficiency = 0.1
 	global_ship_recruit_speed = -0.25
 }
 
@@ -2498,7 +2498,7 @@ russian_autocracy = {
 }
 
 prikazy_modifier = {
-	advisor_cost = -0.15
+	advisor_cost = -0.10
 }
 
 rus_alaska_modifier = {
@@ -2584,7 +2584,7 @@ rus_reinforced_defenses = {
 }
 
 rus_icon_climacus_bonus = {
-	land_morale = 0.1
+	land_morale = 0.05
 }
 rus_icon_eleusa_bonus = {
 	missionaries = 1
@@ -2597,8 +2597,8 @@ rus_icon_nicholas_bonus = {
 	core_creation = -0.1
 }
 rus_icon_pancreator_bonus = {
-	technology_cost = -0.1
-	idea_cost = -0.1
+	technology_cost = -0.025
+	idea_cost = -0.05
 }
 
 rus_end_of_the_horde = {
@@ -2678,24 +2678,24 @@ rus_loyalty_of_the_patriarchy = {	#Permanent
 }
 
 rus_philosopher_focus = {
-	idea_cost = -0.1
+	idea_cost = -0.05
 }
 rus_natural_scientist_focus = {
-	technology_cost = -0.1
+	technology_cost = -0.025
 }
 rus_artist_focus = {
-	build_cost = -0.1
+	build_cost = -0.05
 	great_project_upgrade_cost = -0.1
 }
 rus_treasurer_focus = {
 	global_tax_income = 24
-	advisor_cost = -0.15
+	advisor_cost = -0.1
 }
 rus_theologian_focus = {
 	tolerance_own = 2
 }
 rus_master_of_mint_focus = {
-	global_trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.05
 }
 rus_inquisitor_focus = {
 	missionaries = 1
@@ -2806,8 +2806,8 @@ rus_kiev_mohyla_academy = {	#Permanent, province
 }
 
 rus_trade_empire = {	#Permanent
-	trade_steering = 0.25
-	trade_efficiency = 0.1
+	trade_steering = 0.1
+	trade_efficiency = 0.05
 	diplomatic_reputation = 1
 }
 
@@ -2817,7 +2817,7 @@ rus_religious_zeal = {	#Permanent
 }
 
 rus_western_military_tactics = {	#Permanent
-	discipline = 0.05
+	discipline = 0.025
 }
 
 rus_bureaucratic_adm_focus = {
@@ -3599,7 +3599,7 @@ polish_renaissance = {
 }
 
 pol_thriving_jewish_community = {
-	interest = -0.5
+	interest = -0.25
 }
 
 kazimierz_modifier = {
@@ -7639,8 +7639,8 @@ pol_stable_internal_affairs_modifier = {
 	#subject_national_tax_modifier = 0.1
 }
 pol_cultural_flowering_polish_domain_modifier = {
-	advisor_cost = -0.15
-	all_power_cost = -0.05
+	advisor_cost = -0.1
+	all_power_cost = -0.025
 }
 pol_splendor_polish_crown_modifier = {
 	monthly_splendor = 2 
@@ -7656,8 +7656,8 @@ pol_growing_prosperity_modifier = {
 	local_production_efficiency = 0.1
 }
 pol_golden_era_modifier = {
-	global_trade_goods_size_modifier = 0.1
-	all_power_cost = -0.05
+	global_trade_goods_size_modifier = 0.05
+	all_power_cost = -0.025
 	max_absolutism = 10 
 }
 pol_enable_2nd_manufactory_modifier = {
@@ -7679,15 +7679,15 @@ pol_facing_the_catholics_modifier = {
 	tolerance_own = 2 
 }
 pol_reformed_education_system_modifier = {
-	expand_administration_cost = -0.5
-	advisor_cost = -0.15 
+	expand_administration_cost = -0.25
+	advisor_cost = -0.10
 }
 pol_incentives_modifier = {
 	innovativeness_gain = 0.25 
 	idea_cost = -0.05 
 }
 pol_incentives2_modifier = {
-	technology_cost = -0.1
+	technology_cost = -0.025
 	idea_cost = -0.05 
 }
 pol_strong_catholic_ties_modifier = {
@@ -7725,7 +7725,7 @@ pol_modernized_army_modifier = {
 }
 pol_modernized_army_2_modifier = { 
 	army_tradition = 0.5
-	leader_land_fire = 1 
+	#leader_land_fire = 1 
 }
 pol_elite_hussar_cavalry_modifier = { 
 	fire_damage_received = -0.2
@@ -7735,10 +7735,10 @@ pol_elite_hussar_cavalry_2_modifier = {
 	cavalry_power = 0.1 
 }
 modernized_fire_ranks_modifier = { 
-	own_territory_dice_roll_bonus = 1
+	fire_damage = 0.1
 }
 pol_cavalry_with_state_modifier = {
-	cav_to_inf_ratio = 0.5 
+	#cav_to_inf_ratio = 0.5 
 	cossacks_loyalty_modifier = 0.1 
 	cavalry_cost = -0.1
 }
@@ -7798,7 +7798,7 @@ pol_swedish_metal_imports_modifier = {
 	global_regiment_cost = -0.05
 }
 pol_shared_prosperity_modifier = {
-	development_cost = -0.1 
+	development_cost = -0.05 
 	stability_cost_modifier = -0.15
 }
 pol_efficient_taxation_lit_lands_modifier = {
@@ -8399,7 +8399,7 @@ tur_imperial_school_of_military_engineering = {	#Permanent
 }
 
 tur_exporting_to_the_west_modifier = { 
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.1
 }
 
 tur_trade_center_of_the_ottoman_empire_modifier = { 
@@ -8408,7 +8408,7 @@ tur_trade_center_of_the_ottoman_empire_modifier = {
 }
 
 tur_indonesian_trade = {
-	trade_efficiency = 0.25
+	trade_efficiency = 0.15
 }
 
 tur_center_of_ottoman_commerce = {
@@ -8423,8 +8423,8 @@ tur_pax_ottomana = {
 }
 
 tur_baghdad_city_of_learning = {
-	idea_cost = -0.1
-	technology_cost = -0.1
+	idea_cost = -0.05
+	technology_cost = -0.025
 }
 
 tur_tatar_vanguard_modifier = {
@@ -9028,14 +9028,14 @@ fra_legacy_of_eleanor_of_aquitaine_modifier = {
 	global_spy_defence = 0.5
 }
 fra_strong_familial_ties_modifier = { 
-	vassal_forcelimit_bonus = 0.5
+	vassal_forcelimit_bonus = 0.25
 	reduced_liberty_desire = 10 
 }
 fra_conquered_the_capetian_house_of_anjou_modifier = { 
 	ae_impact = -0.15
 }
 fra_resurgence_of_crusader_fervor_modifier = { 
-	manpower_in_true_faith_provinces = 0.2
+	manpower_in_true_faith_provinces = 0.1
 }
 fra_italian_wars_modifier = { 
 	siege_ability = 0.15 
@@ -9066,8 +9066,8 @@ fra_supplementary_pi_and_dip_rep_modifier = {
 	papal_influence = 10 
 }
 fra_fervent_call_to_arms_modifier = {
-	manpower_in_true_faith_provinces = 0.2
-	army_tradition = 1
+	manpower_in_true_faith_provinces = 0.1
+	army_tradition = 0.5
 }
 fra_replenished_slave_crews_modifier = { 
 	galley_power = 0.1
@@ -9076,15 +9076,15 @@ fra_replenished_slave_crews_modifier = {
 fra_sociopolitical_reforms_modifier = { 
 	reform_progress_growth = 0.25
 	yearly_corruption = -0.1
-	advisor_cost = -0.2
+	advisor_cost = -0.1
 	advisor_pool = 1 
 }
 fra_exploitation_of_neapolitan_estates_modifier = {
-	development_cost = -0.1
+	development_cost = -0.05
 	global_tax_modifier = 0.15
 }
 fra_franco_iberian_cooperation_modifier = { 
-	technology_cost = -0.05
+	technology_cost = -0.025
 	global_colonial_growth = 15
 }
 fra_light_of_catholicism_modifier = { 
@@ -9129,8 +9129,8 @@ fra_french_papal_military_cooperation_modifier = {
 	army_tradition = 0.5
 }
 fra_influx_of_milanese_engineers_modifier = { 
-	great_project_upgrade_cost = -0.1
-	development_cost = -0.1
+	great_project_upgrade_cost = -0.25
+	development_cost = -0.05
 }
 fra_first_opera_house_modifier = { 
 	max_absolutism = 5 
@@ -9153,7 +9153,7 @@ fra_catholic_italy_modifier = {
 	papal_influence = 2
 }
 fra_suzerainty_italy_modifier = { 
-	discipline = 0.05 
+	discipline = 0.025 
 	monarch_admin_power = 2 
 }
 fra_golden_march3_modifier = { 
@@ -9179,7 +9179,7 @@ fra_french_supremacy2_modifier = {
 	overextension_impact_modifier = -0.1
 }
 fra_cultural_hegemony_modifier = {
-	all_power_cost = -0.05
+	all_power_cost = -0.025
 	great_project_upgrade_cost = -0.05
 }
 fra_iron_crowned_modifier = {
@@ -9238,7 +9238,7 @@ fra_colonial_rush_modifier = {
 	global_colonial_growth = 25
 }
 fra_french_bombards_modifier = { 
-	assault_fort_ability = 0.25
+	assault_fort_ability = 0.15
 	artillery_level_modifier = 1
 }
 fra_hudson_bay_fur_modifier = {
@@ -9340,8 +9340,8 @@ fra_cabinet_reforms_modifier = {
 	core_creation = -0.1
 }
 fra_economic_reforms_modifier = {
-	development_cost = -0.1
-	production_efficiency = 0.15
+	#development_cost = -0.1
+	production_efficiency = 0.2
 }
 fra_colbert_trade_reforms_modifier = {
 	trade_efficiency = 0.1
@@ -9465,7 +9465,7 @@ fra_subjugation_of_the_germans_modifier = {
 }
 
 fra_french_supremacy_modifier = {
-	all_power_cost = -0.05 
+	all_power_cost = -0.025 
 }
 
 fra_church_and_state_harmony_modifier = {
@@ -9486,7 +9486,7 @@ fra_riches_of_italy_modifier = {
 }
 
 fra_stable_currency_modifier = { 
-	interest = -0.5 
+	interest = -0.25 
 	inflation_action_cost = -0.25
 	adm_advisor_cost = -0.25
 }
@@ -9510,7 +9510,7 @@ fra_studying_dutch_naval_conduct_modifier = {
 }
 
 fra_funded_reforms_of_condorcet_modifier = { 
-	technology_cost = -0.1
+	technology_cost = -0.05
 	country_admin_power = 1 
 }
 
