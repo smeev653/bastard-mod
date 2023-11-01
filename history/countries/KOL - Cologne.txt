@@ -2,7 +2,6 @@ government = theocracy
 add_government_reform = leading_clergy_reform
 primary_culture = hessian
 religion = catholic
-elector = yes
 technology_group = western
 capital = 85	# Köln
 fixed_capital = 85 # Cannot move capital away from this province & no power cost to move to it
@@ -21,10 +20,14 @@ fixed_capital = 85 # Cannot move capital away from this province & no power cost
 	monarch = {
 		name = "Dietrich II von Mörs"
 		birth_date = 1385.1.1
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 1
+		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = greedy_personality
+	add_ruler_personality = obsessive_perfectionist_personality
 }
 
 1463.2.14 = {
