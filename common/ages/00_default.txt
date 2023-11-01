@@ -262,8 +262,12 @@ age_of_discovery = {
 			}
 		}
 		ab_burgundy_merc_manpower = {
-			allow = {
-				tag = BUR
+			allow = {	
+				OR = {
+					tag = BUR
+					tag = LOT
+					tag = NED
+				}	
 			}
 			modifier = {
 				mercenary_manpower = 0.1
