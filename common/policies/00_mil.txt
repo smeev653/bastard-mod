@@ -1606,7 +1606,7 @@ universal_serfdom_act = {
 		full_idea_group = aristocracy_ideas 
 	}
 	
-	cavalry_shock = 0.2
+	cavalry_shock = 0.5
 
 	effect = {}
 	removed_effect = {}

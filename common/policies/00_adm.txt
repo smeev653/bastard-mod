@@ -1,5 +1,5 @@
 the_combination_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = aristocracy_ideas
@@ -10,7 +10,7 @@ the_combination_act = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	production_efficiency = 0.15
+	cavalry_fire = 0.5
 
 	effect = {}
 	removed_effect = {}
@@ -1185,7 +1185,7 @@ the_licensing_of_the_press_act = {
 		full_idea_group = aristocracy_ideas
 	}
 
-	cavalry_fire = 0.25
+	cavalry_fire = 0.5
 	
 	effect = {}
 	removed_effect = {}
@@ -2015,7 +2015,7 @@ aristocratic_rule_act = {
 	}
 
 	cavalry_cost = -0.15
-	cav_to_inf_ratio = 0.15
+	cavalry_shock = 0.25
 
 	effect = {}
 	removed_effect = {}
