@@ -113,7 +113,7 @@ religious_ideas = {
 		missionaries = 1
 		global_missionary_strength = 0.01
 		prestige_per_development_from_conversion = 0.5
-		global_tax_modifier = 0.2
+		global_tax_modifier = 0.1
 	}
 	devoutness = {
 		tolerance_own = 2
