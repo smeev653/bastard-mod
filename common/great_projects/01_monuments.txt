@@ -276,6 +276,8 @@ hagia_sophia = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_tax_modifier = 0.15
+			local_production_efficiency = 0.15
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -316,13 +318,13 @@ stonehenge = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	can_be_moved = no
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 2
 	
 	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 0
+	starting_tier = 1
 	
 	#project type
 	type = monument
@@ -426,6 +428,7 @@ stonehenge = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -456,6 +459,7 @@ stonehenge = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -487,6 +491,7 @@ stonehenge = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.15
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -745,7 +750,7 @@ tower_of_london = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
+			local_defensiveness = 0.33
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -811,7 +816,7 @@ buddha_statues = {
 
 	#can we build it?
 	build_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		#province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#what to do when it's built
@@ -828,12 +833,12 @@ buddha_statues = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		#province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		#province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -890,7 +895,7 @@ buddha_statues = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			culture_conversion_cost = -0.1
+			land_attrition = -0.05
 			global_missionary_strength = 0.01
 		}
 
@@ -920,7 +925,7 @@ buddha_statues = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			culture_conversion_cost = -0.10
+			land_attrition = -0.1
 			global_missionary_strength = 0.01
 			missionaries = 1
 		}
@@ -951,7 +956,7 @@ buddha_statues = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			culture_conversion_cost = -0.25
+			land_attrition = -0.15
 			global_missionary_strength = 0.01
 			missionaries = 1
 			idea_cost = -0.05
@@ -1146,7 +1151,7 @@ parthenon = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			advisor_cost = -0.1
-			advisor_pool = 1
+			advisor_pool = 2
 		}
 
 		#what effects happen when this tier is achieved
@@ -1176,9 +1181,9 @@ parthenon = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			advisor_cost = -0.2
-			advisor_pool = 1
-			yearly_corruption = -0.1
+			advisor_cost = -0.1
+			advisor_pool = 3
+			yearly_corruption = -0.3
 		}
 
 		#what effects happen when this tier is achieved
@@ -1692,7 +1697,7 @@ petra = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			diplomatic_reputation = 1
+			diplomatic_reputation = 2
 			envoy_travel_time = -0.20
 		}
 
@@ -1724,7 +1729,7 @@ petra = {
 		country_modifiers = {
 			diplomatic_reputation = 1
 			envoy_travel_time = -0.25
-			fabricate_claims_cost = -0.1
+			vassal_forcelimit_bonus = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -1756,7 +1761,7 @@ petra = {
 			diplomatic_reputation = 2
 			envoy_travel_time = -0.33
 			diplomatic_upkeep = 1
-			fabricate_claims_cost = -0.2
+			vassal_forcelimit_bonus = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -1873,6 +1878,7 @@ cologne_cathedral = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -1880,7 +1886,7 @@ cologne_cathedral = {
 			papal_influence = 0.5
 			monthly_fervor_increase = 0.25
 			church_power_modifier = 0.05
-			enforce_religion_cost = -0.1
+			
 		}
 
 		#what effects happen when this tier is achieved
@@ -1905,6 +1911,7 @@ cologne_cathedral = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -1912,7 +1919,7 @@ cologne_cathedral = {
 			papal_influence = 1
 			monthly_fervor_increase = 0.5
 			church_power_modifier = 0.1
-			enforce_religion_cost = -0.25
+			manpower_in_true_faith_provinces = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -1943,6 +1950,7 @@ cologne_cathedral = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.15
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -1950,7 +1958,7 @@ cologne_cathedral = {
 			papal_influence = 2
 			monthly_fervor_increase = 1
 			church_power_modifier = 0.15
-			enforce_religion_cost = -0.33
+			manpower_in_true_faith_provinces = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2081,14 +2089,24 @@ kremlin = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_regiment_cost = -0.025
+			fire_damage = 0.025
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_government_power = {
+					mechanic_type = russian_mechanic
+					power_type = russian_mil_power
+					value = 25
+				}
+			}
 		}
 	}
 
@@ -2105,20 +2123,28 @@ kremlin = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
-			local_manpower_modifier = 0.5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_defensiveness = 0.20
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_regiment_cost = -0.0375
+			fire_damage = 0.05
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_government_power = {
+					mechanic_type = russian_mechanic
+					power_type = russian_mil_power
+					value = 50
+				}
+			}
 		}
 	}
 
@@ -2146,11 +2172,19 @@ kremlin = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_regiment_cost = -0.1
+			global_regiment_cost = -0.05
+			fire_damage = 0.10
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_government_power = {
+					mechanic_type = russian_mechanic
+					power_type = russian_mil_power
+					value = 100
+				}
+			}
 		}
 	}
 }
@@ -2933,16 +2967,14 @@ stpeters_cathedral = {
 	move_days_per_unit_distance = 1
 	
 	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 0
+	starting_tier = 3
 	
 	#project type
 	type = monument
 
 	#can we build it?
 	build_trigger = {
-		province_is_or_accepts_religion = {
-			religion = catholic
-		}
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -2957,16 +2989,12 @@ stpeters_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion = {
-			religion = catholic
-		}
+		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion = {
-			religion = catholic
-		}
+		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3023,8 +3051,10 @@ stpeters_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			appoint_cardinal_cost = -0.05
-			curia_powers_cost = -0.05			
+			monthly_splendor = 1
+			curia_powers_cost = -0.05
+			church_power_modifier = 0.1
+			monthly_fervor_increase = 0.25			
 		}
 
 		#what effects happen when this tier is achieved
@@ -3053,9 +3083,11 @@ stpeters_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			appoint_cardinal_cost = -0.1
-			curia_powers_cost = -0.1
-			idea_cost = -0.05
+			monthly_splendor = 2
+			curia_powers_cost = -0.2
+			church_power_modifier = 0.2
+			monthly_fervor_increase = 0.5		
+			idea_cost = -0.025
 		}
 
 		#what effects happen when this tier is achieved
@@ -3090,9 +3122,11 @@ stpeters_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			appoint_cardinal_cost = -0.2
-			curia_powers_cost = -0.1
-			idea_cost = -0.1
+			monthly_splendor = 3
+			curia_powers_cost = -0.35
+			church_power_modifier = 0.33
+			monthly_fervor_increase = 1	
+			idea_cost = -0.05
 			church_influence_modifier = 0.1
 		}
 
@@ -4714,7 +4748,7 @@ taj_mahal = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {	
-			monthly_piety_accelerator = 0.002
+			monthly_piety_accelerator = 0.0025
 			prestige_decay = -0.005
 			monthly_splendor = 1
 		}
@@ -4746,7 +4780,7 @@ taj_mahal = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			monthly_piety_accelerator = 0.003
+			monthly_piety_accelerator = 0.005
 			prestige_decay = -0.01
 			monthly_splendor = 2
 			power_projection_from_insults = 1
@@ -5296,7 +5330,7 @@ bagan_temples = {
 
 ait_benhaddou = {
 	# province it starts in
-	start = 4568
+	start = 343
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1050.01.01 #Almoravid Period
@@ -5397,11 +5431,12 @@ ait_benhaddou = {
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
 			local_defensiveness = 0.15
+			local_development_cost = -0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			caravan_power = 0.1
+			trade_steering = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -5427,11 +5462,12 @@ ait_benhaddou = {
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
 			local_defensiveness = 0.25
+			local_development_cost = -0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			caravan_power = 0.2
+			trade_steering = 0.2
 			trade_efficiency = 0.05
 		}
 
@@ -5458,11 +5494,12 @@ ait_benhaddou = {
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
 			local_defensiveness = 0.25
+			local_development_cost = -0.15
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			caravan_power = 0.33
+			trade_steering = 0.33
 			trade_efficiency = 0.10
 			global_trade_power = 0.05
 		}
@@ -5495,16 +5532,15 @@ registan_square = {
 	move_days_per_unit_distance = 1
 	
 	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 1
+	starting_tier = 2
 	
 	#project type
 	type = monument
 
 	#can we build it?
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
+		religion_group = muslim
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -5519,16 +5555,10 @@ registan_square = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -5585,9 +5615,9 @@ registan_square = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			monthly_piety_accelerator = 0.001
-			stability_cost_modifier = -0.1
-			enforce_religion_cost = -0.05
+			monthly_piety = 0.0025
+			stability_cost_modifier = -0.05
+			#technology_cost = -0.025
 		}
 
 		#what effects happen when this tier is achieved
@@ -5612,13 +5642,14 @@ registan_square = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			monthly_piety_accelerator = 0.002
-			stability_cost_modifier = -0.15
-			enforce_religion_cost = -0.1
+			monthly_piety = 0.005
+			stability_cost_modifier = -0.10
+			technology_cost = -0.025
 		}
 
 		#what effects happen when this tier is achieved
@@ -5643,13 +5674,14 @@ registan_square = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			monthly_piety_accelerator = 0.003
-			stability_cost_modifier = -0.25
-			enforce_religion_cost = -0.15
+			monthly_piety = 0.01
+			stability_cost_modifier = -0.15
+			technology_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -5802,7 +5834,7 @@ golden_temple = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			global_autonomy = -0.05
-			min_autonomy_in_territories = -0.1
+			min_autonomy_in_territories = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -5833,7 +5865,7 @@ golden_temple = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			global_autonomy = -0.1
-			min_autonomy_in_territories = -0.15
+			min_autonomy_in_territories = -0.1
 			
 		}
 
@@ -7100,12 +7132,12 @@ pyramid_of_cheops = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -3
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			advisor_cost = -0.05
-			church_loyalty_modifier = 0.05
+			advisor_cost = -0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -7130,13 +7162,13 @@ pyramid_of_cheops = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -3
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			advisor_cost = -0.1
-			church_loyalty_modifier = 0.1
-			idea_cost = -0.05			
+			advisor_pool = 2
 		}
 
 		#what effects happen when this tier is achieved
@@ -7161,17 +7193,18 @@ pyramid_of_cheops = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -3
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			advisor_cost = -0.15
-			church_loyalty_modifier = 0.15
-			idea_cost = -0.05
+			advisor_cost = -0.1
+			advisor_pool = 3
+			yearly_corruption = -0.3
 		}
 
 		#what effects happen when this tier is achieved
-		on_upgraded = {	
+		on_upgraded = {
 		}
 	}
 }
@@ -7921,9 +7954,6 @@ kiev_pechersk_lavra = {
 
 	#can we build it?
 	build_trigger = {
-		province_is_or_accepts_religion = {
-			religion = orthodox
-		}
 	}
 
 	#what to do when it's built
@@ -7938,16 +7968,14 @@ kiev_pechersk_lavra = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion = {
-			religion = orthodox
-		}
+		280 = {
+			controlled_by = ROOT
+		}	
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion = {
-			religion = orthodox
-		}
+
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -8005,6 +8033,7 @@ kiev_pechersk_lavra = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			yearly_patriarch_authority = 0.001
+			land_morale = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -8035,6 +8064,7 @@ kiev_pechersk_lavra = {
 		country_modifiers = {
 			yearly_patriarch_authority = 0.002
 			tolerance_own = 1
+			land_morale = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -8066,6 +8096,7 @@ kiev_pechersk_lavra = {
 		country_modifiers = {
 			yearly_patriarch_authority = 0.005
 			tolerance_own = 2
+			land_morale = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -8414,8 +8445,7 @@ belem_tower = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_trade_power = 0.1
-			global_sailors_modifier = 0.1
+			fire_damage = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -8446,8 +8476,8 @@ belem_tower = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_trade_power = 0.15
-			global_sailors_modifier = 0.25
+			global_trade_power = 0.05
+			fire_damage = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -8933,6 +8963,7 @@ heddal_stave_church = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			stability_cost_modifier = -0.025
+			monthly_splendor = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -8965,6 +8996,7 @@ heddal_stave_church = {
 			stability_cost_modifier = -0.05
 			missionary_maintenance_cost = -0.1
 			missionaries = 1
+			monthly_splendor = 1.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -8997,6 +9029,7 @@ heddal_stave_church = {
 			stability_cost_modifier = -0.1
 			missionary_maintenance_cost = -0.2
 			missionaries = 1
+			monthly_splendor = 1.75
 		}
 
 		#what effects happen when this tier is achieved
@@ -9305,18 +9338,19 @@ el_escorial = {
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {			
+		province_modifiers = {		
+			local_development_cost = -0.05	
 		}
 		
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {			
+		area_modifier = {	
+			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_autonomy = -0.01	
-			global_tariffs = 0.05
-			treasure_fleet_income = 0.05			
+			idea_cost = -0.025
+			prestige_from_land = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -9337,18 +9371,18 @@ el_escorial = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_development_cost = -0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_tax_modifier = 0.20
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_autonomy = -0.025
-			governing_capacity_modifier = 0.05
-			global_tariffs = 0.1
-			treasure_fleet_income = 0.1
+			idea_cost = -0.05
+			prestige_from_land = 0.175
 		}
 
 		#what effects happen when this tier is achieved
@@ -9369,18 +9403,18 @@ el_escorial = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_development_cost = -0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_tax_modifier = 0.33
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_autonomy = -0.05
-			governing_capacity_modifier = 0.1
-			global_tariffs = 0.2
-			treasure_fleet_income = 0.2
+			idea_cost = -0.1
+			prestige_from_land = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -9657,9 +9691,7 @@ kaaba = {
 
 	#can we build it?
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -9674,16 +9706,15 @@ kaaba = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
+		has_owner_religion = yes
+		385 = {
+			controlled_by = ROOT
+		}	
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
+		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -9741,8 +9772,7 @@ kaaba = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.1
-			religious_unity = 0.1
+		global_missionary_strength = 0.01	
 		}
 
 		#what effects happen when this tier is achieved
@@ -9771,9 +9801,8 @@ kaaba = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.25
-			religious_unity = 0.15
-			warscore_cost_vs_other_religion = -0.05
+			land_morale = 0.05	
+			global_missionary_strength = 0.01	
 		}
 
 		#what effects happen when this tier is achieved
@@ -9802,9 +9831,9 @@ kaaba = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.5
-			religious_unity = 0.2
-			warscore_cost_vs_other_religion = -0.1
+			land_morale = 0.05
+			missionaries  = 1
+			global_missionary_strength = 0.03
 		}
 
 		#what effects happen when this tier is achieved
@@ -10025,6 +10054,7 @@ holy_city_jerusalem = {
 			monthly_fervor_increase = 1
 			church_power_modifier = 0.15
 			papal_influence = 1
+			manpower_in_true_faith_provinces = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -10578,7 +10608,7 @@ bam_citadel = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			caravan_power = 0.1			
+			merchants = 1	
 		}
 		on_upgraded = {
 		}
@@ -10597,8 +10627,8 @@ bam_citadel = {
 			local_defensiveness = 0.25
 		}
 		country_modifiers = {
-			caravan_power = 0.2
-			merchants = 1
+			trade_steering = 0.15
+			merchants = 2
 		}
 		on_upgraded = {
 		}
@@ -10617,8 +10647,8 @@ bam_citadel = {
 			local_defensiveness = 0.35
 		}
 		country_modifiers = {
-			caravan_power = 0.4
-			merchants = 1
+			trade_steering = 0.3
+			merchants = 2
 		}
 		on_upgraded = {
 		}
@@ -10757,19 +10787,12 @@ bran_castle = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 1
+		starting_tier = 3
 	type = monument
 
 	build_trigger = {
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_country_flag = teu_can_utilize_bran_castle }
-				}
-			}
-			culture_group = carpathian
-			province_is_or_accepts_culture = yes
-		}
+		culture_group = carpathian
+		province_is_or_accepts_culture = yes
 	}
 
 	on_built = {
@@ -10779,27 +10802,13 @@ bran_castle = {
 	}
 
 	can_use_modifiers_trigger = {
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_country_flag = teu_can_utilize_bran_castle }
-				}
-			}
-			culture_group = carpathian
-			province_is_or_accepts_culture = yes
-		}
+		culture_group = carpathian
+		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_country_flag = teu_can_utilize_bran_castle }
-				}
-			}
-			culture_group = carpathian
-			province_is_or_accepts_culture = yes
-		}
+		culture_group = carpathian
+		province_is_or_accepts_culture = yes
 	}
 
 	keep_trigger = {
@@ -10873,6 +10882,7 @@ bran_castle = {
 		}
 		area_modifier = {
 			local_defensiveness = 0.25
+			local_hostile_attrition = 1
 		}
 		country_modifiers = {
 			rival_border_fort_maintenance = -0.3
@@ -10882,7 +10892,6 @@ bran_castle = {
 		}
 	}
 }
-
 brandenburg_gate = {
 	start = 50 #Berlin
 	date = 1444.01.01	#1788.01.01
@@ -10890,7 +10899,7 @@ brandenburg_gate = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 0
+	starting_tier = 2
 	type = monument
 
 	build_trigger = {
@@ -10941,9 +10950,6 @@ brandenburg_gate = {
 		}
 		country_modifiers = {
 			monthly_militarized_society = 0.01
-			monthly_prussian_militarized_society_1 = 0.01
-			monthly_prussian_militarized_society_2 = 0.02
-			monthly_prussian_militarized_society_3 = 0.03
 			prestige_from_land = 0.5			
 		}
 		on_upgraded = {
@@ -10965,9 +10971,6 @@ brandenburg_gate = {
 			monthly_militarized_society = 0.02	
 			prestige_from_land = 1
 			army_tradition_from_battle = 0.25
-			monthly_prussian_militarized_society_1 = 0.02
-			monthly_prussian_militarized_society_2 = 0.03
-			monthly_prussian_militarized_society_3 = 0.04
 		}
 		on_upgraded = {
 		}
@@ -10988,16 +10991,6 @@ brandenburg_gate = {
 			monthly_militarized_society = 0.05
 			prestige_from_land = 1.5
 			army_tradition_from_battle = 0.5
-			monthly_prussian_militarized_society_1 = 0.05
-			monthly_prussian_militarized_society_2 = 0.075
-			monthly_prussian_militarized_society_3 = 0.1
-		}
-		conditional_modifier = {
-			trigger = { owner = { mission_completed = emp_brapru_the_balance_of_power } }
-			modifier = {
-				max_absolutism_effect = 0.1
-				manpower_in_culture_group_provinces = 0.1 
-			}
 		}
 		on_upgraded = {
 		}
@@ -11011,7 +11004,7 @@ buda_castle = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 0
+	starting_tier = 2
 	type = monument
 
 	build_trigger = {
@@ -11059,9 +11052,10 @@ buda_castle = {
 		province_modifiers = {
 		}
 		area_modifier = {
+			local_development_cost = -0.05
 		}
 		country_modifiers = {
-			global_institution_spread = 0.1
+			idea_cost = -0.025
 		}
 		on_upgraded = {
 		}
@@ -11077,10 +11071,12 @@ buda_castle = {
 		province_modifiers = {
 		}
 		area_modifier = {
+			local_development_cost = -0.15
 		}
 		country_modifiers = {
 			global_institution_spread = 0.2
-			embracement_cost = -0.05
+			technology_cost = -0.025
+			idea_cost = -0.025
 		}
 		on_upgraded = {
 		}
@@ -11096,10 +11092,11 @@ buda_castle = {
 		province_modifiers = {
 		}
 		area_modifier = {
+			local_development_cost = -0.15
 		}
 		country_modifiers = {
 			global_institution_spread = 0.3
-			embracement_cost = -0.1
+			technology_cost = -0.05
 			idea_cost = -0.05
 		}
 		on_upgraded = {
@@ -11455,99 +11452,54 @@ doges_palace = {
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
-
-	build_trigger = {
-	}
-
-	on_built = {
-	}
-
-	on_destroyed = {
-	}
-
-	can_use_modifiers_trigger = {
-	}
-
-	can_upgrade_trigger = {
-	}
-
-	keep_trigger = {
-	}
-
+	build_trigger = { }
+	on_built = { }
+	on_destroyed = { }
+	can_use_modifiers_trigger = { }
+    can_upgrade_trigger = { }
+	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = {
-			months = 0
-		}
-		cost_to_upgrade = {
-			factor = 0
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-		}
-		country_modifiers = {
-		}
-		on_upgraded = {
-		}
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
-
 	tier_1 = {
-		upgrade_time = {
-			months = 120
-		}
-		cost_to_upgrade = {
-			factor = 350
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-		}
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 350 }
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
 			reform_progress_growth = 0.1
 			republican_tradition = 0.1 
 		}
-		on_upgraded = {
-		}
+		on_upgraded = { }
 	}
-
 	tier_2 = {
-		upgrade_time = {
-			months = 240
-		}
-		cost_to_upgrade = {
-			factor = 750
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 750 }
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
 			reform_progress_growth = 0.2
 			republican_tradition = 0.25 
 			prestige = 0.5
 		}
-		on_upgraded = {
-		}
+		on_upgraded = { }
 	}
-
 	tier_3 = {
-		upgrade_time = {
-			months = 360
-		}
-		cost_to_upgrade = {
-			factor = 1500
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-		}
+		upgrade_time = { months = 360 }
+		cost_to_upgrade = { factor = 1500 }
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
 			reform_progress_growth = 0.3
 			republican_tradition = 0.5 
 			prestige = 1
 		}
-		on_upgraded = {
-		}
+		on_upgraded = { }
 	}
 }
 
@@ -11558,13 +11510,12 @@ duomo_milano = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 1
+	starting_tier = 2
 	type = monument
 
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-		}
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	on_built = {
@@ -11574,15 +11525,13 @@ duomo_milano = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-		}
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-		}
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	keep_trigger = {
@@ -11613,17 +11562,14 @@ duomo_milano = {
 			factor = 350
 		}
 		province_modifiers = {
-			local_tax_modifier = 0.25
 		}
 		area_modifier = {
-			local_religious_conversion_resistance = 0.33
 		}
 		country_modifiers = {
 			papal_influence = 0.5
 			monthly_fervor_increase = 0.25
 			church_power_modifier = 0.05
 			global_religious_conversion_resistance = 0.15
-			church_loyalty_modifier = 0.05
 		}
 		on_upgraded = {
 		}
@@ -11637,10 +11583,8 @@ duomo_milano = {
 			factor = 750
 		}
 		province_modifiers = {
-			local_tax_modifier = 0.5
 		}
 		area_modifier = {
-			local_religious_conversion_resistance = 0.66
 		}
 		country_modifiers = {
 			papal_influence = 1
@@ -11661,10 +11605,8 @@ duomo_milano = {
 			factor = 1500
 		}
 		province_modifiers = {
-			local_tax_modifier = 0.75
 		}
 		area_modifier = {
-			local_religious_conversion_resistance = 1
 		}
 		country_modifiers = {
 			papal_influence = 2
@@ -11672,6 +11614,7 @@ duomo_milano = {
 			church_power_modifier = 0.15
 			global_religious_conversion_resistance = 0.5
 			church_loyalty_modifier = 0.15
+			development_cost = -0.05
 		}
 		on_upgraded = {			
 		}
@@ -11689,12 +11632,6 @@ dutch_polders = {
 	type = monument
 
 	build_trigger = {
-		OR = {
-			culture = dutch
-			culture = flemish
-			culture = frisian
-		}
-		province_is_or_accepts_culture = yes
 	}
 
 	on_built = {
@@ -11704,21 +11641,9 @@ dutch_polders = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-			culture = dutch
-			culture = flemish
-			culture = frisian
-		}
-		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
-		OR = {
-			culture = dutch
-			culture = flemish
-			culture = frisian
-		}
-		province_is_or_accepts_culture = yes
 	}
 
 	keep_trigger = {
@@ -11756,7 +11681,6 @@ dutch_polders = {
 		}
 		country_modifiers = {
 			global_trade_goods_size_modifier = 0.05
-			burghers_loyalty_modifier = 0.05
 		}
 		on_upgraded = {
 		}
@@ -11776,8 +11700,8 @@ dutch_polders = {
 			local_monthly_devastation = -0.5
 		}
 		country_modifiers = {
-			global_trade_goods_size_modifier = 0.05
-			burghers_loyalty_modifier = 0.1
+			global_trade_goods_size_modifier = 0.075
+			burghers_loyalty_modifier = 0.05
 		}
 		on_upgraded = {
 		}
@@ -11795,10 +11719,11 @@ dutch_polders = {
 		area_modifier = {
 			local_defensiveness = 0.25
 			local_monthly_devastation = -1
+			local_development_cost = -0.15
 		}
 		country_modifiers = {
 			global_trade_goods_size_modifier = 0.1
-			burghers_loyalty_modifier = 0.15
+			burghers_loyalty_modifier = 0.1
 		}
 		on_upgraded = {
 		}
@@ -12901,6 +12826,7 @@ prague = {
 		province_modifiers = {
 		}
 		area_modifier = {
+			local_development_cost = -0.05
 		}
 		country_modifiers = {
 			imperial_authority_value = 0.05
@@ -12921,6 +12847,7 @@ prague = {
 		province_modifiers = {
 		}
 		area_modifier = {
+			local_development_cost = -0.1
 		}
 		country_modifiers = {
 			imperial_authority_value = 0.1
@@ -12944,6 +12871,7 @@ prague = {
 		province_modifiers = {
 		}
 		area_modifier = {
+			local_development_cost = -0.15
 		}
 		country_modifiers = {
 			imperial_authority_value = 0.15
@@ -13024,8 +12952,8 @@ holy_city_kairouan = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			monthly_piety_accelerator = 0.001
-			institution_spread_from_true_faith = 0.2
+			#monthly_piety = -0.001
+			idea_cost = -0.05
 		}
 		on_upgraded = {
 		}
@@ -13043,9 +12971,9 @@ holy_city_kairouan = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			monthly_piety_accelerator = 0.002
+			#monthly_piety = -0.002
 			tolerance_own = 0.5
-			institution_spread_from_true_faith = 0.33
+			idea_cost = -0.075
 		}
 		on_upgraded = {
 		}
@@ -13063,9 +12991,9 @@ holy_city_kairouan = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			monthly_piety_accelerator = 0.003
+			#monthly_piety = -0.003
 			tolerance_own = 1
-			institution_spread_from_true_faith = 0.5
+			idea_cost = -0.1
 		}
 		on_upgraded = {
 		}
@@ -13582,12 +13510,14 @@ krakow_cloth_hall = {
 			factor = 350
 		}
 		province_modifiers = {
-			trade_goods_size_modifier = 0.1
+			province_trade_power_modifier = 0.25
 		}
 		area_modifier = {
+			trade_goods_size_modifier = 0.1
 		}
 		country_modifiers = {
 			merchants = 1
+			caravan_power = 0.10
 		}
 		on_upgraded = {
 		}
@@ -13601,13 +13531,14 @@ krakow_cloth_hall = {
 			factor = 750
 		}
 		province_modifiers = {
+			province_trade_power_modifier = 0.50
 		}
 		area_modifier = {
-			trade_goods_size_modifier = 0.1
+			trade_goods_size_modifier = 0.15
 		}
 		country_modifiers = {
 			merchants = 1
-			global_trade_power = 0.05
+			caravan_power = 0.20
 		}
 		on_upgraded = {
 		}
@@ -13621,13 +13552,14 @@ krakow_cloth_hall = {
 			factor = 1500
 		}
 		province_modifiers = {
+			province_trade_power_modifier = 1.0
 		}
 		area_modifier = {
 			trade_goods_size_modifier = 0.2
 		}
 		country_modifiers = {
 			merchants = 2
-			global_trade_power = 0.1
+			caravan_power = 0.30
 		}
 		on_upgraded = {
 		}
@@ -13802,7 +13734,7 @@ malbork_castle = {
 			factor = 350
 		}
 		province_modifiers = {
-			local_defensiveness = 0.5
+			local_defensiveness = 0.25
 		}
 		area_modifier = {
 			local_autonomy = -0.025
@@ -13811,7 +13743,7 @@ malbork_castle = {
 			legitimacy = 0.25
 			devotion = 0.25
 			mercenary_cost = -0.05
-			garrison_size = 0.1
+			garrison_size = 0.025
 		}
 		on_upgraded = {
 		}
@@ -13825,7 +13757,7 @@ malbork_castle = {
 			factor = 750
 		}
 		province_modifiers = {
-			local_defensiveness = 1
+			local_defensiveness = 0.50
 		}
 		area_modifier = {
 			local_autonomy = -0.05
@@ -13834,7 +13766,7 @@ malbork_castle = {
 			legitimacy = 0.5
 			devotion = 0.5
 			mercenary_cost = -0.05
-			garrison_size = 0.15
+			garrison_size = 0.05
 		}
 		on_upgraded = {
 		}
@@ -13857,7 +13789,7 @@ malbork_castle = {
 			legitimacy = 1
 			devotion = 1
 			mercenary_cost = -0.1
-			garrison_size = 0.25
+			garrison_size = 0.1
 		}
 		on_upgraded = {
 		}
@@ -13871,7 +13803,7 @@ malta_forts = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 1
+	starting_tier = 2
 	type = monument
 
 	build_trigger = {
@@ -13944,7 +13876,8 @@ malta_forts = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			warscore_cost_vs_other_religion = -0.1
+			warscore_cost_vs_other_religion = -0.075
+			galley_power = 0.05
 		}
 		on_upgraded = {
 		}
@@ -13965,7 +13898,8 @@ malta_forts = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			warscore_cost_vs_other_religion = -0.15
+			warscore_cost_vs_other_religion = -0.10
+			galley_power = 0.1
 		}
 		on_upgraded = {
 		}
@@ -14073,7 +14007,7 @@ mehrangarh_fort = {
 		}
 		country_modifiers = {
 			prestige = 1
-			advisor_cost = -0.2
+			advisor_cost = -0.1
 			special_unit_forcelimit = 0.1
 		}
 		on_upgraded = {
@@ -14610,7 +14544,7 @@ churches_lalibela = {
 		}
 		country_modifiers = {
 			global_missionary_strength = 0.005
-			prestige = 0.25
+			global_tax_modifier = 0.1
 		}
 		on_upgraded = {
 		}
@@ -14629,8 +14563,7 @@ churches_lalibela = {
 		}
 		country_modifiers = {
 			global_missionary_strength = 0.01
-			missionary_maintenance_cost = -0.05
-			prestige = 0.5
+				global_tax_modifier = 0.15
 		}
 		on_upgraded = {
 		}
@@ -14648,9 +14581,8 @@ churches_lalibela = {
 		area_modifier = {
 		}
 		country_modifiers = {
+			global_tax_modifier = 0.2
 			global_missionary_strength = 0.02
-			missionary_maintenance_cost = -0.1
-			prestige = 1
 		}
 		on_upgraded = {
 		}
@@ -14999,9 +14931,8 @@ santa_maria_del_fiore = {
 	type = monument
 
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-		}
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	on_built = {
@@ -15011,15 +14942,13 @@ santa_maria_del_fiore = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-		}
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-		}
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	keep_trigger = {
@@ -15093,7 +15022,7 @@ santa_maria_del_fiore = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			advisor_cost = -0.2
+			advisor_cost = -0.1
 			monthly_splendor = 2
 			prestige_decay = -0.01
 		}
@@ -15191,6 +15120,7 @@ spiral_minaret_samarra = {
 			global_missionary_strength = 0.02
 			prestige = 0.5
 			church_loyalty_modifier = 0.1
+			technology_cost = -0.025
 		}
 		on_upgraded = {
 		}
@@ -15210,7 +15140,8 @@ spiral_minaret_samarra = {
 		country_modifiers = {
 			global_missionary_strength = 0.03
 			prestige = 1
-			church_loyalty_modifier = 0.15
+			church_loyalty_modifier = 0.2
+			technology_cost = -0.05
 		}
 		on_upgraded = {
 		}
@@ -15321,7 +15252,7 @@ sultan_ahmed_mosque = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			local_tax_modifier = 0.15			
+			local_tax_modifier = 0.33			
 		}
 		country_modifiers = {
 			prestige_per_development_from_conversion = 0.3
@@ -16608,7 +16539,7 @@ falun_copper_mine = {
 }
 
 kronborg = {
-	start = 12 #Sjaelland
+	start = 12 #Copenhagen
 	date = 1420.01.01
 	time = { months = 0	}
 	build_cost = 0
@@ -16661,6 +16592,8 @@ kronborg = {
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
+			province_trade_power_modifier = 0.10
+			
 		}
 		area_modifier = {
 		}
@@ -16669,7 +16602,7 @@ kronborg = {
 		}
 		on_upgraded = {
 			owner = {
-				add_mercantilism = 1
+				add_mercantilism = 5
 			}
 		}
 	}
@@ -16683,6 +16616,7 @@ kronborg = {
 		}
 		province_modifiers = {
 			local_defensiveness = 0.25
+			province_trade_power_modifier = 0.20
 			local_own_coast_naval_combat_bonus = 1
 		}
 		area_modifier = {
@@ -16692,7 +16626,7 @@ kronborg = {
 		}
 		on_upgraded = {
 			owner = {
-				add_mercantilism = 3
+				add_mercantilism = 10
 			}
 		}
 	}
@@ -16706,7 +16640,8 @@ kronborg = {
 		}
 		province_modifiers = {
 			local_defensiveness = 0.33
-			local_own_coast_naval_combat_bonus = 2
+			province_trade_power_modifier = 0.35
+			local_own_coast_naval_combat_bonus = 1
 		}
 		area_modifier = {
 		}
@@ -16715,7 +16650,7 @@ kronborg = {
 		}
 		on_upgraded = {
 			owner = {
-				add_mercantilism = 6
+				add_mercantilism = 20
 			}
 		}
 	}
