@@ -208,7 +208,7 @@ suppress_minority = {
 }
 
 army_reform = {
-	land_morale = 0.20
+	land_morale = 0.10
 	mil_tech_cost_modifier = -0.10
 }
 naval_reform = {
@@ -1179,7 +1179,7 @@ navigator_boost = {
 }
 
 grand_captain_boost = {
-	land_morale = 0.20
+	land_morale = 0.10
 }
 
 army_organiser_boost = {
@@ -4245,7 +4245,7 @@ love_of_devoted = {
 }
 
 full_elan = {
-	land_morale = 0.15
+	land_morale = 0.10
 }
 
 finest_infantry = {
@@ -4276,7 +4276,7 @@ payment_demands = {
 }
 
 relentless_drill = {
-	land_morale = 0.15
+	land_morale = 0.10
 }
 
 regimental_pride = {
