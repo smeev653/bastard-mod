@@ -51,7 +51,7 @@ emp_burgundy_1 = {
 				add_permanent_claim = ROOT
 			}
 			add_country_modifier = {
-				name = "lowland_integration"
+				name = "bs_lowland_integration"
 				duration = "7300"
 			}
 		}
@@ -184,7 +184,6 @@ emp_burgundy_1 = {
 			}
 		}
         effect = {
-			   FRA = { free_vassal = BUR }
 			   set_government_rank = 2
 			   add_prestige = 50
 			   add_power_projection = {
@@ -388,7 +387,7 @@ emp_burgundy_2 = {
 					trade_goods = cloth
 					}
 				add_province_modifier = {
-					name = gc_bur_realm_united_mod
+					name = bs_bur_realm_united_mod
 					duration = 7300
 				}
 			}
@@ -604,13 +603,6 @@ emp_burgundy_3 = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			east_frisia_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}

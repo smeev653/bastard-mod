@@ -1,0 +1,30 @@
+bs_lowland_integration = {
+	diplomatic_annexation_cost = -0.2
+}
+gc_growing_economy = {
+	build_cost = -0.10
+	build_time = -0.25
+	great_project_upgrade_cost = -0.25
+}
+
+gc_west_african_integration = {
+	 	num_accepted_cultures = 1
+		culture_conversion_cost = -0.1
+}
+
+cape_trade_established = {
+	trade_efficiency = 0.05
+}
+charles_army_reorganisation = {
+	land_forcelimit = 15
+	artillery_cost = -0.2
+}
+
+charles_court_reorganisation = {
+	advisor_cost = -0.15
+	advisor_pool = 1
+}
+bs_bur_realm_united_mod = {
+	local_production_efficiency = 0.25
+	trade_goods_size_modifier = 0.15
+}
