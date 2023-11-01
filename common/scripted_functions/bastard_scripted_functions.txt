@@ -44,15 +44,18 @@ can_colonize_province = {
 		tooltip = "cant_colonize_nw_tt"
 		potential = {
 		}
+
 		allow = {
-			NOT = {
-				OR = {
-					continent = south_america
-					continent = north_america
-					region = australia_region
-					region = oceanea_region
+				NOT = {
+					OR = {
+						colonial_region = colonial_colombia
+						colonial_region = colonial_la_plata
+						continent = north_america
+						region = australia_region
+						region = oceanea_region
+					}
 				}
-			}
+				
 		}
 	}
 }

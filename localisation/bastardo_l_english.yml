@@ -116,4 +116,4 @@
  echo.4.a:0 "Good."
 #############scripted functions######################
 
-cant_colonize_nw_tt:0 "Unable to colonise the New World"
+cant_colonize_nw_tt:0 "Unable to colonise the New World besides Colonial Brazil"
