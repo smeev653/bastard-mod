@@ -546,7 +546,7 @@ diplomatic_ideas = {
 		land_morale = 0.05
 	}
 	flexible_negotiation = {
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.15
 	}
 	diplomatic_corps = {
 		technology_cost = -0.1
@@ -827,7 +827,7 @@ aristocracy_ideas = {
 		leader_cost = -0.25
 	}
 	rightful_conquest = {
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.15
 		unjustified_demands = -0.25
 	}
 	
@@ -1134,7 +1134,7 @@ defensive_ideas = {
 	}
 
 	improved_body_armor = {
-		shock_damage_received = -0.10
+		shock_damage_received = -0.15
 	}
 	defensive_mentality = {
 		defensiveness = 0.20
@@ -1157,6 +1157,7 @@ defensive_ideas = {
 		may_refill_garrison = yes
 	}
 	terrain_defence = {
+		global_manpower_modifier = 0.2
 		fire_damage_received = -0.1
 	}
 	
