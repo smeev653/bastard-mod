@@ -18,7 +18,7 @@ Minor = {
 	
 
 	trigger = {
-		NOT = {total_own_and_non_tributary_subject_development = 300 }	
+		NOT = {total_own_and_non_tributary_subject_development = 400 }	
 		NOT = { is_emperor = yes }
 	}
 	advisor_cost = -0.25
@@ -29,6 +29,9 @@ Minor = {
 	development_cost = -0.2
 	monthly_reform_progress_modifier = 0.025
 	ae_impact = -0.1
+	country_admin_power = 1
+	country_diplomatic_power = 1
+	country_military_power = 1
 }
 
 We_stand_alone = {
