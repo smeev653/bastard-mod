@@ -376,8 +376,6 @@ absolutist_france_reform = {
 			}
 			mission_completed = fra_movement_centralization
 		}
-	}
-	trigger = {
 		always = no
 	}
 	valid_for_nation_designer = yes
@@ -1741,6 +1739,7 @@ admiralty_regime_reform = {
 			has_idea_group = maritime_ideas
 			has_idea_group = naval_ideas
 		}
+		always = no
 	}
 	trigger = {
 		OR = {

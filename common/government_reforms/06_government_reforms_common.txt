@@ -1126,12 +1126,14 @@ curtail_clergy_power_reform = {
 secure_clergy_power_reform = {
 	icon = "warrior_monks_reform"
 	allow_normal_conversion = yes
+	
 	potential = {
 		NOT = { has_government_attribute = is_pirate_republic_reform }
 		OR = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
 		}
+		always = no
 	}
 	modifiers = {
 		church_influence_modifier = 0.05
