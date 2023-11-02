@@ -34,3 +34,7 @@ norman_resurgence = {
 	province_warscore_cost = -0.5
 	land_morale = 0.2
 }
+
+gc_african_gold_modifier = {
+	trade_goods_size_modifier = 0.25
+}
