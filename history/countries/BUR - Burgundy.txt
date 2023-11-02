@@ -8,6 +8,14 @@ technology_group = western
 capital = 192	# Dijon
 add_army_professionalism = 0.1
 
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 23
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -25
+}
 1363.1.1 = {
 	monarch = {
 		name = "Philippe II"
