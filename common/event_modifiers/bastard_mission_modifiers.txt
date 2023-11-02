@@ -38,3 +38,12 @@ norman_resurgence = {
 gc_african_gold_modifier = {
 	trade_goods_size_modifier = 0.25
 }
+
+berber_fury = {
+	land_morale = 0.1
+}
+
+gc_mor_italy = {
+	global_manpower_modifier = 0.1
+	artillery_fire = 0.5
+}
