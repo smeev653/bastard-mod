@@ -285,7 +285,7 @@ feudalism = {
 renaissance = {
 
 	bonus = {
-		build_cost = -0.05
+		governing_capacity = 100
 	}
 
 	trade_company_efficiency = 0.4
