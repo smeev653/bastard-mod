@@ -1849,7 +1849,7 @@ prepared_streltsy_modifier = {
 }
 
 new_order_regiment_mobilized_modifier = {
-	infantry_power = 0.15
+	reinforce_speed = 0.2
 }
 
 inward_focus_modifier = {
@@ -2090,13 +2090,12 @@ serfs_recieved_by_cossacks = {
 
 cultural_revolution = {
 	all_estate_influence_modifier = -0.1
-	global_tax_modifier = 0.2
+	global_tax_modifier = 0.1
 	idea_cost = -0.05
 }
 
 mobilized_new_order_regiments = {
 	infantry_power = 0.1
-	reinforce_speed = 0.2
 }
 
 ########################################
