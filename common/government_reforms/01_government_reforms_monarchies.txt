@@ -5929,6 +5929,7 @@ strengthened_parliament_reform = {
 	potential = {
 		has_dlc = "Domination"
 		has_parliament = yes
+		always = no
 	}
 	trigger = {
 		has_parliament = yes
