@@ -2650,7 +2650,7 @@ the_cawa_regiments_reform = {
 		}
 	}
 	modifiers = {
-		reserves_organisation = 0.25
+		#reserves_organisation = 0.25
 		stability_cost_modifier = -0.05
 		global_regiment_cost = -0.1
 		war_exhaustion = -0.05

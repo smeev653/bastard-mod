@@ -1189,7 +1189,7 @@ quality_ideas = {
 	}
 	quality_education = {
 		recover_army_morale_speed = 0.10
-		reserves_organisation = 0.15
+		#reserves_organisation = 0.15
 	}
 	massed_battery = {
 		artillery_power = 0.1
@@ -1282,7 +1282,7 @@ quantity_ideas = {
 	}
 	camp_followers = {
 		may_build_supply_depot = yes
-		reserves_organisation = 0.25
+		#reserves_organisation = 0.25
 	}
 	reinforcement_drafts = {
 		reinforce_speed = 0.25
