@@ -5637,20 +5637,20 @@ french_missions_5_continuation_normal_1 = {
 					duration = 9125
 				}
 			}
-			if = { 
+			#if = { 
 				limit = { has_estate = estate_burghers } 
-				set_country_flag = fra_enable_italian_bookkeeping_privilege_flag
-				if = {
-					limit = {
-						has_dlc = "Emperor"
-					}
-					custom_tooltip = fra_enable_italian_bookkeeping_privilege_tt
-				}
-				add_estate_loyalty = { 
-					estate = estate_burghers 
-					loyalty = 15
-				}
-			}
+				#set_country_flag = fra_enable_italian_bookkeeping_privilege_flag
+				#if = {
+				#	limit = {
+				#		has_dlc = "Emperor"
+				#	}
+				#	custom_tooltip = fra_enable_italian_bookkeeping_privilege_tt
+				#}
+			#	add_estate_loyalty = { 
+			#		estate = estate_burghers 
+			#		loyalty = 15
+			#	}
+			#}
 			add_mercantilism = 3
 		}
 	}
