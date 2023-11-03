@@ -1529,7 +1529,7 @@ religious_zeal_at_conv = {
 
 papal_sanction_for_church_taxes = {
 	global_tax_modifier = 0.10
-	build_cost = -0.05
+	build_cost = -0.1
 	religion = yes
 }
 
@@ -7565,7 +7565,7 @@ reset_parliament_debate_modifier = {
 }
 
 organised_through_bishops_aspect_modifier = {
-	development_cost = -0.05
+	build_cost_cost = -0.05
 }
 priests_may_marry_aspect_modifier = {
 	tolerance_own = 1 
