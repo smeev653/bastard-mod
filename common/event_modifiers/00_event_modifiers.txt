@@ -7565,7 +7565,7 @@ reset_parliament_debate_modifier = {
 }
 
 organised_through_bishops_aspect_modifier = {
-	build_cost_cost = -0.05
+	build_cost = -0.05
 }
 priests_may_marry_aspect_modifier = {
 	tolerance_own = 1 

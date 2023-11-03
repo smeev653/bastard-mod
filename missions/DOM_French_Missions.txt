@@ -5638,7 +5638,7 @@ french_missions_5_continuation_normal_1 = {
 				}
 			}
 			#if = { 
-				limit = { has_estate = estate_burghers } 
+				#limit = { has_estate = estate_burghers } 
 				#set_country_flag = fra_enable_italian_bookkeeping_privilege_flag
 				#if = {
 				#	limit = {
