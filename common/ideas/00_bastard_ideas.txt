@@ -957,7 +957,7 @@ FRA_ideas = {
 	}
 	
 	bonus = {
-		development_cost = -0.1
+		country_military_power = 1
 	}	
 
 	trigger = {
@@ -983,8 +983,7 @@ FRA_ideas = {
 		global_unrest = -1 
 	}
 	native_trading_principles = {
-		native_uprising_chance = -0.5
-		native_assimilation = 0.5
+		technology_cost = -0.05
 	}
 	divine_right_to_rule = {
 		core_creation = -0.1
