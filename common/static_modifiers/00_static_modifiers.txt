@@ -1311,7 +1311,6 @@ high_army_professionalism = {
 	allowed_samurai_fraction = 0.1
 	reinforce_speed = 0.33
 	recover_army_morale_speed = 0.1
-	regiment_manpower_usage = -0.25
 	manpower_recovery_speed = 0.2
 }
 
@@ -1958,7 +1957,6 @@ regiment_drill_modifier = { # Used by individual regiments
 	fire_damage = 0.1
 	fire_damage_received = -0.25
 	shock_damage_received = -0.25
-	regiment_manpower_usage = -0.25
 }
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill

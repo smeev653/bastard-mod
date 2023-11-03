@@ -1197,7 +1197,7 @@ quality_ideas = {
 	regimental_system = {
 		global_regiment_cost = -0.10
 		global_regiment_recruit_speed = -0.25
-		regiment_manpower_usage = -0.05
+		#regiment_manpower_usage = -0.05
 	}
 	napoleonic_warfare = {
 		discipline = 0.05
