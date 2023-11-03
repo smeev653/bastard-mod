@@ -1207,7 +1207,6 @@ emp_burgundy_4 = {
 		}
 		trigger = {
 			owns_core_province = 183 #Paris
-			owns_core_province = 183 
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 30
 				region = france_region
