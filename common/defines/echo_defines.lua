@@ -102,7 +102,7 @@ NDefines.NCountry.TARIFF_LIBERTY_INCREASE = 0.5					-- Liberty increase for each
 NDefines.NCountry.TARIFF_DECREASE_STEP = -0.1
 NDefines.NCountry.MINIMUM_POLICY_TIME = 1
 NDefines.NCountry.CONCENTRATE_DEVELOPMENT_DEVELOPMENT_DECREASE = 0.0
-NDefines.NCountry.EXPAND_INFRASTRUCTURE_DEV_LIMIT = 10
+NDefines.NCountry.EXPAND_INFRASTRUCTURE_DEV_LIMIT = 15
 NDefines.NCountry.ESTATE_MIN_DISTRIBUTED_CROWNLAND = 30.5
 NDefines.NCountry.SETTLEMENT_GROWTH_DEVELOPMENT_INCREASE = 0
 
@@ -174,6 +174,7 @@ NDefines.NReligion.BUY_INDULGENCE_TREASURY_CONTRIBUTION = 1
 NDefines.NReligion.APPOINT_CARDINAL_INFLUENCE = 0					-- Invested Influence given by appointing a cardinal
 NDefines.NReligion.APPOINT_CARDINAL_CORRUPTION = 0.1						-- Corruption gained by the Papal State when appointing cardinals in its own land
 NDefines.NReligion.APPOINT_CARDINAL_INFLUENCE_PAPAL_STATE = 0
+NDefines.NReligion.CONVERSION_ZEAL_DURATION = 1825
 
 NDefines.NGovernment.SELECT_HEIR_FROM_HAREM_AT_MONARCH_AGE = 20
 NDefines.NGovernment.GOVERNMENT_REFORM_CHANGE_PROGRESS_COST = 25
