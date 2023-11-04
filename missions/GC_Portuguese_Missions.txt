@@ -467,6 +467,19 @@ gc_por_2 = {
 		}
 	
 		effect = {
+			###X###
+			sao_tome_area = {
+				cede_province = POR
+				add_core = POR
+			}
+			define_explorer = {
+				name = "Lançarote de Freitas"
+				shock = 1
+				fire = 3
+				manuever = 2
+				siege = 0
+			}
+			#######
 			add_country_modifier = {
 				name = "gc_west_african_integration"
 				duration = -1
@@ -475,10 +488,6 @@ gc_por_2 = {
 				tradition = 60
 			}
 			add_dip_power = 60
-			1097 = {
-				cede_province = POR
-				add_core = POR
-			}
 			coastal_kongo = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -1549,7 +1558,7 @@ gc_por_4 = {
 	}
 	gc_por_lusitanian_empire = {
 		icon = mission_lusitanian_empire
-		required_missions = { gc_por_intervene_in_castile dom_portugal_reform_navy gc_por_universities }
+		required_missions = { dom_portugal_reform_navy gc_por_universities }
 		position = 12
 		provinces_to_highlight = {
 			region = iberia_region
@@ -1557,10 +1566,7 @@ gc_por_4 = {
 		}
 		
 		trigger = {
-			iberia_region = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { great_power_rank = 4 }
 		}
 		effect = {
 			if = {
@@ -1577,6 +1583,10 @@ gc_por_4 = {
 				amount = 25 
 			}
 			custom_tooltip = chi_permanent_pp
+			add_country_modifier = {
+				name = bastard_portuguese_empire
+				duration = -1
+			}
 		}
 	}
 	
@@ -1660,35 +1670,35 @@ gc_por_5_dom = {
 	
 	dom_portugal_circumnavigation = {
 		icon = mission_explore_the_world
-		required_missions = { dom_portugal_exploration_ideas gc_por_discovers_cape_good_hope }
+		required_missions = { gc_por_discovers_cape_good_hope }
 		position = 3
 		
 		trigger = { 
-			OR = {
-				custom_trigger_tooltip = {
-					tooltip = achievement_magellans_voyage_tooltip
-					has_country_flag = circumnavigation_first
-				}
-				custom_trigger_tooltip = {
-					tooltip = second_circumnavigation_tt
-					has_country_flag = circumnavigation_done
+			custom_trigger_tooltip = {
+				tooltip = miss_discover_horn_africa
+				OR = {
+					mogadishu_area = { has_discovered = ROOT }
+					majarteen_area = { has_discovered = ROOT }
+					somaliland_area = { has_discovered = ROOT }
 				}
 			}
 		}
 	
 		effect = {
-			if = {
-				limit = { has_country_flag = circumnavigation_first }
-				add_country_modifier = {
-					name = por_first_circumnavigation_modifier
-					duration = -1 
+			1201 = {
+				add_trade_modifier = {
+					who = root
+					duration = 5475
+					power = 20
+					key = horn_africa_ambition
 				}
 			}
-			else = {
-				add_country_modifier = {
-					name = por_first_circumnavigation_modifier
-					duration = 9125
-				}
+			2999 = {
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = prester_john_discovered
+				duration = -1
 			}
 		}
 	}
@@ -1717,7 +1727,7 @@ gc_por_5 = {
 	
 	gc_por_conquers_hormuz = {
 		icon = mission_persian_soldiers
-		required_missions = { gc_por_conquers_zanzibar }
+		required_missions = { dom_portugal_circumnavigation gc_por_conquers_zanzibar }
 		position = 4
 		completed_by = 1508.1.1
 		provinces_to_highlight = {
@@ -1928,35 +1938,16 @@ gc_por_5_continued = {
 		
 		provinces_to_highlight = {
 			trade_goods = wine
-			NOT = { owned_by = ROOT }
-			NOT = {
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
-			}
-			has_discovered = ROOT
+			owned_by = ROOT 
 		}
 		
 		trigger = {
-			OR = {
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 10
-					trade_goods = wine
-					OR = {
-						has_building = workshop
-						has_building = counting_house
-					}
-				}
-				trading_bonus = {
-					trade_goods = wine
-					value = yes
-				}
-				production_leader = {
-					trade_goods = wine
-				}
+			trade_goods_produced_amount = {
+				trade_goods = wine
+				amount = 5
 			}
 		}
+		
 		effect = {
 			add_country_modifier = {
 				name = "por_wine_monopolies"
@@ -1966,11 +1957,11 @@ gc_por_5_continued = {
 			if = { 
 				limit = { has_dlc = "Domination" }
 				custom_tooltip = por_every_wine_prov_tt
-				tooltip = { add_base_production = 1 } 
+				tooltip = { add_base_production = 2 } 
 				hidden_effect = {
 					every_owned_province = {
 						limit = { trade_goods = wine } 
-						add_base_production = 1 
+						add_base_production = 2
 					}
 				}
 			}

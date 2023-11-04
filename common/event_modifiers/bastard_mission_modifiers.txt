@@ -16,7 +16,6 @@ cape_trade_established = {
 	trade_efficiency = 0.05
 }
 charles_army_reorganisation = {
-	land_forcelimit = 15
 	artillery_cost = -0.2
 }
 
@@ -46,4 +45,39 @@ berber_fury = {
 gc_mor_italy = {
 	global_manpower_modifier = 0.1
 	artillery_fire = 0.5
+}
+
+########################################
+# Modifiers for Portugal
+########################################
+
+prester_john_discovered = {
+	infantry_power = 0.10
+}
+
+bastard_portuguese_empire = {
+	land_forcelimit_modifier = 0.25
+}
+
+X_POR_portugese_renaissance_cmod = {
+	technology_cost = -0.05
+	idea_cost = -0.05
+}
+X_POR_manueline_architecture_cmod = {
+	build_cost = -0.05
+	build_time = -0.10
+	great_project_upgrade_cost = -0.25
+	development_cost = -0.05
+	interest = -0.25
+}
+X_POR_proto_colonialism_cmod = {
+	global_colonial_growth = 10
+}
+
+X_POR_companhia_de_lagos_cmod = {
+	trade_efficiency = 0.20
+}
+
+X_POR_razias_de_escravos_cmod = {
+	manpower_recovery_speed = 0.2
 }
