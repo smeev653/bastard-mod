@@ -185,6 +185,19 @@ declarewar = {
 
 allianceaction = {
 	condition = {
+		tooltip = h_tooltip_from_many_allies
+		potential = {
+			ROOT = { ai = yes }
+		}
+		allow = {
+			FROM = {
+				NOT = {
+					num_of_allies = 2
+				}
+			}
+		}
+	}
+	condition = {
 		tooltip = PIRATE_DENIED_ALLIANCE
 		potential = {
 			has_government_attribute = cannot_ally_non_pirates
