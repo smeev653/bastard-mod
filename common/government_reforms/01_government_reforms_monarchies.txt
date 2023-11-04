@@ -3329,7 +3329,9 @@ musa_rule = {
 		stability_cost_modifier = -0.05
 		legitimacy = 0.5
 	}
-
+	custom_attributes = {
+			cannot_form_alliances = yes
+		}
 	ai = {
 		factor = 1
 	}
