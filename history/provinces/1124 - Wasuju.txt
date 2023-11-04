@@ -15,7 +15,7 @@ add_core = MAL
 discovered_by = sub_saharan
 extra_cost = 8
 center_of_trade = 1
-fort_15th = yes
+#fort_15th = yes
 
 
 1469.1.1 = { unrest = 6 } # Sunni Ali of Songhai launches Massive raids

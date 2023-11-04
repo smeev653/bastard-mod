@@ -169,6 +169,25 @@ on_startup = {
 	}
 	gecko_mercs = { update = yes on_startup = yes }
 	echo_development_counter = { on_startup = yes }
+	if = {
+		limit = {
+				OR = {
+					tag = MOR
+					tag = YAO
+					tag = ZAN
+					tag = ETH
+					tag = MAM
+			}
+			NOT = { 
+				has_country_flag = PR_discover_africa_flag
+			}
+		}
+		country_event = { 
+			id = echo.5
+			days = 1
+		}
+		set_country_flag = PR_discover_africa_flag
+	}
 }
 
 # country
