@@ -1,4 +1,4 @@
-poland_sca_slot_1 = { #Made by William 'Big Boss' S.
+poland_sca_slot_1 = { 
 	slot = 1
 	generic = no
 	ai = yes
@@ -716,9 +716,12 @@ poland_sca_slot_2_a = {
 						who = ROOT 
 						value = 190 
 					}
-					trust = { 	
-						who = ROOT 
-						value = 100 
+					if = {
+						limit = { has_dlc = "Leviathan" }
+						trust = {
+							who = ROOT
+							value = 100
+						}
 					}
 					is_at_war = no 
 					NOT = { total_development = ROOT } 
@@ -736,7 +739,7 @@ poland_sca_slot_2_a = {
 			custom_tooltip = pol_alternatively_every_required_province_tt
 			tooltip = {
 				change_ruler_stat = {
-					stat = mil
+					type = mil
 					amount = 2
 				}
 				if = {
@@ -764,7 +767,7 @@ poland_sca_slot_2_a = {
 					bohemia_area = { add_nationalism = -5 }
 					lusatia_area = { add_nationalism = -5 }
 					change_ruler_stat = {
-						stat = mil
+						type = mil
 						amount = 2
 					}
 					if = { 
@@ -951,7 +954,7 @@ poland_sca_slot_2_a = {
 				}
 			}
 			change_ruler_stat = {
-				stat = dip
+				type = dip
 				amount = 2
 			}
 		}
@@ -997,7 +1000,7 @@ poland_sca_slot_2_b = {
 					ruler_has_personality = free_thinker_personality 
 					ruler_has_personality = scholar_personality 
 					ruler_total_stats = {
-						stats = 14 
+						amount = 14 
 					}
 				}
 			}
@@ -1005,7 +1008,7 @@ poland_sca_slot_2_b = {
 				OR = { 
 					full_idea_group = innovativeness_ideas 
 					ruler_total_stats = {
-						stats = 14 
+						amount = 14 
 					}
 				}
 			}
@@ -1075,7 +1078,7 @@ poland_sca_slot_2_plc_1 = {
 					ruler_has_personality = free_thinker_personality 
 					ruler_has_personality = scholar_personality 
 					ruler_total_stats = {
-						stats = 14 
+						amount = 14 
 					}
 				}
 			}
@@ -1083,7 +1086,7 @@ poland_sca_slot_2_plc_1 = {
 				OR = { 
 					full_idea_group = innovativeness_ideas 
 					ruler_total_stats = {
-						stats = 14 
+						amount = 14 
 					}
 				}
 			}
@@ -1466,6 +1469,7 @@ poland_sca_slot_3_a = {
 				OR = { 
 					alliance_with = ROOT 
 					is_rival = ROOT 
+					is_subject_of = ROOT 
 					has_opinion_modifier = {
 						who = ROOT
 						modifier = insulted
@@ -1481,6 +1485,7 @@ poland_sca_slot_3_a = {
 				OR = { 
 					alliance_with = ROOT 
 					is_rival = ROOT 
+					is_subject_of = ROOT 
 					has_opinion_modifier = {
 						who = ROOT
 						modifier = insulted
@@ -1871,7 +1876,7 @@ poland_sca_slot_3_a = {
 				else_if = { 
 					limit = { mercantilism = 25 } 
 					change_ruler_stat = {
-						stat = dip
+						type = dip
 						amount = 1
 					}
 					set_country_flag = enable_special_trader_flag
@@ -2337,7 +2342,7 @@ poland_sca_slot_3_plc_1 = {
 			}
 			else = { 
 				change_ruler_stat = {
-					stat = adm
+					type = adm
 					amount = 1
 				}
 			}
@@ -3057,9 +3062,18 @@ poland_sca_slot_4_b = {
 			}
 			OR = { 
 				PAP = { 
-					trust = { 
-						who = ROOT 
-						value = 70 
+					if = {
+						limit = { has_dlc = "Leviathan" }
+						trust = { 	
+							who = ROOT 
+							value = 70
+						}
+					}
+					else = {
+						has_opinion_modifier = {
+							who = ROOT 
+							modifier = sent_gift
+						}
 					}
 				}
 				religious_unity = 0.9 
@@ -4223,7 +4237,7 @@ poland_sca_slot_5_branching_lit_hre = {
 				duration = 9125 
 			}
 			change_ruler_stat = {
-				stat = dip
+				type = dip
 				amount = 2
 			}
 		}
@@ -4670,11 +4684,11 @@ poland_sca_slot_5_branching_hre_west = {
 			}
 			else = {
 				change_ruler_stat = {
-					stat = dip
+					type = dip
 					amount = 2
 				}
 				change_ruler_stat = {
-					stat = mil
+					type = mil
 					amount = 1
 				}
 			}
@@ -4727,7 +4741,7 @@ poland_sca_slot_5_branching_hre_west = {
 
 			}
 			change_ruler_stat = {
-				stat = adm
+				type = adm
 				amount = 2
 			}
 		}

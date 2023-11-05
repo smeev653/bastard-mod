@@ -1061,6 +1061,7 @@ has_any_holy_order = {
 		}
 	}
 }
+
 can_create_holy_orders = {
 	OR = {
 		AND = {
