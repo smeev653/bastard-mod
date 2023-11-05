@@ -7,12 +7,6 @@ religion = sunni
 technology_group = muslim
 capital = 418
 religious_school = hanafi_school
-historical_rival = RAM
-historical_rival = DUL
-historical_rival = CND
-historical_rival = KAR
-historical_rival = TUR
-historical_rival = MAM
 
 1396.1.1 = {
 	monarch = {
