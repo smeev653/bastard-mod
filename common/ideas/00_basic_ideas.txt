@@ -106,7 +106,7 @@ religious_ideas = {
 		same_religion_advisor_cost = -0.1
 	}
 	divine_supremacy = {
-		land_morale = 0.05
+		land_morale = 0.025
 		recover_army_morale_speed = 0.05
 	}
 	missionary_schools = {
@@ -543,7 +543,7 @@ diplomatic_ideas = {
 	}
 	experienced_diplomats  = {
 		power_projection_from_insults = 1
-		land_morale = 0.05
+		land_morale = 0.025
 	}
 	flexible_negotiation = {
 		province_warscore_cost = -0.15
@@ -659,7 +659,7 @@ court_ideas = {
 	}
 	respected_authority = {
 		prestige_from_land = 0.25
-		land_morale = 0.05
+		land_morale = 0.025
 	}
 	
 	ai_will_do = {
@@ -800,7 +800,7 @@ aristocracy_ideas = {
 		army_tradition_from_battle = 0.33
 	}	
 	international_nobility = {
-		land_morale = 0.05
+		land_morale = 0.025
 		discipline = 0.03
 	}
 	local_nobility = {
