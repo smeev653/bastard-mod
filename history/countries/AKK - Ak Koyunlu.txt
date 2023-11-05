@@ -58,20 +58,20 @@ religious_school = hanafi_school
 	}
 }
 
-1444.1.1 = {
-	monarch = {
-		name = "Cihangir"
-		dynasty = "Aq Qoyunlu"
-		birth_date = 1414.1.1
-		adm = 2
-		dip = 3
-		mil = 2
-	}
-	add_piety = -0.6
-}
+#1444.1.1 = {
+#	monarch = {
+#		name = "Cihangir"
+#		dynasty = "Aq Qoyunlu"
+#		birth_date = 1414.1.1
+#		adm = 2
+#		dip = 3
+#		mil = 2
+#	}
+#	add_piety = -0.6
+#}
 
 1444.1.1 = {
-	heir = {
+	monarch = {
 		name = "Uzun Hasan"
 		monarch_name = "Uzun Hasan"
 		dynasty = "Aq Qoyunlu"
