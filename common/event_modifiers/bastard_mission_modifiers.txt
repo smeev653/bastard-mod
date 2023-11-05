@@ -85,3 +85,8 @@ X_POR_companhia_de_lagos_cmod = {
 X_POR_razias_de_escravos_cmod = {
 	manpower_recovery_speed = 0.2
 }
+####
+gc_mug_formation_hope = {
+	land_morale = 0.05
+}
+####
