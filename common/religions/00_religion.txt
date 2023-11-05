@@ -428,6 +428,7 @@ christian = {
 			justified_religious_war_aspect
 			war_preaches_aspect
 			head_of_the_church_aspect
+			anglican_aspect
 		}
 		aspects_name = PROTESTANT_ASPECTS
 		
@@ -832,6 +833,12 @@ christian = {
 		province = {
 			local_missionary_strength = -0.02
 		}
+		allowed_center_conversion = {
+			orthodox
+			sunni
+			shiite
+			ibadi
+		}
 		
 		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
 		
@@ -1143,6 +1150,10 @@ muslim = {
 		declare_war_in_regency = yes
 		color = { 0 153 0 }
 		icon = 5
+		allowed_center_conversion = {
+			ibadi
+			shiite
+		}
 		country = {
 			cav_to_inf_ratio = 0.10
 			heir_chance = 1.0
@@ -1164,7 +1175,11 @@ muslim = {
 		allow_female_defenders_of_the_faith = yes
 		declare_war_in_regency = yes
 		color = { 0 204 0 }
-		icon = 6
+		icon = 6	
+		allowed_center_conversion = {
+			sunni
+			ibadi
+		}
 		country = {
 			heir_chance = 1.0
 			land_morale = 0.05
@@ -1186,7 +1201,11 @@ muslim = {
 		allow_female_defenders_of_the_faith = yes
 		declare_war_in_regency = yes
 		color = { 0 102 0 }
-		icon = 16
+		icon = 16	
+		allowed_center_conversion = {
+			sunni
+			shiite
+		}
 		country = {
 			heir_chance = 1.0
 			global_trade_goods_size_modifier = 0.1
@@ -2200,6 +2219,7 @@ jewish_group = {
 
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 106 107 }
+	defender_of_faith = yes
 
 	jewish = {
 		icon = 20
@@ -2329,6 +2349,7 @@ jewish_group = {
 
 zoroastrian_group = {
 	flag_emblem_index_range = { 110 110 }
+	defender_of_faith = yes
 	zoroastrian = {
 		icon = 26
 		color = { 127 178 51 }
@@ -2343,8 +2364,15 @@ zoroastrian_group = {
 			merchants = 1
 			tolerance_own = 1
 		}
+		allowed_center_conversion = {
+			sunni
+			shiite
+			orthodox
+			coptic
+			hinduism
+		}
 
-		holy_sites = { 421 4430 2223 441 2235 }
+		holy_sites = { 2212 4430 2223 441 4336 }
 
 		blessings = {
 			blessing_yasna
