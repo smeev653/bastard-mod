@@ -20,7 +20,7 @@ charles_army_reorganisation = {
 }
 
 charles_court_reorganisation = {
-	advisor_cost = -0.15
+	advisor_cost = -0.1
 	advisor_pool = 1
 }
 bs_bur_realm_united_mod = {
@@ -46,7 +46,11 @@ gc_mor_italy = {
 	global_manpower_modifier = 0.1
 	artillery_fire = 0.5
 }
-
+####################austria###################
+bs_royal_hungary = {
+	land_morale = 0.1
+}
+##############################################
 ########################################
 # Modifiers for Portugal
 ########################################
