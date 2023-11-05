@@ -39,7 +39,7 @@ innovativeness_ideas = {
 	}
 	optimism = {
 		war_exhaustion = -0.05
-		land_morale = 0.05
+		land_morale = 0.025
 	}
 	expanded_policies = {
 		possible_policy = 1
@@ -857,7 +857,7 @@ plutocracy_ideas = {
 		mercenary_manpower = 0.20
 	}
 	formalized_officer_corps = {
-		leader_cost = -0.1
+		max_general_fire = 1
 		leader_land_fire = 1
 	}
 	free_cities = {
@@ -1178,7 +1178,7 @@ quality_ideas = {
 		yearly_army_professionalism = 0.005
 	}
 	private_to_marshal = {
-		infantry_power = 0.15
+		infantry_power = 0.1
 	}
 	battlefield_commisions = {
 		army_tradition = 0.5

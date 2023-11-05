@@ -299,7 +299,7 @@ modern_firearm_techniques = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_power = 0.1
+	infantry_power = 0.05
 	yearly_army_professionalism = 0.003
 
 	effect = {}
@@ -1697,7 +1697,7 @@ special_forces_act = {
 		full_idea_group = quality_ideas 
 	}
 	
-	infantry_power = 0.1
+	infantry_power = 0.075
 
 	effect = {}
 	removed_effect = {}
