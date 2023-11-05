@@ -395,6 +395,7 @@ country_event = {
 	title = mamluk_events.1.t
 	desc = mamluk_events.1.d
 	picture = ACCUSATION_eventPicture
+	goto = not_ruling_culture_province
 
 	trigger = {
 		has_dlc = "Cradle of Civilization"
@@ -1109,7 +1110,7 @@ country_event = {
 		name = mamluk_events.9.a #
 		if = {
 			limit = { has_country_modifier = bedouin_amir_al_hajj }
-			add_prestige_or_monarch_power = { amount = 5 }
+			add_prestige = 5
 		}
 		else_if = {
 			limit = { has_country_modifier = warrior_amir_al_hajj }
@@ -1122,10 +1123,10 @@ country_event = {
 		else_if = {
 			limit = { has_country_modifier = mamluk_amir_al_hajj }
 			add_legitimacy = 5
-			add_prestige_or_monarch_power = { amount = 5 }
+			add_prestige = 5
 		}
 		else = {
-			add_prestige_or_monarch_power = { amount = 10 }
+			add_prestige = 10
 		}
 	}
 }
