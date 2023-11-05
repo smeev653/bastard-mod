@@ -33,7 +33,8 @@ plutocratic_ethos_act = {
 		full_idea_group = plutocracy_ideas 
 	}
 	
-	land_morale = 0.1
+	land_morale = 0.05
+	technology_cost = -0.025
 	
 	effect = {}
 	removed_effect = {}
