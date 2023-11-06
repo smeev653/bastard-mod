@@ -175,7 +175,7 @@ economic_ideas = {
 
 	bonus = {
 		global_autonomy = -0.05
-		global_prosperity_growth = 0.5
+		global_allowed_num_of_manufactories = 1
 	}
 
 	bureaucracy = { 
@@ -186,14 +186,14 @@ economic_ideas = {
 	}
 	national_bank = {
 		inflation_reduction = 0.1
-		inflation_action_cost = -0.25
+		global_trade_goods_size_modifier = 0.1
 	}
 	nationalistic_enthusiasm = {
 		land_maintenance_modifier = -0.1
 	}
 	efficient_mining = {
 		gold_depletion_chance_modifier = -0.25
-		global_trade_goods_size_modifier = 0.1
+		monthly_gold_inflation_modifier = -0.25
 	}
 	debt_and_loans = {
 		interest = -0.5
@@ -424,11 +424,11 @@ infrastructure_ideas = {
 		expand_infrastructure_cost_modifier = -0.25
 	}
 	expanded_infrastructure_network = {
-		movement_speed = 0.1
-		center_of_trade_upgrade_cost = -0.2
+		center_of_trade_upgrade_cost = -0.25
 	}
 	administrative_efficiency_idea = {
-		state_governing_cost = -0.1
+		state_governing_cost = -0.15
+		centralize_state_cost = -0.25
 	}
 	fort_logistics = {
 		fort_maintenance_modifier = -0.25
