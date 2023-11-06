@@ -8238,6 +8238,7 @@ tur_preperation_for_naval_war = {
 
 tur_janissary_example = {
 	land_morale = 0.1
+	is_janissary_modifier = yes
 }
 
 tur_janissary_loyalty = {
