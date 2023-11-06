@@ -570,7 +570,9 @@ diplomatic_ideas = {
 
 influence_ideas = {
 	category = DIP
-
+	trigger = {
+		always = no
+	}
 	bonus = {
 		development_cost_modifier = -0.05
 	}
