@@ -55,7 +55,7 @@ EGY_ideas = {
 	free = yes		#will be added at load.
 	
 	egy_centralization_works = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	training_missions_in_egypt = {
 		country_military_power = 1
