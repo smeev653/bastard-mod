@@ -796,7 +796,6 @@ aristocracy_ideas = {
 		army_tradition_from_battle = 0.33
 	}	
 	international_nobility = {
-		land_morale = 0.025
 		discipline = 0.03
 	}
 	local_nobility = {
