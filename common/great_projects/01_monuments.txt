@@ -19518,6 +19518,9 @@ city_of_sanaa = {
 			province_trade_power_modifier = 0.1 
 		}
 		area_modifier = {
+			local_fort_maintenance_modifier = -1
+			local_assault_fort_ability = -0.75
+			local_defensiveness = 0.5
 			
 		}
 		country_modifiers = {
@@ -19560,9 +19563,12 @@ city_of_sanaa = {
 		}
 		province_modifiers = {
 			province_trade_power_modifier = 0.15
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = {
-			
+			local_fort_maintenance_modifier = -1
+			local_assault_fort_ability = -0.75
+			local_defensiveness = 0.5
 		}
 		region_modifier = { 
 			
@@ -19606,10 +19612,13 @@ city_of_sanaa = {
 			factor = 1500
 		}
 		province_modifiers = {
-			
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = {
 			province_trade_power_modifier = 0.25
+			local_fort_maintenance_modifier = -1
+			local_assault_fort_ability = -0.75
+			local_defensiveness = 0.5
 		}
 		country_modifiers = {
 			mercantilism_cost = -0.33

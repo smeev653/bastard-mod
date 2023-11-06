@@ -128,11 +128,13 @@ religious_school = shafii_school
 		name = "Yusuf II"
 		dynasty = "Rasulid"
 		adm = 4
-		dip = 3
-		mil = 5
+		dip = 5
+		mil = 6
 	}
 }
-
+1443.1.1 = {
+	leader = {	name = "Husayn"            	type = general	fire = 4	shock = 5	manuever = 5	siege = 0 }
+}
 1442.1.1 = {
 	heir = {
 		name = "Salâh ad-Din 'Amir"
