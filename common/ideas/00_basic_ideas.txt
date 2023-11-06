@@ -829,7 +829,7 @@ plutocracy_ideas = {
 	category = MIL
 
 	bonus = {
-		fire_damage = 0.15
+		fire_damage = 0.1
 		burghers_loyalty_modifier = 0.1
 		vaisyas_loyalty_modifier = 0.1
 	}
@@ -847,7 +847,7 @@ plutocracy_ideas = {
 	}
 	knowledge_transfer = {
 		mil_tech_cost_modifier = -0.1
-		infantry_power = 0.05
+		infantry_power = 0.1
 	}
 	pragmatism = {
 		mercenary_manpower = 0.20
