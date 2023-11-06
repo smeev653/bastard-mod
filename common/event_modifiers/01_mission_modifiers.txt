@@ -10473,7 +10473,7 @@ turkoman_privilege_highlands = {
 }
 
 turkoman_privilege_desert = {
-	local_development_cost = -0.2
+	local_development_cost = -0.15
 }
 
 turkoman_privilege_drylands = {
@@ -11180,7 +11180,7 @@ ARB_muslim_enforced_religion_buff = {
 }
 
 ARB_estate_burghers_desert = {
-	local_development_cost = -0.15
+	local_development_cost = -0.2
 }
 
 ARB_estate_burghers_arid_climate_development = {
