@@ -17,6 +17,9 @@ war_goal = {
 #	add_attacker = KAR
 	add_attacker = MAM
 	add_defender = TUR
+	add_defender = DUL
+	add_defender = RAM
+	add_defender = KAR
 }
 
 #1444.8.1 = {
