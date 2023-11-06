@@ -270,7 +270,7 @@ development_scaled = {
 }
 
 capital_city = {
-	fort_level = 2
+	fort_level = 1
 	local_governing_cost = -10
 }
 
@@ -544,8 +544,8 @@ left_trade_company = {
 
 
 scorched_earth = {
-	local_hostile_movement_speed = -0.50
-	local_monthly_devastation = 0.25
+	local_hostile_movement_speed = -0.25
+	#local_monthly_devastation = 0.25
 }
 
 ##########################################################################
