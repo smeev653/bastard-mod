@@ -1896,6 +1896,7 @@ mam_missions_4 = {
 				}
 				add_prestige_or_monarch_power = { amount = 25 }
 			}
+			bastard_golden_age_effect = yes
 		}
 	}
 }
