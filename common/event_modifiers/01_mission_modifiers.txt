@@ -10405,7 +10405,7 @@ turkoman_expanding_industry = {
 }
 
 turkoman_advance = {
-	province_warscore_cost = -0.1
+	province_warscore_cost = -0.25
 	manpower_recovery_speed = 0.1
 }
 
