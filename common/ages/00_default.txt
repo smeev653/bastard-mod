@@ -414,16 +414,6 @@ age_of_reformation = {
 	
 	
 	abilities = {
-	
-		ab_ship_power_propagation = {
-				modifier = {
-					special_unit_forcelimit = 0.10 
-				}
-				ai_will_do = {
-					factor = 10
-				}
-			}
-			
 		ab_allow_religion_enforced = {
 				modifier = { governing_capacity = 150 }
 			ai_will_do = {
