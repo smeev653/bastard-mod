@@ -312,7 +312,7 @@ technology = {
 	#Star Bastions
 	fort_16th = yes
 	infantry_fire		=	0.3
-	
+	cavalry_shock		=	0.25
 	enable = african_hussar
 	enable = french_caracolle 
 	enable = huron_arquebusier	 
@@ -348,7 +348,7 @@ technology = {
 	#Maurician Infantry
 	land_morale 		=	1.0
 	military_tactics	=	0.25
-	
+	cavalry_shock		=	0.25
 
 	
 	enable = irish_charge 
@@ -371,7 +371,7 @@ technology = {
 	#Standardisation of Calibre
 	artillery_shock 	= 	0.1
 	artillery_fire 		= 	1.0	
-
+	cavalry_shock		=	0.25
 
 	training_fields = yes
 	
@@ -384,7 +384,7 @@ technology = {
 	# Tech 17
 	year = 1622
 	
-	cavalry_shock		=	1.0
+	cavalry_shock		=	0.25
 	supply_limit		= 	0.5	
 	
 	enable = maharathan_cavalry		
