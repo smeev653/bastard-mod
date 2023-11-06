@@ -2088,6 +2088,7 @@ poland_sca_slot_3_b = {
 					duration = 10950 
 				}
 			}
+			bastard_golden_age_effect = yes
 			custom_tooltip = pol_every_province_with_40_dev_tt
 			custom_tooltip = pol_unlock_when_plc_tt
 		}
@@ -2449,6 +2450,7 @@ poland_sca_slot_3_plc_1 = {
 					duration = 10950 
 				}
 			}
+			bastard_golden_age_effect = yes
 			custom_tooltip = pol_every_province_with_40_dev_tt
 			hidden_effect = { 
 				every_owned_province = {
