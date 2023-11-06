@@ -147,7 +147,7 @@ technology = {
 	military_tactics 	= 	0.25
 	infantry_shock		= 	0.30
 	infantry_fire 		= 	0.20
-	
+	cavalry_shock		=	0.2
 	
 	barracks = yes
 
@@ -178,6 +178,7 @@ technology = {
 	artillery_fire 		= 	1
 	artillery_shock 	=	0.05
 	military_tactics 	= 	0.25
+	cavalry_shock		=	0.2
 }
 
 technology = {
@@ -187,7 +188,7 @@ technology = {
 	
 	#Pike and Shot
 	infantry_fire		= 	0.25
-	cavalry_shock		=	0.8
+	cavalry_shock		=	0.3
 
 	
 	regimental_camp = yes
@@ -256,7 +257,7 @@ technology = {
 	
 	#Matchlock Musket
 	infantry_shock		= 	0.20
-	cavalry_fire		= 	0.5
+	cavalry_fire		= 	0.25
 
 	
 	weapons = yes
@@ -452,7 +453,7 @@ technology = {
 	
 	#Killing Grounds
 	
-	infantry_fire		= 	0.25
+	infantry_fire		= 	0.5
 		
 	enable = swivel_cannon
 
