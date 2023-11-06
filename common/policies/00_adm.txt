@@ -10,7 +10,7 @@ the_combination_act = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	cavalry_fire = 0.5
+	cavalry_fire = 0.375
 
 	effect = {}
 	removed_effect = {}
@@ -1185,7 +1185,7 @@ the_licensing_of_the_press_act = {
 		full_idea_group = aristocracy_ideas
 	}
 
-	cavalry_fire = 0.5
+	cavalry_fire = 0.375
 	
 	effect = {}
 	removed_effect = {}
@@ -2084,7 +2084,7 @@ head_of_state_act = {
 		full_idea_group = innovativeness_ideas 
 	}
 	
-	all_power_cost = -0.05
+	technology_cost = -0.05
 
 	effect = {}
 	removed_effect = {}
