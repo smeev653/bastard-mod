@@ -2030,10 +2030,6 @@ aq_qoyunlu_fifth = {
 				}
 			}
 			bastard_golden_age_effect = yes
-			add_country_modifier = {
-				name = "turkoman_era_of_white_sheep"
-				duration = 18250
-			}
 		}
 	}
 	
