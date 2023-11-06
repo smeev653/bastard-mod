@@ -281,9 +281,8 @@ expansion_ideas = {
 	}
 	factories = {
 		defensiveness = 0.15
-		allowed_marine_fraction = 0.15
+		allowed_marine_fraction = 0.25
 		center_of_trade_upgrade_cost = -0.25
-		trade_company_governing_cost = -0.15
 		trade_efficiency = 0.1
 		development_cost = -0.05
 	}
@@ -708,8 +707,7 @@ maritime_ideas = {
 	}
 	overseas_merchants = {
 		merchants = 1
-		placed_merchant_power = 5
-		trade_company_investment_cost = -0.15
+		placed_merchant_power = 15
 	}
 	sea_hawks = {
 		navy_tradition = 1
