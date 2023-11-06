@@ -3324,7 +3324,7 @@ estate_burghers_ARB_oasis_development = {
 			}
 		}
 		
-		custom_tooltip = ARB_estate_burghers_desert_development_gt
+		custom_tooltip = bs_ARB_estate_burghers_desert_development_gt
 		hidden_effect = {
 			every_owned_province = {
 				limit = {

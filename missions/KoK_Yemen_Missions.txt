@@ -137,7 +137,7 @@ KoK_YEM_missions_1 = {
 			total_development = 300
 		}
 		effect = {
-			give_claims = { region = egypt_region }
+			#give_claims = { region = egypt_region }
 			give_claims = { region = mashriq_region }
 			
 			custom_tooltip = " "

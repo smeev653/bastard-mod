@@ -43,44 +43,40 @@
 ARB_ideas = { #Arabian Empire
 	start = {
 		development_cost = -0.05
-		land_forcelimit_modifier = 0.25
+		infantry_power = 0.1
 	}
 	
 	bonus = {
-		discipline = 0.05
+		land_forcelimit_modifier = 0.25
 	}
 	
 	trigger = {
 		tag = ARB
 	}
 	free = yes
-	
-	arb_3 = { #Bedouin Raiders
-		shock_damage_received = -0.15
+	arb_7 = { #Arabia
+		land_morale = 0.1
 	}
 	arb_1 = { #Indian Ocean Trade
 		trade_efficiency = 0.1
+	}
+	arb_3 = { #Bedouin Raiders
+		shock_damage_received = -0.15
 	}
 	arb_5 = { #Unite the Tribes
 		manpower_recovery_speed = 0.2
 	}
 	arb_2 = { #Arabian Horsemanship
 		cavalry_cost = -0.1
-		infantry_power = 0.05
-		cavalry_power = 0.125
+		cavalry_power = 0.15
 	}
-	
 	arb_4 = { #Spreading the Prophet's Word
 		global_missionary_strength = 0.03
 	}
-	
 	arb_6 = { #Bedouin Traders
 		trade_steering = 0.33
 	}
-	arb_7 = { #Arabia
-		prestige = 1
-		army_tradition = 0.5
-	}
+	
 }
 
 GZM_ideas = { #Great Zimbabwe Empire
