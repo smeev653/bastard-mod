@@ -811,7 +811,7 @@ aristocracy_ideas = {
 	noble_knights = {
 		cavalry_cost = -0.1
 		cavalry_flanking = 1
-		special_unit_forcelimit = 0.1
+		cavalry_power = 0.1
 	}
 	noble_resilience = {
 		leader_siege = 1

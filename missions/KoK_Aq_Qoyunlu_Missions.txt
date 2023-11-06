@@ -141,7 +141,7 @@ aq_qoyunlu_first = {
 			}
 			add_country_modifier = {
 				name = turkoman_army_traditions
-				duration = 9125
+				duration = 5475
 			}
 			if = {
 				limit = {
