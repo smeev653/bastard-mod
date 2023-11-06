@@ -39,7 +39,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4891;983;sea;1491;1824;1654;1825;1658;Piktuk-Epagoitgnag
 997;981;sea;1493;1935;1781;1939;1773;Chisedek-Taqamkuk
 1050;4658;sea;1379;5014;1562;5017;1564;Deren-Nanghaer
-1215;387;sea;1330;3482;849;3484;853;Tajura-Mocha
+#1215;387;sea;1330;3482;849;3484;853;Tajura-Mocha
 112;1774;sea;1308;2995;1432;2994;1434;Venice-Treviso
 54;4141;sea;1268;2945;1599;2943;1597;Stade-Dithmarschen
 1820;1021;sea;1391;4912;1219;4919;1223;Awa-Settsu
@@ -89,8 +89,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 748;2890;sea;1529;2050;847;2046;850;Belem-Marajo
 911;2587;sea;1661;-1;-1;-1;-1;Belem-Marajo
 2954;353;sea;1305;2973;1210;2972;1208;Djerba-Tataouine
-431;2999;sea;1334;3693;1091;3689;1089;Mogostan-Hormuz
-398;2999;sea;1334;3686;1080;3684;1084;Qawasim-Hormuz
+#431;2999;sea;1334;3693;1091;3689;1089;Mogostan-Hormuz
+#398;2999;sea;1334;3686;1080;3684;1084;Qawasim-Hormuz
 146;3003;sea;1319;3174;1294;3175;1294;Athens - Euboea
 3003;164;sea;1319;3190;1287;3191;1286;Euboea - Cyclades
 31;4152;lake;4139;3232;1827;3235;1835;Savolax - Kuusamo
