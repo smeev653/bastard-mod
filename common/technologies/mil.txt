@@ -363,6 +363,7 @@ technology = {
 	enable = adal_gunpowder_warfare		
 	enable = ethiopian_gunpowder_warfare	
 	enable = steppe_musketeers
+	enable = ottoman_afsharid_infantry	
 }
 
 technology = {
