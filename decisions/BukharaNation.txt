@@ -14,7 +14,7 @@ country_decisions = {
 				is_free_or_tributary_trigger = yes
 				ai = no
 			}
-			tag = TRS
+			tag = SHY
 			NOT = { exists = BUK }
 			NOT = { has_reform = celestial_empire }
 			OR = {
