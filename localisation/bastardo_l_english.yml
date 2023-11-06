@@ -117,3 +117,4 @@
 #############scripted functions######################
 
 cant_colonize_nw_tt:0 "Unable to colonise the New World besides Colonial Brazil"
+bastard_if_used_ge_rest_else_30_years_extension_tt:0 "Extend Economic Golden Era by 30 years if active or reset it if it has passed."

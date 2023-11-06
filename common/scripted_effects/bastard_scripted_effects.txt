@@ -145,3 +145,29 @@ X_center_of_trade_effect = { #Not using country flags to switch between max leve
 		}
 	]
 }
+
+bastard_golden_age_effect = {
+	if = {
+			limit = {
+				has_dlc = "Mandate of Heaven"
+			}
+			custom_tooltip = bastard_if_used_ge_rest_else_30_years_extension_tt 
+			if = {
+				limit = {
+					has_country_flag = urbanisation_taken 
+					NOT = { has_country_modifier = urbanisation }
+				} 
+				clr_country_flag = urbanisation_taken
+			}
+			else_if = {
+				limit = { 
+					has_country_modifier = urbanisation
+					has_country_flag = urbanisation_taken 
+				} 
+					extend_country_modifier = {
+						name = urbanisation
+						duration = 10950
+					}
+			}
+	}
+}			

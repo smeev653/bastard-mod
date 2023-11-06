@@ -390,6 +390,9 @@ fort_15th = {
 						NOT = { is_capital = yes }
 					}
 				}
+			}
+		}
+	}	
 	keep_trigger = {
 		OR = {
 			AND = {
@@ -735,6 +738,9 @@ fort_16th = {
 						NOT = { is_capital = yes }
 					}
 				}
+			}
+		}
+	}
 	keep_trigger = {
 		OR = {
 			AND = {
@@ -1323,6 +1329,9 @@ fort_17th = {
 						NOT = { is_capital = yes }
 					}
 				}
+			}
+		}
+	}
 	keep_trigger = {
 		OR = {
 			AND = {
@@ -1850,6 +1859,9 @@ fort_18th = {
 						NOT = { is_capital = yes }
 					}
 				}
+			}
+		}
+	}
 	keep_trigger = {
 		OR = {
 			AND = {
