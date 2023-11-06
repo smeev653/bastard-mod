@@ -1,7 +1,6 @@
 government = tribal
 add_government_reform = tribal_federation
-primary_culture = turkish
-add_accepted_culture = kurdish
+primary_culture = kurdish
 add_accepted_culture = armenian
 religion = sunni
 technology_group = muslim
