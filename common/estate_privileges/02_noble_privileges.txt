@@ -3745,7 +3745,7 @@ estate_nobles_tupchi_artillery_corps = {
 			}
 		}
 		modifier = {
-			artillery_cost = -0.33
+			artillery_cost = -0.15
 		}
 	}
 	benefits = {
