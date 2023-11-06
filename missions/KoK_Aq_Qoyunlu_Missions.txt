@@ -1271,6 +1271,13 @@ aq_qoyunlu_fourth = {
 				}
 				add_permanent_claim = ROOT
 			}
+			shirvan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
