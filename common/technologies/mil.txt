@@ -467,7 +467,7 @@ technology = {
 	#Line Infantry
 	sprite_level = 3
 	military_tactics 	= 	0.25
-	
+	cavalry_fire		=	0.25
 	infantry_shock 		=	0.5
 }
 
@@ -476,7 +476,7 @@ technology = {
 	year = 1687
 	
 	#Cartridge	(1620)?)
-	cavalry_fire		=	0.5
+	cavalry_fire		=	0.25
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
 	
