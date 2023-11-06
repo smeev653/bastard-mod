@@ -454,7 +454,7 @@ technology = {
 	#Killing Grounds
 	
 	infantry_fire		= 	0.5
-		
+	cavalry_shock		=	0.25	
 	enable = swivel_cannon
 
 	combat_width = 2
@@ -468,6 +468,7 @@ technology = {
 	sprite_level = 3
 	military_tactics 	= 	0.25
 	cavalry_fire		=	0.25
+	cavalry_shock		=	0.25
 	infantry_shock 		=	0.5
 }
 
@@ -477,6 +478,7 @@ technology = {
 	
 	#Cartridge	(1620)?)
 	cavalry_fire		=	0.25
+	cavalry_shock		=	0.25
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
 	
@@ -497,7 +499,7 @@ technology = {
 	
 	#Light Cavalry
 	
-	cavalry_shock		=	1.0
+	cavalry_shock		=	0.25
 	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
 
