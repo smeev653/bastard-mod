@@ -118,3 +118,6 @@
 
 cant_colonize_nw_tt:0 "Unable to colonise the New World besides Colonial Brazil"
 bastard_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YEconomic Golden Age§! or extend the current one by §G30§! years"
+
+######trade#######
+baku:0 "Caucasus"
