@@ -106,12 +106,12 @@ religious_ideas = {
 		same_religion_advisor_cost = -0.1
 	}
 	divine_supremacy = {
-		land_morale = 0.025
+		land_morale = 0.05
 		recover_army_morale_speed = 0.05
 	}
 	missionary_schools = {
 		missionaries = 1
-		global_missionary_strength = 0.01
+		global_missionary_strength = 0.02
 		prestige_per_development_from_conversion = 0.5
 		global_tax_modifier = 0.1
 	}
@@ -265,15 +265,17 @@ expansion_ideas = {
 	}
 	faster_colonists = {
 		manpower_recovery_speed = 0.15
-		land_attrition = -0.1
+		land_attrition = -0.15
 	}
 	vice_roys  = {
 		global_tax_modifier = 0.1
 		state_maintenance_modifier = -0.20
  	}
 	additional_diplomats = {
-		diplomats = 1
-		min_autonomy_in_territories = -0.1
+		num_accepted_cultures = 1
+		manpower_in_accepted_culture_provinces = 0.15
+		manpower_in_culture_group_provinces = 0.15
+		manpower_in_own_culture_provinces = 0.15
 	}
 	competetive_merchants  = {
 		placed_merchant_power_modifier = 0.5
@@ -488,7 +490,6 @@ spy_ideas = {
 	}	
 	agent_training = {
 		drill_decay_modifier = -0.25
-		advisor_cost = -0.10
 	}
 	vetting = {
 		global_tax_modifier = 0.1
@@ -531,7 +532,7 @@ diplomatic_ideas = {
 	}
 	cabinet = {
 		country_diplomatic_power = 1
-		advisor_cost = -0.1
+		advisor_cost = -0.15
 	}
 	benign_diplomats = {
 		free_policy = 1
@@ -539,7 +540,6 @@ diplomatic_ideas = {
 	}
 	experienced_diplomats  = {
 		power_projection_from_insults = 1
-		land_morale = 0.025
 	}
 	flexible_negotiation = {
 		province_warscore_cost = -0.15
@@ -657,7 +657,7 @@ court_ideas = {
 	}
 	respected_authority = {
 		prestige_from_land = 0.25
-		land_morale = 0.025
+		land_morale = 0.05
 	}
 	
 	ai_will_do = {
