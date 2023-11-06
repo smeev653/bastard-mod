@@ -374,6 +374,9 @@ fort_15th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -386,10 +389,7 @@ fort_15th = {
 						}
 						NOT = { is_capital = yes }
 					}
-				}	
-			}
-		}
-	}
+				}
 	keep_trigger = {
 		OR = {
 			AND = {
@@ -401,6 +401,9 @@ fort_15th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -418,6 +421,9 @@ fort_15th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -713,6 +719,9 @@ fort_16th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -725,10 +734,7 @@ fort_16th = {
 						}
 						NOT = { is_capital = yes }
 					}
-				}	
-			}
-		}
-	}
+				}
 	keep_trigger = {
 		OR = {
 			AND = {
@@ -740,6 +746,9 @@ fort_16th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -757,6 +766,9 @@ fort_16th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -1295,6 +1307,9 @@ fort_17th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -1307,10 +1322,7 @@ fort_17th = {
 						}
 						NOT = { is_capital = yes }
 					}
-				}	
-			}
-		}
-	}
+				}
 	keep_trigger = {
 		OR = {
 			AND = {
@@ -1322,6 +1334,9 @@ fort_17th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -1339,6 +1354,9 @@ fort_17th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -1816,6 +1834,9 @@ fort_18th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -1828,10 +1849,7 @@ fort_18th = {
 						}
 						NOT = { is_capital = yes }
 					}
-				}	
-			}
-		}
-	}
+				}
 	keep_trigger = {
 		OR = {
 			AND = {
@@ -1843,6 +1861,9 @@ fort_18th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -1860,6 +1881,9 @@ fort_18th = {
 			NOT = {
 				ROOT = {
 					any_neighbor_province = {
+						owner = {
+							tag = ROOT
+						}
 						OR = {
 							has_building = fort_15th
 							has_construction = fort_15th
@@ -2354,6 +2378,7 @@ ramparts = {
 				}
 			}
 		}
+		NOT = {has_terrain = mountain }
 	}
 	keep_trigger = {
 		NOT = {
@@ -2368,6 +2393,7 @@ ramparts = {
 				}
 			}
 		}
+		NOT = {has_terrain = mountain }
 	}	
 		on_built = {
 		add_dev_from_building = {
