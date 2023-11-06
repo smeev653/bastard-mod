@@ -314,6 +314,7 @@ technology = {
 	infantry_fire		=	0.3
 	cavalry_shock		=	0.25
 	enable = african_hussar
+	enable = ottoman_hussar
 	enable = french_caracolle 
 	enable = huron_arquebusier	 
 	enable = creek_arquebusier	
