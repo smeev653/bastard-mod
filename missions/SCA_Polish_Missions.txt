@@ -2072,7 +2072,7 @@ poland_sca_slot_3_b = {
 		effect = {
 			if = { 
 				limit = { has_dlc = "Mandate of Heaven" }
-				custom_tooltip = pol_if_used_ge_rest_else_30_years_extension_tt 
+				custom_tooltip = bs_pol_if_used_ge_rest_else_30_years_extension_tt 
 				if = {
 					limit = { has_had_golden_age = yes } 
 					reset_golden_age = yes 
@@ -2434,7 +2434,7 @@ poland_sca_slot_3_plc_1 = {
 		effect = {
 			if = { 
 				limit = { has_dlc = "Mandate of Heaven" }
-				custom_tooltip = pol_if_used_ge_rest_else_30_years_extension_tt 
+				custom_tooltip = bs_pol_if_used_ge_rest_else_30_years_extension_tt 
 				if = {
 					limit = { has_had_golden_age = yes } 
 					reset_golden_age = yes 
