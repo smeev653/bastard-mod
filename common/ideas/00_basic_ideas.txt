@@ -175,7 +175,7 @@ economic_ideas = {
 
 	bonus = {
 		global_autonomy = -0.05
-		global_prosperity_growth = 0.25
+		global_prosperity_growth = 0.5
 	}
 
 	bureaucracy = { 
