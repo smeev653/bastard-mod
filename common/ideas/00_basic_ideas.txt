@@ -485,7 +485,7 @@ spy_ideas = {
 		loot_amount = 0.50
 	}
 	efficient_spies = {
-		development_cost_in_primary_culture = -0.1
+		development_cost_in_primary_culture = -0.05
 	}	
 	agent_training = {
 		drill_decay_modifier = -0.25
