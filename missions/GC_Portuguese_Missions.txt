@@ -1246,7 +1246,7 @@ gc_por_4 = {
 	
 	gc_portugal_discovers_india = {
 		icon = mission_trade_company_region_abroad
-		required_missions = { gc_por_discovers_horn_africa }
+		required_missions = { }
 		completed_by = 1536.1.1
 		position = 5
 		trigger = {
