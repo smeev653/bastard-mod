@@ -1,5 +1,17 @@
 country_decisions = {
-		
+	new_player_readme = {
+		color = { 41  233  249 }
+		potential = {
+			ai = no
+       }
+		allow = {
+		}
+		effect = {
+			country_event = {
+				id = echo.6
+			}
+		}
+	}	
 	urbanisation = {
 		color = { 166  0  0 }
 		potential = {

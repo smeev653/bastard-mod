@@ -318,4 +318,17 @@ country_event = {
 			factor = 0
 		}
     }
+}
+
+country_event = {
+    id = echo.6
+    title = echo.6.t
+    desc = echo.6.d
+    picture = COURT_eventPicture
+
+    is_triggered_only = yes
+	
+    option = {
+		name = echo.6.a
+	}
 }	
