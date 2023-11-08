@@ -1457,17 +1457,17 @@ mam_missions_4 = {
 		}
 		effect = {
 			clr_country_flag = mam_intervened_syria
-			anatolia_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
+			#anatolia_region = {
+			#	limit = {
+			#		NOT = { is_core = ROOT }
+			#		NOT = { is_permanent_claim = ROOT }
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
 			if = {
 				limit = { has_dlc = "Mandate of Heaven" }
-				syria_area = { add_prosperity = 25 }
-				aleppo_area = { add_prosperity = 25 }
+				syria_area = { add_prosperity = 100 }
+				aleppo_area = { add_prosperity = 100 }
 			}
 			else = {
 				382 = { add_random_development = 1 }
