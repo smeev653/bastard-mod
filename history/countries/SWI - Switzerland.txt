@@ -6,7 +6,7 @@ religion = catholic
 primary_culture = swiss
 capital = 165 # Bern
 add_army_professionalism = 0.1
-
+elector = yes
 1444.11.1 = {
 	monarch = {
 		name = "Jules von Hasseln"
