@@ -141,6 +141,7 @@ country_event = {
 	trigger = {
 		army_reformer = 3
 		NOT = { has_country_flag = army_reformer }
+		mil_tech = 9
 	}
 	
 	mean_time_to_happen = {
@@ -986,6 +987,7 @@ country_event = {
 		grand_captain = 3
 		NOT = { has_country_modifier = echo_grand_captain_cooldown }
 		NOT = { has_country_modifier = echo_grand_captain_cooldown_100 }
+		mil_tech = 9
 	}
 	
 	mean_time_to_happen = {
@@ -1073,6 +1075,7 @@ country_event = {
 	
 	trigger = {
 		army_organiser = 3
+		mil_tech = 9
 		NOT = { has_country_flag = army_organiser }
 	}
 	
@@ -1146,6 +1149,7 @@ country_event = {
 		commandant = 3
 		NOT = { has_country_modifier = echo_commandant_cooldown }
 		NOT = { has_country_modifier = echo_commandant_cooldown_100 }
+		mil_tech = 9
 	}
 	
 	mean_time_to_happen = {
