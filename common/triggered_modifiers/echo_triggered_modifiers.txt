@@ -1,11 +1,11 @@
 Splendid_Court= {
 	potential = {
 		current_age = age_of_discovery
+		ai = no
 	}
 	
 
 	trigger = {
-		ai = no
 		is_at_war = no
 		OR = {
 			has_adm_advisor_3 = yes
@@ -16,8 +16,6 @@ Splendid_Court= {
 	advisor_cost = -0.1
 	development_cost = -0.05
 	build_cost = -0.05
-	monthly_splendor = 1
-	monthly_reform_progress_modifier = 0.25
 }
 
 Minor = {
