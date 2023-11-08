@@ -685,6 +685,8 @@ cancelled_loan = {
 
 bank_loan = {
 	build_cost = 0.005
+	mercenary_manpower = -0.01
+	
 }
 
 inflation = {
