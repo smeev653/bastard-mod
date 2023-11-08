@@ -1,4 +1,6 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+28;36;sea;1254;-1;-1;-1;-1;Nyland-Reval
+3;25;sea;1255;-1;-1;-1;-1;Kalmar-Gotland
 333;4559;sea;1300;-1;-1;-1;-1;Majorca-Minorca
 4560;333;sea;1295;-1;-1;-1;-1;Ibiza-Majorca
 366;4565;sea;1471;-1;-1;-1;-1;Canaries

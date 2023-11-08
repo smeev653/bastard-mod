@@ -3716,6 +3716,10 @@ country_event = {
 			limit = { NOT = { owns_core_province = 1776 } }
 			add_permanent_claim = 1776
 		}
+		if = {
+			limit = { NOT = { owns_core_province = 25 } }
+			add_permanent_claim = 25
+		}
 		karelia_area = {
 			limit = {
 				NOT = { is_core = ROOT }
