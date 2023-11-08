@@ -11447,7 +11447,7 @@ per_reinforced_defenses = {
 estate_privilege_defensive_policy_tooltip = {
 	nobles_influence_modifier = 0.1
 	nobles_loyalty_modifier = 0.05
-	garrison_size = 0.25
+	garrison_size = 0.1
 	fort_maintenance_modifier = -0.33
 }
 
@@ -11458,7 +11458,7 @@ estate_burghers_great_works_of_iran_tooltip = {
 }
 
 estate_burghers_persian_rugs_modifier = {
-	trade_goods_size_modifier = 0.15
+	trade_goods_size_modifier = 0.1
 }
 
 estate_burghers_persian_rugs_tooltip = {
@@ -11486,15 +11486,15 @@ estate_qizilbash_regimental_discipline_qizilbash = {
 }
 
 estate_nobles_tofangchi_regiment_tooltip = {
-	infantry_power = 0.1
+	infantry_power = 0.05
 	nobles_influence_modifier = 0.1
 	nobles_loyalty_modifier = 0.05
 }
 
 per_investment_into_persia = {
 	build_cost = -0.1
-	build_time = -0.25
-	development_cost = -0.05
+	#build_time = -0.25
+	#development_cost = -0.05
 }
 
 per_persian_merchants_active = {
@@ -11593,14 +11593,14 @@ per_increased_conversion_efforts = {
 }
 per_increased_tolerance_efforts = {
 	tolerance_heathen = 2
-	idea_cost = -0.1
+	idea_cost = -0.05
 }
 
 #Permanently until no more DotF
 per_persian_defender_of_faith = {
 	diplomatic_reputation = 1
 	reverse_relation_with_same_religion = 10
-	same_religion_advisor_cost = -0.1
+	same_religion_advisor_cost = -0.05
 	religion = yes
 }
 
@@ -11614,7 +11614,7 @@ per_culture_of_art = {
 per_restored_avesta = {
 	missionaries = 1
 	global_missionary_strength = 0.01
-	technology_cost = -0.1
+	technology_cost = -0.05
 }
 
 estate_church_muslim_integration_tooltip = {
@@ -11651,19 +11651,19 @@ egyptian_adm_westernization_5_modifier = {
 }
 
 egyptian_dip_westernization_2_modifier = {
-	global_trade_goods_size_modifier = 0.05
+	global_trade_goods_size_modifier = 0.025
 }
 
 egyptian_dip_westernization_3_modifier = {
-	global_trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.05
 }
 
 egyptian_dip_westernization_4_modifier = {
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.075
 }
 
 egyptian_dip_westernization_5_modifier = {
-	global_trade_goods_size_modifier = 0.2
+	global_trade_goods_size_modifier = 0.1
 }
 
 egyptian_mil_westernization_2_modifier = {
