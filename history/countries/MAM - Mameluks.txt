@@ -15,7 +15,7 @@ change_estate_land_share = {
 	share = -10
 }
 change_estate_land_share = {
-	estate = estate_burghers
+	estate = estate_nobles
 	share = 10
 }
 
@@ -70,15 +70,26 @@ change_estate_land_share = {
 		birth_date = 1372.1.1
 		dynasty = "Burji"
 		culture = circassian
-		adm = 3
-		dip = 3
-		mil = 4
+		adm = 4
+		dip = 4
+		mil = 5
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = silver_tongue_personality
-	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = well_advised_personality
 }
-
+1439.1.1 = {
+	leader = {
+		name = "Abu Tow"
+		type = general
+		fire = 3
+		shock = 3
+		manuever = 3
+		siege = 1
+		death_date = 1453.9.9
+		personality = inspirational_leader_general_personality
+	}
+}
 1444.9.18 = {
 	320 = { add_claim = ROOT }
 	add_truce_with = KNI
