@@ -1932,6 +1932,44 @@ TUR_ideas = {
 		num_accepted_cultures = 1
 	}
 }
+
+HUN_ideas = {
+	start = {
+		cavalry_power = 0.15
+		recover_army_morale_speed = 0.10
+	}
+	
+	bonus = {
+		gold_depletion_chance_modifier = -0.2
+	}
+	
+	trigger = {
+		tag = HUN
+	}
+	free = yes
+	
+	hun_renaissanse_knowledge = {
+		global_unrest = -1
+	}
+	bulwark_of_christianity = {
+		global_manpower_modifier = 0.2
+	}
+	found_the_black_army = {
+		discipline = 0.05
+	}
+	reformed_coinage = {
+		global_tax_modifier = 0.1
+	}
+	curtailed_peasantry = {
+		production_efficiency = 0.1
+	}
+	strengthened_towns = {
+		global_own_trade_power = 0.25
+	}
+	hungarian_estates_general = {
+		no_religion_penalty = yes
+	}
+}
 PER_ideas = {
 	start = {
 		land_morale = 0.15
