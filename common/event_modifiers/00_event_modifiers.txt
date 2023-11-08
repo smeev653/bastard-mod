@@ -9102,7 +9102,7 @@ dissatisfied_jews = {
 
 #Consort Events
 domain_of_spouses_family = {
-	local_autonomy = 0.1
+	#local_autonomy = 0.1
 	local_missionary_strength = -0.05
 	local_unrest = -3
 }
@@ -9977,7 +9977,7 @@ ghazis_from_abroad = {
 sufi_shrine = {
 	local_unrest = -2
 	tax_income = 2
-	local_autonomy = 0.1
+	#local_autonomy = 0.1
 }
 
 sought_sufi_sheikh = {
