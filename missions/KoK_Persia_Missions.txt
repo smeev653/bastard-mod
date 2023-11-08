@@ -1572,7 +1572,7 @@ kok_persia_military_mission_slot_2 = {
 		effect = {
 			create_general_with_pips = {
 				tradition = 50
-				add_shock = 1
+				#add_shock = 1
 			}
 		}
 	}
