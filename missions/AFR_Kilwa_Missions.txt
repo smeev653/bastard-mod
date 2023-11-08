@@ -113,14 +113,9 @@ kilwa_cape_missions_slot = {
 			has_discovered = 1177
 		}
 		effect = {
-			add_years_of_trade_income = 0.5
-			#add_country_modifier = {
-			#	name = zan_expansion_into_the_cape
-			#	duration = 18250
-			#}
-			#create_colony_mission_reward = {
-			#	province = 1177
-			#}
+			add_years_of_trade_income = {
+				years = 0.5
+			}
 		}
 		ai_weight = {
 			factor = 0	#AI shouldn't really focus on that so the Europeans get the Cape instead

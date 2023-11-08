@@ -2108,10 +2108,10 @@ french_missions_2_Continuation_b = {
 			if = {
 				limit = { NOT = { mil_tech = 7 } }
 				capital_scope = {
-					culverin = ROOT
-					culverin = ROOT
-					culverin = ROOT
-					culverin = ROOT
+					houfnice = ROOT
+					houfnice = ROOT
+					houfnice = ROOT
+					houfnice = ROOT
 				}
 			}
 			else = {

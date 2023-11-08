@@ -1166,10 +1166,10 @@ tur_african_conquest = {
 			if = {
 				limit = { NOT = { mil_tech = 10 } }
 				capital_scope = {
-					culverin = ROOT
-					culverin = ROOT
-					culverin = ROOT
-					culverin = ROOT
+					houfnice = ROOT
+					houfnice = ROOT
+					houfnice = ROOT
+					houfnice = ROOT
 				}
 				custom_tooltip = tur_guns_of_urban_ct
 			}
