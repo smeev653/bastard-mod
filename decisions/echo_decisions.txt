@@ -100,6 +100,11 @@ country_decisions = {
 					}
 				}
 				NOT = {
+					capital_scope = {
+						continent = asia
+					}
+				}
+				NOT = {
 					is_nomad = yes
 				}
 				NOT = { has_country_modifier = free_colonist}	
