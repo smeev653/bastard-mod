@@ -570,7 +570,7 @@ base_values = {
 	republican_tradition = 1
 	monthly_fervor_increase = 1
 	vassal_income = 0.10
-	horde_unity = -2
+	#horde_unity = -2
 	devotion = -0.5
 	meritocracy = -2
 	governing_capacity = 200
@@ -973,7 +973,7 @@ negative_karma = {
 
 # Multiplied by Development/COUNTRY_DEVELOPMENT_SCALE
 country_development = {
-	horde_unity = -3
+	#horde_unity = -3
 }
 
 # Multiplied by current Legitimacy - 50
@@ -1849,7 +1849,7 @@ lenient_taxation_modifier = {
 }
 
 train_horsemanship_modifier = {
-	cavalry_power = 0.15
+	cavalry_power = 0.1
 }
 
 promote_culture_in_government_modifier = {
