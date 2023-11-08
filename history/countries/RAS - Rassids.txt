@@ -16,13 +16,13 @@ religious_school = zaidi_school
 		name = "Al-Mutahhar"
 		dynasty = "al-Mutahhar"
 		adm = 4
-		dip = 5
-		mil = 6
+		dip = 4
+		mil = 4
 	}
 	add_piety = 1
 }
 1443.1.1 = {
-	leader = {	name = "Husayn"            	type = general	fire = 4	shock = 5	manuever = 5	siege = 1 }
+	leader = {	name = "Husayn"            	type = general	fire = 4	shock = 4	manuever = 4	siege = 1 }
 }
 1474.1.1 = {
 	monarch = {

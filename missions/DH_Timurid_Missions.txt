@@ -10,7 +10,6 @@ dh_tim_india = {
 			tag = TIM
 			tag = TRS
 			tag = AFG
-			tag = QOM
 			tag = KHO
 			tag = BUK
 		}

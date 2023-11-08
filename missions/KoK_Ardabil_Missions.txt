@@ -6,10 +6,7 @@ ardabil_missions_1 = {
 		has_dlc = "King of Kings"
 	}
 	potential = {
-		OR = {
-			tag = ARL
-			tag = QOM
-		}
+		tag = QOM
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
 	}
@@ -66,10 +63,7 @@ ardabil_missions_2 = {
 		has_dlc = "King of Kings"
 	}
 	potential = {
-		OR = {
-			tag = ARL
-			tag = QOM
-		}
+		tag = QOM
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
 	}
@@ -170,10 +164,7 @@ ardabil_missions_3 = {
 		has_dlc = "King of Kings"
 	}
 	potential = {
-		OR = {
-			tag = ARL
-			tag = QOM
-		}
+		tag = QOM
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
 	}
@@ -209,10 +200,7 @@ ardabil_missions_4 = {
 		has_dlc = "King of Kings"
 	}
 	potential = {
-		OR = {
-			tag = ARL
-			tag = QOM
-		}
+		tag = QOM
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
 	}
@@ -327,10 +315,7 @@ ardabil_missions_5 = {
 		has_dlc = "King of Kings"
 	}
 	potential = {
-		OR = {
-			tag = ARL
-			tag = QOM
-		}
+		tag = QOM
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
 	}
@@ -351,7 +336,7 @@ ardabil_missions_5 = {
 			}
 		}
 		effect = {
-			add_army_tradition = 20
+			add_army_tradition = 15
 		}
 	}
 

@@ -7,7 +7,6 @@ tim_reconquest_persia = {
 			tag = TIM
 			tag = TRS
 			tag = AFG
-			tag = QOM
 			tag = KHO
 			tag = FRS
 		}
@@ -35,28 +34,6 @@ tim_reconquest_persia = {
 			}
 			else_if = {
 				limit = {
-					tag = QOM
-				}
-				NOT = {
-					all_subject_country = {
-						liberty_desire = 1
-					}
-				}
-				TIM = {
-					OR = {
-						has_opinion_modifier = {
-							who = ROOT
-							modifier = insulted
-						}
-						has_opinion_modifier = {
-							who = ROOT
-							modifier = scornfully_insulted
-						}
-					}
-				}
-			}
-			else_if = {
-				limit = {
 					tag = TIM
 					NOT = { vassal = 1 }
 				}
@@ -70,10 +47,7 @@ tim_reconquest_persia = {
 			else_if = {
 				limit = {
 					NOT = {
-						OR = {
 							tag = TIM
-							tag = QOM
-						}
 					}
 				}
 				OR = {
@@ -276,7 +250,6 @@ tim_reconquest_khorasan = {
 			tag = TIM
 			tag = TRS
 			tag = AFG
-			tag = QOM
 			tag = KHO
 		}
 		NOT = { has_dlc = "Dharma" }
@@ -466,7 +439,6 @@ tim_reconquest_transoxiana = {
 			tag = TIM
 			tag = TRS
 			tag = AFG
-			tag = QOM
 			tag = KHO
 			tag = BUK
 		}
@@ -718,7 +690,6 @@ tim_india = {
 			tag = TIM
 			tag = TRS
 			tag = AFG
-			tag = QOM
 			tag = KHO
 		}
 		NOT = { has_dlc = "Dharma" }
