@@ -9033,7 +9033,7 @@ fra_resurgence_of_crusader_fervor_modifier = {
 	manpower_in_true_faith_provinces = 0.1
 }
 fra_italian_wars_modifier = { 
-	siege_ability = 0.15 
+	siege_ability = 0.1
 }
 fra_kingdom_sea_modifier = {
 	trade_efficiency = 0.1
@@ -9076,7 +9076,7 @@ fra_sociopolitical_reforms_modifier = {
 }
 fra_exploitation_of_neapolitan_estates_modifier = {
 	development_cost = -0.05
-	global_tax_modifier = 0.15
+	global_tax_modifier = 0.1
 }
 fra_franco_iberian_cooperation_modifier = { 
 	technology_cost = -0.025
