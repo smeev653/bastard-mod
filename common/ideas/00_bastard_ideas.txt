@@ -1777,7 +1777,6 @@ MAM2_ideas = { #Mission reward to double mam_monopoly_ports // see mam_establish
 	start = {
 		trade_steering = 0.25
 		global_tax_modifier = 0.10
-		
 	}
 	
 	bonus = {
@@ -1826,7 +1825,6 @@ MAM_ideas = {
 	
 	trigger = {
 		tag = MAM
-		has_country_flag = mam_upgrade_national_idea_flag
 	}
 	free = yes
 	
