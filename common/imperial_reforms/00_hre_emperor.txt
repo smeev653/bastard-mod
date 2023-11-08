@@ -7,12 +7,12 @@ emperor_reichsreform = {
 		local_build_cost = -0.025
 		local_development_cost = -0.025
 	}
-	on_effect = {
-		imperial_ban_allowed = yes
-	}
-	off_effect = {
-		imperial_ban_allowed = no
-	}
+	#on_effect = {
+	#	imperial_ban_allowed = yes
+	#}
+	#off_effect = {
+	#	imperial_ban_allowed = no
+	#}
 	gui_container = mainline
 }
 
@@ -44,9 +44,9 @@ emperor_reichsstabilitaet = {
 		local_monthly_devastation = -0.1
 		local_prosperity_growth = 0.1
 	}
-	on_effect = {
-		custom_tooltip = "EXPAND_EMPIRE_CB"
-	}
+	#on_effect = {
+	#	custom_tooltip = "EXPAND_EMPIRE_CB"
+	#}
 }
 
 emperor_gemeinerpfennig = {
@@ -209,9 +209,9 @@ emperor_geteilte_macht = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	on_effect = {
-		custom_tooltip = GETEILTE_MACHT_EFFECT
-	}
+	#on_effect = {
+	#	custom_tooltip = GETEILTE_MACHT_EFFECT
+	#}
 	emperor = {
 		advisor_cost = -0.1
 	}
