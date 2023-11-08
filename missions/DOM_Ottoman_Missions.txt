@@ -2096,8 +2096,6 @@ tur_egyptian_conquest = {
 			}
 		}
 		effect = {
-			remove_ruler_personality = conqueror_personality
-			add_ruler_personality = legendary_conqueror_personality
 			country_event_with_insight = {
 				id = flavor_tur.205
 				insight_tooltip = INSIGHT_JUST_TOOLTIP
