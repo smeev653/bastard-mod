@@ -15,9 +15,9 @@ add_truce_with = HUN
 
 1444.11.11 = {
 	monarch = {
-		adm = 0
-		mil = 0
-		dip = 0
+		adm = 4
+		mil = 5
+		dip = 4
 		regent = yes
 	}
 }
