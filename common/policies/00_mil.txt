@@ -12,7 +12,6 @@ privy_council_establishment_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	siege_ability = 0.1
 	army_tradition = 0.5
 	
 	effect = {}
@@ -91,7 +90,7 @@ the_mining_act = {
 		full_idea_group = quality_ideas
 	}
 	
-	leader_land_manuever = 1
+	leader_land_fire = 1
 	
 	effect = {}
 	removed_effect = {}
@@ -118,7 +117,7 @@ the_liquor_act = {
 		full_idea_group = administrative_ideas
 	}	
 
-	land_morale = 0.075
+	land_morale = 0.05
 
 	effect = {}
 	removed_effect = {}
@@ -178,7 +177,7 @@ public_road_act = {
 	}
 	
 	global_naval_barrage_cost = -1
-	trade_efficiency = 0.05
+	trade_efficiency = 0.075
 
 	effect = {}
 	removed_effect = {}
@@ -248,8 +247,7 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	max_general_shock = 1
-	shock_damage_received = -0.075
+	shock_damage_received = -0.15
 
 	effect = {}
 	removed_effect = {}
@@ -275,9 +273,7 @@ superior_fortification_act = {
 		full_idea_group = defensive_ideas
 	}
 	
-	defensiveness = 0.15
-	fort_maintenance_modifier = -0.2
-
+	morale_damage = 0.1
 
 	effect = {}
 	removed_effect = {}
@@ -357,7 +353,7 @@ military_zeal_act = {
 	}
 	
 	morale_damage = 0.05
-	land_morale = 0.05
+	land_morale = 0.025
 
 	effect = {}
 	removed_effect = {}
@@ -384,7 +380,6 @@ field_priests = {
 	}
 
 	land_morale = 0.05
-	recover_army_morale_speed = 0.05
 	
 	effect = {}
 	removed_effect = {}
@@ -409,8 +404,7 @@ field_priests = {
  		full_idea_group = quantity_ideas
  	}
  	
- 	diplomatic_reputation = 1
- 	land_forcelimit_modifier = 0.1
+ 	land_forcelimit_modifier = 0.15
  
  	
  	effect = {}
@@ -452,8 +446,7 @@ local_army_organisation = {
 		full_idea_group = defensive_ideas
 	}
 
-	morale_damage = 0.05
-	land_attrition = -0.1
+	morale_damage = 0.1
 
 	effect = {}
 	removed_effect = {}
@@ -474,8 +467,7 @@ local_army_organisation = {
  		full_idea_group = offensive_ideas
  	}
  	
- 	spy_offence = 0.33
- 	diplomatic_reputation = 1
+ 	assault_fort_ability = 0.25
  
  	effect = {}
  	removed_effect = {}
@@ -527,7 +519,6 @@ local_army_organisation = {
  	}
  
  	army_tradition = 0.5
- 	diplomats = 1
  	
  	effect = {}
  	removed_effect = {}
@@ -549,7 +540,7 @@ colonial_garrisons = {
 		full_idea_group = expansion_ideas
 	}
 
-	global_manpower_modifier = 0.25
+	global_manpower_modifier = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -580,7 +571,6 @@ colonial_garrisons = {
  	}	
  	
  	siege_blockade_progress = 1
- 	global_naval_engagement_modifier = 0.1
  	
  	effect = {}
  	removed_effect = {}
@@ -668,7 +658,7 @@ autonomous_estates = {
 		full_idea_group = aristocracy_ideas
 	}	
 	
-	land_morale = 0.075
+	land_morale = 0.05
 	
 	effect = {}
 	removed_effect = {}
@@ -902,7 +892,6 @@ noble_loyalty_act = {
 		full_idea_group = spy_ideas
 	}
 
-	cavalry_cost = -0.1
 	cavalry_power = 0.1
 	
 	effect = {}
@@ -988,7 +977,7 @@ military_allotment_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	global_manpower_modifier = 0.25
+	global_manpower_modifier = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -1093,8 +1082,7 @@ deserteur_act = {
 		full_idea_group = quality_ideas
 	}
 
-	discipline = 0.03
-	siege_ability = 0.1
+	discipline = 0.025
 	
 	effect = {}
 	removed_effect = {}
@@ -1198,8 +1186,7 @@ deserteur_act = {
  		full_idea_group = administrative_ideas
  	}
  
- 	manpower_in_true_faith_provinces = 0.15
- 	recover_army_morale_speed = 0.1
+ 	manpower_in_true_faith_provinces = 0.2
  	
  	effect = {}
  	removed_effect = {}
@@ -1226,7 +1213,6 @@ deserteur_act = {
  	}
 
   	land_morale = 0.05
-	global_tax_modifier = 0.1
 	
  	effect = {}
  	removed_effect = {}
@@ -1253,7 +1239,6 @@ deserteur_act = {
  	}
  
  	land_morale = 0.05
- 	infantry_cost = -0.15
  	
  	effect = {}
  	removed_effect = {}
@@ -1414,8 +1399,8 @@ deserteur_act = {
  		full_idea_group = spy_ideas
  	}
  
- 	siege_ability = 0.1
- 	artillery_level_modifier = 1
+ 	morale_damage = 0.075
+ 	manpower_recovery_speed = 0.1
  
  	effect = {}
  	removed_effect = {}
@@ -1515,7 +1500,7 @@ handpicked_recruits_act = {
 		full_idea_group = quality_ideas 
 	}
 	
-	build_time = -0.2
+	build_cost = -0.1
 
 	effect = {}
 	removed_effect = {}
@@ -1538,7 +1523,6 @@ mass_conscription_act = {
 		
 	}
 	
-	reinforce_speed = 0.33
 	reinforce_cost_modifier = -0.15
 
 	effect = {}
@@ -1652,7 +1636,6 @@ sharp_wits_act = {
 	}
 	
 	assault_fort_ability = 0.25
-	assault_fort_cost_modifier = -0.25
 
 	effect = {}
 	removed_effect = {}
@@ -1697,7 +1680,7 @@ special_forces_act = {
 		full_idea_group = quality_ideas 
 	}
 	
-	infantry_power = 0.075
+	infantry_power = 0.05
 
 	effect = {}
 	removed_effect = {}
@@ -1720,7 +1703,6 @@ plentiful_materials_act = {
 	}
 	
 	build_cost = -0.1
-	build_time = -0.15
 
 	effect = {}
 	removed_effect = {}
@@ -1765,8 +1747,7 @@ dutiful_mercenaries_act = {
 		full_idea_group = religious_ideas 
 	}
 
-	merc_leader_army_tradition = 0.5
-	mercenary_manpower = 0.1
+	mercenary_discipline = 0.05
 
 	effect = {}
 	removed_effect = {}
@@ -1788,8 +1769,7 @@ hired_expeditions_act = {
 		full_idea_group = expansion_ideas 
 	}
 	
-	force_march_free = yes 
-	movement_speed = 0.1
+	mercenary_manpower = 0.25 
 
 	effect = {}
 	removed_effect = {}
