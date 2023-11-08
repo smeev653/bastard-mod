@@ -90,7 +90,7 @@ dei_gratia_rex = {
     modifier = {
         manpower_in_true_faith_provinces = 0.10
         unrest_catholic_provinces = -2
-        drill_decay_modifier = -0.25
+        drill_decay_modifier = -0.15
     }
 	potential = {
 	}
