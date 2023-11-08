@@ -1069,7 +1069,7 @@ kok_persia_defense_mission_slot_3 = {
 				area = khuzestan_area
 			}
 			country_or_non_sovereign_subject_holds = root
-			NOT = { has_building = ramparts }
+			NOT = { has_building = fort_15th }
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -1082,8 +1082,8 @@ kok_persia_defense_mission_slot_3 = {
 					area = luristan_area
 					area = khuzestan_area
 				}
-				has_building = ramparts
-				value = 4
+					has_building = fort_15th
+					value = 4
 			}
 		}
 		effect = {
@@ -1096,13 +1096,13 @@ kok_persia_defense_mission_slot_3 = {
 				}
 			}
 			hidden_effect = {
-				random_province = { limit = { 	area = imereti_area				country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = samtskhe_area			country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = armenia_area				country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = north_kurdistan_area		country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = shahrizor_area			country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = luristan_area			country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = khuzestan_area			country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = imereti_area				country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = samtskhe_area			country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = armenia_area				country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = north_kurdistan_area		country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = shahrizor_area			country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = luristan_area			country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = khuzestan_area			country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
 			}
 		}
 	}
@@ -1208,7 +1208,7 @@ kok_persia_conquest_mission_slot_4 = {
 				area = makran_area
 			}
 			country_or_non_sovereign_subject_holds = root
-			NOT = { has_building = ramparts }
+			NOT = { has_building = fort_15th }
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -1221,7 +1221,7 @@ kok_persia_conquest_mission_slot_4 = {
 					area = birjand_area
 					area = makran_area
 				}
-				has_building = ramparts
+				has_building = fort_15th
 				value = 4
 			}
 		}
@@ -1235,13 +1235,13 @@ kok_persia_conquest_mission_slot_4 = {
 				}
 			}
 			hidden_effect = {
-				random_province = { limit = { 	area = kalat_area		country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = sistan_area		country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = ghor_area		country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = kabulistan_area	country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = mashhad_area		country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = birjand_area		country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
-				random_province = { limit = { 	area = makran_area		country_or_non_sovereign_subject_holds = root has_building = ramparts } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = kalat_area		country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = sistan_area		country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = ghor_area		country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = kabulistan_area	country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = mashhad_area		country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = birjand_area		country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
+				random_province = { limit = { 	area = makran_area		country_or_non_sovereign_subject_holds = root has_building = fort_15th } add_province_modifier = { name = per_reinforced_defenses duration = -1 } }
 			}
 		}
 	}
