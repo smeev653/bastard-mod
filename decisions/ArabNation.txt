@@ -76,7 +76,7 @@ country_decisions = {
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no			
-			yamamah_area = { type = all country_or_non_sovereign_subject_holds = ROOT   }}
+			yamamah_area = { type = all country_or_non_sovereign_subject_holds = ROOT   }
 			asir_area = { type = all country_or_non_sovereign_subject_holds = ROOT   }
 			tihama_al_yemen_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			upper_yemen_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }

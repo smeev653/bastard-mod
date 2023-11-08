@@ -797,8 +797,8 @@ KoK_ARB_hedjaz_najd_bedouin_2 = {
 			custom_tooltip = " "
 			
 			create_general_with_pips = {
-				tradition = 80
-				add_shock = 2
+				tradition = 50
+				add_shock = 1
 			}
 			
 			custom_tooltip = " "

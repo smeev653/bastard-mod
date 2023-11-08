@@ -1833,7 +1833,7 @@ MAM_ideas = {
 	}
 	red_sea_trade = {
 		manpower_recovery_speed = 0.15
-	)
+	}
 	purchase_new_mamelukes = {
 		cavalry_power = 0.15
 	}

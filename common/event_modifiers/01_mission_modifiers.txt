@@ -11219,7 +11219,7 @@ ARB_allegiance_of_the_oases = {
 }
 
 ARB_felicitous_arabia = {
-	trade_goods_size_modifier = 0.25
+	trade_goods_size_modifier = 0.1
 }
 
 ARB_northern_citadel = {
@@ -11353,7 +11353,6 @@ YEM_ashrafiya_mosque = {
 
 YEM_peaceful_investments = {
 	global_prosperity_growth = 1
-	build_cost = -0.1
 }
 
 YEM_city_of_prosperity = {
@@ -11363,11 +11362,11 @@ YEM_city_of_prosperity = {
 
 YEM_tahirid_magnates = {
 	nobles_loyalty_modifier = 0.1
-	trade_efficiency = 0.15
+	trade_efficiency = 0.1
 }
 
 YEM_seizure_of_aden = {
-	trade_efficiency = 0.15
+	trade_efficiency = 0.1
 }
 
 YEM_caravans_to_mecca = {
