@@ -249,19 +249,19 @@ mam_missions_1 = {
 			384 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			385 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			#385 = {
+			#	country_or_non_sovereign_subject_holds = ROOT
+			#}
 		}
 		effect = {
-			arabia_region = {
+			mecca_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
-			country_event = { id = flavor_mam.23 }
+			#country_event = { id = flavor_mam.23 }
 			custom_tooltip = flavor_mam.23_tt
 			custom_tooltip = enable_sponsor_hajj_dip_action_tt
 			set_country_flag = sponsor_hajj_dip_action_flag
