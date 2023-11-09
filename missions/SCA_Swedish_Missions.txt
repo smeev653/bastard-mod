@@ -468,6 +468,7 @@ swe_scandinavian_colonialism_mission_slot = {
 					limit = { owned_by = ROOT }
 					add_prosperity = 25
 				}
+		}		
 	}
 	
 	swe_colonial_ambitions = {

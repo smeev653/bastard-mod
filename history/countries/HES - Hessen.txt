@@ -33,7 +33,7 @@ capital = 1762	# Kassel
 	}
 }
 
-1413.1.1 = {
+1422.2.6 = {
 	monarch = {
 		name = "Ludwig I"
 		dynasty = "von Hessen"
