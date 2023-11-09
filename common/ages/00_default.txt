@@ -148,7 +148,8 @@ age_of_discovery = {
 		}
 		ab_colony_boost_development = {
 			modifier = {
-				colony_development_boost = 1
+				 global_prosperity_growth = 0.25
+				 global_monthly_devastation = -0.25
 			}
 			ai_will_do = {
 				factor = 10
