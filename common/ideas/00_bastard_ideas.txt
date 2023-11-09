@@ -1360,7 +1360,7 @@ SCA_ideas = {
 	free = yes
 	
 	sca_united_craftsman = {
-		global_allowed_num_of_buildings = 1
+		development_cost = -0.05
 		build_cost = -0.05
 	}
 	sca_unified_scandinavian = {
