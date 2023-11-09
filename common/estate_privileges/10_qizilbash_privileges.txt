@@ -288,7 +288,6 @@ estate_qizilbash_establish_the_qizilbash_regiments = {
 	}
 	benefits = {
 		has_qizilbash = yes
-		amount_of_qizilbash = 6
 	}
 	mechanics = {
 	}
@@ -345,7 +344,7 @@ estate_qizilbash_horse_responsibilities = {
 	influence = 0.05
 	loyalty = 0.1
 	is_valid = {
-		has_estate_privilege = estate_qizilbash_expand_the_qizilbash_regiments
+		has_estate_privilege = estate_qizilbash_establish_the_qizilbash_regiments
 	}
 	can_select = {
 	}
