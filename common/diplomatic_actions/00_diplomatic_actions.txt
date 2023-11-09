@@ -89,6 +89,14 @@
 #Cut because the Grand Crusade war doesn't really have any place in the current content, but it could be very useful for the future.
 #Also modders should have the chance to just uncomment it all so they can experience the great 30 Years War like Crusade.
 declarewar = {
+	condition = {
+		tooltip = gecko_stability
+		potential = {
+		}
+		allow = {
+			stability = 0
+		}
+	}
 	#condition = {
 	#	tooltip = GRAND_CRUSADE_NO_OTHER_WAR
 	#	potential = { }
@@ -184,6 +192,70 @@ declarewar = {
 }
 
 allianceaction = {
+		condition = {
+		tooltip = gc_truce_with_ally
+		potential = {
+			ROOT = { ai = no }
+		}
+		allow = {
+			ROOT = {
+				NOT = { 
+					has_opinion_modifier = {
+						modifier = break_alliance_war
+						who = FROM
+					}
+				}
+			}	
+		}
+	}
+	condition = {
+		tooltip = gc_truce_with_ally
+		potential = {
+			FROM = { ai = no }
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_opinion_modifier = {
+						modifier = break_alliance_war
+						who = ROOT
+					}
+				}
+			}	
+		}
+	}
+	condition = {
+		tooltip = gc_truce_with_ally
+		potential = {
+			FROM = { ai = no }
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_opinion_modifier = {
+						modifier = break_alliance
+						who = ROOT
+					}
+				}
+			}	
+		}
+	}
+	condition = {
+		tooltip = gc_truce_with_ally
+		potential = {
+			ROOT = { ai = no }
+		}
+		allow = {
+			ROOT = {
+				NOT = { 
+					has_opinion_modifier = {
+						modifier = break_alliance
+						who = FROM
+					}
+				}
+			}	
+		}
+	}
 	condition = {
 		tooltip = h_tooltip_from_many_allies
 		potential = {

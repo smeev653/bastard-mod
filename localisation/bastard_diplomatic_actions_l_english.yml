@@ -1,0 +1,4 @@
+﻿l_english:
+####################
+gc_truce_with_ally:0 "Cannot ally this nation for 5 years as we recently broke alliance with them."
+gecko_stability:0 "Must have 0 Stability or higher to declare war."

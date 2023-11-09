@@ -1603,7 +1603,7 @@ revolution_target = {
 }
 
 dishonoured_alliance =  {
-	diplomatic_reputation = -1
+	#diplomatic_reputation = -1
 }
 
 drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
