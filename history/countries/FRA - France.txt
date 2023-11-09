@@ -8,7 +8,11 @@ technology_group = western
 capital = 183 # Paris
 national_focus = DIP
 historical_rival = HAB
-
+add_truce_with = BUR
+add_truce_with = ENG
+add_truce_with = ARA
+add_truce_with = VAL
+add_truce_with = CAT
 change_estate_land_share = {
 	estate = estate_nobles
 	share = 10
