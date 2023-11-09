@@ -5,7 +5,7 @@ ahead_of_time = {
 	trade_efficiency = 0.2
 	monthly_russian_modernization = 0.05
 	yearly_corruption = -0.05
-	monthly_reform_progress_modifier = 0.25
+	monthly_reform_progress_modifier = 0.5
 }
 
 # Pre-era techs
