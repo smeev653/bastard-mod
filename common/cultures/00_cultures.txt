@@ -3968,7 +3968,7 @@ iranian	= {
 		}
 	}
 	azerbaijani = {
-		primary = ARL
+		primary = QOM
 		province = { local_has_qizilbash = yes }
 		dynasty_names = {
 			"Qara Qoyunlu" "Aq Qoyunlu" "Safavid" "Shirvanshah" Javanshir Chupanid Ziyadoghlu Chalabi

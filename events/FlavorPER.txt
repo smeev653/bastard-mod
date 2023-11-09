@@ -1132,7 +1132,7 @@ country_event = {
 	option = {
 		trigger = { ai = yes }
 		if = {
-			limit = { was_tag = ARL }
+			limit = { was_tag = QOM }
 			set_country_flag = per_shia_missions clr_country_flag = per_sunni_missions clr_country_flag = per_zoroastrian_missions
 		}
 		else_if = {
@@ -4043,7 +4043,7 @@ country_event = {
 		is_year = 1482 
 		if = {
 			limit = { NOT = { exists = PER } NOT = { exists = ERS } }
-			tag = ARL
+			tag = QOM
 		}
 		else = {
 			OR = {

@@ -4440,14 +4440,14 @@ has_completed_all_persian_missions = {
 					was_tag = AFG
 					was_tag = TRS
 					was_tag = SIS
-					was_tag = QOM
+					was_tag = ARL
 					has_country_flag = enthroned_a_timurid_prince
 				}
 			}
 			mission_completed = per_tim_legacy_of_timur
 		}
 		if = {
-			limit = { was_tag = QOM }
+			limit = { was_tag = ARL }
 			mission_completed = per_arl_legacy_of_the_safavid
 		}
 		mission_completed = per_riches_of_asia
