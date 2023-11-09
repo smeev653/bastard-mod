@@ -1195,8 +1195,7 @@ SPA_ideas = {
 		naval_forcelimit_modifier = 0.25
 	}
 	spa_casa_de_contracion = {
-		envoy_travel_time = -0.33
-		global_tariffs = 0.15
+		monthly_dip_power = 1
 	}
 	siglo_de_oro = {
 		prestige = 1
