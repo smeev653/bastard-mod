@@ -6,7 +6,7 @@ technology_group = muslim
 capital = 344 # Marrakech
 add_accepted_culture = berber
 religious_school = maliki_school
-
+add_truce_with = GRA
 change_estate_land_share = {
 	estate = estate_nobles
 	share = 5
