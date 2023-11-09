@@ -107,6 +107,7 @@ NDefines.NEconomy.CARAVAN_POWER_MAX = 30
 NDefines.NEconomy.COT_DOWNGRADE_PRESTIGE_COST = 0
 NDefines.NEconomy.GOLD_MINE_DEPLETION_THRESHOLD = 10				-- Gold mines above production level or above can be depleted
 NDefines.NEconomy.GOLD_MINE_DEPLETION_CHANCE = 0.05
+NDefines.NEconomy.TRADE_PROPAGATE_DIVIDER = 20
 
 NDefines.NMilitary.MERCENARY_REINFORCE_COST_MULTIPLIER = 1
 NDefines.NMilitary.FORTRESS_COST = 0.166
