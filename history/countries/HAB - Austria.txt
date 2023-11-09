@@ -9,7 +9,13 @@ historical_friend = HUN
 historical_rival = TUR
 historical_rival = FRA
 national_focus = ADM
-
+add_truce_with = VEN
+add_truce_with = HUN
+add_truce_with = BRA
+add_truce_with = HES
+add_truce_with = MLO
+add_truce_with = HSA
+add_truce_with = SIC
 add_accepted_culture = slovene
 
 1395.8.29 = {
