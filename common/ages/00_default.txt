@@ -100,7 +100,7 @@ age_of_discovery = {
 	abilities = {
 		ab_allow_feudal_de_jure_law = {
 				modifier = {
-						build_time = -0.25
+						build_cost = -0.1
 				}			
 				ai_will_do = {
 					factor = 100
@@ -120,8 +120,7 @@ age_of_discovery = {
 
 		ab_transfer_vassal_wargoal = {
 			modifier = {
-				can_transfer_vassal_wargoal = yes
-				can_chain_claim = yes
+				diplomatic_annexation_cost = -0.2
 			}
 			ai_will_do = {
 				factor = 10
@@ -174,7 +173,14 @@ age_of_discovery = {
 				tag = TUR
 			}
 			modifier = {
-				leader_siege = 1 
+				special_unit_forcelimit = 0.15
+				
+			}
+			effect = {
+				add_country_modifier = {
+					name = tur_age_ability_modifier
+					duration = -1 
+				}
 			}
 			ai_will_do = {
 				factor = 100
@@ -237,7 +243,7 @@ age_of_discovery = {
 		songhai_timbuktu_university = {
 			allow = {
 					OR = {
-						tag = SON
+						tag = YAO
 						tag = PR2
 					}	
 				}	
@@ -283,7 +289,10 @@ age_of_discovery = {
 		}
 		ab_timurids_tech = {
 			allow = {
-				tag = TIM
+				OR = {
+					tag = SHY
+					tag = BUK
+				}	
 			}
 			modifier = {
 				technology_cost = -0.025
@@ -301,8 +310,14 @@ age_of_discovery = {
 				}	
 			}	
 			modifier = {
-				production_efficiency = 0.2
-				land_forcelimit_modifier = 0.2
+				special_unit_forcelimit = 0.15
+				
+			}
+			effect = {
+				add_country_modifier = {
+					name = mam_age_ability_modifier
+					duration = -1 
+				}
 			}
 			ai_will_do = {
 				factor = 10

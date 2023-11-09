@@ -1,0 +1,9 @@
+mam_age_ability_modifier = {
+	discipline = 0.05
+	is_mamluks_modifier = yes
+}
+
+tur_age_ability_modifier = {
+	discipline = 0.05
+	is_janissary_modifier = yes
+}
