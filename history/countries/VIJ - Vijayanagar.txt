@@ -4,7 +4,7 @@ primary_culture = kannada
 religion = hinduism
 technology_group = indian
 capital = 541	# Vijayanagara
-
+add_truce_with = BAH
 
 
 change_rajputs_or_marathas_or_nobles_land_share_effect = {
