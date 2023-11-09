@@ -621,42 +621,83 @@ MLO_ideas = {
 
 VEN_ideas = {
 	start = {
-		shock_damage_received = -0.15
-		allowed_marine_fraction = 0.25
+		trade_efficiency = 0.10
+		land_morale = 0.10
 	}
 	
 	bonus = {
-		artillery_power = 0.1
+		naval_morale = 0.10
 	}
-	
 	trigger = {
 		tag = VEN
 	}
 	free = yes		#will be added at load.
 	
-	defend_the_law = {
+	DAL_kingdom_of_dalmatia = {
 		reform_progress_growth = 0.25
 	}
-	conscription = {
-		global_sailors_modifier = 0.33
+	DAL_principalities = {
+		global_foreign_trade_power = 0.15
 	}
-	venetian_arsenal = {
-		galley_power = 0.2
+	DAL_language = {
+		num_accepted_cultures = 2
 	}
-	printing_industry = {
-		technology_cost = -0.1
+	DAL_independent_army = {
+		infantry_power = 0.10
 	}
-	stato_da_mar = {
-		trade_efficiency = 0.1
+	DAL_art_and_lit = {
+		technology_cost = -0.05
 	}
-	provveditori_ai_beni_inculti = {
-		development_cost = -0.1
+	
+	DAL_arsenal = {
+		galley_power = 0.15
 	}
-	state_inquisition = {
-		all_estate_loyalty_equilibrium = 0.1
-		yearly_corruption = -0.15
+	DAL_illyria = {
+		core_creation = -0.15
 	}
 }
+DAL_ideas = {
+	start = {
+		trade_efficiency = 0.15
+		land_morale = 0.1
+	}
+	
+	bonus = {
+		naval_morale = 0.15
+	}
+	
+	trigger = {
+		tag = DAL
+
+	}
+	free = yes		#will be added at load.
+	
+	DAL_kingdom_of_dalmatia = {
+		reform_progress_growth = 0.15
+		global_unrest = -1
+	}
+	DAL_principalities = {
+		global_foreign_trade_power = 0.15
+	}
+	DAL_language = {
+		num_accepted_cultures = 2
+	}
+	DAL_art_and_lit = {
+		global_institution_spread = 0.1
+		development_cost = -0.05
+	}
+	DAL_independent_army = {
+		infantry_power = 0.15
+	}
+	DAL_arsenal = {
+		naval_forcelimit_modifier = 0.25
+	}
+	DAL_illyria = {
+		core_creation = -0.15
+	}
+}
+
+
 
 SIC_ideas = {
 	start = {
@@ -1195,7 +1236,7 @@ SPA_ideas = {
 		naval_forcelimit_modifier = 0.25
 	}
 	spa_casa_de_contracion = {
-		monthly_dip_power = 1
+		country_diplomatic_power = 1
 	}
 	siglo_de_oro = {
 		prestige = 1

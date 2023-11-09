@@ -44,7 +44,7 @@ add_army_professionalism = 0.05
 
 1416.1.1 = { leader = {	name = "Pietro Loredan"		type = admiral	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1439.1.1 } }
 
-1423.4.5 = {
+1424.1.1 = {
 	monarch = {
 		name = "Francesco Foscari"
 		birth_date = 1424.1.1
