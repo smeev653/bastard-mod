@@ -1833,7 +1833,7 @@ country_event = {
 		}
 		define_ruler = {
 			mil = 5
-			adm = 4
+			adm = 5
 			dip = 5
 			claim = 100
 			culture = polish
