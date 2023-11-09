@@ -11506,7 +11506,7 @@ ARL_ideas = {
 		prestige = 1
 	}
 	trigger = {
-		tag = ARL
+		tag = QOM
 		religion = shiite
 	}
 	free = yes

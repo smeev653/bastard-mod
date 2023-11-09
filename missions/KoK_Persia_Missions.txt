@@ -621,7 +621,7 @@ kok_persia_mission_origins_slot_ardabil = {
 			tag = PER
 			tag = ERS
 		}
-		was_tag = ARL
+		was_tag = QOM
 		NOT = { was_tag = TIM }
 		NOT = { was_tag = KHO }
 		NOT = { was_tag = FRS }
@@ -727,7 +727,7 @@ kok_persia_mission_origins_slot_timurid = {
 			tag = PER
 			tag = ERS
 		}
-		NOT = { was_tag = ARL }
+		NOT = { was_tag = QOM }
 		NOT = { primary_culture = mazandarani }
 		NOT = { was_tag = AKK }
 		NOT = { was_tag = QAR }
@@ -829,7 +829,7 @@ kok_persia_mission_origins_slot_mazandarani = {
 			tag = PER
 			tag = ERS
 		}
-		NOT = { was_tag = ARL }
+		NOT = { was_tag = QOM }
 		NOT = { was_tag = TIM }
 		NOT = { was_tag = KHO }
 		NOT = { was_tag = FRS }
@@ -959,7 +959,7 @@ kok_persia_mission_origins_slot_qoyunlu = {
 			tag = PER
 			tag = ERS
 		}
-		NOT = { was_tag = ARL }
+		NOT = { was_tag = QOM }
 		NOT = { was_tag = TIM }
 		NOT = { was_tag = KHO }
 		NOT = { was_tag = FRS }

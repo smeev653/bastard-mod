@@ -1098,7 +1098,7 @@ can_create_holy_orders = {
 			OR = {
 				has_government_attribute = unlock_persia_holy_orders
 				has_country_flag = unlocked_holy_order_savafid_order
-				is_or_was_tag = { tag = ARL }
+				is_or_was_tag = { tag = QOM }
 			}
 			OR = {
 				religion = shiite
@@ -4447,7 +4447,7 @@ has_completed_all_persian_missions = {
 			mission_completed = per_tim_legacy_of_timur
 		}
 		if = {
-			limit = { was_tag = ARL }
+			limit = { was_tag = QOM }
 			mission_completed = per_arl_legacy_of_the_safavid
 		}
 		mission_completed = per_riches_of_asia

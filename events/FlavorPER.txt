@@ -655,15 +655,15 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		NOT = { tag = ARL }
+		NOT = { tag = QOM }
 		is_year = 1455
 		NOT = { is_year = 1465 }
 		OR = {
 			any_neighbor_country = {
-					tag = ARL
+					tag = QOM
 			}
 			any_owned_province = {
-				is_core = ARL
+				is_core = QOM
 			}
 		}
 	}
@@ -676,13 +676,13 @@ country_event = {
 		name = flavor_per.11.a
 		every_province = {
 			limit = {
-				NOT = { owned_by = ARL }
+				NOT = { owned_by = QOM }
 				OR = {
-					is_core = ARL
+					is_core = QOM
 					AND = {
 						religion = shiite
 						any_neighbor_province = {
-							owned_by = ARL
+							owned_by = QOM
 						}
 					}
 				}
@@ -2384,12 +2384,12 @@ country_event = {
 		OR = {
 			tag = PER
 			AND = {
-				tag = ARL
+				tag = QOM
 				NOT = { exists = PER }
 			}
 			AND = {
 				tag = ERS
-				NOT = { exists = ARL }
+				NOT = { exists = QOM }
 				NOT = { exists = PER }
 			}
 		}

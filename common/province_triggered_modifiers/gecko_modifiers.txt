@@ -540,7 +540,8 @@ conquest_of_tabriz = {
 
 	trigger = {
 		owner = {
-				NOT = { tag = ARL }
+				NOT = { tag = QOM }
+				NOT = { tag = AKK }
 				NOT = { tag = PER }
 				tabriz_area = {
 					type = all
