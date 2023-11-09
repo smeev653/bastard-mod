@@ -12904,16 +12904,13 @@ estate_nobles_neighbor_raids_fort = {
 #Province modifier
 estate_church_united_faith_and_culture = {
 	religion = yes
-	local_unrest = -1
-	local_tax_modifier = 0.1
-	local_production_efficiency = 0.1
-	local_manpower_modifier = 0.1
+	local_unrest = -2
 }
 
 #Province modifier
 estate_church_false_culture = {
 	local_unrest = 3
-	local_culture_conversion_cost = -0.1
+	local_culture_conversion_cost = -0.25
 	picture = "global_unrest_opposite"
 }
 

@@ -1808,15 +1808,14 @@ estate_church_one_faith_one_culture = {
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.1
 	loyalty = 0.05
-	land_share = 5
+	#land_share = 5
 	is_valid = {
-		always = no
 	}
 	can_select = {
 	}
 	on_granted = {
-		custom_tooltip = estate_church_one_faith_one_culture_gta
-		custom_tooltip = estate_church_one_faith_one_culture_gtb
+		custom_tooltip = bs_estate_church_one_faith_one_culture_gta
+		custom_tooltip = bs_estate_church_one_faith_one_culture_gtb
 	}
 	on_granted_province = {
 		if = {
@@ -1870,8 +1869,8 @@ estate_church_one_faith_one_culture = {
 		}
 	}
 	on_revoked = {
-		custom_tooltip = estate_church_one_faith_one_culture_rta
-		custom_tooltip = estate_church_one_faith_one_culture_rtb
+		custom_tooltip = bs_estate_church_one_faith_one_culture_rta
+		custom_tooltip = bs_estate_church_one_faith_one_culture_rtb
 	}
 	on_revoked_province = {
 		if = {
