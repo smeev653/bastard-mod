@@ -5122,7 +5122,7 @@ swe_sca_hakkapeliitta_slot = {
 			}
 		}
 		effect = {
-			remove_country_modifier = {bastard_hakkapeliita_cavalry}
+			remove_country_modifier = bastard_hakkapeliita_cavalry
 			add_country_modifier = {
 					name = "bastard_hakkapeliita_cavalry_2"
 					duration = -1
