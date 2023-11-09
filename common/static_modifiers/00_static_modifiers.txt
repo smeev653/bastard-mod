@@ -264,7 +264,7 @@ development = {
 }
 
 development_scaled = {
-	local_development_cost = 0.03
+	local_development_cost = 0.02
 }
 
 capital_city = {
@@ -2207,7 +2207,7 @@ expanded_infrastructure = {
 	ship_recruit_speed = -0.15
 	local_defensiveness = 0.1
 	garrison_growth = 0.1
-	local_development_cost = -0.175
+	local_development_cost = -0.15
 	local_production_efficiency = 0.15
 	local_tax_modifier = 0.15
 	local_manpower_modifier = 0.15
