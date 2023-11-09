@@ -252,6 +252,9 @@ estate_burghers_land_of_commerce = {
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	loyalty = -0.05
+	is_valid = {
+		always = no
+	}
 	can_select = {
 		can_select_monarch_power_privilege = {
 			estate = estate_burghers

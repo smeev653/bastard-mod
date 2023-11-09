@@ -44,6 +44,13 @@ on_startup = {
 		}
 		set_country_flag = PR_discover_africa_flag
 	}
+	if = {
+		limit = {
+			ai = no
+			NOT = { has_country_flag = start_estates_setup }
+		}
+		country_event = { id = echo.9 }
+	}
 }
 
 # country

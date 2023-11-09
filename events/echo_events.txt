@@ -332,3 +332,62 @@ country_event = {
 		name = echo.6.a
 	}
 }	
+
+country_event = {
+    id = echo.7
+    title = echo.7.t
+    desc = echo.7.d
+    picture = COURT_eventPicture
+
+    trigger = {
+		NOT = {
+		 	current_age = age_of_discovery
+		}
+		has_country_modifier = mam_age_ability_modifier
+	}
+	hidden = yes
+    option = {
+		name = echo.7.a
+		remove_country_modifier = mam_age_ability_modifier
+	}
+}	
+
+country_event = {
+    id = echo.8
+    title = echo.8.t
+    desc = echo.8.d
+    picture = COURT_eventPicture
+
+    trigger = {
+		NOT = {
+		 	current_age = age_of_discovery
+		}
+		has_country_modifier = tur_age_ability_modifier
+	}
+	hidden = yes
+    option = {
+		name = echo.8.a
+		remove_country_modifier = tur_age_ability_modifier
+	}
+}
+
+country_event = {
+    id = echo.9
+    title = echo.9.t
+    desc = echo.9.d
+	picture = COURT_eventPicture
+
+	hidden = yes
+	trigger = {
+		NOT = { is_year = 1445}
+		NOT = { has_country_flag = start_estates_setup }
+		ai = no
+	}
+	option = {
+		change_estate_land_share = {
+			estate = all
+			share = 25
+		}
+		set_country_flag = start_estates_setup
+	}
+}

@@ -197,6 +197,7 @@ estate_ghulams_military = {
 	max_absolutism = -5
 	loyalty = -0.05
 	is_valid = {
+		always = no
 	}
 	can_select = {
 		can_select_monarch_power_privilege = {
