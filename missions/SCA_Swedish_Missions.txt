@@ -460,24 +460,14 @@ swe_scandinavian_colonialism_mission_slot = {
 			}
 		}
 		effect = {
-			custom_tooltip = swe_forest_expansion_ct
-			hidden_effect = {
-				every_owned_province = {
-					limit = {
-						region = scandinavia_region
-						has_climate = arctic
-					}
-					add_province_modifier = {
+				add_country_modifier = {
 						name = swe_arctic_expansion
-						duration = -1
-					}
+						duration = 9125
 				}
 				scandinavia_region = {
 					limit = { owned_by = ROOT }
-					add_prosperity = 10
+					add_prosperity = 25
 				}
-			}
-		}
 	}
 	
 	swe_colonial_ambitions = {
