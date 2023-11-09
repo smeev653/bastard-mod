@@ -5438,8 +5438,8 @@ lan_clean_government = {
 # New Prussian missions
 
 pru_space_marines = {
-	drill_gain_modifier = 0.25
-	drill_decay_modifier = -0.25
+	drill_gain_modifier = 0.15
+	drill_decay_modifier = -0.15
 	reinforce_cost_modifier = -0.15
 }
 
@@ -7720,7 +7720,7 @@ pol_polish_bohemian_ties_modifier = {
 }
 pol_modernized_army_modifier = { 
 	drill_decay_modifier = -0.15 
-	drill_gain_modifier = 0.25 
+	drill_gain_modifier = 0.15 
 	yearly_army_professionalism = 0.0025 
 }
 pol_modernized_army_2_modifier = { 
@@ -9815,7 +9815,7 @@ pru_expanded_the_western_domains_modifier = {
 }
 
 pru_thunderous_advance_modifier = {
-	movement_speed = 0.15 
+	movement_speed = 0.1
 }
 
 pru_oblique_order_modifier = {
@@ -9823,8 +9823,8 @@ pru_oblique_order_modifier = {
 }
 
 pru_rewrite_military_manual_modifier = {
-	drill_decay_modifier = -0.33
-	reinforce_speed = 0.25
+	#drill_decay_modifier = -0.33
+	reinforce_speed = 0.2
 	war_exhaustion = -0.05
 }
 
