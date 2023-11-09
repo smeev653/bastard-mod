@@ -706,7 +706,7 @@ country_event = {
 			type = treasurer
 			name = "Jean-Baptiste Colbert"
 			culture = cosmopolitan_french
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 			skill = 3
 		}
 		set_country_flag = fra_colbert_excellent_minister_flag 
@@ -2168,7 +2168,7 @@ country_event = { #Catholicon
 			name = "Jehan Lagadeuc" 
 			culture = breton
 			skill = 2
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 		}
 		if = { 
 			limit = { is_lacking_institutions = yes } 
@@ -2301,7 +2301,7 @@ country_event = { #Securing the Milanese Lands
 				type = natural_scientist
 				name = "Leonardo da Vinci"
 				culture = tuscan
-				cost_multiplier = 0.25
+				cost_multiplier = 0.75
 				skill = 3
 			}
 			capital_scope = { 

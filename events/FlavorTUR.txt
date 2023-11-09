@@ -1639,7 +1639,7 @@ country_event = {
 					name = "Gennadios II" 
 					type = theologian
 					skill = 3
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 					culture = greek
 					religion = orthodox
 				}
@@ -2812,7 +2812,7 @@ country_event = {
 			religion = catholic
 			type = army_reformer
 			skill = 2
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 		}
 		custom_tooltip = flavor_tur.204.a.tt
 		set_country_flag = tur_pierces_through_constantinople
@@ -6284,7 +6284,7 @@ country_event = {
 					type = natural_scientist
 					name = "Legari Hasan Celebi" 
 					skill = 3 
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 				}
 			}
 			50 = { custom_tooltip = tur_celebi_goes_bye_bye }

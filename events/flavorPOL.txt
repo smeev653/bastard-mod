@@ -971,7 +971,7 @@ country_event = {
 			name = "Nicolaus Copernicus"
 			culture = polish
 			skill = 3
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 		}
 	}
 }

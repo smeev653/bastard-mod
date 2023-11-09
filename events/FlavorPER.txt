@@ -1492,7 +1492,7 @@ country_event = {
 		name = flavor_per.25.a 
 		define_advisor = {
 			type = commandant
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 			culture = georgian
 			skill = 3
 		}
@@ -3788,7 +3788,7 @@ country_event = {
 			min_age = 35
 			max_age = 50
 			skill = 3
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 		}
 		add_country_modifier = {
 			name = zoroastrian_prophet_in_the_court
@@ -4168,7 +4168,7 @@ country_event = {
 			religion = anglican
 			type = army_reformer
 			skill = 3 
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 		}
 	}
 }

@@ -3085,7 +3085,7 @@ country_event = {
 		define_advisor = {
 			type = commandant
 			skill = 2
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 		}
 		add_country_modifier = {
 			name = swe_debt_with_the_nobles
@@ -3204,7 +3204,7 @@ country_event = {
 		define_advisor = {
 			type = commandant
 			skill = 2
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 		}
 		ai_chance = {
 			factor = 1
