@@ -100,7 +100,7 @@ religious_ideas = {
 	}
 	deus_vult = {
 		cb_on_religious_enemies = yes
-		warscore_cost_vs_other_religion = -0.10
+		warscore_cost_vs_other_religion = -0.05
 	}
 	church_attendance_duty = { 
 		same_religion_advisor_cost = -0.1
@@ -542,7 +542,7 @@ diplomatic_ideas = {
 		power_projection_from_insults = 1
 	}
 	flexible_negotiation = {
-		province_warscore_cost = -0.15
+		province_warscore_cost = -0.1
 	}
 	diplomatic_corps = {
 		technology_cost = -0.1
@@ -955,7 +955,7 @@ theocracy_gov_ideas = {
 		land_morale = 0.10
 	}
 	alpha_and_omega = {
-		warscore_cost_vs_other_religion = -0.1
+		warscore_cost_vs_other_religion = -0.05
 		culture_conversion_cost = -0.15
 	}
 	friends_in_high_places = {
