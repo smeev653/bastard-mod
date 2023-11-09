@@ -1,92 +1,7 @@
 namespace = echo
 
 #advisors
-country_event = {
-	id = echo.1
-	title = echo.1.title
-	desc = echo.1.desc
-	picture = LAND_MILITARY_eventPicture
 
-	is_triggered_only = yes
-
-	option = {
-		name = echo.1.a
-		
-		add_adm_power  = -25
-		create_advisor = commandant		
-	}
-	option = {
-		name = echo.1.b
-		
-		add_adm_power  = -25
-		create_advisor = army_reformer
-	}
-	option = {
-		name = echo.1.c
-		
-		add_adm_power  = -25
-		create_advisor = recruitmaster
-	}
-	#option = {
-	#	name = echo.1.d
-	#	
-	#	add_adm_power  = -25
-	#	create_advisor = echo_drill_master		
-	#}
-	#option = {
-	#	name = echo.1.e
-	#	
-	#	add_adm_power  = -25
-	#	create_advisor = siege_specialist	
-	#}
-	#option = {
-	#	name = echo.1.f
-	#	
-	#	add_adm_power  = -25
-	#	create_advisor = infantry_leader		
-	#}
-	#option = {
-	#	name = echo.1.g
-	#	
-	#	add_adm_power  = -25
-	#	create_advisor = cavalry_leader	
-	#}
-	option = {
-		name = echo.1.h
-		
-		add_adm_power  = -25
-		create_advisor = grand_captain	
-	}
-	option = {
-		name = echo.1.i
-		
-		add_adm_power  = -25
-		create_advisor = fortification_expert		
-	}
-	option = {
-		name = echo.1.j
-		
-		add_adm_power  = -25
-		create_advisor = quartermaster		
-	}
-	#option = {
-	#	name = echo.1.k
-	#	
-	#	add_adm_power  = -25
-	#	create_advisor = echo_arty_officer	
-	#}
-	option = {
-		name = echo.1.l
-		
-		add_adm_power  = -25
-		create_advisor = army_organiser	
-	}
-	option = {
-		name = echo.1.m
-		
-		#nothing
-	}	
-}
 ###we stand alone dev event####
 country_event = {
     id = echo.2
@@ -389,5 +304,172 @@ country_event = {
 			share = 25
 		}
 		set_country_flag = start_estates_setup
+	}
+}
+country_event = { #Recruit Adm Advisor
+	id = echo.10
+	title = echo.10.title
+	desc = echo.10.desc
+	picture = AULIC_COUNCIL_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = echo.10.a
+
+		add_adm_power = -25
+		create_advisor = philosopher
+	}
+	option = {
+		name = echo.10.b
+
+		add_adm_power = -25
+		create_advisor = natural_scientist
+	}
+	option = {
+		name = echo.10.c
+
+		add_adm_power = -25
+		create_advisor = artist
+	}
+	option = {
+		name = echo.10.d
+
+		add_adm_power = -25
+		create_advisor = treasurer
+	}
+	option = {
+		name = echo.10.e
+
+		add_adm_power = -25
+		create_advisor = theologian 
+	}
+	option = {
+		name = echo.10.f
+
+		add_adm_power = -25
+		create_advisor = master_of_mint
+	}
+	option = {
+		name = echo.10.g
+
+		add_adm_power = -25
+		create_advisor = inquisitor
+	}
+	option = {
+		name = echo.10.h
+		#nothing
+	}
+}
+
+country_event = { #Recruit Dip advisor
+	id = echo.11
+	title = echo.11.title
+	desc = echo.11.desc
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = echo.11.a
+
+		add_dip_power = -25
+		create_advisor = statesman
+	}
+	option = {
+		name = echo.11.b
+
+		add_dip_power = -25
+		create_advisor = naval_reformer
+	}
+	option = {
+		name = echo.11.c
+
+		add_dip_power = -25
+		create_advisor = trader
+	}
+	option = {
+		name = echo.11.d
+
+		add_dip_power = -25
+		create_advisor = spymaster
+	}
+	option = {
+		name = echo.11.e 
+
+		add_dip_power = -25
+		create_advisor = colonial_governor
+	}
+	option = {
+		name = echo.11.f
+
+		add_dip_power = -25
+		create_advisor = diplomat
+	}
+	option = {
+		name = echo.11.g
+
+		add_dip_power = -25
+		create_advisor = navigator
+	}
+	option = {
+		name = echo.11.h
+		#nothing
+	}
+}
+
+country_event = { #Recruit Mil Advisor 
+	id = echo.12
+	title = echo.12.title
+	desc = echo.12.desc
+	picture = GENERALS_DISCUSSING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = echo.12.a
+
+		add_mil_power = -25
+		create_advisor = army_reformer
+	}
+	option = {
+		name = echo.12.b
+
+		add_mil_power = -25
+		create_advisor = army_organiser
+	}
+	option = {
+		name = echo.12.c
+
+		add_mil_power = -25
+		create_advisor = commandant
+	}
+	option = {
+		name = echo.12.d
+
+		add_mil_power = -25
+		create_advisor = quartermaster
+	}
+	option = {
+		name = echo.12.e
+
+		add_mil_power = -25
+		create_advisor = recruitmaster
+	}
+	option = {
+		name = echo.12.f
+
+		add_mil_power = -25
+		create_advisor = fortification_expert
+	}
+	option = {
+		name = echo.12.g
+
+		add_mil_power = -25
+		create_advisor = grand_captain
+	}
+	option = {
+		name = echo.12.h
+		#nothing
 	}
 }

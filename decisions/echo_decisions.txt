@@ -151,7 +151,7 @@ country_decisions = {
 		effect = {
 		}
 	}
-	echo_recruit_military_advisor = {
+	echo_recruit_admin_advisor = {
 		color = { 166  0  0 }
 		potential = {
 			ai = no
@@ -162,7 +162,37 @@ country_decisions = {
 		}
 		effect = {
 			country_event = {
-				id = echo.1
+				id = echo.10
+			}
+		}
+	}
+	echo_recruit_diplomatic_advisor = {
+		color = { 166  0  0 }
+		potential = {
+			ai = no
+       }
+		allow = {
+			dip_power = 25
+			ai = no
+		}
+		effect = {
+			country_event = {
+				id = echo.11
+			}
+		}
+	}
+	echo_recruit_military_advisor = {
+		color = { 166  0  0 }
+		potential = {
+			ai = no
+       }
+		allow = {
+			mil_power = 25
+			ai = no
+		}
+		effect = {
+			country_event = {
+				id = echo.12
 			}
 		}
 	}
