@@ -1347,7 +1347,7 @@ SWE_ideas = {
 SCA_ideas = {
 	start = {
 		discipline = 0.05
-		global_trade_goods_size_modifier = 0.15
+		global_trade_goods_size_modifier = 0.1
 	}
 	
 	bonus = {
@@ -1369,13 +1369,11 @@ SCA_ideas = {
 	}
 	sca_danish_baltic_fleet = {
 		trade_efficiency = 0.1
-		ship_durability = 0.05
 	}
 	sca_norwegian_marines = {
-		naval_morale = 0.15
+		naval_morale = 0.1
 	}
 	sca_finnish_hakkapeliita = {
-		cavalry_fire = 0.5
 		cavalry_cost = -0.15
 		shock_damage = 0.1
 	}

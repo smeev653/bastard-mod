@@ -90,3 +90,11 @@ gc_mug_formation_hope = {
 	land_morale = 0.05
 }
 ####
+bastard_hakkapeliita_cavalry = {
+	cavalry_power = 0.1
+}
+
+bastard_hakkapeliita_cavalry_2 = {
+	cavalry_power = 0.1
+	cavalry_fire = 0.5
+}
