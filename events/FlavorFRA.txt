@@ -2168,7 +2168,7 @@ country_event = { #Catholicon
 			name = "Jehan Lagadeuc" 
 			culture = breton
 			skill = 2
-			cost_multiplier = 0.5
+			cost_multiplier = 0.25
 		}
 		if = { 
 			limit = { is_lacking_institutions = yes } 

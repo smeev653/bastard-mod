@@ -2174,7 +2174,7 @@ french_missions_2_Continuation_b = {
 			crown_land_share = 50 
 		}
 		effect = { 
-			change_government_reform_progress = 500 
+			change_government_reform_progress = 250 
 			#if = {
 			#	limit = { has_reform = feudal_france_reform }
 			#	#remove_government_reform = feudal_france_reform 
@@ -4623,7 +4623,7 @@ french_missions_4_normal_contiuation = {
 			define_advisor = { 
 				name = "Jean Clouet"
 				type = artist 
-				cost_multiplier = 0.25
+				cost_multiplier = 0.75
 				skill = 3 
 			}
 			custom_tooltip = empty_line_tt
@@ -5012,80 +5012,19 @@ french_missions_5_normal = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
 		}
 		trigger = { 
-			OR = { 
-				PRO = { is_subject_of = ROOT } 
-				PRO = { 
-					alliance_with = ROOT 
-					has_opinion = {
-						who = ROOT 
-						value = 150
-					}
-					if = { 
-						limit = { has_dlc = "Leviathan" }
-						trust = { 
-							who = ROOT 
-							value = 90 
-						}
-					}
-					marriage_with = ROOT 
-					is_at_war = no 
-				}
 				AND = { 
 					178 = { country_or_non_sovereign_subject_holds = ROOT } 
 					2991 = { country_or_non_sovereign_subject_holds = ROOT }
 					201 = { country_or_non_sovereign_subject_holds = ROOT }
 					4696 = { country_or_non_sovereign_subject_holds = ROOT }
 				}
-			}
 		}
 		effect = { 
-			custom_tooltip = fra_if_alliance_tt
-			tooltip = {
-				PRO = { 
-					country_event = { id = flavor_fra.106 } 
-				}
-			}
-			custom_tooltip = fra_if_conquest_tt
-			tooltip = { 
 				add_country_modifier = { 
 					name = fra_conquered_the_capetian_house_of_anjou_modifier
 					duration = 5475 
 				}
 				add_prestige = 20 
-			}
-			custom_tooltip = fra_alternatively_if_pro_already_subject_tt
-			tooltip = { 
-				change_heir_adm = 1 
-				change_heir_dip = 1 
-				change_heir_mil = 1 
-				add_stability_or_adm_power = yes 
-			}
-			hidden_effect = { 
-				if = { 
-					limit = { 
-						PRO = { is_subject_of = ROOT } 
-					}
-					change_heir_adm = 1 
-					change_heir_dip = 1 
-					change_heir_mil = 1 
-					add_stability_or_adm_power = yes 
-				}
-				else_if = { 
-					limit = { 
-						PRO = { alliance_with = ROOT } 
-					}
-					PRO = { 
-						country_event = { id = flavor_fra.106 } 
-					}
-				}
-				else = { 
-					add_country_modifier = { 
-						name = fra_conquered_the_capetian_house_of_anjou_modifier
-						duration = 5475 
-					}
-					add_prestige = 20
-				}
-			}
 		}
 	}
 
