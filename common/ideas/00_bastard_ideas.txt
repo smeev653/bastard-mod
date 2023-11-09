@@ -1163,7 +1163,90 @@ POR_ideas = {
 		artillery_fire = 1
 	}
 }
+SPA_ideas = {
+	start = {
+		land_morale = 0.15
+		artillery_fire = 1
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = SPA
+	}
+	free = yes		#will be added at load.
 
+	devout_catholisism = {
+		papal_influence = 2
+		church_power_modifier = 0.25
+		monthly_fervor_increase = 0.5
+	}
+	inter_caetera = {
+		production_efficiency = 0.1
+	}
+	salamanca_scholars = {
+		global_institution_spread = 0.1
+		reform_progress_growth = 0.1
+	}
+	spanish_armada = {
+		heavy_ship_power = 0.1
+		naval_forcelimit_modifier = 0.25
+	}
+	spa_casa_de_contracion = {
+		envoy_travel_time = -0.33
+		global_tariffs = 0.15
+	}
+	siglo_de_oro = {
+		prestige = 1
+	}
+	spa_cortes = { 
+		possible_dip_policy = 1
+		loyalty_change_on_revoked = 0.05
+	}
+	
+}
+
+CAS_ideas = {
+	start = {
+		land_morale = 0.15
+		naval_forcelimit_modifier = 0.25
+	}
+	bonus = {
+		prestige = 1
+	}
+	trigger = {
+		tag = CAS
+	}
+	free = yes		#will be added at load.
+	the_reconquista = {
+		army_tradition_decay = -0.01
+	}
+	spanish_inquisition = {
+		global_missionary_strength = 0.02
+		missionaries = 1
+	}
+	cabildos = {
+		production_efficiency = 0.1
+	}
+	devout_catholisism = {
+		papal_influence = 2
+		church_power_modifier = 0.25
+		monthly_fervor_increase = 0.5
+	}
+	infantas = {
+		diplomatic_reputation = 1
+		heir_chance = 0.33
+	}
+	salamanca_scholars = {
+		global_institution_spread = 0.1
+		reform_progress_growth = 0.1
+	}
+	nueva_planta = {
+		global_autonomy = -0.05
+	}
+}
 #Habsburg Empire - to be done
 
 AHU_ideas = {
@@ -1231,8 +1314,7 @@ GBR_ideas = {
 		governing_capacity_modifier = 0.1
 	}
 	city_upon_a_hill = {
-		global_colonial_growth = 20
-		global_tariffs = 0.15
+		land_morale = 0.1
 	}
 	the_british_parliament = {
 		fire_damage = 0.1
