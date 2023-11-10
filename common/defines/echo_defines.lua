@@ -97,6 +97,8 @@ NDefines.NCountry.ESTATE_MIN_DISTRIBUTED_CROWNLAND = 30.5
 NDefines.NCountry.SETTLEMENT_GROWTH_DEVELOPMENT_INCREASE = 0
 NDefines.NCountry.RAZE_PROVINCE_DEVELOPMENT_DECREASE = 0
 NDefines.NCountry.RAZE_PROVINCE_POWER_PER_DEVELOPMENT = 0
+NDefines.NCountry.LAGGINGTECH_CORRUPTION = 0.25					-- Corruption increase/year. Multiplied by (highest - lowest) tech level
+NDefines.NCountry.LAGGINGTECH_CORRUPTION_MAX = 1				-- Max increase/year
 
 NDefines.NEconomy.GOLD_MINE_SIZE = 35
 NDefines.NEconomy.EDICTS_DURATION_MONTHS = 1
