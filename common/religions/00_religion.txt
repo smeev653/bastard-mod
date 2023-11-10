@@ -743,7 +743,7 @@ christian = {
 
 			icon_pancreator = {
 				#development_cost = -0.10
-				build_cost = -0.1
+				build_cost = -0.05
 				
 				allow = {
 					always = yes
@@ -984,7 +984,7 @@ muslim = {
 
 			picture = "GFX_icon_muslim_school_maliki"
 
-			build_cost = -0.1
+			build_cost = -0.05
 		}
 		shafii_school = {
 			potential_invite_scholar = {
