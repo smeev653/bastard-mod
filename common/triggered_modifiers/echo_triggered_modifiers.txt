@@ -15,7 +15,6 @@ Splendid_Court= {
 	}
 	advisor_cost = -0.1
 	all_power_cost = -0.05
-	build_cost = -0.05
 }
 
 Minor = {
