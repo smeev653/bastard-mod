@@ -174,8 +174,8 @@ age_of_discovery = {
 				tag = TUR
 			}
 			modifier = {
-				special_unit_forcelimit = 0.15
-				
+				special_unit_forcelimit = 0.1
+				siege_ability = 0.1
 			}
 			effect = {
 				add_country_modifier = {
