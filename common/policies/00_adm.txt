@@ -257,7 +257,7 @@ edict_of_resistance = {
 	}
 
 
-	morale_damage_received = -0.1
+	morale_damage_received = -0.075
 
 	effect = {}
 	removed_effect = {}
