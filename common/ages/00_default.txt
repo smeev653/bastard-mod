@@ -311,7 +311,7 @@ age_of_discovery = {
 				}	
 			}	
 			modifier = {
-				special_unit_forcelimit = 0.15
+				special_unit_forcelimit = 0.25
 				
 			}
 			effect = {
