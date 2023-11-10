@@ -54,7 +54,6 @@ technology = {
 	enable = african_mandelaku
 	enable = african_abyssinian_light_cavalry
 	enable = mongol_swarm
-	enable = mongol_steppe	
 	enable = mongol_bow	
 	enable = eastern_knights
 	enable = druzhina_cavalry	
@@ -166,7 +165,7 @@ technology = {
 	enable = high_american_horsemen
 	enable = aboriginal_horseman	
 	enable = pacific_horseman
-	
+	enable = mongol_steppe	
 	combat_width = 2
 }
 
