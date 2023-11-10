@@ -12,7 +12,7 @@ privy_council_establishment_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	fire_damage_received = -0.1
+	fire_damage_received = -0.075
 	
 	effect = {}
 	removed_effect = {}
@@ -374,7 +374,7 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	shock_damage_received = -0.15
+	shock_damage_received = -0.075
 
 	effect = {}
 	removed_effect = {}
@@ -907,7 +907,7 @@ local_militias = {
 		full_idea_group = defensive_ideas
 	}	
 	
-	shock_damage_received = -0.15
+	shock_damage_received = -0.075
 	
 	effect = {}
 	removed_effect = {}
@@ -1132,7 +1132,7 @@ the_wooden_wall = {
 		full_idea_group = defensive_ideas
 	}
 	
-	fire_damage_received = -0.1
+	fire_damage_received = -0.075
 	
 	ai_will_do = {
 		factor = 1

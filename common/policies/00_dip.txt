@@ -1365,7 +1365,7 @@ trained_marines_act = {
  		full_idea_group = diplomatic_ideas
  	}
  	
- 	shock_damage_received = -0.15
+ 	shock_damage_received = -0.075
 	
  	effect = {}
  	removed_effect = {}

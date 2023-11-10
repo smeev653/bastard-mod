@@ -51,7 +51,7 @@ the_court_of_wards_and_liveries = {
 		full_idea_group = economic_ideas
 	}
 		
-	fire_damage_received = -0.1
+	fire_damage_received = -0.075
 
 	effect = {}
 	removed_effect = {}
@@ -455,7 +455,7 @@ the_witchcraft_act = {
 		full_idea_group = aristocracy_ideas
 	}
 	
-	fire_damage_received = -0.1
+	fire_damage_received = -0.075
 
 	effect = {}
 	removed_effect = {}
