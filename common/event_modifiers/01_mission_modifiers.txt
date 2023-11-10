@@ -8243,7 +8243,7 @@ tur_janissary_example = {
 
 tur_janissary_loyalty = {
 	janissaries_loyalty_modifier = 0.1
-	special_unit_forcelimit = 0.1
+	janissary_cost_modifier = -0.33
 }
 
 tur_respected_the_patriarchate = {
@@ -8426,13 +8426,13 @@ tur_baghdad_city_of_learning = {
 }
 
 tur_tatar_vanguard_modifier = {
-	cavalry_shock = 0.25
+	cavalry_cost = -0.1
 }
 
 tur_allowed_tatars_in_sipahi_modifier = { 
 	janissaries_loyalty_modifier = -0.1
 	cavalry_power = 0.1
-	cavalry_cost = -0.15
+	cavalry_cost = -0.05
 }
 
 tur_safeguarded_jan_privileges_modifier = {
