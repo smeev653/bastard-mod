@@ -84,8 +84,8 @@ add_truce_with = QOM
 			name = "Uzun Hasan"
 			type = general
 			fire = 4	
-			shock = 5	
-			manuever = 5	
+			shock = 4	
+			manuever = 4	
 			siege = 0
 		}
 	}

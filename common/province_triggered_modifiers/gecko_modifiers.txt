@@ -19,7 +19,30 @@ transcaucasian_wine_valleys = {
 	}
 	
 }
+kaffa_slave_market = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
 
+	trigger = {
+		owner = {
+			tag = CRI
+		}
+		controlled_by = ROOT
+	}
+
+	trade_goods_size= 5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
 caliph_of_cairo = {
 	potential = {
 		normal_or_historical_nations = yes
