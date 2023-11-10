@@ -68,7 +68,10 @@ We_stand_alone = {
 						total_development = ROOT
 					}
 				
-				NOT = { num_of_allies = 1 }
+				OR = {
+					NOT = { num_of_allies = 1 }
+					has_country_modifier = Peace_of_Italy
+				}
 				NOT = { is_hegemon = yes }
 				NOT = { is_colonial_nation = yes }	
 				NOT = { is_lacking_institutions = yes }
@@ -229,7 +232,23 @@ Peace_of_Italy = {
 				great_power_rank = 5
 				 is_great_power = no
 				}
-		#is_at_war = no
+		OR = {		
+			AND = {		
+				tag = SIC		
+				alliance_with = MLO
+				alliance_with = VEN
+			}
+			AND = {		
+				tag = MLO		
+				alliance_with = SIC
+				alliance_with = VEN
+			}
+			AND = {		
+				tag = VEN		
+				alliance_with = SIC
+				alliance_with = MLO
+			}
+		}	
 		NOT = { is_lacking_institutions = yes }
 		NOT = {	
 			italy_region = {
