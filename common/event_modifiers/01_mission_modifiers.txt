@@ -8233,7 +8233,8 @@ tur_resettlement_of_constantinople = {
 }
 
 tur_preperation_for_naval_war = {
-	galley_power = 0.2
+	galley_cost = -0.15
+	global_naval_engagement_modifier = 0.1
 }
 
 tur_janissary_example = {
