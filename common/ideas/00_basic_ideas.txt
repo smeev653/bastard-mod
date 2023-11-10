@@ -691,10 +691,6 @@ maritime_ideas = {
 	bonus = {
 		sea_repair = yes
 	}
-	merchant_marine = {
-		allowed_marine_fraction = 0.2
-		shock_damage_received = -0.10
-	}
 	merchant_adventures = {
 		trade_range_modifier = 0.20
 		light_ship_cost = -0.15
@@ -703,6 +699,10 @@ maritime_ideas = {
 	fast_negotiations = {
 		caravan_power = 0.15
 		trade_steering = 0.25
+	}
+	merchant_marine = {
+		allowed_marine_fraction = 0.2
+		shock_damage_received = -0.10
 	}
 	overseas_merchants = {
 		merchants = 1
@@ -1093,14 +1093,14 @@ defensive_ideas = {
 		backrow_artillery_damage = 0.10
 	}
 	until_the_last_man = {
-		morale_damage_received = -0.15
+		morale_damage_received = -0.2
 	}
 	defensive_mentality = {
 		defensiveness = 0.25
 		global_manpower_modifier = 0.1
 	}
 	improved_body_armor = {
-		shock_damage_received = -0.15
+		shock_damage_received = -0.1
 	}
 	homeland_specialization = {
 		reinforce_speed = 0.20
@@ -1116,7 +1116,7 @@ defensive_ideas = {
 		may_refill_garrison = yes
 	}
 	terrain_defence = {
-		fire_damage_received = -0.15
+		fire_damage_received = -0.1
 	}
 	
 	ai_will_do = {
