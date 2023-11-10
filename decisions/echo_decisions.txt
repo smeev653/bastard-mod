@@ -334,5 +334,207 @@ country_decisions = {
 			}
 		}
 	}
+	educate_ruler = {
+		potential = {
+			NOT = { government = republic }
+			NOT = { has_country_flag = bastard_educate_ruler }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			ai = no
+			custom_trigger_tooltip = {
+				tooltip = bastard_less_than_9_stats_tt
+				OR = {
+					NOT = {
+						adm = 3
+						dip = 3
+						mil = 3
+					}
+					NOT = {
+						adm = 4
+						dip = 1
+						mil = 4
+					}
+					NOT = {
+						adm = 1
+						dip = 4
+						mil = 4
+					}
+					NOT = {
+						adm = 4
+						dip = 4
+						mil = 1
+					}
+					NOT = {
+						adm = 4
+						dip = 2
+						mil = 3
+					}
+					NOT = {
+						adm = 4
+						dip = 3
+						mil = 2
+					}
+					NOT = {
+						adm = 5
+						dip = 1
+						mil = 3
+					}
+					NOT = {
+						adm = 5
+						dip = 3
+						mil = 1
+					}
+					NOT = {
+						adm = 5
+						dip = 2
+						mil = 2
+					}
+					NOT = {
+						adm = 6
+						dip = 1
+						mil = 2
+					}
+					NOT = {
+						adm = 6
+						dip = 2
+						mil = 1
+					}
+					NOT = {
+						dip = 1
+						mil = 1
+					}
+					NOT = {
+						dip = 4
+						adm = 2
+						mil = 3
+					}
+					NOT = {
+						dip = 4
+						adm = 3
+						mil = 2
+					}
+					NOT = {
+						dip = 5
+						dip = 1
+						mil = 3
+					}
+					NOT = {
+						dip = 5
+						adm = 3
+						mil = 1
+					}
+					NOT = {
+						dip = 5
+						adm = 2
+						mil = 2
+					}
+					NOT = {
+						dip = 6
+						adm = 1
+						mil = 2
+					}
+					NOT = {
+						dip = 6
+						adm = 2
+						mil = 1
+					}
+					NOT = {
+						adm = 1
+						mil = 1
+					}
+					NOT = {
+						mil = 4
+						adm = 2
+						dip = 3
+					}
+					NOT = {
+						mil = 4
+						adm = 3
+						dip = 2
+					}
+					NOT = {
+						mil = 5
+						mil = 1
+						dip = 3
+					}
+					NOT = {
+						mil = 5
+						adm = 3
+						dip = 1
+					}
+					NOT = {
+						mil = 5
+						adm = 2
+						dip = 2
+					}
+					NOT = {
+						mil = 6
+						adm = 1
+						dip = 2
+					}
+					NOT = {
+						mil = 6
+						adm = 2
+						dip = 1
+					}
+					NOT = {
+						adm = 1
+						dip = 1
+					}
+				}
+			}
+			NOT = {
+				check_variable = { 
+					which = bastard_educate_rulers_count
+					value = 3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = bastard_cant_educate_same_ruler_tt
+				NOT = { has_ruler_flag = bastard_educate_ruler }
+			}
+		}
+		effect = {
+			add_years_of_income = -0.5
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+			change_variable = {
+				which = bastard_educate_rulers_count
+				value = 1
+			}
+			set_ruler_flag = bastard_educate_ruler
+		}
+	}
+	prepare_for_holy_war = {	
+			###X###
+			major = yes
+			#######
+			potential = {
+					ai = no
+					religion_group = muslim
+					has_border_with_religious_enemy = yes
+			}
+			allow = {
+					reform_level = 5
+					religion_group = muslim
+					NOT = { has_country_modifier = jihad }
+					at_war_with_religious_enemy = yes
+					has_border_with_religious_enemy = yes
+					army_size_percentage = 1
+					manpower_percentage = 0.25
+					prestige = 25
+			}
+			effect = {
+					add_piety = -1
+					add_country_modifier = {
+					name = "jihad"
+					duration = 1825
+					}
+			}	
+	}
 }	
 	

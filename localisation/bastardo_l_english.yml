@@ -71,6 +71,7 @@
  echo_muslim_school_cooldown:0 "Scholar Cooldown"
  trade_hub_created:0 "Centre of Trade Created Recently"
  trade_hub_created_2:0 "Trade Hub Created Recently"
+ jihad:0 "Jihad"
  ###################decisions##############################################
  #exploration
  free_colonist_title:0 "Free Colonist"
