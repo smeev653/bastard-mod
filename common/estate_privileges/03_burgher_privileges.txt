@@ -2535,7 +2535,7 @@ estate_burghers_economical_boost = {
 			}
 		}
 		modifier = {
-			global_prov_trade_power_modifier = -0.25
+			global_prov_trade_power_modifier = -0.125
 		}
 	}
 	influence_scaled_conditional_modifier = {	#Modifier that are applied if the specified conditions are true. At 100% Influence you gain 100% of the modifier.
@@ -2552,8 +2552,8 @@ estate_burghers_economical_boost = {
 			}
 		}
 		modifier = {
-			placed_merchant_power = 5
-			global_prov_trade_power_modifier = 0.25
+			placed_merchant_power = 2.5
+			global_prov_trade_power_modifier = 0.125
 		}
 	}
 	influence_scaled_conditional_modifier = {	#Modifier that are applied if the specified conditions are true. At 100% Influence you gain 100% of the modifier.
@@ -2564,8 +2564,8 @@ estate_burghers_economical_boost = {
 			}
 		}
 		modifier = {
-			placed_merchant_power = 10
-			global_prov_trade_power_modifier = 0.5
+			placed_merchant_power = 5
+			global_prov_trade_power_modifier = 0.25
 		}
 	}
 	conditional_modifier = {
