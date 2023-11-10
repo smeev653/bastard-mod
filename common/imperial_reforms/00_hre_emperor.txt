@@ -4,8 +4,7 @@ emperor_reichsreform = {
 		has_dlc = "Emperor"
 	}
 	province = {
-		local_build_cost = -0.025
-		local_development_cost = -0.025
+		 local_autonomy = -0.05
 	}
 	#on_effect = {
 	#	imperial_ban_allowed = yes
@@ -22,7 +21,8 @@ emperor_reichsregiment = {
 		has_dlc = "Emperor"
 	}
 	province = {
-		 local_autonomy = -0.05
+		 local_build_cost = -0.025
+		 local_development_cost = -0.025
 	}
 	emperor = {
 		diplomatic_reputation = 2
