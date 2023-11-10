@@ -701,8 +701,8 @@ maritime_ideas = {
 		trade_steering = 0.25
 	}
 	merchant_marine = {
-		allowed_marine_fraction = 0.2
-		shock_damage_received = -0.10
+		allowed_marine_fraction = 0.1
+		shock_damage_received = -0.1
 	}
 	overseas_merchants = {
 		merchants = 1
