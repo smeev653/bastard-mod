@@ -473,3 +473,24 @@ country_event = { #Recruit Mil Advisor
 		#nothing
 	}
 }
+
+###remove we stand alone dev event####
+country_event = {
+    id = echo.13
+    title = echo.13.t
+    desc = echo.13.d
+    picture = COURT_eventPicture
+	hidden = yes
+    trigger = {
+			is_great_power = yes	
+			has_country_modifier = echo_development	
+    }
+    mean_time_to_happen = {
+        months = 12
+    }
+	
+    option = {
+		name = echo.2.a
+		remove_country_modifier = echo_development
+	}
+}
