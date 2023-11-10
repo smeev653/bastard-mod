@@ -4401,7 +4401,16 @@ on_province_owner_change = {
 		flavor_tur.207	#Victory over the Knights
 	}
 	on_province_owner_change_government_effect = yes
-
+	if = {
+		limit = {
+			province_id = 45
+			owner = {
+				NOT = { tag = HSA}
+			}
+			trade_goods = gold
+		}
+		change_trade_goods = paper
+	}
 	if = {
 		limit = {
 			owned_by = SRU
