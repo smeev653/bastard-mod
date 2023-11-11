@@ -58,11 +58,7 @@ country_decisions = {
 				area = yemen_area
 				province_id = 402
 				province_id = 4284
-				province_id = 4274
-				province_id = 392
-				province_id = 4273
 				area = hadramut_area
-				area = bahrain_area
 				area = oman_area
 				area = pirate_coast_area
 				area = dhofar_area
@@ -83,11 +79,7 @@ country_decisions = {
 			yemen_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			owns_core_province = 402
 			owns_core_province = 4284
-			owns_core_province = 4274 
-			owns_core_province = 392 
-			owns_core_province = 4273
 			hadramut_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
-			bahrain_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			oman_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			pirate_coast_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			dhofar_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }

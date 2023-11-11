@@ -261,6 +261,27 @@ mam_missions_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			nafud_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			qasim_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			bahrain_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			#country_event = { id = flavor_mam.23 }
 			custom_tooltip = flavor_mam.23_tt
 			custom_tooltip = enable_sponsor_hajj_dip_action_tt
