@@ -755,41 +755,7 @@ break_alliance = {
 		on_alliance_broken_effect = yes
 	}
 }
-ask_for_march = {
-	condition = {
-		tooltip = h_tooltip_ask_march
-		potential = {
-		}
-		allow = {
-			always = no
-		}
-	}
-}
 
-designate_march = {
-	condition = {
-		tooltip = h_tooltip_many_marches_influence
-		potential = {
-			
-		}
-		allow = {
-			NOT = {
-				ROOT = {
-					march = 2
-				}
-			}
-		}
-	}
-	condition = {
-		tooltip = gc_take_influence_ideas_for_marches
-		potential = {
-			ROOT = { NOT = {has_idea = marcher_lords } }
-		}
-		allow = {
-			FROM = {total_development = 300 }
-		}
-	}
-}
 
 support_independence_action = {
 	condition = {
