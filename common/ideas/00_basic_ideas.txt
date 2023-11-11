@@ -1025,7 +1025,7 @@ offensive_ideas = {
 		artillery_levels_available_vs_fort = 1
 	}
 	melee_combat_training = {
-		infantry_power = 0.1
+		discipline = 0.05
 	}
 	fort_breaker = {
 		assault_fort_ability = 0.33
