@@ -315,7 +315,6 @@ WES_ideas = {
 	}
 	wes_increased_conscription = {
 		discipline = 0.05
-		mercenary_discipline = 0.05
 		merc_maintenance_modifier = -0.2
 	}
 	wes_westphalian_decentralisation  = {
