@@ -52,52 +52,9 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			OR = {
-				and = {
-					root = { tag = TIM }
-					or = {
-						owned_by = TRS
-						owned_by = AFG
-						owned_by = SIS
-						owned_by = FRS
-						owned_by = KHO
-						owned_by = QOM
-						owned_by = LRI
-						owned_by = ARD
-					}
-				}
-				province_id = 414		# Hamadan
-				province_id = 429		# Isfahan
-				province_id = 433		# Yazd
-				province_id = 2213		# Qom
-				province_id = 2215		# Qazvin
-				AND = {
-					province_id = 426
-					ROOT = { NOT = { owns_core_province = 2218 } }
-				}
-				AND = {
-					province_id = 2218
-					ROOT = { NOT = { owns_core_province = 426 } }
-				}
-				AND = {
-					province_id = 416
-					ROOT = { NOT = { owns_core_province = 432 } }
-					ROOT = { NOT = { owns_core_province = 2221 } }
-				}
-				AND = {
-					province_id = 432
-					ROOT = { NOT = { owns_core_province = 416 } }
-					ROOT = { NOT = { owns_core_province = 2221 } }
-				}
-				AND = {
-					province_id = 2221
-					ROOT = { NOT = { owns_core_province = 416 } }
-					ROOT = { NOT = { owns_core_province = 432 } }
-				}
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
+			persia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		allow = {
@@ -107,20 +64,11 @@ country_decisions = {
 			#is_tribal = no
 			NOT = { exists = PER }
 			NOT = { exists = ERS }
-			owns_core_province = 414		# Hamadan
-			owns_core_province = 429		# Isfahan
-			owns_core_province = 433		# Yazd
-			owns_core_province = 2213		# Qom
-			owns_core_province = 2215		# Qazvin
-			OR = {
-				owns_core_province = 426		# Amol
-				owns_core_province = 2218		# Shiraz
+			persia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
-			AND = {
-				owns_core_province = 416		# Tabriz
-				owns_core_province = 432		# Kerman
-				owns_core_province = 2221		# Mashhad
-			}
+			
 			if = {
 				limit = {
 					tag = TIM
