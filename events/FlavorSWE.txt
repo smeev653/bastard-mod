@@ -3477,6 +3477,26 @@ country_event = {
 			value = 0.25
 			duration = 14600
 		}
+		8 = {
+			if = {
+				limit = {
+					has_manufactory_trigger = yes
+				}
+				add_base_production = 4
+			}
+			else = {
+				add_manufactory = yes
+			}
+			if = {
+				limit = {
+					has_building = counting_house
+				}
+				add_base_production = 2
+			}
+			else = {
+			add_building = counting_house
+			}
+		}
 		ai_chance = {
 			factor = 0
 		}
@@ -3507,6 +3527,26 @@ country_event = {
 			key = SWEDEN_IRON_FLOOD
 			value = -0.15
 			duration = 14600
+		}
+		8 = {
+			if = {
+				limit = {
+					has_manufactory_trigger = yes
+				}
+				add_base_production = 4
+			}
+			else = {
+				add_manufactory = yes
+			}
+			if = {
+				limit = {
+					has_building = counting_house
+				}
+				add_base_production = 2
+			}
+			else = {
+			add_building = counting_house
+			}
 		}
 		ai_chance = {
 			factor = 0
@@ -3539,6 +3579,26 @@ country_event = {
 			key = SWEDEN_IRON
 			value = 0.1
 			duration = 14600
+		}
+		8 = {
+			if = {
+				limit = {
+					has_manufactory_trigger = yes
+				}
+				add_base_production = 4
+			}
+			else = {
+				add_manufactory = yes
+			}
+			if = {
+				limit = {
+					has_building = counting_house
+				}
+				add_base_production = 2
+			}
+			else = {
+			add_building = counting_house
+			}
 		}
 		ai_chance = {
 			factor = 1
