@@ -1,6 +1,8 @@
 ﻿############################################
  # FU_Milan_l_english
  ############################################
+ l_english:
+
  mlo_republican_question_title: "The Golden Republic"
  mlo_republican_question_desc: "The matter of governance is of vital importance in our Duchy, given the demands of the people for curbing feudalism and alleviating their burdens. We should be wary and careful when it comes to choosing the future of our country." 
  mlo_league_of_italy_title: "League of Italy" 
