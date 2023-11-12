@@ -52,10 +52,8 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			persia_region = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			region = persia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes

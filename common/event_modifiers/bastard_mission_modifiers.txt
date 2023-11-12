@@ -31,7 +31,6 @@ bs_bur_realm_united_mod = {
 norman_resurgence = {
 	ae_impact = -0.5
 	province_warscore_cost = -0.5
-	land_morale = 0.2
 }
 
 gc_african_gold_modifier = {
