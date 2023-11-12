@@ -796,7 +796,7 @@ aristocracy_ideas = {
 		army_tradition_from_battle = 0.25
 	}	
 	international_nobility = {
-		discipline = 0.03
+		discipline = 0.025
 	}
 	local_nobility = {
 		global_regiment_cost = -0.05
@@ -959,8 +959,7 @@ theocracy_gov_ideas = {
 		same_religion_advisor_cost = -0.1
 	}
 	flesh_is_weak = {
-		morale_damage = 0.1
-		war_exhaustion = -0.05
+		morale_damage = 0.15
 	}
 	conviction_of_sin = {
 		global_missionary_strength = 0.01
@@ -970,6 +969,7 @@ theocracy_gov_ideas = {
 	}
 	martyrs = {
 		manpower_in_true_faith_provinces = 0.15
+		infantry_fire = 0.1
 	}
 	ai_will_do = {
 		factor = 3.75
