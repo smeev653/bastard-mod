@@ -257,7 +257,7 @@ estate_qizilbash_loyalty_privilege = {
 	icon = privilege_royal_authority
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	5
+	
 	influence = 0.1
 	penalties = {
 	}
@@ -697,7 +697,7 @@ estate_qizilbash_tupchi_artillery_corps = {
 
 estate_qizilbash_qurchi_service = {
 	icon = privilege_legitimacy
-	0
+	
 	max_absolutism = 0
 	#conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	is_valid = {

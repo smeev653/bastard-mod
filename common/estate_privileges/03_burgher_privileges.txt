@@ -2305,7 +2305,7 @@ estate_burghers_the_new_middle_class = {
 		NOT = { has_country_flag = enserfed_peasants }
 	}
 	influence = 0.1
-	5
+	
 	can_revoke = {
 		government = republic
 	}
@@ -2355,7 +2355,7 @@ estate_burghers_sindicat_remensa_privilege = {
 		has_country_flag = remensa_privilege_flag
 	}
 	influence = 0.1
-	5
+	
 	benefits = {
 		burghers_privilege_slots = 1
 		global_trade_goods_size_modifier = 0.1
