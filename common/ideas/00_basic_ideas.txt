@@ -1180,7 +1180,7 @@ quality_ideas = {
 	}
 	quality_education = {
 		recover_army_morale_speed = 0.10
-		#reserves_organisation = 0.15
+		regiment_manpower_usage = -0.1
 	}
 	massed_battery = {
 		artillery_power = 0.1
