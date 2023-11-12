@@ -3,7 +3,7 @@ estate_vaisyas_land_rights = {
 	land_share = 5
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 0.05
+	
 	influence = 0.05
 	can_select = {
 	}
@@ -190,7 +190,7 @@ estate_vaisyas_loyalty_privilege = {
 	icon = privilege_royal_authority
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.1
+	
 	influence = 0.1
 	penalties = {
 	}
@@ -210,7 +210,7 @@ estate_vaisyas_advisor = {
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.05
-	loyalty = 0.05
+	
 	is_valid = {
 		always = no
 	}
@@ -259,7 +259,7 @@ estate_vaisyas_patronage_of_the_arts = {
 	icon = privilege_build_jain_temple
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 0.05
+	
 	influence = 0.05
 	penalties = {
 		global_tax_modifier = -0.05
@@ -299,7 +299,7 @@ estate_vaisyas_land_trade_rights = {
 	land_share = 5
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 0.1
+	
 	influence = 0.1
 	is_valid = {
 	}
@@ -332,7 +332,7 @@ estate_vaisyas_monopoly_of_textiles = {
 	icon = privilege_monopoly_of_goods_cloth
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
+	
 	is_valid = {
 		OR = {
 			has_dlc = "Emperor"
@@ -455,7 +455,7 @@ estate_vaisyas_monopoly_of_dyes = {
 	icon = privilege_monopoly_of_goods_dyes
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
+	
 	is_valid = {
 		OR = {
 			has_dlc = "Emperor"
@@ -566,7 +566,7 @@ estate_vaisyas_monopoly_of_glass = {
 	icon = privilege_monopoly_of_goods_glass
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
+	
 	is_valid = {
 		OR = {
 			has_dlc = "Emperor"
@@ -677,7 +677,7 @@ estate_vaisyas_monopoly_of_paper = {
 	icon = privilege_monopoly_of_goods_paper
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
+	
 	is_valid = {
 		OR = {
 			has_dlc = "Emperor"
@@ -789,7 +789,7 @@ estate_vaisyas_exclusive_trade_rights = {
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.05
-	loyalty = 0.05
+	
 	is_valid = {
 		has_dlc = "Emperor"
 		any_active_trade_node = {
@@ -865,7 +865,7 @@ estate_vaisyas_control_over_monetary_policy = {
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.05
-	loyalty = 0.05
+	
 	is_valid = {
 		has_dlc = "Emperor"
 	}
@@ -907,7 +907,7 @@ estate_vaisyas_private_trade_fleets = {
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.1
-	loyalty = 0.05
+	
 	is_valid = {
 		has_dlc = "Emperor"
 		any_owned_province = {
@@ -1005,7 +1005,7 @@ estate_vaisyas_khmer_irrigation = {
 #Domination generic Estate Privileges
 estate_vaisyas_development_of_cities = {
 	icon = privilege_development_efficiency
-	loyalty = 0.05
+	
 	influence = 0.05
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }

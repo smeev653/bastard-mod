@@ -3,7 +3,7 @@ estate_qizilbash_land_rights = {
 	land_share = 5
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 0.05
+	
 	influence = 0.05
 	can_select = {
 		not = { has_estate_privilege = estate_ghulams_land_rights }
@@ -257,7 +257,7 @@ estate_qizilbash_loyalty_privilege = {
 	icon = privilege_royal_authority
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.15
+	5
 	influence = 0.1
 	penalties = {
 	}
@@ -343,7 +343,7 @@ estate_qizilbash_horse_responsibilities = {
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.05
-	loyalty = 0.1
+	
 	is_valid = {
 		has_estate_privilege = estate_qizilbash_establish_the_qizilbash_regiments
 	}
@@ -395,7 +395,7 @@ estate_qizilbash_horse_responsibilities = {
 
 estate_qizilbash_protected_communities = {
 	icon = privilege_autonomy
-	loyalty = 0.1
+	
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.1
@@ -466,7 +466,7 @@ estate_qizilbash_protected_communities = {
 
 estate_qizilbash_military_leadership = {
 	icon = privilege_army_tradition
-	loyalty = 0.05
+	
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.05
@@ -489,7 +489,7 @@ estate_qizilbash_military_leadership = {
 
 estate_qizilbash_supremacy_over_the_aristocracy = {
 	icon = privilege_coup_detat
-	loyalty = 0.1
+	
 	influence = 0.1
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
@@ -516,7 +516,7 @@ estate_qizilbash_supremacy_over_the_aristocracy = {
 #Unlockable
 estate_qizilbash_defensive_policy = {
 	icon = privilege_fort
-	loyalty = 0.05
+	
 	influence = 0.1
 	max_absolutism = 0
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
@@ -546,7 +546,7 @@ estate_qizilbash_defensive_policy = {
 
 estate_qizilbash_regimental_discipline = {
 	icon = qizilbash_shock
-	loyalty = 0.05
+	
 	influence = 0.1
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
@@ -616,7 +616,7 @@ estate_qizilbash_regimental_discipline = {
 
 estate_qizilbash_tofangchi_regiment = {
 	icon = privilege_infantry
-	loyalty = 0.05
+	
 	influence = 0.1
 	max_absolutism = 0
 	#conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
@@ -645,7 +645,7 @@ estate_qizilbash_tofangchi_regiment = {
 
 estate_qizilbash_tupchi_artillery_corps = {
 	icon = privilege_artillery
-	loyalty = 0.05
+	
 	influence = 0.05
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
@@ -697,7 +697,7 @@ estate_qizilbash_tupchi_artillery_corps = {
 
 estate_qizilbash_qurchi_service = {
 	icon = privilege_legitimacy
-	loyalty = 0.10
+	0
 	max_absolutism = 0
 	#conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	is_valid = {
@@ -738,7 +738,7 @@ estate_qizilbash_qurchi_service = {
 
 estate_qizilbash_mamlukian_administration = {
 	icon = privilege_land_rights
-	loyalty = 0.05
+	
 	influence = 0.10
 	max_absolutism = 0
 	#conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }

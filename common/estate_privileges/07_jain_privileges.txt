@@ -3,7 +3,7 @@ estate_jains_land_rights = {
 	land_share = 5
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 0.05
+	
 	influence = 0.05
 	can_select = {
 	}
@@ -245,7 +245,7 @@ estate_jains_diplomacy = {
 
 estate_jains_clerical_class = {
 	icon = privilege_patronize_jain_families
-	loyalty = 0.1
+	
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.1
@@ -331,7 +331,7 @@ estate_jains_conscientious_objection = {
 	icon = privilege_commission_jain_scripture
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 0.1
+	
 	penalties = {
 		global_manpower_modifier = -0.1
 	}
@@ -348,7 +348,7 @@ estate_jains_grant_liberties = {
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.1
-	loyalty = 0.1
+	
 	is_valid = {
 	}
 	penalties = {
@@ -365,7 +365,7 @@ estate_jains_land_trade_rights = {
 	land_share = 5
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 0.1
+	
 	influence = 0.1
 	is_valid = {
 	}
@@ -398,7 +398,7 @@ estate_jains_monopoly_of_textiles = {
 	icon = privilege_monopoly_of_goods_cloth
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
+	
 	is_valid = {
 		OR = {
 			has_dlc = "Emperor"
@@ -523,7 +523,7 @@ estate_jains_monopoly_of_dyes = {
 	icon = privilege_monopoly_of_goods_dyes
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
+	
 	is_valid = {
 		OR = {
 			has_dlc = "Emperor"
@@ -636,7 +636,7 @@ estate_jains_monopoly_of_glass = {
 	icon = privilege_monopoly_of_goods_glass
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
+	
 	is_valid = {
 		OR = {
 			has_dlc = "Emperor"
@@ -749,7 +749,7 @@ estate_jains_monopoly_of_paper = {
 	icon = privilege_monopoly_of_goods_paper
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
+	
 	is_valid = {
 		OR = {
 			has_dlc = "Emperor"
@@ -863,7 +863,7 @@ estate_jains_exclusive_trade_rights = {
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.05
-	loyalty = 0.05
+	
 	is_valid = {
 		has_dlc = "Emperor"
 		any_active_trade_node = {
@@ -940,7 +940,7 @@ estate_jains_control_over_monetary_policy = {
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.05
-	loyalty = 0.05
+	
 	is_valid = {
 		has_dlc = "Emperor"
 		NOT = { has_estate = estate_vaisyas }
@@ -974,7 +974,7 @@ estate_jains_private_trade_fleets = {
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.1
-	loyalty = 0.05
+	
 	is_valid = {
 		has_dlc = "Emperor"
 		NOT = { has_estate = estate_vaisyas }
@@ -1006,7 +1006,7 @@ estate_jains_private_trade_fleets = {
 #Domination generic Estate Privileges
 estate_jains_development_of_cities = {
 	icon = privilege_development_efficiency
-	loyalty = 0.05
+	
 	influence = 0.05
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
