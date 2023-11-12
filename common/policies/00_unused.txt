@@ -1198,10 +1198,9 @@ foreign_conscription_centers = {
 	
 	potential = {
 		always = no
-		
 	}
 	
-	potential = {
+	allow = {
 		always = no
 	}
 	
