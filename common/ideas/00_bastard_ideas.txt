@@ -2184,7 +2184,7 @@ AKK_ideas = {
 		land_morale = 0.1
 	}
 	akk_unite_the_federation = {
-		yearly_government_power = 12
+		global_tax_modifier = 0.15
 		cavalry_power = 0.15
 	}
 	akk_turko_iranian_bureaucracy = {

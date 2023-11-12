@@ -1006,15 +1006,11 @@ aq_qoyunlu_third = {
 				area = iraq_e_ajam_area
 				area = shahrizor_area
 				area = luristan_area
-				province_id = 446
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
 		trigger = {
-			446 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				OR = {
 					area = tabarestan_area
@@ -1473,10 +1469,8 @@ aq_qoyunlu_fourth = {
 		position = 7
 		
 		provinces_to_highlight = {
-			OR = {
 				region = persia_region
-				region = khorasan_region
-			}
+			
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
@@ -1629,7 +1623,7 @@ aq_qoyunlu_fourth = {
 		
 		trigger = {
 			development_in_provinces = {
-				value = 600
+				value = 500
 				culture_group = iranian
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
