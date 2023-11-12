@@ -45,6 +45,11 @@ gc_mor_italy = {
 	global_manpower_modifier = 0.1
 	artillery_fire = 0.5
 }
+
+fertile_crescent = {
+	local_development_cost = -0.05
+	trade_goods_size_modifier = 0.1
+}
 ####################austria###################
 bs_royal_hungary = {
 	land_morale = 0.1

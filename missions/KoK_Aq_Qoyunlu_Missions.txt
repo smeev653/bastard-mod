@@ -1287,10 +1287,22 @@ aq_qoyunlu_fourth = {
 			basra_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
+				is_prosperous = yes
 			}
 			khuzestan_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
+				is_prosperous = yes
+			}
+			al_jazira_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_prosperous = yes
+			}
+			iraq_arabi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_prosperous = yes
 			}
 		}
 		
@@ -1302,6 +1314,30 @@ aq_qoyunlu_fourth = {
 				add_province_modifier = {
 					name = turkoman_entrepot_of_persia
 					duration = -1
+				}
+			}
+			basra_area = {
+				add_province_modifier = {
+					name = fertile_crescent
+					duration = 9125
+				}
+			}
+			khuzestan_area = {
+				add_province_modifier = {
+					name = fertile_crescent
+					duration = 9125
+				}
+			}
+			al_jazira_area = {
+				add_province_modifier = {
+					name = fertile_crescent
+					duration = 9125
+				}
+			}
+			iraq_arabi_area = {
+				add_province_modifier = {
+					name = fertile_crescent
+					duration = 9125
 				}
 			}
 			bahrain_area = {
