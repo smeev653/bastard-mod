@@ -616,7 +616,6 @@ the_two_sicilies_missions_3 = {
 			add_adm_power = 120
 			add_dip_power = 120
 			add_mil_power = 120
-			complete_conquest_of_rome_missions = yes
 		}
 	}
 }
