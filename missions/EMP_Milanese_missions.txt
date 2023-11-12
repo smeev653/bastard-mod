@@ -763,19 +763,6 @@ milan_missions_3 = { #Made by Big Boss for Flavor Universalis
 		position = 9 
 		trigger = {
 			crown_land_share = 30
-			custom_trigger_tooltip = {
-			tooltip = gc_mlo_development_tt
-				num_of_owned_provinces_with = {
-					value = 10 
-					region = italy_region
-					development = 20
-				}
-				num_of_owned_provinces_with = {
-					value = 10 
-					region = italy_region
-					development = 30
-				}
-			}
 		}
 		effect = {
 			add_years_of_income = 2
