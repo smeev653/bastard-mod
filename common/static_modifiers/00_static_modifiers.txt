@@ -1214,7 +1214,7 @@ total_occupation = {
 }
 
 total_blockaded = {
-	war_exhaustion = 0.3					#increases exhaustion.
+	war_exhaustion = 0.4					#increases exhaustion.
 	global_trade_power = -0.75
 	trade_steering = -0.75
 }
