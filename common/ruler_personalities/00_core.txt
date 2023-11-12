@@ -1411,13 +1411,7 @@ expansionist_personality = {
 	}
 	
 	allow = {
-		OR = {
-			num_of_colonists = 1 
-			AND = {
-				has_game_started = no
-				is_playing_custom_nation = yes
-			}
-		}
+		always = no
 	}
 	
 	chance = {
