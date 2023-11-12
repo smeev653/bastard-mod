@@ -1673,8 +1673,7 @@ hired_adventurers_act = {
 	}
  	
  	allow = {
- 		 
- 		
+ 		 always = no
  	}
  
  	movement_speed = 0.1
@@ -2635,8 +2634,7 @@ production_quota_act = {
 	}
 	
 	allow = {
-		
-
+		always = no
 	}
 	global_trade_goods_size_modifier = 0.15
  
