@@ -2857,7 +2857,7 @@ tur_egyptian_conquest = {
 			define_advisor = {
 				type = trader
 				skill = 3
-				cost_multiplier = 0.25
+				cost_multiplier = 0.75
 			}
 			add_mercantilism = 5
 			add_country_modifier = {
@@ -3159,7 +3159,7 @@ tur_arabian_conquest = {
 					name = "Gennadios II" 
 					type = theologian
 					skill = 3
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 					culture = greek
 					religion = orthodox
 				}

@@ -1011,7 +1011,7 @@ KoK_YEM_missions_2_religious = {
 				skill = 1
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 			
 			custom_tooltip = " "

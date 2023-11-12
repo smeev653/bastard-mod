@@ -315,7 +315,7 @@ gc_por_1 = {
 				define_advisor = {
 					type = inquisitor 
 					skill = 3 
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 				}
 			}
 			else = { add_prestige = 5 }
@@ -1128,7 +1128,7 @@ gc_por_3 = {
 				define_advisor = {
 					type = naval_reformer
 					skill = 3
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 				}
 				add_navy_tradition = 25 
 			}

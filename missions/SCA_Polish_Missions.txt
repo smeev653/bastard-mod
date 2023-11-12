@@ -4929,7 +4929,7 @@ poland_sca_slot_5_c = {
 			}
 			generate_scaled_advisor_of_type_and_cost_effect = {
 				type = natural_scientist
-				cost_multiplier = 0.25 
+				cost_multiplier = 0.75 
 			}
 			custom_tooltip = pol_unlock_when_plc_tt
 		}
@@ -4973,7 +4973,7 @@ poland_sca_slot_5_plc_2 = {
 			}
 			generate_scaled_advisor_of_type_and_cost_effect = {
 				type = natural_scientist
-				cost_multiplier = 0.25 
+				cost_multiplier = 0.75 
 			}
 		}
 	}

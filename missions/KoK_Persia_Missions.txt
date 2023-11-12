@@ -777,7 +777,7 @@ kok_persia_mission_origins_slot_timurid = {
 			define_advisor = {
 				type = artist
 				skill = 3
-				cost_multiplier = 0.25
+				cost_multiplier = 0.75
 			}
 			add_government_power = {
 				mechanic_type = persian_influence_mechanic
@@ -1505,7 +1505,7 @@ kok_persia_military_mission_slot_1 = {
 				effect = "
 					define_advisor = {
 						type = commandant
-						cost_multiplier = 0.25
+						cost_multiplier = 0.75
 						culture = georgian
 						skill = 3
 					}

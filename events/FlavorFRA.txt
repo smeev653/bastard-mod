@@ -2861,7 +2861,7 @@ country_event = { #Early Opera Flourishes
 		
 		define_advisor = {
 			type = artist
-			cost_multiplier = 0.5
+			cost_multiplier = 0.75
 			skill = 3 
 		}
 		if = {

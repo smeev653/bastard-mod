@@ -1282,7 +1282,7 @@ KoK_ARB_hedjaz_najd_bedouin_4 = {
 				skill = 2
 				culture = gulf_arabic
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 	}
@@ -1538,7 +1538,7 @@ KoK_ARB_hedjaz_najd_bedouin_5 = {
 						skill = 2
 						culture = al_iraqiya_arabic
 						religion = ROOT
-						cost_multiplier = 0.5
+						cost_multiplier = 0.75
 					}
 					custom_tooltip = \" \"
 					if = {
@@ -1557,7 +1557,7 @@ KoK_ARB_hedjaz_najd_bedouin_5 = {
 						skill = 2
 						culture = al_iraqiya_arabic
 						religion = ROOT
-						cost_multiplier = 0.5
+						cost_multiplier = 0.75
 					}
 					
 					custom_tooltip = \" \"
@@ -1570,7 +1570,7 @@ KoK_ARB_hedjaz_najd_bedouin_5 = {
 						skill = 2
 						culture = al_iraqiya_arabic
 						religion = ROOT
-						cost_multiplier = 0.25
+						cost_multiplier = 0.75
 					}
 					
 					custom_tooltip = \" \"

@@ -4741,7 +4741,7 @@ french_missions_4_normal_contiuation = {
 			define_advisor = {
 				name = "Nicolas Fouquet"
 				type = treasurer
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 				skill = 2
 			}
 		}

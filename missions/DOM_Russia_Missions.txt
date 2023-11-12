@@ -290,7 +290,7 @@ mos_rus_conquer_west = {
 				define_advisor = {
 					type = commandant
 					skill = 3
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 				}
 				add_manpower = 10
 			}
@@ -2204,7 +2204,7 @@ mos_rus_russian_consolidation = {
 				define_advisor = {
 					type = inquisitor
 					skill = 3
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 				}
 				add_prestige_or_monarch_power = {
 					amount = 25

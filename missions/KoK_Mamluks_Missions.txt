@@ -1126,7 +1126,7 @@ mam_missions_3 = {
 			
 			define_advisor = {
 				type = natural_scientist
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 				skill = 3
 			}
 		}
