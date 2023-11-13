@@ -30,9 +30,6 @@ Minor = {
 				ai = no
 			}	
 			NOT = { is_emperor = yes }
-			NOT = {
-				has_country_modifier = burnt_development
-			}
 	}
 	
 

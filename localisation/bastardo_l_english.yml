@@ -105,15 +105,19 @@
  echo.4.a:0 "Good."
 #############scripted functions######################
 
-cant_colonize_nw_tt:0 "Unable to colonise the New World besides Colonial Brazil"
+cant_colonize_nw_tt:0 "Can only colonise the following regions:\n\nColonial Canada, Colonial Eastern America, Colonial Caribbean and Colonial Brazil.\nColonies can only be established in Colonial Brazil, however you may establish Trade Companies in the regions previously mentioned."
+bs_cant_state_nw_tt:0 "Cannot make states in the New World."
 bastard_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YEconomic Golden Age§! or extend the current one by §G30§! years"
 bs_pol_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YGolden Age§! or extend the current one by §G30§! years"
 
 area_has_total_development_of_type_tt_tax: "The sum of the §YBase Tax§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
 area_has_total_development_of_type_tt_production: "The sum of the §YBase Production§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
 area_has_total_development_of_type_tt_manpower: "The sum of the §YBase Manpower§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
-######trade#######
-baku:0 "Caucasus"
+######trade companies#######
+caribbean_company: "Caribbean Company"
+hudson_bay_company: "Hudson Bay Company"
+eastern_america_company: "Eastern America Company"
+##
 #################estate privileges################################
  bs_estate_church_one_faith_one_culture_gta:0 "Every owned province of the §Y[Root.Religion.GetName]§! faith, which is either in the §Y[Root.Culture.GetGroupName]§! culture group or has an §Yaccepted culture§!, gains '§YReligious Society§!', giving the following effects:\nLocal Unrest: §G-2.00§!"
  bs_estate_church_one_faith_one_culture_gtb:2 "Every owned province, which is NOT in the §Y[Root.Culture.GetGroupName]§! culture group and has NOT an §Yaccepted culture§!, gains '§YHeretic Culture§!', giving the following effects:\nLocal Unrest: §R+3.00§!\nLocal Culture Conversion Cost: §G-25%§!"

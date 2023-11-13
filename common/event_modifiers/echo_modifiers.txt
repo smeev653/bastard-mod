@@ -84,9 +84,6 @@ echo_development = {
 	global_trade_goods_size_modifier = 0.1
 }
 
-burnt_development = {
-}
-
 # Por Modifier
 echo_por_colonist = {
 	colonists = 1

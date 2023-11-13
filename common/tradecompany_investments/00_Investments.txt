@@ -12,7 +12,13 @@ local_quarter = {
 	
 	cost = 200.0
 	allow = {
-		always = no
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	company_province_area_modifier = {
 		local_defensiveness = 0.15
@@ -32,7 +38,13 @@ permanent_quarters = {
 
 	cost = 400.0
 	allow = {
-		always = no
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	company_province_area_modifier = {
 		local_defensiveness = 0.30
@@ -53,7 +65,43 @@ officers_mess = {
 	cost = 1000.0
 
 	allow = {
-		always = no
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = officers_mess
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = admiralty
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = property_appraiser
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = townships
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = governor_general_mansion
+				value = 1
+			}
+		}
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	
 	owner_modifier = {
@@ -77,7 +125,13 @@ company_warehouse = {
 		
 	cost = 200.0
 	allow = {
-		always = no
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	company_province_area_modifier = {
 		province_trade_power_value = 2
@@ -100,7 +154,13 @@ company_depot = {
 
 	cost = 400.0
 	allow = {
-		always = no
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	company_province_area_modifier = {
 		province_trade_power_value = 4
@@ -124,7 +184,43 @@ admiralty = {
 	cost = 1000.0
 
 	allow = {
-		always = no
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = officers_mess
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = admiralty
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = property_appraiser
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = townships
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = governor_general_mansion
+				value = 1
+			}
+		}	
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	
 	owner_modifier  = {
@@ -148,7 +244,13 @@ brokers_office = {
 		
 	cost = 200.0
 	allow = {
-		always = no
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	company_province_area_modifier = {
 		local_production_efficiency = 0.25
@@ -171,7 +273,13 @@ brokers_exchange = {
 
 	cost = 400.0
 	allow = {
-		always = no
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	company_province_area_modifier = {
 		local_production_efficiency = 0.5
@@ -195,7 +303,43 @@ property_appraiser = {
 	cost = 1000.0
 
 	allow = {
-		always = no
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = officers_mess
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = admiralty
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = property_appraiser
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = townships
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = governor_general_mansion
+				value = 1
+			}
+		}	
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	
 	owner_company_region_modifier = {
@@ -219,7 +363,13 @@ settlements = {
 		
 	cost = 200.0
 	allow = {
-		always = no
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	company_province_area_modifier = {
 		local_tax_modifier = 0.25
@@ -242,7 +392,13 @@ district = {
 		
 	cost = 400.0
 	allow = {
-		always = no
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	company_province_area_modifier = {
 		local_tax_modifier = 0.5
@@ -265,7 +421,43 @@ townships = {
 	
 	cost = 1000.0
 	allow = {
-		always = no
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = officers_mess
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = admiralty
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = property_appraiser
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = townships
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = governor_general_mansion
+				value = 1
+			}
+		}
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}	
 
 
@@ -294,7 +486,13 @@ company_administration = {
 	
 	cost = 200.0
 	allow = {
-		always = no
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	company_province_area_modifier = {
 		local_manpower_modifier = 0.5
@@ -314,7 +512,13 @@ military_administration = {
 	
 	cost = 400.0
 	allow = {
-		always = no
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 	company_province_area_modifier = {
 		local_manpower_modifier = 1.0
@@ -335,7 +539,43 @@ governor_general_mansion = {
 	cost = 1000.0
 			
 	allow = {
-		always = no
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = officers_mess
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = admiralty
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = property_appraiser
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = townships
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = governor_general_mansion
+				value = 1
+			}
+		}	
+		OR = {
+			region = carribeans_region 
+			region = northeast_america_region 
+			region = southeast_america_region 
+			region = canada_region 
+			region = hudson_bay_region 
+		}
 	}
 
 	company_region_modifier = {

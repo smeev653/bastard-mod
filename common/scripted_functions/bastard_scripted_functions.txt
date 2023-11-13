@@ -50,7 +50,12 @@ can_colonize_province = {
 					OR = {
 						colonial_region = colonial_colombia
 						colonial_region = colonial_la_plata
-						continent = north_america
+						colonial_region = colonial_peru
+						colonial_region = colonial_louisiana
+						colonial_region = colonial_mexico
+						colonial_region = colonial_california
+						colonial_region = colonial_louisiana
+						colonial_region = colonial_alaska
 						region = australia_region
 						region = oceanea_region
 					}
@@ -58,6 +63,27 @@ can_colonize_province = {
 				
 		}
 	}
+}
+
+can_make_state = {
+	condition = {
+		tooltip = "bs_cant_state_nw_tt"
+			potential = {
+				FROM = {
+						ai = no
+				}	
+			}
+			allow = {
+					area_for_scope_province = {
+							type = all
+							NOT = {	region = carribeans_region }
+							NOT = {	region = northeast_america_region }
+							NOT = {	region = southeast_america_region }
+							NOT = {	region = canada_region }
+							NOT = {	region = hudson_bay_region }
+					}
+			}
+		}
 }
 
 can_colonize_province_siberian_frontier = {
@@ -86,3 +112,4 @@ can_colonize_province_siberian_frontier = {
 		}
 	}
 }
+
