@@ -884,7 +884,7 @@ gc_por_3_b = {
 		position = 2
 		
 		provinces_to_highlight = {
-			colonial_region = colonial_the_carribean
+			region = carribeans_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
@@ -892,32 +892,15 @@ gc_por_3_b = {
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 5
-				colonial_region = colonial_the_carribean
-				is_city = yes
+				region = carribeans_region
 			}
 		}
 		
 		effect = {
-			custom_tooltip = portuguese_carib_tooltip
-			hidden_effect = {
-				every_subject_country = {
-					limit = {
-						OR = {
-							is_subject_of_type = colony
-							is_subject_of_type = crown_colony
-							is_subject_of_type = private_enterprise
-							is_subject_of_type = self_governing_colony
-						}
-						capital_scope = {
-							colonial_region = colonial_the_carribean
-						}
-					}
 					add_country_modifier = {
 						name = "portuguese_carib_modifier"
 						duration = 7300
 					}
-				}
-			}
 		}
 	}
 }
