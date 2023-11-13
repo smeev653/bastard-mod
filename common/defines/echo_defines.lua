@@ -139,7 +139,6 @@ NDefines.NMilitary.BACK_LINE_STRENGTH_DAMAGE_TAKEN_MODIFIER = 0.0
 NDefines.NMilitary.BACK_LINE_REINFORCE_SPEED = 40
 NDefines.NMilitary.TRANSPORT_SHIP_SAILORS_COST = 1					-- 1 = 1 men in cost.
 NDefines.NMilitary.LIGHT_SHIP_SAILORS_COST = 50					-- 1 = 1 men in cost.
-NDefines.NMilitary.GALLEY_SHIP_SAILORS_COST = 50
 NDefines.NMilitary.GALLEY_TIME = 90							-- _MDEF_GALLEY_TIME = 10,
 NDefines.NMilitary.TRANSPORT_TIME = 30	
 NDefines.NMilitary.NOMAD_PLAINS_SHOCK_BONUS = 0.05 
