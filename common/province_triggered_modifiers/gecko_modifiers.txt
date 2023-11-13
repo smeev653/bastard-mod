@@ -276,7 +276,7 @@ conquest_of_paris = {
 			NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
-					value = 0.30
+					value = 0.31
 					}
 				}
 			ile_de_france_area	= {
@@ -313,7 +313,7 @@ conquest_of_vienna = {
 			NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
-					value = 0.30
+					value = 0.31
 					}
 				}
 			austria_proper_area	= {
@@ -382,7 +382,7 @@ conquest_of_fez = {
 				NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
-					value = 0.30
+					value = 0.31
 					}
 				}
 				marrekesh_area = {
@@ -419,7 +419,7 @@ conquest_of_london = {
 				NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
-					value = 0.30
+					value = 0.31
 					}
 				}
 				home_counties_area = {
@@ -544,7 +544,7 @@ conquest_of_samarkand = {
 				NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
-					value = 0.30
+					value = 0.31
 					}
 				}
 				transoxiana_area = {
@@ -578,7 +578,7 @@ conquest_of_pest = {
 				NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
-					value = 0.30
+					value = 0.31
 					}
 				}
 				alfold_area = {
@@ -612,7 +612,7 @@ conquest_of_warszawa = {
 				NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
-					value = 0.30
+					value = 0.31
 					}
 				}
 				mazovia_area = {
@@ -645,7 +645,7 @@ conquest_of_copenhagen = {
 				NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
-					value = 0.30
+					value = 0.31
 					}
 				}
 				denmark_area = {
@@ -720,7 +720,7 @@ conquest_of_frankfurt = {
 				NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
-					value = 0.30
+					value = 0.31
 					}
 				}
 				hesse_area = {
@@ -783,7 +783,7 @@ conquest_of_toledo= {
 				NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
-					value = 0.30
+					value = 0.31
 					}
 				}
 				toledo_area = {
