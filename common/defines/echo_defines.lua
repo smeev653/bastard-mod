@@ -104,7 +104,6 @@ NDefines.NCountry.LAGGINGTECH_CORRUPTION_MAX = 1				-- Max increase/year
 NDefines.NEconomy.GOLD_MINE_SIZE = 35
 NDefines.NEconomy.EDICTS_DURATION_MONTHS = 1
 NDefines.NEconomy.DEBASE_MAX_CORRUPTION = 10
-NDefines.NEconomy.TRADE_NON_CAPITAL_OFFICE = -0.5
 NDefines.NEconomy.CARAVAN_FACTOR = 3.0
 NDefines.NEconomy.CARAVAN_POWER_MAX = 30
 NDefines.NEconomy.COT_DOWNGRADE_PRESTIGE_COST = 0
