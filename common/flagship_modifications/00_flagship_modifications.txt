@@ -11,15 +11,7 @@ base_flagship_modification = {
 
 mass_load_cannons = {
     trigger = {
-        OR = {
-            NOT = {
-                OR = {
-                    tag = CAS
-                    tag = SPA
-                }
-            }
-            normal_or_historical_nations = no
-        }
+        always = no
     }
 	modifier = {
         number_of_cannons_flagship_modifier = 0.50
@@ -57,17 +49,6 @@ trade_route_map = {
     }
 }
 command_aftercastle = {
-    trigger = {
-        OR = {
-            NOT = {
-                OR = {
-                    tag = HOL
-                    tag = NED
-                }
-            }
-            normal_or_historical_nations = no
-        }
-    }
 	modifier = {
         morale_in_fleet_modifier = 0.05
         naval_maintenance_flagship_modifier = 0.5
@@ -268,11 +249,7 @@ spanish_treasure_fleet = {
 
 spanish_mass_load_cannons = {
     trigger = {
-        OR = {
-            tag = SPA
-            tag = CAS
-        }
-        normal_or_historical_nations = yes
+        always = no
     }
 	modifier = {
         number_of_cannons_flagship_modifier = 1.0
@@ -295,11 +272,7 @@ spanish_mass_load_cannons = {
 
 dutch_courage = {
     trigger = {
-        OR = {
-            tag = HOL
-            tag = NED
-        }
-        normal_or_historical_nations = yes
+         always = no
     }
     modifier = {
         morale_in_fleet_modifier = 0.1
@@ -435,6 +408,9 @@ flag_officers = {
 }
 
 spare_jolly_roger = {
+	trigger = {
+		 always = no
+	}
     modifier = {
         privateering_efficiency_in_fleet_modifier = 0.25
         naval_maintenance_flagship_modifier = 0.5
