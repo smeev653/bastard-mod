@@ -1904,7 +1904,7 @@ ADU_ideas = {
 	free = yes        #will be added at load.
     
 	adu_stand_against_the_reconquista = {
-		fire_damage_received = -0.15
+		fire_damage_received = -0.1
 	}
 	adu_taifa_adminstration = {
 		development_cost = -0.05
@@ -2325,6 +2325,7 @@ CRI_ideas = {
 GLH_ideas = {
 	start = {
 		fire_damage_received = -0.1
+		build_cost = -0.1
 	}
 	bonus = {
 		shock_damage = 0.1
