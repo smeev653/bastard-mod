@@ -2041,9 +2041,17 @@ swe_kalmar_union_mission_slot = {
 		required_missions = { swe_the_carolean_units }
 		provinces_to_highlight = {}
 		trigger = {
-			num_of_carolean = 10
-			army_tradition = 60
-			
+			num_of_carolean = 20
+			if = {
+				limit = {
+					has_dlc = "Cradle of Civilization"
+				}
+				army_professionalism = 0.5
+				army_tradition = 50
+			}
+			else = {
+				army_tradition = 60
+			}
 			num_of_generals = 2
 		}
 		effect = {

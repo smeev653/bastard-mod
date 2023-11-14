@@ -3746,8 +3746,8 @@ on_force_conversion_effect = {
 
 on_general_recruited_effect = {
 	if = {
-		limit = { has_country_modifier = pol_trigger_for_army_professionalism_modifier } 
-		add_army_professionalism = 0.005
+		limit = { full_idea_group = offensive_ideas } 
+		add_army_professionalism = 0.00375
 	}
 	else = { add_army_professionalism = 0.0025 }
 	if = {

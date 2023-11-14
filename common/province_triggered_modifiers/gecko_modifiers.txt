@@ -457,7 +457,7 @@ conquest_of_berlin = {
 		controlled_by = ROOT
 		has_owner_accepted_culture = yes
 	}
-	yearly_army_professionalism = 0.005
+	yearly_army_professionalism = 0.0025
  
 	
 	#Province scope

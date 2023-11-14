@@ -124,3 +124,5 @@ eastern_america_company: "Eastern America Company"
  bs_estate_church_one_faith_one_culture_gtb:2 "Every owned province, which is NOT in the §Y[Root.Culture.GetGroupName]§! culture group and has NOT an §Yaccepted culture§!, gains '§YHeretic Culture§!', giving the following effects:\nLocal Unrest: §R+3.00§!\nLocal Culture Conversion Cost: §G-25%§!"
  bs_estate_church_one_faith_one_culture_rta:0 "The modifier '§YReligious Society§!' is removed from all §Y[Root.Religion.GetName]§! provinces with an §Yaccepted culture§! or with a culture of the §Y[Root.Culture.GetGroupName]§! culture group."
  bs_estate_church_one_faith_one_culture_rtb:0 "The modifier '§YHeretic Culture§!' is removed from all provinces without an §Yaccepted culture§! and without a culture of the §Y[Root.Culture.GetGroupName]§! culture group."
+###ideas###
+offensive_ap_tt: "Recruit General: §G+0.375%§"
