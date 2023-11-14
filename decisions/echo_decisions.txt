@@ -89,6 +89,7 @@ country_decisions = {
 	free_colonist = {
 		color = { 166  0  0 }
 		potential = {
+				always = no
 				NOT = {
 					capital_scope = {
 						continent = north_america

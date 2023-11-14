@@ -32,3 +32,10 @@ echo.12.e:0 "Recruit Recruitmaster"
 echo.12.f:0 "Recruit Fortifcation Expert"
 echo.12.g:0 "Recruit Grand Captain"
 echo.12.h:0 "£no£ Don't Recruit Anyone"
+
+#####
+#Colonising
+####
+echo.14.t:0 "Discovery of the New World!"
+echo.14.d:0 "All nations can now colonise and establish Trade Companies in following regions:\n\nCanada, Eastern America, Caribbean. Colonial Nations may be established in Brazil.
+echo.14.a:0 "Got it."

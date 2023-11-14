@@ -59,6 +59,30 @@ can_colonize_province = {
 						region = australia_region
 						region = oceanea_region
 					}
+				}	
+		}
+	}
+	condition = {
+		tooltip = "cant_colonize_nw_until_enabled_tt"
+		potential = {
+			OR = {
+					region = northeast_america_region 
+					region = southeast_america_region 
+					region = canada_region 
+					region = hudson_bay_region 
+					region = carribeans_region
+			}
+		}
+		allow = {
+			FROM = {
+				has_country_modifier = free_colonist
+			}	
+				OR = {
+					region = northeast_america_region 
+					region = southeast_america_region 
+					region = canada_region 
+					region = hudson_bay_region 
+					region = carribeans_region
 				}
 				
 		}
