@@ -6201,7 +6201,7 @@ regional_representation_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		min_autonomy_in_territories = -0.05
-		core_creation = -0.05
+		core_creation = -0.1
 	}
 }
 
