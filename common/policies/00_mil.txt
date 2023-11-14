@@ -934,7 +934,6 @@ mobile_siege_engines_act = {
 		full_idea_group = offensive_ideas 
 	}
 	
-	artillery_cost = -0.2
 	backrow_artillery_damage = 0.1
 
 	effect = {}
