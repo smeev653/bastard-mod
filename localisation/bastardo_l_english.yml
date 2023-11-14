@@ -115,7 +115,7 @@ area_has_total_development_of_type_tt_tax: "The sum of the §YBase Tax§! of all
 area_has_total_development_of_type_tt_production: "The sum of the §YBase Production§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
 area_has_total_development_of_type_tt_manpower: "The sum of the §YBase Manpower§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
 ######trade companies#######
-caribbean_company: "Caribbean Company"
+carribean_company: "Carribean Company"
 hudson_bay_company: "Hudson Bay Company"
 eastern_america_company: "Eastern America Company"
 ##
