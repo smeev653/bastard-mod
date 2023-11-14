@@ -1862,7 +1862,7 @@ mam_missions_4 = {
 				}
 				has_government_power = {
 					mechanic_type = egyptian_westernization
-					power_type = egyptian_modernization_power
+					power_type = egyptian_westernization
 					value = 90
 				}
 				has_better_tech_than_westerns = yes
