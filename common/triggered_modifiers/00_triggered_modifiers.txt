@@ -794,10 +794,10 @@ golden_age_of_piracy = {
 	}
 	trigger = {
 		1516 = {
-			privateer_power = { country = ROOT share = 1 }
+			is_strongest_trade_power = ROOT
 		}
 	}
-	privateer_efficiency = 0.2
+	trade_efficiency = 0.05
 }
 
 ######################################
