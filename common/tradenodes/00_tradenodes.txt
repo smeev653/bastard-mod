@@ -1570,11 +1570,11 @@ timbuktu={
 	location=1132
 	inland=yes
 	outgoing = {
-		name = "tunis"
+		name = "sevilla"
 		path = {
 		}
 		control = {
-			2746.000 1032.000 2719.000 1140.000 2735.000 1179.000 2756.000 1190.000 2783.000 1192.000 2797.000 1208.000 2852.000 1259.000
+			2746.000 1032.000 2719.000 1140.000 2701.000 1170.000 2704.000 1187.000 2723.000 1208.000 2732.000 1216.000
 		}
 	}
 	outgoing={
@@ -1694,8 +1694,6 @@ tunis={
 		2452 354 2451 355 #tripolitania_area
 		4567 2449 2448 2474 #fezzan_area
 		2457 2456 2472 2450 352 #north_sahara_area
-		348 2464 2466 4568 #sus_area
-		346 2460 349 #tafilalt_area
 		336 2465 4562 #algier_area
 		2463 2462 2459 #hautes_plaines_area
 		337 2461 338 #barbary_coast_area
@@ -2063,6 +2061,8 @@ sevilla={
 		342 345 2469 4564 #western_morocco_area
 		343 344 2467 2468 #marrekesh_area
 		334 335 1751 4563 4561 #northern_morocco_area
+		348 2464 2466 4568 #sus_area
+		346 2460 349 #tafilalt_area
 	}
 }
 genua={
