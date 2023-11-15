@@ -423,7 +423,6 @@ HSA_ideas = {
 		disengagement_chance = 0.05
 	}
 	reformed_hanstag = {
-		naval_forcelimit_modifier = 0.5
 		naval_morale = 0.1
 	}
 }
