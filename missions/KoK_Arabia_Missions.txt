@@ -1146,7 +1146,7 @@ KoK_ARB_hedjaz_najd_bedouin_4 = {
 			}
 		}
 		effect = {
-			custom_tooltip = ARB_unlock_oasis_development
+			custom_tooltip = bs_ARB_unlock_oasis_development
 			set_country_flag = ARB_unlock_oasis_development_flag
 			
 			custom_tooltip = " "

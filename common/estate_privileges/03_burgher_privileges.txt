@@ -3314,7 +3314,7 @@ estate_burghers_ARB_oasis_development = {
 		has_country_flag = ARB_unlock_oasis_development_flag
 	}
 	on_granted = {
-		custom_tooltip = ARB_estate_burghers_arid_development_gt
+		custom_tooltip = bs_ARB_estate_burghers_arid_development_gt
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
@@ -3344,7 +3344,7 @@ estate_burghers_ARB_oasis_development = {
 		}
 	}
 	on_revoked = {
-		custom_tooltip = ARB_estate_burghers_arid_development_rt
+		custom_tooltip = bs_ARB_estate_burghers_arid_development_rt
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
@@ -3353,7 +3353,7 @@ estate_burghers_ARB_oasis_development = {
 				remove_province_modifier = ARB_estate_burghers_arid_climate_development
 			}
 		}
-		custom_tooltip = ARB_estate_burghers_desert_development_rt
+		custom_tooltip = bs_ARB_estate_burghers_desert_development_rt
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
