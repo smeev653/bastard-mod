@@ -305,7 +305,7 @@ estate_dhimmi_manpower = {
 		NOT = { has_estate_privilege = estate_janissary_strict_devshirme_recruitment }
 	}
 	on_granted = {
-		custom_tooltip = estate_dhimmi_manpower_effect_tooltip
+		custom_tooltip = bs_estate_dhimmi_manpower_effect_tooltip
 	}
 	on_granted_province = {
 		if = {
