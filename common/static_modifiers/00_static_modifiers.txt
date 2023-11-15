@@ -2223,7 +2223,7 @@ expanded_infrastructure = {
 	local_governing_cost_increase = 10
 	local_governing_cost = 0.1
 	local_great_project_upgrade_cost = -0.1
-	land_forcelimit = 1
+	land_forcelimit = 1.5
 }
 
 centralize_state = {

@@ -263,7 +263,7 @@ technology = {
 
 	
 	weapons = yes
-	
+	armory = yes
 	combat_width = 2
 }
 	

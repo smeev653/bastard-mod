@@ -18,27 +18,3 @@ edict_defensive_edict = {
 		factor = 0
 	}
 }
-
-gc_edict_defensive_edict_1 = {
-	potential = {
-		FROM = {
-			area_for_scope_province = {
-				has_building = gc_bureaucracy_manufactory
-			}
-		}
-	}
-	
-	allow = {
-	}
-	
-	modifier = {
-		local_defensiveness = 0.33
-	}
-	
-	color = {  46 114 55  }
-	
-	
-	ai_will_do = {
-		factor = 0
-	}
-}
