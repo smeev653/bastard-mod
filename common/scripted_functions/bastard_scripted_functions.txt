@@ -22,6 +22,17 @@ can_declare_bankruptcy = {
 				always = no
 			}
 		}
+	condition = {
+			tooltip = "bs_stability_must_be_at_least_3"
+			potential = {
+				FROM = {
+						ai = no
+				}	
+			}
+			allow = {
+				stability = 3
+			}
+		}	
 }
 
 can_increase_autonomy = {
