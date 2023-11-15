@@ -950,13 +950,6 @@ lubeck_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			south_jutland_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			lower_saxony_area = {
 				limit = {
 					NOT = { is_core = ROOT }
