@@ -3818,6 +3818,7 @@ spa_prepared_armada = {
 
 tun_berbers_pacified = {
 	global_unrest = -2
+	global_autonomy = -0.05
 }
 
 conquest_of_air = {
