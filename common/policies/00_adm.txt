@@ -243,46 +243,7 @@ the_royal_commission_act = {
 	}
 }
 
-edict_of_resistance = {
-	monarch_power = ADM
 
-	potential = {
-		has_idea_group = defensive_ideas
-		has_idea_group = religious_ideas
-	}
-	
-	allow = {
-		full_idea_group = defensive_ideas
-		full_idea_group = religious_ideas
-	}
-
-
-	morale_damage_received = -0.075
-
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 4
-		}			
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 6
-		}
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 8
-		}
-	}
-
-}
 
 public_welfare_act = {
 	monarch_power = MIL
