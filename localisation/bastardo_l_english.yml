@@ -5,6 +5,9 @@
  heptanesa_area:0 "Heptanesa"
  heptanesa_area_name:0 "Ionia"
  heptanesa_area_adj:0 "Ionic"
+ maghreb_oases_group:0 "Maghreb Oases"
+ maghreb_oases_group_name:0 "Maghreb Oases"
+ maghreb_oases_group_adj:0 "Maghrebi Oases"
  ####################
  # Decisions
  ####################

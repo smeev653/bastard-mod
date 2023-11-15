@@ -219,3 +219,10 @@ X_VEN_venetian_marines_cmod = {
 	discipline = 0.1
 	is_marine_modifier = yes
 }
+
+###################
+maghreb_oases_stability_pmod = {
+	trade_value_modifier = 0.25
+	local_development_cost = -0.15
+	allowed_num_of_buildings = 1
+}
