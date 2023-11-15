@@ -400,7 +400,6 @@ HSA_ideas = {
 	
 	end_of_victual_brothers = {
 		infantry_power = 0.1
-		global_manpower_modifier = 0.2
 	}
 	strong_league_obligations = {
 		trade_efficiency = 0.1
@@ -416,10 +415,11 @@ HSA_ideas = {
 	}
 	
 	hanseatic_levy_system = {
-		manpower_recovery_speed = 0.15
+		global_manpower_modifier = 0.2
 	}
 	regularised_contribution = {
 		manpower_recovery_speed = 0.2
+		naval_forcelimit_modifier = 0.5
 		disengagement_chance = 0.05
 	}
 	reformed_hanstag = {
