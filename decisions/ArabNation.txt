@@ -88,12 +88,6 @@ country_decisions = {
 		effect = {
 			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
-			if = {
-				limit = {
-					NOT = { government_rank = 3 }
-				}
-				set_government_rank = 3
-			}
 			mashriq_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
