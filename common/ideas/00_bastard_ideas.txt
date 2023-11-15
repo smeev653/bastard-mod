@@ -384,8 +384,8 @@ BRA_ideas = {
 
 HSA_ideas = {
 	start = {
-		global_sailors_modifier = 0.15
-		global_manpower_modifier = 0.2
+		caravan_power = 0.5
+		development_cost = -0.05
 	}
 	
 	bonus = {
@@ -399,15 +399,16 @@ HSA_ideas = {
 	free = yes
 	
 	end_of_victual_brothers = {
-		production_efficiency = 0.1
-		development_cost = -0.05
+		infantry_power = 0.1
+		global_manpower_modifier = 0.2
 	}
 	strong_league_obligations = {
-		land_morale = 0.1
-	}
-	hsa_shipbuilding = {
 		trade_efficiency = 0.1
 		global_trade_power = 0.15
+	}
+	hsa_shipbuilding = {
+		merchants = 1
+		production_efficiency = 0.1
 	}
 	the_hansa_bank = {
 		interest = -0.5
@@ -428,12 +429,12 @@ HSA_ideas = {
 }
 FU2_ideas = {
 	start = {
-		trade_efficiency = 0.2
-		merchants = 1 
+		infantry_power = 0.1
+		interest = -0.5
 	}
 	
 	bonus = {
-		trade_steering = 0.2 
+		naval_morale = 0.1
 	}
 	
 	trigger = {
@@ -443,27 +444,33 @@ FU2_ideas = {
 	free = yes 
 	
 	FU2_foreign_kontors = {
-		global_trade_power = 0.15
-	}
-	FU2_the_handelsmarine = {
-		global_ship_trade_power = 0.25
-		global_ship_cost = -0.05
-	}
-	FU2_reform_queens_army = {
-		discipline = 0.05
-	}
-	FU2_adler_von_lubeck_legacy = {
-		heavy_ship_power = 0.1
-	}
-	FU2_merchants_with_state = {
 		global_trade_goods_size_modifier = 0.1
 		development_cost = -0.05
 	}
+	FU2_the_handelsmarine = {
+		caravan_power = 0.5
+		global_prov_trade_power_modifier = 0.20
+	}
+	FU2_reform_queens_army = {
+		discipline = 0.05
+		global_manpower_modifier = 0.2
+	}
+	FU2_adler_von_lubeck_legacy = {
+		merchants = 1 
+		heavy_ship_power = 0.1
+	}
+	FU2_merchants_with_state = {
+		trade_efficiency = 0.2
+		global_trade_power = 0.15
+	}
 	FU2_spread_the_northern_style = {
 		idea_cost = -0.1
+		build_cost = -0.05
 	}
 	regularised_contribution = {
-		global_prov_trade_power_modifier = 0.20
+		manpower_recovery_speed = 0.2
+		naval_forcelimit_modifier = 0.5
+		disengagement_chance = 0.05
 	}
 }
 

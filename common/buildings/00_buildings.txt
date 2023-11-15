@@ -178,6 +178,14 @@ temple = {
 		}
 		if = {
 			limit = {
+				FROM = {
+					has_country_flag = mosque_local_unrest_flag
+				}
+			}
+			remove_province_modifier = turkoman_peaceful_worshipping
+		}
+		if = {
+			limit = {
 				FROM = { has_government_attribute = on_church_built_clergy_loyalty }
 			}
 			FROM = {
