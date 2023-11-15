@@ -2463,7 +2463,9 @@ soldier_households = {
 	manufactory = {
 		all
 	}
-
+	build_trigger = {
+		development = 30
+	}
 	bonus_manufactory = { # Will apply an extra modifier if these goods
 		grain
 		fish
@@ -2664,36 +2666,12 @@ state_house = {
 		}
 	}
 }
-
-gc_bureaucracy_manufactory = {
+armory = {
 	cost = 500
 	time = 60
+
 	build_trigger = {
-		NOT = {
-			area_for_scope_province = {
-				owner = {
-					tag = ROOT
-				}
-				OR = {
-					has_building = gc_bureaucracy_manufactory
-					has_construction = gc_bureaucracy_manufactory
-				}
-			}
-		}
-	}
-	keep_trigger = {
-		NOT = {
-			area_for_scope_province = {
-				NOT = { province_id = root }
-				owner = {
-					tag = ROOT
-				}
-				OR = {
-					has_building = gc_bureaucracy_manufactory
-					has_construction = gc_bureaucracy_manufactory
-				}
-			}
-		}
+		development = 30
 	}
 	on_built = {
  
@@ -2704,12 +2682,13 @@ gc_bureaucracy_manufactory = {
 	on_obsolete = {
 	}
 	modifier = {
-		allowed_num_of_buildings = 1
+		land_forcelimit = 3
 		
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
+	
 	ai_will_do = {
-		factor = 1000
+		factor = 3000
 	}
 }
