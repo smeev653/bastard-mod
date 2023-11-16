@@ -129,5 +129,6 @@ eastern_america_company: "Eastern America Company"
  bs_estate_church_one_faith_one_culture_rta:0 "The modifier '§YReligious Society§!' is removed from all §Y[Root.Religion.GetName]§! provinces with an §Yaccepted culture§! or with a culture of the §Y[Root.Culture.GetGroupName]§! culture group."
  bs_estate_church_one_faith_one_culture_rtb:0 "The modifier '§YHeretic Culture§!' is removed from all provinces without an §Yaccepted culture§! and without a culture of the §Y[Root.Culture.GetGroupName]§! culture group."
  bs_ARB_unlock_oasis_development:1 "Unlock §Y[Root.GetBurghersOrFallbackName]§! Estate Privilege '§YOasis Development§!', allowing us to reduce the penalty for §YArid§! climate provinces and to get §G-20.0%§! Local Development Cost in §YDesert§! and §YCoastal Desert§! provinces."
+ bs_estate_cossacks_exploration_expedition_effect_tooltip:1 "§G-10%§! local development cost in all Steppe provinces"
 ###ideas###
 offensive_ap_tt: "Recruit General: §G+0.375%§"
