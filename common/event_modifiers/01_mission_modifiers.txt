@@ -808,8 +808,8 @@ swe_nobles_fortification = {	#Permanent, province
 #}
 
 swe_arctic_expansion = {
-	build_cost = -0.10
-	build_time = -0.25
+	local_manpower_modifier = 0.15
+	allowed_num_of_buildings = 1
 }
 
 swe_diplomat_from_the_north = {
