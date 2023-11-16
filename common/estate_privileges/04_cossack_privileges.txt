@@ -727,29 +727,29 @@ estate_cossacks_expand_cossacks_raiders = {
 			always = yes
 		}
 		modifier = {
-			loot_amount = 0.25
+			loot_amount = 0.5
 		}
 	}
 	can_select = {
 	}
-	on_granted = {
-		custom_tooltip = estate_cossacks_expand_cossacks_raiders_gt
-		enable_estate_action = {
-			estate_action = CONSCRIPT_COSSACK_ELITE_COSSACKS
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_cossacks_expand_cossacks_raiders_rt
-		disable_estate_action = {
-			estate_action = CONSCRIPT_COSSACK_ELITE_COSSACKS
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_cossacks_expand_cossacks_raiders_rt
-		disable_estate_action = {
-			estate_action = CONSCRIPT_COSSACK_ELITE_COSSACKS
-		}
-	}
+	#on_granted = {
+	#	custom_tooltip = estate_cossacks_expand_cossacks_raiders_gt
+	#	enable_estate_action = {
+	#		estate_action = CONSCRIPT_COSSACK_ELITE_COSSACKS
+	#	}
+	#}
+	#on_invalid = {
+	#	custom_tooltip = estate_cossacks_expand_cossacks_raiders_rt
+	#	disable_estate_action = {
+	#		estate_action = CONSCRIPT_COSSACK_ELITE_COSSACKS
+	#	}
+	#}
+	#on_revoked = {
+	#	custom_tooltip = estate_cossacks_expand_cossacks_raiders_rt
+	#	disable_estate_action = {
+	#		estate_action = CONSCRIPT_COSSACK_ELITE_COSSACKS
+	#	}
+	#}
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
 		modifier = { monthly_russian_modernization = -0.01 }
