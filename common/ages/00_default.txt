@@ -506,6 +506,7 @@ age_of_reformation = {
 			}
 			modifier = {
 				leader_land_shock = 1
+				allowed_tercio_fraction = 0.1
 			}
 			ai_will_do = {
 				factor = 100
