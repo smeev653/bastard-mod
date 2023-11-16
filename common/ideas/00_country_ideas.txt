@@ -13400,7 +13400,7 @@ TUN_ideas = {
 	}
 	corsairs = {
 		navy_tradition = 1
-		privateer_efficiency = 0.10
+		shock_damage = 0.1
 	}
 	tun_caliphate = {
 		tolerance_own = 2
