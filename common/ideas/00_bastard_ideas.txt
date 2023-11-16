@@ -1252,7 +1252,7 @@ POR_ideas = {
 SPA_ideas = {
 	start = {
 		land_morale = 0.15
-		mercenary_manpower = 0.2
+		allowed_tercio_fraction = 0.1
 	}
 	
 	bonus = {
