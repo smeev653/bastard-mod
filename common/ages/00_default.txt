@@ -390,7 +390,7 @@ age_of_reformation = {
 		}
 		
 		obj_colonial_empire = {
-			colony = 1
+			num_of_trade_companies = 1
 		}
 		
 		obj_force_converted = {
@@ -604,7 +604,7 @@ age_of_absolutism = {
 		
 	objectives = {
 		obj_3_trade_companies = {
-			num_of_trade_companies = 3
+			num_of_trade_companies = 2
 		}
 		
 		obj_universities = {
