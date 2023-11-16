@@ -3,7 +3,32 @@ country_decisions = {
 		color = { 41  233  249 }
 		potential = {
 			ai = no
-       }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 219
+				province_id = 343
+				province_id = 151
+				province_id = 183
+				province_id = 134
+				province_id = 361
+				province_id = 236
+				province_id = 50
+				province_id = 295
+				province_id = 416
+				province_id = 454
+				province_id = 153
+				province_id = 118
+				province_id = 257
+				province_id = 12
+				province_id = 446	
+				province_id = 266
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 		}
 		effect = {
