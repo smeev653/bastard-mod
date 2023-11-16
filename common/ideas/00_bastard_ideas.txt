@@ -1252,7 +1252,7 @@ POR_ideas = {
 SPA_ideas = {
 	start = {
 		land_morale = 0.15
-		artillery_fire = 1
+		mercenary_manpower = 0.2
 	}
 	
 	bonus = {
@@ -1277,7 +1277,7 @@ SPA_ideas = {
 		reform_progress_growth = 0.1
 	}
 	spanish_armada = {
-		heavy_ship_power = 0.1
+		heavy_ship_number_of_cannons_modifier = 0.25
 		naval_forcelimit_modifier = 0.25
 	}
 	spa_casa_de_contracion = {
