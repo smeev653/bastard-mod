@@ -231,6 +231,7 @@ country_decisions = {
 			has_estate = estate_nobles
 		}
 		allow = {
+			NOT = { has_country_modifier = slackening_modifier }
 			has_not_any_estate_disaster_active = yes
 			estate_loyalty = {
 				estate = estate_nobles
