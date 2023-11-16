@@ -92,10 +92,8 @@ NDefines.NCountry.TARIFF_LIBERTY_INCREASE = 0.5					-- Liberty increase for each
 NDefines.NCountry.TARIFF_DECREASE_STEP = -0.1
 NDefines.NCountry.MINIMUM_POLICY_TIME = 1
 NDefines.NCountry.CONCENTRATE_DEVELOPMENT_DEVELOPMENT_DECREASE = 0.0
-NDefines.NCountry.EXPAND_INFRASTRUCTURE_DEV_LIMIT = 15
 NDefines.NCountry.ESTATE_MIN_DISTRIBUTED_CROWNLAND = 30.5
 NDefines.NCountry.ESTATE_DEFAULT_LOYALTY = 50
-NDefines.NCountry.SETTLEMENT_GROWTH_DEVELOPMENT_INCREASE = 0
 NDefines.NCountry.RAZE_PROVINCE_DEVELOPMENT_DECREASE = 0
 NDefines.NCountry.RAZE_PROVINCE_POWER_PER_DEVELOPMENT = 0
 NDefines.NCountry.LAGGINGTECH_CORRUPTION = 0.25					-- Corruption increase/year. Multiplied by (highest - lowest) tech level
@@ -119,7 +117,6 @@ NDefines.NMilitary.ARMY_ATTRITION_AT_SEA = 1
 NDefines.NMilitary.GARRISON_SIZE = 3000 							-- GARRISON_SIZE
 NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER =  0.334			-- x times garrison to be able to siege.
 NDefines.NMilitary.MAX_BREACH = 1
-NDefines.NMilitary.TRANSPORT_COST = 1
 NDefines.NMilitary.SUPPLYLIMIT_BASE_MULTIPLIER = 8.0
 NDefines.NMilitary.DEFAULT_WARGOAL_TICKINGWARSCORE_BONUS = 1.67
 NDefines.NMilitary.WARGOAL_MAX_BONUS = 40
@@ -136,9 +133,11 @@ NDefines.NMilitary.NAVAL_DOCTRINE_MIN_FORCE_LIMIT = 15
 NDefines.NMilitary.BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.0	-- Multiplier for morale damage taken by backrow
 NDefines.NMilitary.BACK_LINE_STRENGTH_DAMAGE_TAKEN_MODIFIER = 0.0
 NDefines.NMilitary.BACK_LINE_REINFORCE_SPEED = 40
+NDefines.NMilitary.TRANSPORT_COST = 1
 NDefines.NMilitary.TRANSPORT_SHIP_SAILORS_COST = 1					-- 1 = 1 men in cost.
-NDefines.NMilitary.GALLEY_TIME = 90							-- _MDEF_GALLEY_TIME = 10,
 NDefines.NMilitary.TRANSPORT_TIME = 30	
+NDefines.NMilitary.GALLEY_TIME = 90							-- _MDEF_GALLEY_TIME = 10,
+
 NDefines.NMilitary.NOMAD_PLAINS_SHOCK_BONUS = 0.05 
 NDefines.NMilitary.NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.05
 NDefines.NMilitary.CAWA_STARTING_STRENGTH = 0.1
