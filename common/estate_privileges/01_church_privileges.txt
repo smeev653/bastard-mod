@@ -505,7 +505,7 @@ estate_church_clerical_ministers = {
 			NOT = { religion = anglican }
 		}
 		modifier = {
-			missionary_maintenance_cost = -0.2
+			global_missionary_strength = 0.01
 		}
 	}
 	conditional_modifier = {

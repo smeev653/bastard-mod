@@ -575,6 +575,15 @@ estate_burghers_free_enterprise = {
 	penalties = {
 	}
 	benefits = {
+		mercantilism_cost = -0.15
+	}
+	conditional_modifier = {
+		trigger = {
+			mercantilism = 50
+		}
+		modifier = {
+			placed_merchant_power_modifier = 0.5
+		}
 	}
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
