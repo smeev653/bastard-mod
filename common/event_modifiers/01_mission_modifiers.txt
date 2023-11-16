@@ -9835,6 +9835,7 @@ pru_rewrite_military_manual_modifier = {
 spa_reformed_tercio_modifier = {	
 	drill_gain_modifier = 0.33
 	reinforce_speed = 0.25
+	infantry_power = 0.05
 	is_tercio_modifier = yes 
 }
 
