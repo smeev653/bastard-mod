@@ -357,7 +357,7 @@ estate_nomadic_tribes_freedom_of_the_steppes = {
 	}
 
 	mechanics = {
-		no_estate_crownland_loss_from_developing
+		#no_estate_crownland_loss_from_developing
 	}
 	ai_will_do = {
 		factor = 0
