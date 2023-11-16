@@ -340,6 +340,8 @@ conquest_of_saint_petersburg = {
 	}
 	trigger = {
 		owner = {
+				NOT = { tag = MOS }
+				NOT = { tag = RUS }
 				moscow_area = {
 					type = all
 					country_or_non_sovereign_subject_holds = PREV
