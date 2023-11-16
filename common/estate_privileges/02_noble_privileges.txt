@@ -469,11 +469,26 @@ estate_nobles_right_of_counsel = {
 	icon = privilege_royal_authority
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	
-	influence = 0.1
-	penalties = {
+	is_valid = {
+		has_dlc = "Domination"
 	}
-	benefits = {
+	can_select = {
+	}
+	influence = 0.1
+	on_granted = {
+		enable_estate_action = {
+			estate_action = RAISE_HOST_NOMADIC_TRIBES
+		}
+	}
+	on_revoked = {
+		disable_estate_action = {
+			estate_action = RAISE_HOST_NOMADIC_TRIBES
+		}
+	}
+	on_invalid = {
+		disable_estate_action = {
+			estate_action = RAISE_HOST_NOMADIC_TRIBES
+		}
 	}
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
@@ -484,7 +499,7 @@ estate_nobles_right_of_counsel = {
 	#	modifier = { monthly_ottoman_decadence = 0.02 }
 	#}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 		modifier = {
 			factor = 0
 			is_absolutism_active = yes

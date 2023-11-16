@@ -170,4 +170,4 @@ bastard_golden_age_effect = {
 					}
 			}
 	}
-}			
+}	

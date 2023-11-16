@@ -137,11 +137,9 @@ NDefines.NMilitary.TRANSPORT_COST = 1
 NDefines.NMilitary.TRANSPORT_SHIP_SAILORS_COST = 1					-- 1 = 1 men in cost.
 NDefines.NMilitary.TRANSPORT_TIME = 30	
 NDefines.NMilitary.GALLEY_TIME = 90							-- _MDEF_GALLEY_TIME = 10,
-
 NDefines.NMilitary.NOMAD_PLAINS_SHOCK_BONUS = 0.05 
 NDefines.NMilitary.NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.05
 NDefines.NMilitary.CAWA_STARTING_STRENGTH = 0.1
-
 NDefines.NAI.BIGSHIP_FRACTION = 0.1
 NDefines.NAI.TRANSPORT_FRACTION = -1 -- Max fraction of naval forcelimit that should be transports
 NDefines.NAI.PEACE_TIME_MONTHS = 12
@@ -153,7 +151,6 @@ NDefines.NAI.PEACE_ALLY_WARGOAL_MULT = 2 -- Multiplies PEACE_WARGOAL_FACTOR for 
 NDefines.NAI.PEACE_ALLY_CAPITAL_MULT = 1
 NDefines.NAI.PEACE_DESPERATION_FACTOR = 20
 NDefines.NAI.PEACE_CALL_FOR_PEACE_FACTOR = 0
-
 NDefines.NReligion.PIETY_MANPOWER = 0.5
 NDefines.NReligion.YEARLY_POPE_INVESTED_INFLUENCE_PER_CARDINAL = 0
 NDefines.NReligion.CALL_ECUMENICAL_COUNCIL_COST = 100
@@ -164,7 +161,6 @@ NDefines.NReligion.APPOINT_CARDINAL_INFLUENCE = 0					-- Invested Influence give
 NDefines.NReligion.APPOINT_CARDINAL_CORRUPTION = 0.1						-- Corruption gained by the Papal State when appointing cardinals in its own land
 NDefines.NReligion.APPOINT_CARDINAL_INFLUENCE_PAPAL_STATE = 0
 NDefines.NReligion.CONVERSION_ZEAL_DURATION = 1825
-
 NDefines.NGovernment.SELECT_HEIR_FROM_HAREM_AT_MONARCH_AGE = 20
 NDefines.NGovernment.GOVERNMENT_REFORM_CHANGE_PROGRESS_COST = 25
 NDefines.NGovernment.GOVERNMENT_REFORM_COST_CENTRALIZE_STATE = 25
