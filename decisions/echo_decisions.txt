@@ -540,7 +540,7 @@ country_decisions = {
 			major = yes
 			#######
 			potential = {
-					at_war = no
+					is_at_war = no
 					ai = no
 					religion_group = muslim
 					has_border_with_religious_enemy = yes
