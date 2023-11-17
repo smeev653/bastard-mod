@@ -36,6 +36,7 @@ Minor = {
 	trigger = {
 		NOT = {total_own_and_non_tributary_subject_development = 400 }	
 		NOT = { is_emperor = yes }
+		NOT = { is_colonial_nation = yes }	
 	}
 	advisor_cost = -0.25
 	advisor_pool = 1
@@ -163,6 +164,7 @@ Ahead_of_time = {
 	}
 	monthly_reform_progress_modifier = 0.25
 	yearly_army_professionalism = 0.002
+	army_tradition_decay = -0.01
 }
 TUR = {
 	potential = {
@@ -218,7 +220,7 @@ Peace_of_Italy = {
 			tag = ITA
 			tag = ROM
 		}
-		
+		current_age = age_of_discovery
 	}
 
 	trigger = {
