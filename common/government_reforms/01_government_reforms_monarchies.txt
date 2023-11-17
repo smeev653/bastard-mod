@@ -5490,7 +5490,7 @@ meritocratic_focus_reform = {
 	}
 	modifiers = {
 		yearly_corruption = -0.1
-		advisor_cost = -0.1
+		advisor_cost = -0.05
 		maratha_muslim_influence_modifier = 0.1
 		rajput_muslim_influence_modifier = 0.1
 		burghers_influence_modifier = 0.1

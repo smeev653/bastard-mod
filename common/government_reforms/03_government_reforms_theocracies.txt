@@ -2039,7 +2039,7 @@ state_of_theologians_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		advisor_pool = 2
-		advisor_cost = -0.1
+		advisor_cost = -0.05
 	}
 	ai = {
 		factor = 3
