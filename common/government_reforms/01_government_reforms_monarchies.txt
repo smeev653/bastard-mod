@@ -1325,7 +1325,7 @@ sharifate_reform = {
 		missionaries = 1
 		global_missionary_strength = 0.01
 		monthly_piety_accelerator = 0.001
-		same_religion_advisor_cost = -0.1
+		#same_religion_advisor_cost = -0.1
 	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
@@ -4861,6 +4861,7 @@ ministerialis_promotion_reform = {
 	icon = "commander_king_reform"
 	allow_normal_conversion = yes
 	potential = {
+		always = no
 		has_dlc = "Domination"
 		OR = {
 			tag = HLR
