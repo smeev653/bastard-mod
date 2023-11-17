@@ -7597,7 +7597,7 @@ individual_creeds_aspect_modifier = {
 	advisor_pool = 2 
 }
 allow_usury_aspect_modifier = {
-	interest = -0.25
+	interest = -0.15
 }
 translated_bibles_aspect_modifier = {
 	institution_spread_from_true_faith = 0.5

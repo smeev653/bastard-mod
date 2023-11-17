@@ -38,5 +38,5 @@
  parish_registers_aspect:0 "Parish Registers"
  desc_parish_registers_aspect:1 "Details of baptisms, marriages and burials will from now on be documented in a parish register. Each parish priest will keep a book where they will enter these events and keep it in a sure coffer with two locks. \n\n We will also gain §G-0.25%§! Yearly Corruption for §Y10§! years"
  allow_usury_aspect:0 "Allow Usury"
- desc_allow_usury_aspect:1 "Monetary loans with interest that enrich the lender is now allowed and no longer considered sinful. \n\n We will also gain §G-0.25%§! Interest per Annum for §Y10§! years"
+ desc_allow_usury_aspect:1 "Monetary loans with interest that enrich the lender is now allowed and no longer considered sinful. \n\n We will also gain §G-0.15%§! Interest per Annum for §Y10§! years"
  organised_through_bishops_aspect_modifier:0 "Church Aspect Zeal"
