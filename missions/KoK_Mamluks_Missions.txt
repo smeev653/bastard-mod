@@ -1810,11 +1810,8 @@ mam_missions_4 = {
 		trigger = {
 			OR = {
 				full_idea_group = administrative_ideas
-				adm = 6
-				AND = {
-					crown_land_share = 50 
-					has_reform = centralize_empire_reform
-				}
+				monthly_adm = 15
+				crown_land_share = 30 
 			}
 			OR = {
 				adm_tech = 12
