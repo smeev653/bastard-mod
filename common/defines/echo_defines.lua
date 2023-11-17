@@ -141,6 +141,7 @@ NDefines.NMilitary.NOMAD_PLAINS_SHOCK_BONUS = 0.05
 NDefines.NMilitary.NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.05
 NDefines.NMilitary.CAWA_STARTING_STRENGTH = 0.1
 NDefines.NMilitary.REBEL_TRADITION_GAIN = 1 					-- _MDEF_REBEL_TRADITION_GAIN_; Factor of army/navy tradition gained from fighting rebels and pirates.
+NDefines.NMilitary.TRADITION_GAIN_LAND = 25
 NDefines.NAI.BIGSHIP_FRACTION = 0.1
 NDefines.NAI.TRANSPORT_FRACTION = -1 -- Max fraction of naval forcelimit that should be transports
 NDefines.NAI.PEACE_TIME_MONTHS = 12
