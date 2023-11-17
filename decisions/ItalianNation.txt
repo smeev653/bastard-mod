@@ -47,7 +47,7 @@ country_decisions = {
 					root = {
 						NOT = {
 							num_of_owned_provinces_with = {
-								value = 20
+								value = 40
 								region = italy_region
 								is_core = root
 							}
