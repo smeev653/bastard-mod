@@ -2896,7 +2896,7 @@ attorney_general_reform = {
 	icon = "three_classes_reform"
 	allow_normal_conversion = yes
 	modifiers = {
-		same_culture_advisor_cost = -0.1
+		same_culture_advisor_cost = -0.05
 	}
 	custom_attributes = {
 		#seizing_land_no_rebels = yes
