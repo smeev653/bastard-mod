@@ -1773,7 +1773,7 @@ organized_military_staff_reform = {
 	modifiers = {
 		reinforce_cost_modifier = -0.2
 		reinforce_speed = 0.25
-		global_supply_limit_modifier = 0.2
+		army_tradition = 0.25
 	}
 	
 	ai = {
