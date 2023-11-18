@@ -75,11 +75,14 @@ carthusians = {
 hieronymites = {
     icon = GFX_holy_order_hieronymites
     trigger = {
-                OR = {
-              primary_culture = andalucian
-              primary_culture = moroccan
-              culture_group = iberian
-        }
+    	OR = { 
+			AND = { 
+				culture_group = iberian
+				religion = catholic
+			}
+			has_country_flag = enable_holy_orders_flag 
+		}
+		religion_group = christian
     }
     color = { 174 178 193 }
     cost = 50
@@ -407,12 +410,21 @@ avis_order = {
 
 calatrava_order = {
     icon = GFX_holy_order_calatrava
-        trigger = {
-                OR = {
-              primary_culture = andalucian
-              primary_culture = moroccan
-              culture_group = iberian
-        }
+    trigger = {
+    	OR = { 
+			AND = { 
+				culture_group = iberian
+				religion = catholic
+			}
+			has_country_flag = enable_holy_orders_flag 
+		}
+		religion_group = christian
+		OR = { 
+			tag = CAS
+			tag = SPA 
+			is_or_was_tag = { tag = NAV }
+			has_country_flag = enable_holy_orders_flag 
+		}
     }
     color = { 106 147 116 } 
     cost = 50
@@ -572,6 +584,7 @@ shadhili_order = {
         OR = {
               primary_culture = andalucian
               primary_culture = moroccan
+			  primary_culture = tunisian
               has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
         }
         religion_group = muslim
@@ -595,7 +608,7 @@ shadhili_order = {
     }
     modifier = {
         local_missionary_strength = 0.015
-        local_institution_spread = 0.10
+        local_tax_modifier = 0.33
     }
     ai_priority = {
         factor = 2
@@ -613,6 +626,7 @@ qadiri_order = {
                 OR = {
               primary_culture = andalucian
               primary_culture = moroccan
+			  primary_culture = tunisian
               has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
         }
         religion_group = muslim
@@ -654,6 +668,7 @@ aissawa_order = {
                 OR = {
               primary_culture = andalucian
               primary_culture = moroccan
+			  primary_culture = tunisian
               has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
         }
         religion_group = muslim
@@ -677,7 +692,7 @@ aissawa_order = {
     }
     modifier = {
         local_unrest = -1
-        local_monthly_devastation = -0.25
+        local_manpower_modifier = 0.25
     }
     ai_priority = {
         factor = 1

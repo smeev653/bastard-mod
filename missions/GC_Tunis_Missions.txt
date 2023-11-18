@@ -386,13 +386,6 @@ gc_tunis_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			algiers_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			hautes_plaines_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -574,7 +567,6 @@ gc_tunis_4 = {
 		provinces_to_highlight = {
 			OR = {
 				area = barbary_coast_area
-				area = algiers_area
 				area = hautes_plaines_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -582,10 +574,6 @@ gc_tunis_4 = {
 		
 		trigger = {
 			barbary_coast_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			algiers_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -604,7 +592,7 @@ gc_tunis_4 = {
 	}
 	gc_tun_privateer = {
 		icon = mission_sponsor_piracy
-		required_missions = { gc_tun_barbary_coast gc_tun_ottomans }
+		required_missions = { gc_tun_barbary_coast }
 		
 		provinces_to_highlight = {	
 			OR = {
@@ -631,10 +619,10 @@ gc_tunis_4 = {
 				}
 			}
 			1298 = {
-				privateer_power = {
-					country = ROOT
-					share = 25
-				}
+				trade_share = {
+						country = ROOT
+						share = 25
+					}
 			}
 			338 = { 
 				owned_by = ROOT 

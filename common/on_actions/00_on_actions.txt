@@ -29,6 +29,7 @@ on_startup = {
 		limit = {
 				OR = {
 					tag = MOR
+					tag = TUN
 					tag = YAO
 					tag = ZAN
 					tag = ETH
@@ -4409,7 +4410,10 @@ on_province_owner_change = {
 		limit = {
 			province_id = 45
 			owner = {
-				NOT = { tag = HSA}
+				OR = {
+					NOT = { tag = HSA}
+					NOT = { tag = FU2}
+					NOT = { tag = HAN}
 			}
 			trade_goods = gold
 		}

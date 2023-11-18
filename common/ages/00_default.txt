@@ -326,7 +326,11 @@ age_of_discovery = {
 		}
 		ab_morocco_raids = {
 			allow = {
-				tag = MOR
+				OR = {
+					tag = MOR
+					tag = TUN
+					tag = ADU
+				}	
 			}
 			modifier = {
 				may_perform_slave_raid_on_same_religion = yes

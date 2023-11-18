@@ -756,7 +756,7 @@ iqta = {
 	}
 
 	legacy_equivalent = iqta_legacy
-	queen = no
+
 	modifiers = {
 		vassal_income = 0.2
 		global_tax_modifier = 0.05
@@ -1410,9 +1410,11 @@ barbary_sultanate_reform = {
 	icon = "barbary_eyalet_government"
 	allow_normal_conversion = yes
 	potential = {
-		tag = MOR
+		OR = {
+			tag = MOR
+			tag = TUN
+		}
 	}
-	queen = no
 	nation_designer_trigger = {
 		culture_group = maghrebi
 	}

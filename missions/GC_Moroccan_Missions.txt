@@ -452,14 +452,14 @@ gc_morocco_2 = {
 		position = 2
 		
 		provinces_to_highlight = {
-			province_id = 341
+			province_id = 1293
 		}
 		
 		trigger = {
-			341 = {
+			1293 = {
 				trade_share = {
 						country = ROOT
-						share = 50
+						share = 25
 					}
 			}
 		}
@@ -608,49 +608,7 @@ gc_morocco_3 = {
 			NOT = { num_of_rebel_controlled_provinces = 1 }
 		}
 		effect = {
-			tunisia_area  = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			barbary_coast_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			ouled_nail_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			north_saharan_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			djerba_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			tripolitania_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			kabylia_area = {
+			algiers_area  = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -665,13 +623,7 @@ gc_morocco_3 = {
 		required_missions = { gc_mor_wattasid }
 		provinces_to_highlight = {
 			OR = {
-				area = djerba_area
-				area = tripolitania_area
 				area = algiers_area
-				area = barbary_coast_area
-				area = tunisia_area
-				area = tafilalt_area
-				area = kabylia_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -679,31 +631,7 @@ gc_morocco_3 = {
 		}
 		
 		trigger = {
-			djerba_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			tripolitania_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
 			algiers_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			barbary_coast_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			tunisia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			tafilalt_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			kabylia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
@@ -861,7 +789,7 @@ gc_morocco_4 = {
 				owned_by = ROOT
 			}
 			1751 = {
-				has_building = ramparts
+				has_building = barracks
 			}
 		}
 		

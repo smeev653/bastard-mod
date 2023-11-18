@@ -2749,23 +2749,6 @@ dom_cas_missions_4 = {
 		position = 1
 		trigger = {
 			if = {
-				limit = { 
-					tag = CAS 
-					NOT = { is_year = 1470 }
-				}
-				custom_trigger_tooltip = {
-					tooltip = ended_infantes_disaster_tt
-					OR = { 
-						has_country_flag = cas_royalist_flag 
-						has_country_flag = cas_infantes_flag 
-					}
-					has_country_flag = ended_infantes_disaster_flag
-				}
-			}
-			else = { 
-				grown_by_development = 100 
-			}
-			if = {
 				limit = { ai = no }
 				stability = 1 
 			}

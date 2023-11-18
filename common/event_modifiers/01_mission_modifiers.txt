@@ -3723,7 +3723,7 @@ conquest_of_benin_mor = {
 }
 
 mor_privateering = {
-	capture_ship_chance = 0.25
+	development_cost_in_primary_culture = -0.1
 }
 
 mor_el_badi_palace = {
