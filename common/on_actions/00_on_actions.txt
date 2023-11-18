@@ -4414,6 +4414,7 @@ on_province_owner_change = {
 					NOT = { tag = HSA}
 					NOT = { tag = FU2}
 					NOT = { tag = HAN}
+				}	
 			}
 			trade_goods = gold
 		}
