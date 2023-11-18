@@ -2754,126 +2754,26 @@ dom_cas_missions_4 = {
 			}
 		}
 		effect = { 
-			if = {
-				limit = { has_disaster = infantes_of_aragon }
-				end_disaster = infantes_of_aragon
+			valencia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
 			}
-			
-			custom_tooltip = spa_royalist_tt
-			tooltip = {
-				add_country_modifier = {
-					name = spa_royalists_victorious_modifier
-					duration = 9125
+			catalonia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				change_ruler_stat = {
-					type = adm
-					amount = 1
-				}
-				change_ruler_stat = {
-					type = dip
-					amount = 1
-				}
-				change_ruler_stat = {
-					type = mil
-					amount = 1
-				}
+				add_permanent_claim = ROOT
 			}
-			
-			custom_tooltip = spa_infantes_tt
-			tooltip = {
-				add_ruler_modifier = {
-					name = spa_victorious_infantes_modifier
-					duration = 5475
+			aragon_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				add_estate_influence_modifier = {
-					estate = estate_nobles
-					desc = est_val_infantes_victorious
-					influence = 20
-					duration = 9125
-					add = yes
-				}
-				if = { 
-					limit = {
-						exists = ARA
-						valid_for_personal_unions_trigger = yes
-						ARA = {
-							valid_for_personal_unions_trigger = yes
-						}
-					}
-					add_casus_belli = {
-						type = cb_restore_personal_union
-						months = 300
-						target = ARA
-					}
-				}
-				if = {
-					limit = { 
-						NAV = { is_subject = no }
-					}
-					add_casus_belli = {
-						type = cb_vassalize_mission
-						months = 300
-						target = NAV
-					}
-				}
-			}
-			hidden_effect = {
-				if = {
-					limit = { has_country_flag = cas_royalist_flag }
-					add_country_modifier = {
-						name = spa_royalists_victorious_modifier 
-						duration = 9125
-					}
-					change_ruler_stat = {
-						type = adm
-						amount = 1
-					}
-					change_ruler_stat = {
-						type = dip
-						amount = 1
-					}
-					change_ruler_stat = {
-						type = mil
-						amount = 1
-					}
-				}
-				else = {
-					add_ruler_modifier = {
-						name = spa_victorious_infantes_modifier
-						duration = 5475
-					}
-					add_estate_influence_modifier = {
-						estate = estate_nobles
-						desc = est_val_infantes_victorious
-						influence = 20
-						duration = 9125
-						add = yes
-					}
-					if = { 
-						limit = {
-							exists = ARA
-							valid_for_personal_unions_trigger = yes
-							ARA = {
-								valid_for_personal_unions_trigger = yes
-							}
-						}
-						add_casus_belli = {
-							type = cb_restore_personal_union
-							months = 300
-							target = ARA
-						}
-					}
-					if = {
-						limit = { 
-							NAV = { is_subject = no }
-						}
-						add_casus_belli = {
-							type = cb_vassalize_mission
-							months = 300
-							target = NAV
-						}
-					}
-				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
