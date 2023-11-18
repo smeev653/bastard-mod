@@ -318,4 +318,5 @@ Berber_Raids = {
 	global_autonomy = -0.025
 	monthly_reform_progress_modifier = 0.075
 	available_province_loot = 0.5
+	coast_raid_range = 1
 }
