@@ -1356,7 +1356,7 @@ estate_burghers_control_over_monetary_policy = {
 	influence = 0.05
 	
 	is_valid = {
-		has_dlc = "Emperor"
+		always = no
 	}
 	penalties = {
 		#all_power_cost = 0.05
