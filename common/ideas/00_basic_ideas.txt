@@ -180,7 +180,6 @@ economic_ideas = {
 
 	bureaucracy = { 
 		build_cost = -0.05
-		development_cost = -0.05	
 	}
 	merchant_passes = {
 		merchants = 1
