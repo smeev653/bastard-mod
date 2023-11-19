@@ -12,16 +12,8 @@ country_event = {
     trigger = {
             has_country_modifier = We_stand_alone
 			NOT = {is_great_power = yes}
-			NOT = { 
-				any_neighbor_country = {
-					 	truce_with = ROOT
-						has_opinion_modifier = {
-							modifier = vassal_abandoned
-							who = FROM
-						}
-				
-				}	
-			}	
+			mil_tech = 4
+			
 			NOT = {
 				has_country_modifier = echo_development
 			}	
