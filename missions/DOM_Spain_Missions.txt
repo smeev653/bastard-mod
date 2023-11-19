@@ -3206,7 +3206,7 @@ dom_cas_missions_4_c = {
 		position = 8
 		
 		trigger = { 
-			admin_tech = 7
+			adm_tech = 7
 		}
 	
 		effect = {

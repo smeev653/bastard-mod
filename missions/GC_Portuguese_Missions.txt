@@ -1626,7 +1626,7 @@ gc_por_5_dom = {
 		
 		trigger = { 
 			OR = { 
-				admin_tech = 7
+				adm_tech = 7
 			}
 		}
 	
