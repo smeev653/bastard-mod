@@ -19,7 +19,7 @@ tribal_federation_mechanic = {
 			scaled_modifier = {
 				modifier = {
 					manpower_recovery_speed = 0.2
-					reinforce_cost = -0.2
+					reinforce_cost_modifier  = -0.2
 				}
 			}
 		}
