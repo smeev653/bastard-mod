@@ -315,8 +315,9 @@ Berber_Raids = {
 	}
 
 	defensiveness = 0.15
-	global_autonomy = -0.025
-	monthly_reform_progress_modifier = 0.075
-	available_province_loot = 0.5
+	infantry_power = 0.05
+	ship_durability = 0.05
+	global_autonomy = -0.05
+	available_province_loot = 1
 	coast_raid_range = 1
 }
