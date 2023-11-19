@@ -334,7 +334,7 @@ conquest_of_berlin = {
 	
 	}
 }
-conquest_of_saint_petersburg = {
+conquest_of_moscow = {
 	potential = {
 		normal_or_historical_nations = yes
 	}
