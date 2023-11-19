@@ -2136,7 +2136,7 @@ HUN_ideas = {
 PER_ideas = {
 	start = {
 		land_morale = 0.1
-		cavalry_power = 0.15 
+		cavalry_power = 0.1 
 	}
 	
 	bonus = {
