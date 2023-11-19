@@ -281,6 +281,7 @@ estate_rajput_advisor = {
 	
 	is_valid = {
 		NOT = { religion_group = muslim }
+		always = no
 	}
 	penalties = {
 		stability_cost_modifier = 0.1
@@ -974,6 +975,7 @@ estate_rajput_military_ministerium = {
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	is_valid = {
 		has_dlc = "Domination"
+		always = no
 	}
 	can_select = {
 	}
