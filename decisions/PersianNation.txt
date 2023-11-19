@@ -52,7 +52,14 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			region = persia_region
+			OR = {
+				region = persia_region
+				area = shirvan_area
+				area = armenia_area
+				area = imereti_area
+				area = samtskhe_area
+				area = kartli_kakheti_area
+			}	
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		allow = {
@@ -66,7 +73,26 @@ country_decisions = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			
+			shirvan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			armenia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			imereti_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			samtskhe_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kartli_kakheti_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			if = {
 				limit = {
 					tag = TIM
