@@ -405,10 +405,6 @@ conquest_of_samarkand = {
 	}
 	trigger = {
 		owner = {
-				NOT = { tag = SHY }
-				NOT = { tag = BUK }
-				NOT = { tag = TIM }
-				NOT = { tag = GLH }
 				NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
