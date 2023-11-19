@@ -521,7 +521,7 @@ age_of_reformation = {
 				tag = MUG
 			}
 			modifier = {
-				artillery_power = 0.15
+				fire_damage = 0.15
 			}
 			ai_will_do = {
 				factor = 100
