@@ -475,6 +475,9 @@ estate_nobles_right_of_counsel = {
 	can_select = {
 	}
 	influence = 0.1
+	benefits = {
+		cav_to_inf_ratio = 0.1
+	}
 	on_granted = {
 		enable_estate_action = {
 			estate_action = RAISE_HOST_NOMADIC_TRIBES
