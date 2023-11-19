@@ -492,6 +492,7 @@ estate_brahmins_supremacy_over_crown = {
 	influence = 0.1
 	
 	is_valid = {
+		always = no
 		OR = {
 			has_dlc = "Emperor"
 			has_country_flag = buffed_monopolies
