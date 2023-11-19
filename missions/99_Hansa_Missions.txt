@@ -2042,7 +2042,7 @@ lubeck_missions_5 = {
 			}	
 			define_advisor = {
 				type = naval_reformer 
-				cost_multiplier = 0.5 
+				cost_multiplier = 0.75 
 				skill = 3 
 			}
 		}
