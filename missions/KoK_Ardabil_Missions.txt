@@ -81,14 +81,14 @@ ardabil_missions_2 = {
 				name = "thriving_arms_industry"
 				duration = 9125
 			}
-			tabriz_area = {
+			gulf_coast_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
-			shirvan_area = {
+			farsistan_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -116,7 +116,14 @@ ardabil_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			luristan_area = {
+			kerman_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			mogostan_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
