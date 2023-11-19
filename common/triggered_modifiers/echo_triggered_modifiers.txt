@@ -25,14 +25,24 @@ Minor = {
             NOT = {is_great_power = yes}
 		}
 	}	
-			NOT = {total_own_and_non_tributary_subject_development = 500 }
 			ROOT = {
 				ai = no
 			}	
 			NOT = { is_emperor = yes }
+			NOT = { tag  = CAS }
+			NOT = { tag  = ENG }
+			NOT = { tag  = BUR }
+			NOT = { tag  = HAB }
+			NOT = { tag  = POL }
+			NOT = { tag  = MOS }
+			NOT = { tag  = TUR }
+			NOT = { tag  = MAM }
+			NOT = { tag  = BAH }
+			NOT = { tag  = VIJ }
+			NOT = { tag  = HUN }
+			NOT = { tag  = FRA }
 	}
 	
-
 	trigger = {
 		NOT = {total_own_and_non_tributary_subject_development = 400 }	
 		NOT = { is_emperor = yes }
