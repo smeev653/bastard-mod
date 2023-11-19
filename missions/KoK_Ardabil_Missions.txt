@@ -81,7 +81,7 @@ ardabil_missions_2 = {
 				name = "thriving_arms_industry"
 				duration = 9125
 			}
-			gulf_coast_area = {
+			persian_gulf_coast = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
