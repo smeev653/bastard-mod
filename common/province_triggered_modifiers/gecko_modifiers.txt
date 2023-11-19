@@ -375,9 +375,7 @@ conquest_of_tabriz = {
 
 	trigger = {
 		owner = {
-				NOT = { tag = QOM }
-				NOT = { tag = AKK }
-				NOT = { tag = PER }
+				NOT = { tag = QAR }
 				tabriz_area = {
 					type = all
 					country_or_non_sovereign_subject_holds = PREV
