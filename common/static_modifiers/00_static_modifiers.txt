@@ -1489,6 +1489,7 @@ daimyo_subject = {
 }
 
 appanage_subject = {
+	defensiveness = 0.25
 }
 
 appanage_overlord = {
