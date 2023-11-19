@@ -113,7 +113,7 @@ religious_ideas = {
 		missionaries = 1
 		global_missionary_strength = 0.02
 		prestige_per_development_from_conversion = 0.5
-		monthly_piety_accelerator = 0.001
+		monthly_piety_accelerator = 0.01
 	}
 	devoutness = {
 		tolerance_own = 2
@@ -124,7 +124,7 @@ religious_ideas = {
 		yearly_patriarch_authority = 0.005
 	}
 	religious_tradition = {
-		reverse_relation_with_same_religion = 25
+		yearly_government_power = 1.5
 		prestige = 1
 	}
 	inquisition = {
