@@ -1058,8 +1058,8 @@ sicily_mission_4 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			add_yearly_sailors = 2
-			add_yearly_manpower = 2
+			add_yearly_sailors = 1
+			add_yearly_manpower = 0.5
 			add_country_modifier = {
 				name = sic_military_campaign
 				duration = 9125
