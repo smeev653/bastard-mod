@@ -1302,27 +1302,23 @@ dom_cas_missions_2_b = {
 				}
 			}
 			OR = { 
-				AND = {
-					full_idea_group = maritime_ideas 
 					num_of_owned_provinces_with = {
 						has_dock_building_trigger = yes 
 						value = 25 
 					}
-				}
-				AND = {
-					full_idea_group = naval_ideas 
+				
+
 					num_of_owned_provinces_with = {
 						has_shipyard_building_trigger = yes 
 						value = 25 
 					}
-				}
-				AND = {
-					full_idea_group = trade_ideas 
+				
+
 					num_of_owned_provinces_with = {
 						has_trade_building_trigger = yes 
 						value = 12 
 					}
-				}
+				
 				mercantilism = 75
 			}
 		}
@@ -3210,10 +3206,7 @@ dom_cas_missions_4_c = {
 		position = 8
 		
 		trigger = { 
-			OR = { 
-				full_idea_group = exploration_ideas
-				full_idea_group = expansion_ideas
-			}
+			admin_tech = 7
 		}
 	
 		effect = {

@@ -1159,20 +1159,8 @@ french_missions_1_Continuation_a = {
 					tooltip = fra_completed_wars_religion
 					has_country_flag = FRA_wars_of_religion_ended 
 				}
-				AND = { 
-					current_age = age_of_absolutism 
-					OR = { 
-						full_idea_group = religious_ideas 
-						full_idea_group = humanist_ideas 
-					}
-				}
-				AND = { 
-					current_age = age_of_revolutions 
-					OR = { 
-						full_idea_group = religious_ideas 
-						full_idea_group = humanist_ideas 
-					}
-				}
+				current_age = age_of_absolutism 
+				current_age = age_of_revolutions 
 			}
 			religious_unity = 1 
 		}

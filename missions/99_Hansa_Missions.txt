@@ -759,7 +759,6 @@ lubeck_missions_2 = {
 		trigger = {
 			OR = {
 				adm = 6 
-				full_idea_group = economic_ideas 
 				has_final_tier_reforms_trigger = yes
 			}
 			custom_trigger_tooltip = {
