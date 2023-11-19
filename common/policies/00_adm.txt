@@ -470,64 +470,6 @@ the_provincial_taxation_system = {
 
 
 
-the_witchcraft_act = {
-	monarch_power = MIL
-
-	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = aristocracy_ideas
-	}
-	
-	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = aristocracy_ideas
-	}
-	
-	cavalry_shock = 0.375
-
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}
-		
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 4
-		}			
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 6
-		}
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 8
-		}
-	}
-}
 
 
 the_education_act = {
