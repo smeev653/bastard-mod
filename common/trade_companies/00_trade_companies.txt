@@ -548,10 +548,9 @@ trade_company_bordeaux = {
 		169 170 171 172 4384 #brittany_area
 		194 198 4112 #guyenne_area
 		180 4111 4386 4387 #poitou_area
-		173 209 210 #basque_country
+		173
 		174 175 176 #pyrenees_area
 		177 178 4389 #loire_area
-		2989
 		4694 4697 4777 # new for 1.30
 	}
 	
@@ -569,12 +568,27 @@ trade_company_sevilla = {
 	color = { 57 160 101 }
 	
 	provinces = {
-		206 207 208 1746 215 216 231 232 217 218 219 221 222 223 224 225 226 227 228 229 230 334 335 367 1745 1747 1748 1749 1751 1851 2754 2755 2751 4150 
-		4546 4547 4548 4551 4552 4553 4554 4555 4556 4558
-		4561 4563 368 366 4565 4787 4788 4789
-		348 2466 2464 4568
-		2460 346 349
-		4562 2465 336
+		1293 #Water 
+		207 208 216 4553 #leon_area
+		206 4554 4555 4558 #galicia_area
+		1746 1745 215 4552 #north_castille_area
+		217 4789 4551 2755 #south_castille_area
+		218 1747 4788 #extremadura_area
+		219 221 2754 2751 4547 #toledo_area
+		224 225 1749 4548 1748 #lower_andalucia_state
+		226 4546 222 223 #upper_andalucia_area
+		227 229 230 4787 4150 #alentejo_state
+		231 232 228 1851 4556 #beiras_state
+		366 4565 367 368 #macaronesia_area
+		209 210 2989 #basque_country
+		
+		347 1110 2470 #southern_morocco_area
+		342 345 2469 4564 #western_morocco_area
+		343 344 2467 2468 #marrekesh_area
+		334 335 1751 4563 4561 #northern_morocco_area
+		348 2464 2466 4568 #sus_area
+		346 2460 349 #tafilalt_area
+		336 2465 4562 #algier_area
 	}
 	
 	# Specific
@@ -591,8 +605,6 @@ trade_company_safi = {
 	color = { 191 110 62 }
 	
 	provinces = {
-		344 345 347 1110 2467 2468 2469 2470 342 343 2459 2462 2463  337 338 2461 
-		4564
 	}
 	
 	# Specific

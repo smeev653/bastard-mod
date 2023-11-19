@@ -171,3 +171,27 @@ bastard_golden_age_effect = {
 			}
 	}
 }	
+
+TUN_enable_colonize_tuat_decision = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = TUN_colonize_tuat_flag 
+			}
+		}
+		set_country_flag = TUN_colonize_tuat_flag
+		custom_tooltip = TUN_enable_colonize_tuat_decision
+	}
+}
+
+TUN_enable_colonize_djado_decision = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = TUN_colonize_djado_flag 
+			}
+		}
+		set_country_flag = TUN_colonize_djado_flag
+		custom_tooltip = TUN_enable_colonize_djado_decision
+	}
+}

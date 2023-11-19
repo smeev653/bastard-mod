@@ -159,3 +159,22 @@ X_has_latest_building_trigger = {
 		}
 	]
 }
+
+MAM_upgrade_cot_and_trade_building = {
+	custom_trigger_tooltip = {
+		tooltip = MAM_upgrade_cot_to_level_2_and_build_trade_building
+		OR = {
+			NOT = { province_has_center_of_trade_of_level = 1 } 
+			AND = {
+				country_or_non_sovereign_subject_holds = ROOT
+				if = {
+					limit = {
+						has_dlc = "Dharma"
+					}
+					province_has_center_of_trade_of_level = 2
+				}
+				has_trade_building_trigger = yes
+			}
+		}
+	}
+}

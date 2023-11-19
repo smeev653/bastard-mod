@@ -3742,7 +3742,7 @@ mor_conquest_of_kanem = {
 }
 
 mor_barbary_pirate_coast = {
-	privateer_efficiency = 0.2
+	production_efficiency = 0.2
 }
 
 mor_north_sea_corsairs = {

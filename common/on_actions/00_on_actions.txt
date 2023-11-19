@@ -4412,7 +4412,6 @@ on_province_owner_change = {
 			owner = {
 				OR = {
 					NOT = { tag = HSA}
-					NOT = { tag = FU2}
 					NOT = { tag = HAN}
 				}	
 			}
