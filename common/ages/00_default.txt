@@ -208,7 +208,7 @@ age_of_discovery = {
 				tag = HSA
 			}
 			modifier = {
-				galley_power = 0.2
+				 own_territory_dice_roll_bonus = 1
 			}
 			ai_will_do = {
 				factor = 100
