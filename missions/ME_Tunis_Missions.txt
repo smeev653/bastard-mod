@@ -607,7 +607,20 @@ TUN_missions_2 = {
 					duration = 9125
 				}
 			}
-			
+			western_sicily_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sicily_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			add_country_modifier = {
 				name = TUN_capture_of_sardinia
 				duration = 10950
@@ -876,20 +889,20 @@ TUN_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			 western_sicily_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			sicily_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
+			#western_sicily_area = {
+			#	limit = {
+			#		NOT = { is_core = ROOT }
+			#		NOT = { is_permanent_claim = ROOT }
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
+			#sicily_area = {
+			#	limit = {
+			#		NOT = { is_core = ROOT }
+			#		NOT = { is_permanent_claim = ROOT }
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
 			baleares_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -909,7 +922,7 @@ TUN_missions_3 = {
 	
 	TUN_sicily = {
 		icon = mission_break_sicily
-		required_missions = { TUN_navy }
+		required_missions = { TUN_navy TUN_sardinia }
 		position = 5
 		ai_weight = {
 			factor = 1000 #conquest
