@@ -98,7 +98,7 @@ NDefines.NCountry.RAZE_PROVINCE_DEVELOPMENT_DECREASE = 0
 NDefines.NCountry.RAZE_PROVINCE_POWER_PER_DEVELOPMENT = 0
 NDefines.NCountry.LAGGINGTECH_CORRUPTION = 0.25					-- Corruption increase/year. Multiplied by (highest - lowest) tech level
 NDefines.NCountry.LAGGINGTECH_CORRUPTION_MAX = 1				-- Max increase/year
-NDefines.NCountry.NATIVE_UPRISING_COOLDOWN_MONTHS = 120,
+NDefines.NCountry.NATIVE_UPRISING_COOLDOWN_MONTHS = 120
 NDefines.NCountry.NATIVE_UPRISING_CHANCE_PER_AGGRESSIVENESS = -1
 
 NDefines.NEconomy.GOLD_MINE_SIZE = 35
