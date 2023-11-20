@@ -959,7 +959,7 @@ X_VEN_slot_2 = {
 					OR = {
 						NOT = {
 							num_of_owned_provinces_with = {
-								value = 2
+								value = 1
 								X_has_latest_building_trigger = { fort = yes builder = ROOT }
 								area = east_adriatic_coast_area
 							}
