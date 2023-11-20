@@ -8047,8 +8047,7 @@ hsa_republican_modus_operandi_modifier = {
 	reform_progress_growth = 0.1 
 }
 hsa_holstentor_burgtor_modifier = {
-	defensiveness = 0.25 
-	local_defender_dice_roll_bonus = 1 
+	defensiveness = 1 
 }
 hsa_theory_of_mercantilism_modifier = {
 	mercantilism_cost = -0.1 
