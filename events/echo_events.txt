@@ -12,7 +12,7 @@ country_event = {
     trigger = {
             has_country_modifier = We_stand_alone
 			NOT = {is_great_power = yes}
-			mil_tech = 4
+			adm_tech = 5
 			
 			NOT = {
 				has_country_modifier = echo_development
