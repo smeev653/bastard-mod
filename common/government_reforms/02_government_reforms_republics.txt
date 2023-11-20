@@ -2393,7 +2393,8 @@ consolidation_of_power_reform = {
 
 lottery_reform = {
 	icon = "paper_with_seal_3"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
 	potential = {
 		is_colonial_nation = no
 		OR = {
@@ -2432,7 +2433,8 @@ lottery_reform = {
 
 force_reelection_reform = {
 	icon = "paper_with_seal"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
 	potential = {
 		OR = {
 			is_revolutionary = no
@@ -2494,7 +2496,8 @@ devotee_to_the_people_reform = {
 
 consolidate_power_in_doge_reform = {
 	icon = "consolidate_power_in_doge_reform"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
 	potential = {
 		OR = {
 			has_reform = venice_merchants_reform
