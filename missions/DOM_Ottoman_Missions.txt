@@ -2253,7 +2253,7 @@ tur_egyptian_conquest = {
 			province_id = 151
 			OR = {
 				NOT = { owned_by = ROOT }
-				NOT = { development = 75 }
+				NOT = { development = 70 }
 				NOT = { has_manufactory_trigger = yes }
 				NOT = { has_production_building_trigger = yes }
 				NOT = { has_trade_building_trigger = yes }
