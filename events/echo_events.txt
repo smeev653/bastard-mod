@@ -492,6 +492,7 @@ country_event = {
 	major = yes
 	fire_only_once = yes
     trigger = {
+			always = no
 			dip_tech = 6
 			ai = no
     }

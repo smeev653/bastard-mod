@@ -129,11 +129,9 @@ country_decisions = {
 				}
 				NOT = { has_country_modifier = free_colonist}	
 				ai = no
-				dip_tech = 6
 			}
 
 		allow = {
-			has_global_flag = nw_discovered
 			dip_tech = 6
 		}
 		effect = {
