@@ -5,7 +5,7 @@ primary_culture = persian
 add_accepted_culture = azerbaijani
 religion = shiite
 technology_group = muslim
-capital = 2213 # Qom
+capital = 429 # Qom
 religious_school = jafari_school
 
 1442.1.1 = { #Appointed as governor of Sultaniyya, Qazvin, Rayy and Qom, but takes up tribute from Kashan, Qazvin, Sari, Isfahan, Natanz, Firuzkuh, Sultaniyya, Tarum, Azerbaijan as well.
