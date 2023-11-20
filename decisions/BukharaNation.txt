@@ -81,9 +81,6 @@ country_decisions = {
 			owns_core_province = 2235
 			owns_core_province = 2236
 			#owns_core_province = 476		
-			NOT = { 
-				overlord_of = SIB
-			}
 		}
 		effect = {
 			change_tag = BUK
