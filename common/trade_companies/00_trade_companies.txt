@@ -1159,6 +1159,7 @@ trade_company_persia = {
 		423 2203 4301 #kartli_kakheti_area
 		419 2202 2205 #armenia_area
 		421 4299 4305 420 #shirvan_area
+		429 433 2222 4335 4171 #isfahan_area
 	}
 	
 	# Specific
@@ -1337,7 +1338,6 @@ trade_company_lahore = {
 		436 4334 4336 #birjand_area
 		446 4324 4325 #herat_area
 		2221 2235 2236 4326 #mashhad_area
-		429 433 2222 4335 4171 #isfahan_area
 	}
 	
 	# Specific
