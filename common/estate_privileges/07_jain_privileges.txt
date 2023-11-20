@@ -257,7 +257,7 @@ estate_jains_clerical_class = {
 	}
 	benefits = {
 		state_maintenance_modifier = -0.25
-		development_cost = -0.05
+		development_cost = -0.1
 	}
 	ai_will_do = {
 		factor = 0
@@ -942,6 +942,7 @@ estate_jains_control_over_monetary_policy = {
 	influence = 0.05
 	
 	is_valid = {
+		always = no
 		has_dlc = "Emperor"
 		NOT = { has_estate = estate_vaisyas }
 	}
@@ -1130,7 +1131,7 @@ estate_jains_economical_boost = {
 			}
 		}
 		modifier = {
-			global_prov_trade_power_modifier = -0.25
+			global_prov_trade_power_modifier = -0.125
 		}
 	}
 	influence_scaled_conditional_modifier = {	#Modifier that are applied if the specified conditions are true. At 100% Influence you gain 100% of the modifier.
@@ -1147,8 +1148,8 @@ estate_jains_economical_boost = {
 			}
 		}
 		modifier = {
-			placed_merchant_power = 5
-			global_prov_trade_power_modifier = 0.25
+			placed_merchant_power = 2.5
+			global_prov_trade_power_modifier = 0.125
 		}
 	}
 	influence_scaled_conditional_modifier = {	#Modifier that are applied if the specified conditions are true. At 100% Influence you gain 100% of the modifier.
