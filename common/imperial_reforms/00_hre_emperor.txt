@@ -157,8 +157,8 @@ emperor_reichstag_collegia = {
 	emperor_per_prince = {
 		global_tax_income = 1.5
 	}
-	elector = {
-		advisor_cost = -0.1
+	elector_per_prince = {
+		advisor_cost = -0.005
 	}
 }
 
@@ -176,8 +176,8 @@ emperor_expand_gemeiner_pfennig = {
 	elector_per_prince = {
 		global_manpower = 0.5
 	}
-	elector = {
-		 global_tax_income = 36
+	elector_per_prince = {
+		 global_tax_income = 1.8
 	}
 }
 
