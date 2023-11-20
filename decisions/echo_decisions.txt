@@ -114,7 +114,6 @@ country_decisions = {
 	free_colonist = {
 		color = { 166  0  0 }
 		potential = {
-				always = no
 				NOT = {
 					capital_scope = {
 						continent = north_america
@@ -126,11 +125,6 @@ country_decisions = {
 					}
 				}
 				NOT = {
-					capital_scope = {
-						continent = asia
-					}
-				}
-				NOT = {
 					is_nomad = yes
 				}
 				NOT = { has_country_modifier = free_colonist}	
@@ -139,6 +133,7 @@ country_decisions = {
 			}
 
 		allow = {
+			has_global_flag = nw_discovered
 			dip_tech = 6
 		}
 		effect = {

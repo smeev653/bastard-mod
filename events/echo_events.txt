@@ -501,6 +501,7 @@ country_event = {
 	
     option = {
 		name = echo.14.a
+		set_global_flag = nw_discovered
 		add_country_modifier = {
 				name = "free_colonist"
 				duration = -1
