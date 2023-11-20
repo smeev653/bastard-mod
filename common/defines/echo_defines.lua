@@ -98,6 +98,8 @@ NDefines.NCountry.RAZE_PROVINCE_DEVELOPMENT_DECREASE = 0
 NDefines.NCountry.RAZE_PROVINCE_POWER_PER_DEVELOPMENT = 0
 NDefines.NCountry.LAGGINGTECH_CORRUPTION = 0.25					-- Corruption increase/year. Multiplied by (highest - lowest) tech level
 NDefines.NCountry.LAGGINGTECH_CORRUPTION_MAX = 1				-- Max increase/year
+NDefines.NCountry.NATIVE_UPRISING_COOLDOWN_MONTHS = 120,
+NDefines.NCountry.NATIVE_UPRISING_CHANCE_PER_AGGRESSIVENESS = -1
 
 NDefines.NEconomy.GOLD_MINE_SIZE = 35
 NDefines.NEconomy.EDICTS_DURATION_MONTHS = 1
@@ -141,6 +143,7 @@ NDefines.NMilitary.NOMAD_PLAINS_SHOCK_BONUS = 0.05
 NDefines.NMilitary.NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.05
 NDefines.NMilitary.CAWA_STARTING_STRENGTH = 0.1
 NDefines.NMilitary.REBEL_TRADITION_GAIN = 0.75 					-- _MDEF_REBEL_TRADITION_GAIN_; Factor of army/navy tradition gained from fighting rebels and pirates.
+NDefines.NMilitary.NATIVE_FEROCITY_IMPACT = -1
 NDefines.NAI.BIGSHIP_FRACTION = 0.1
 NDefines.NAI.TRANSPORT_FRACTION = -1 -- Max fraction of naval forcelimit that should be transports
 NDefines.NAI.PEACE_TIME_MONTHS = 12
