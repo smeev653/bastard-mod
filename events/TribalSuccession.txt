@@ -20,18 +20,6 @@ country_event = {
 			NOT = { legitimacy_or_horde_unity = 50 }
 			has_regency = yes
 		}
-		OR = {
-			NOT = { tag = CRI }
-			has_global_flag = death_of_haji_giray
-		}
-		OR = {
-			NOT = { has_estate_privilege = estate_nomadic_tribes_secured_succession }
-			NOT = {
-				heir_total_stats = {
-					amount = 12
-				}
-			}
-		}
 	}
 	
 	immediate = {
@@ -54,7 +42,6 @@ country_event = {
 			}
 		}
 	}
-	
 	
 	
 	option = {
