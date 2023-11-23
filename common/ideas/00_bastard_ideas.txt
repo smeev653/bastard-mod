@@ -631,11 +631,12 @@ MLO_ideas = {
 	}
 	
 	bonus = {
-		global_manpower_modifier = 0.20
+		global_manpower_modifier = 0.15
 	}
 	
 	trigger = {
 		tag = MLO
+		NOT = { has_country_flag = mlo_formed_lom }
 	}
 	free = yes
 	
@@ -661,6 +662,48 @@ MLO_ideas = {
 	}
 	rulership_of_enlightened_principals = {
 		stability_cost_modifier = -0.1
+	}
+}
+LOB_ideas = {
+	start = {
+		development_cost = -0.05
+		infantry_power = 0.1 	
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.15
+	}	
+
+	trigger = {
+		has_country_flag = mlo_formed_lom
+		tag = MLO 
+	}
+	free = yes
+	
+	LOB_restore_edict_of_milan = {
+		no_religion_penalty = yes 
+		tolerance_own = 1 
+	}
+	LOB_milanese_steel = {
+		discipline = 0.05 
+	}
+	LOB_imperial_diplomacy = {
+		global_trade_power = 0.1
+	}
+	LOB_defy_feudalism = {
+		merc_maintenance_modifier = -0.15
+		land_morale = 0.1
+	}
+	patron_of_music = {
+		prestige = 1
+	}
+	LOB_italian_scholars = {
+		technology_cost = -0.1 
+		idea_cost = -0.1
+	}
+	LOB_rule_mediterranean = {
+		number_of_cannons_flagship_modifier = 0.50
+		galley_power = 0.2 
 	}
 }
 
