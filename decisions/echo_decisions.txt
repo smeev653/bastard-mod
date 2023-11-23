@@ -161,10 +161,12 @@ country_decisions = {
 			custom_trigger_tooltip = {
 				tooltip = echo_commandant_decision
 				NOT = { has_country_modifier = echo_commandant_cooldown }
+				NOT = { has_country_modifier = echo_commandant_cooldown_100 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = echo_grand_captain_decision
 				NOT = { has_country_modifier = echo_grand_captain_cooldown }
+				NOT = { has_country_modifier = echo_grand_captain_cooldown_100 }
 			}
 		}
 		effect = {
