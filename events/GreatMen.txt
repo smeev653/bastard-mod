@@ -1017,7 +1017,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = "echo_grand_captain_cooldown"
-			duration = 7300
+			duration = 3650
 		}
 	}
 	option = {
@@ -1038,7 +1038,6 @@ country_event = {
 		add_country_modifier = { 
 			name = echo_grand_captain_cooldown_100
 			duration = 36500
-			hidden = yes
 		}
 	}
 
@@ -1060,7 +1059,6 @@ country_event = {
 		add_country_modifier = { 
 			name = echo_grand_captain_cooldown_100
 			duration = 36500
-			hidden = yes
 		}
 	}
 }
@@ -1180,7 +1178,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = "echo_commandant_cooldown"
-			duration = 7300
+			duration = 3650
 		}
 	}
 	option = {
@@ -1201,7 +1199,6 @@ country_event = {
 		add_country_modifier = { 
 			name = echo_commandant_cooldown_100
 			duration = 36500
-			hidden = yes
 		}
 	}
 
@@ -1223,7 +1220,6 @@ country_event = {
 		add_country_modifier = { 
 			name = echo_commandant_cooldown_100
 			duration = 36500
-			hidden = yes
 		}
 	}
 }
