@@ -195,7 +195,6 @@ age_of_discovery = {
 			}
 			modifier = {
 				global_colonial_growth = 35
-				infantry_cost = -0.25
 				fire_damage = 0.1
 			}
 			ai_will_do = {
