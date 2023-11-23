@@ -1169,31 +1169,31 @@ country_event = {
 	is_triggered_only = yes
 	major = yes
 	
-	option = {	#Monopolize the Rug Market
-		name = flavor_per.19.a
-		add_mercantilism = 5
-		change_price = {
-			trade_goods = silk
-			key = PERSIA_SILK_MONOPOLIZATION
-			value = 1.5
-			duration = 14600
-		}
-		change_price = {
-			trade_goods = cloth
-			key = PERSIA_CLOTH_MONOPOLIZATION
-			value = 0.25
-			duration = 14600
-		}
-		change_price = {
-			trade_goods = dyes
-			key = PERSIA_DYES_MONOPOLIZATION
-			value = 0.25
-			duration = 14600
-		}
-		ai_chance = {
-			factor = 0
-		}
-	}
+	#option = {	#Monopolize the Rug Market
+	#	name = flavor_per.19.a
+	#	add_mercantilism = 5
+	#	change_price = {
+	#		trade_goods = silk
+	#		key = PERSIA_SILK_MONOPOLIZATION
+	#		value = 1.5
+	#		duration = 14600
+	#	}
+	#	change_price = {
+	#		trade_goods = cloth
+	#		key = PERSIA_CLOTH_MONOPOLIZATION
+	#		value = 0.25
+	#		duration = 14600
+	#	}
+	#	change_price = {
+	#		trade_goods = dyes
+	#		key = PERSIA_DYES_MONOPOLIZATION
+	#		value = 0.25
+	#		duration = 14600
+	#	}
+	#	ai_chance = {
+	#		factor = 0
+	#	}
+	#}
 	
 	option = {	#Flood the Rug Market
 		name = flavor_per.19.b
