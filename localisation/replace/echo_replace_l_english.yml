@@ -40,3 +40,16 @@
  allow_usury_aspect:0 "Allow Usury"
  desc_allow_usury_aspect:1 "Monetary loans with interest that enrich the lender is now allowed and no longer considered sinful. \n\n We will also gain §G-0.15%§! Interest per Annum for §Y10§! years"
  organised_through_bishops_aspect_modifier:0 "Church Aspect Zeal"
+
+#egyptian westernisation
+egyptian_dip_counter_1_tt:0 "£no£ Gain §G100.00§! Government Reform Progress\n£no£ Goods Produced Modifier: §G+2.5%§!\n£no£ Goods Produced Modifier: §G+5%§!\n£no£ Goods Produced Modifier: §G+7.5%§!\n£no£ Goods Produced Modifier: §G+10%§!"
+
+ egyptian_dip_counter_2_tt:0 "£yes£ Gain §G100.00§! Government Reform Progress\n£no£ Goods Produced Modifier: §G+2.5%§!\n£no£ Goods Produced Modifier: §G+50%§!\n£no£ Goods Produced Modifier: §G+7.5%§!\n£no£ Goods Produced Modifier: §G+10%§!"
+ 
+ egyptian_dip_counter_3_tt:0 "£yes£ Gain §G100.00§! Government Reform Progress\n£yes£ Goods Produced Modifier: §G+2.5%§!\n£no£ Goods Produced Modifier: §G+5%§!\n£no£ Goods Produced Modifier: §G+7.5%§!\n£no£ Goods Produced Modifier: §G+10%§!"
+
+ egyptian_dip_counter_4_tt:0 "£yes£ Gain §G100.00§! Government Reform Progress\n£yes£ Goods Produced Modifier: §G+2.5%§!\n£yes£ Goods Produced Modifier: §G+50%§!\n£no£ Goods Produced Modifier: §G+7.5%§!\n£no£ Goods Produced Modifier: §G+10%§!"
+
+ egyptian_dip_counter_5_tt:0 "£yes£ Gain §G100.00§! Government Reform Progress\n£yes£ Goods Produced Modifier: §G+2.5%§!\n£yes£ Goods Produced Modifier: §G+5%§!\n£yes£ Goods Produced Modifier: §G+7.5%§!\n£no£ Goods Produced Modifier: §G+10%§!"
+
+ egyptian_dip_counter_6_tt:0 "£yes£ Gain §G100.00§! Government Reform Progress\n£yes£ Goods Produced Modifier: §G+2.5%§!\n£yes£ Goods Produced Modifier: §G+5%§!\n£yes£ Goods Produced Modifier: §G+7.5%§!\n£yes£ Goods Produced Modifier: §G+10%§!"
