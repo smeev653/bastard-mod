@@ -202,12 +202,10 @@ cb_border_war = {
 
 # Trade War (from events and others)
 cb_trade_war_triggered = {
+
 	prerequisites = {
 		always = no
 	}
-	valid_for_subject = no
-
-
 
 	war_goal = superiority_trade
 
@@ -219,19 +217,25 @@ cb_trade_war_triggered = {
 		po_return_cores
 		po_become_vassal
 		po_subjugate_vassal
+		po_change_religion
+		po_form_personal_union
 		po_become_tributary_state
 		po_subjugate_tributary_state
-		po_form_personal_union
 		po_transfer_vassals
+		po_concede_defeat
+		po_annul_treaties
+		po_humiliate
+		po_enforce_rebel_demands
+		po_change_government
+		po_revoke_elector
 	}
 }
 
 cb_trade_conflict = {
 	valid_for_subject = no
 
-	prerequisites = {
-		always = no
-	}
+	is_triggered_only = yes
+	months = 24
 
 	war_goal = blockade_ports
 
@@ -243,10 +247,19 @@ cb_trade_conflict = {
 		po_return_cores
 		po_become_vassal
 		po_subjugate_vassal
+		po_change_religion
 		po_form_personal_union
 		po_become_tributary_state
 		po_subjugate_tributary_state
 		po_transfer_vassals
+		po_concede_defeat
+		po_annul_treaties
+		po_humiliate
+		po_enforce_rebel_demands
+		po_change_government
+		po_revoke_elector
+		po_trade_power
+		po_steer_trade
 	}
 }
 
@@ -266,10 +279,19 @@ cb_trade_conflict_triggered = {
 		po_return_cores
 		po_become_vassal
 		po_subjugate_vassal
+		po_change_religion
 		po_form_personal_union
 		po_become_tributary_state
 		po_subjugate_tributary_state
 		po_transfer_vassals
+		po_concede_defeat
+		po_annul_treaties
+		po_humiliate
+		po_enforce_rebel_demands
+		po_change_government
+		po_revoke_elector
+		po_trade_power
+		po_steer_trade
 	}
 }
 
@@ -278,6 +300,7 @@ cb_trade_league_conflict = {
 	prerequisites = {
 		always = no
 	}
+
 
 	war_goal = blockade_ports
 
@@ -289,10 +312,19 @@ cb_trade_league_conflict = {
 		po_return_cores
 		po_become_vassal
 		po_subjugate_vassal
+		po_change_religion
+		po_form_personal_union
 		po_become_tributary_state
 		po_subjugate_tributary_state
-		po_form_personal_union
 		po_transfer_vassals
+		po_concede_defeat
+		po_annul_treaties
+		po_humiliate
+		po_enforce_rebel_demands
+		po_change_government
+		po_revoke_elector
+		po_trade_power
+		po_steer_trade
 	}
 }
 
@@ -944,13 +976,22 @@ cb_excommunication = {
 # Trade War
 cb_trade_war = {
 
-	prerequisites_self = {
+	prerequisites = {
 		always = no
 	}
 
 	prerequisites = {
 
-		always = no
+		OR = {
+			AND = {
+				trade_embargo_by = FROM
+				NOT = { FROM = { trade_embargo_by = ROOT } }
+			}
+			AND = {
+				has_government_attribute = is_merchant_republic
+				FROM = { has_government_attribute = is_merchant_republic }
+			}
+		}
 	}
 
 	war_goal = superiority_trade_mutual
@@ -974,11 +1015,13 @@ cb_trade_war = {
 cb_trade_league_dispute = {
 
 	prerequisites_self = {
-		always = no
+		is_trade_league_leader = yes
+		is_revolutionary = no
 	}
 
 	prerequisites = {
-		always = no
+		NOT = { ROOT = { trade_embargo_by = FROM } }
+		ROOT = { trade_league_embargoed_by = FROM }
 	}
 
 	war_goal = superiority_trade_mutual
