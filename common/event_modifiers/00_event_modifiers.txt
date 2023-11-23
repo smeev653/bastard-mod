@@ -11757,10 +11757,10 @@ estate_rajput_development_of_rajput_lands_mod = {
 	local_development_cost = -0.1
 }
 estate_vaisyas_development_of_cities_mod = {
-	local_development_cost = -0.05
+	local_governing_cost = -0.15
 }
 estate_jains_development_of_cities_mod = {
-	local_development_cost = -0.05
+	local_governing_cost = -0.15
 }
 
 recently_repealed_elective_monarchy_timer = { }

@@ -1238,7 +1238,7 @@ gc_por_4 = {
 				coromandel_region = {
 					has_discovered = ROOT
 				}
-				2030 = {
+				1248 = {
 					has_discovered = POR
 				}
 			}
