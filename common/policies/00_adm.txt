@@ -889,28 +889,6 @@ anti_heresy_act = {
 
  #1.35 Additions 
 
-aristocratic_rule_act = { 
-	monarch_power = MIL
-	
-	potential = {
-		has_idea_group = infrastructure_ideas
-		has_idea_group = aristocracy_ideas 
-	}
-	
-	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = aristocracy_ideas 
-	}
-
-	cavalry_cost = -0.15
-	cavalry_shock = 0.25
-
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0			
-	}
-}
 
 plutocratic_rule_act = { 
 	monarch_power = ADM

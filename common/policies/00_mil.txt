@@ -25,6 +25,28 @@ privy_council_establishment_act = {
 	}
 
 }
+aristocratic_rule_act = { 
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = infrastructure_ideas
+		has_idea_group = aristocracy_ideas 
+	}
+	
+	allow = {
+		full_idea_group = infrastructure_ideas
+		full_idea_group = aristocracy_ideas 
+	}
+
+	cavalry_cost = -0.05
+	cavalry_shock = 0.25
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0			
+	}
+}
 
 the_mercenary_registration_act = {
 	monarch_power = MIL
