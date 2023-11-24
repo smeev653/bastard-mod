@@ -3127,6 +3127,7 @@ loose_lips_personality = {
 obsessive_perfectionist_personality = {
 	ruler_allow = {
 		allow = {
+			always = no
 			OR = {
 				NOT = { ruler_has_personality = patron_of_arts_personality }
 				NOT = { ruler_has_personality = architectural_visionary_personality }
@@ -3156,6 +3157,7 @@ obsessive_perfectionist_personality = {
 
 	heir_allow = {
 		allow = {
+			always = no
 			NOT = { heir_has_personality = architectural_visionary_personality }
 		}
 	
@@ -3182,6 +3184,7 @@ obsessive_perfectionist_personality = {
 	
 	consort_allow = {
 		allow = {
+			always = no
 			NOT = { consort_has_personality = architectural_visionary_personality }
 		}
 
