@@ -437,7 +437,7 @@ infrastructure_ideas = {
 		fort_maintenance_modifier = -0.25
  	}
 	regulation_bureau = {
-		expand_administration_cost = -0.5
+		expand_administration_cost = -0.25
 		build_time = -0.25
 	}
 

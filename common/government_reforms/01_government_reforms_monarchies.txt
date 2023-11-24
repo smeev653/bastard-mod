@@ -2267,6 +2267,7 @@ prussian_monarchy = {
 		monarch_military_power = 1
 		nobles_loyalty_modifier = 0.1
 		governing_capacity_modifier = -0.5
+		expand_administration_cost = 0.1
 	}
 
 	conditional = {
@@ -6127,7 +6128,7 @@ two_treatises_reform = {
 	#	}
 	#}
 	modifiers = {
-		expand_administration_cost = -0.33
+		expand_administration_cost = -0.15
 		can_revoke_parliament_seats = yes
 		num_accepted_cultures = 1
 	}
@@ -6293,6 +6294,9 @@ become_a_republic_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
+		NOT = { tag = BRA }
+		NOT = { tag = PRU }
+		NOT = { tag = GER }
 	}
 	trigger = {
 		NOT = { has_government_attribute_short_desc = locked_government_type }
@@ -6302,7 +6306,7 @@ become_a_republic_reform = {
 	}
 	effect = {
 		set_country_flag = populists_in_government
-		add_stability = -3
+		#add_stability = -3
 		change_government = republic
 		if = {
 			limit = {
@@ -6342,7 +6346,7 @@ install_theocratic_government_reform = {
 		set_country_flag = populists_in_government
 		if = {
 			limit = { NOT = { has_government_attribute = theocratic_monarchy_mechanic } }
-			add_stability = -3
+			add_stability = -1
 		}
 		change_government = theocracy
 		if = {
@@ -6398,6 +6402,9 @@ become_rev_republic_reform = {
 
 	potential = { 
 		is_revolutionary = yes
+		NOT = { tag = BRA }
+		NOT = { tag = PRU }
+		NOT = { tag = GER }
 	}
 	
 	trigger = {
