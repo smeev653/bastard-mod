@@ -7,16 +7,16 @@ echo_dnieper_buh_estuary_pmod = {
 }
 echo_production_hub_grain_pmod = {
 	trade_value_modifier = 1
-	local_development_cost = -0.2
+	local_development_cost = -0.15
 }
 
 echo_production_hub_livestock_pmod = {
 	trade_value_modifier = 0.375
-	local_development_cost = -0.2
+	local_development_cost = -0.15
 }
 echo_production_hub_naval_supplies_pmod = {
 	trade_value_modifier = 0.5
-	local_development_cost = -0.2
+	local_development_cost = -0.15
 }
 
 ##############################
@@ -50,12 +50,6 @@ echo_province_investment = {
 trade_hub_created = {
 }
 
-trade_hub_created_2 = {
-}
-
-
-trade_hub_created_in_province = {
-}
 
 echo_commandant_cooldown = {
 }
@@ -81,6 +75,7 @@ hired_conquistador = {
 
 echo_development = {
 	development_cost = -0.1
+	build_cost = -0.05
 	global_trade_goods_size_modifier = 0.1
 	free_leader_pool = 1
 }
