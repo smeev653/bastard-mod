@@ -374,13 +374,43 @@ country_decisions = {
 				tooltip = bastard_less_than_10_stats_tt
 				OR = {
 					NOT = {
+						adm = 4
+						dip = 4
+						mil = 4
+					}
+					NOT = {
 						adm = 2
 						dip = 3
 						mil = 6
 					}
 					NOT = {
-						adm = 4
-						dip = 4
+						adm = 2
+						dip = 6
+						mil = 3
+					}
+					NOT = {
+						adm = 3
+						dip = 6
+						mil = 2
+					}
+					NOT = {
+						adm = 3
+						dip = 2
+						mil = 6
+					}
+					NOT = {
+						adm = 6
+						dip = 2
+						mil = 3
+					}
+					NOT = {
+						adm = 6
+						dip = 3
+						mil = 2
+					}
+					NOT = {
+						adm = 5
+						dip = 3
 						mil = 4
 					}
 					NOT = {
@@ -394,6 +424,11 @@ country_decisions = {
 						mil = 3
 					}
 					NOT = {
+						adm = 4
+						dip = 3
+						mil = 5
+					}
+					NOT = {
 						adm = 3
 						dip = 5
 						mil = 4
@@ -403,10 +438,26 @@ country_decisions = {
 						dip = 4
 						mil = 5
 					}
+
+					NOT = {
+						adm = 6
+						dip = 4
+						mil = 1
+					}
 					NOT = {
 						adm = 4
-						dip = 3
-						mil = 5
+						dip = 6
+						mil = 1
+					}
+					NOT = {
+						adm = 1
+						dip = 6
+						mil = 4
+					}
+					NOT = {
+						adm = 1
+						dip = 4
+						mil = 6
 					}
 				}
 			}
