@@ -3145,6 +3145,7 @@ general_war_commissariat_reform = {
 	icon = war_map
 	allow_normal_conversion = yes
 	potential = {
+		always = no
 		has_dlc = "Domination"
 		OR = {
 			primary_culture = saxon
