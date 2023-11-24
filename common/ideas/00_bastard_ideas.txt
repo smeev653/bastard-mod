@@ -1423,7 +1423,7 @@ AHU_ideas = {
 }
 GBR_ideas = {
 	start = {
-		infantry_power = 0.10
+		fire_damage = 0.1
 		heavy_ship_power = 0.1
 	}
 
@@ -1444,7 +1444,8 @@ GBR_ideas = {
 		land_morale = 0.1
 	}
 	the_british_parliament = {
-		fire_damage = 0.1
+		global_unrest = -1
+		num_of_parliament_issues = 1
 	}
 	#british_merchant_navy = {
 	#	global_tariffs = 0.15
@@ -1456,7 +1457,7 @@ GBR_ideas = {
 		discipline = 0.05
 	}
 	british_industrialization = {
-		global_trade_goods_size_modifier = 0.2
+		global_trade_goods_size_modifier = 0.1
 	}
 	britanna_rules_the_waves = {
 		leader_naval_manuever = 1

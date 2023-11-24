@@ -1750,7 +1750,7 @@ eng_unified_britain = {
 }
 
 gbr_british_rule = {	#Permanent
-	local_development_cost = -0.05
+	local_manpower_modifier = 0.1
 	local_unrest = -1
 }
 
