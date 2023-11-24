@@ -10985,7 +10985,7 @@ brandenburg_gate = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 2
+	starting_tier = 0
 	type = monument
 
 	build_trigger = {
@@ -11091,9 +11091,6 @@ brandenburg_gate = {
 			trigger = { owner = { mission_completed = emp_brapru_the_balance_of_power } }
 			modifier = {
 				max_absolutism_effect = 0.1
-				manpower_in_own_culture_provinces = 0.10
-				manpower_in_accepted_culture_provinces = 0.10
-				manpower_in_culture_group_provinces = 0.10
 			}
 		}
 		on_upgraded = {
@@ -11108,7 +11105,7 @@ buda_castle = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 2
+	starting_tier = 0
 	type = monument
 
 	build_trigger = {
