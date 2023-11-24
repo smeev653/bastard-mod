@@ -1238,7 +1238,7 @@ change_government_to_republic = {
 			NOT = { government = republic }
 		}
 		change_government = republic
-		change_government_reform_progress = -200
+		change_government_reform_progress = -100
 	}
 }
 
@@ -1252,11 +1252,11 @@ change_government_to_monarchy = {
 				government = republic
 			}
 			change_government = monarchy
-			change_government_reform_progress = -400
+			change_government_reform_progress = -100
 		}
 		else = {
 			change_government = monarchy
-			change_government_reform_progress = -200
+			change_government_reform_progress = -100
 		}
 	}
 }
@@ -1271,11 +1271,11 @@ change_government_to_theocracy = {
 				government = republic
 			}
 			change_government = theocracy
-			change_government_reform_progress = -400
+			change_government_reform_progress = -100
 		}
 		else = {
 			change_government = theocracy
-			change_government_reform_progress = -200
+			change_government_reform_progress = -100
 		}
 	}
 }
