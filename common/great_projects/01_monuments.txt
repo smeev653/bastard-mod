@@ -5654,7 +5654,7 @@ registan_square = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			monthly_piety = 0.0025
+			monthly_piety_accelerator = 0.0025
 			stability_cost_modifier = -0.05
 			#technology_cost = -0.025
 		}
@@ -5686,7 +5686,7 @@ registan_square = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			monthly_piety = 0.005
+			monthly_piety_accelerator = 0.005
 			stability_cost_modifier = -0.10
 			technology_cost = -0.025
 		}
@@ -5718,7 +5718,7 @@ registan_square = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			monthly_piety = 0.01
+			monthly_piety_accelerator = 0.01
 			stability_cost_modifier = -0.15
 			technology_cost = -0.05
 		}
