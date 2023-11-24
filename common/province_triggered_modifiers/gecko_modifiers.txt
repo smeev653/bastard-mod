@@ -346,12 +346,18 @@ conquest_of_moscow = {
 					type = all
 					country_or_non_sovereign_subject_holds = PREV
 				}
+				NOT = { 	
+					has_global_modifier_value = {
+					which = discipline
+					value = 0.31
+					}
+				}
 			}
 		controlled_by = ROOT
 		has_owner_accepted_culture = yes
 	}	
-	infantry_power = 0.05
-	cavalry_power = 0.05
+	discipline = 0.025
+	land_morale = 0.025
 	
 	#Province scope
 	on_activation = {
