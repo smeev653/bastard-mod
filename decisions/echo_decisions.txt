@@ -371,7 +371,7 @@ country_decisions = {
 		allow = {
 			ai = no
 			custom_trigger_tooltip = {
-				tooltip = bastard_less_than_10_stats_tt
+				tooltip = bastard_less_than_9_stats_tt
 				OR = {
 					NOT = {
 						adm = 4
@@ -438,7 +438,6 @@ country_decisions = {
 						dip = 4
 						mil = 5
 					}
-
 					NOT = {
 						adm = 6
 						dip = 4
@@ -458,6 +457,51 @@ country_decisions = {
 						adm = 1
 						dip = 4
 						mil = 6
+					}
+					NOT = {
+						adm = 5
+						dip = 5
+						mil = 1
+					}
+					NOT = {
+						adm = 5
+						dip = 1
+						mil = 5
+					}
+					NOT = {
+						adm = 1
+						dip = 5
+						mil = 5
+					}
+					AND = {
+						adm = 1
+						dip = 6
+						mil = 2
+					}
+					AND = {
+						adm = 1
+						dip = 2
+						mil = 6
+					}
+					AND = {
+						adm = 2
+						dip = 1
+						mil = 6
+					}
+					AND = {
+						adm = 2
+						dip = 6
+						mil = 1
+					}
+					AND = {
+						adm = 6
+						dip = 2
+						mil = 1
+					}
+					AND = {
+						adm = 6
+						dip = 1
+						mil = 2
 					}
 				}
 			}
