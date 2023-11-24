@@ -1948,6 +1948,7 @@ army_reform_acts = {
 	category = 1
 
 	allow = {
+		always = no
 		has_government_attribute = english_parliament
 		has_issue_unlocked = {
 			issue = army_reform_acts
