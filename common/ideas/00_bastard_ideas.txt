@@ -876,7 +876,7 @@ AFG_ideas = {
 MUG_ideas = {
 	start = {
 		core_creation = -0.15
-		cavalry_power = 0.20
+		cavalry_power = 0.15
 	}
 	
 	bonus = {
@@ -1754,7 +1754,7 @@ PLC_LIT_ideas = {
 		diplomatic_annexation_cost = -0.15
 	}
 	lithuanian_hussars = {
-		cavalry_power = 0.25
+		cavalry_power = 0.15
 		can_recruit_hussars = yes 
 	}
 	statutes_of_lithuania = {
@@ -2269,7 +2269,7 @@ QOM_ideas = {
 		monthly_piety = -0.001
 	}
 	arl_qizilbash = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	arl_shiite_leadership = {
 		tolerance_own = 2
@@ -2368,6 +2368,44 @@ CRI_ideas = {
 	}
 	cri_allow_nogai_protectorates = {
 		global_manpower_modifier = 0.25
+	}
+}
+
+horde_ideas = {
+	start = {
+		ae_impact = -0.10
+		years_of_nationalism = -5
+	}
+	
+	bonus = {
+		stability_cost_modifier = -0.10
+	}
+	
+	trigger = {
+		has_reform = steppe_horde
+	}
+	free = yes
+	
+	life_of_steppe_warrior = {
+		#land_attrition = -0.20 (effect taken in OIR_ideas)
+	}
+	traditions_of_the_great_khan = {
+		cavalry_power = 0.15
+	}
+	horse_supplies = {
+		land_maintenance_modifier = -0.05
+	}
+	steppe_leaders = {
+		leader_land_shock = 1
+	}
+	tradition_of_conquest = {
+		#core_creation = -0.25 (effect taken in CHG_ideas)
+	}
+	logistics_of_khan = {
+		#manpower_recovery_speed = 0.2 (effect taken in GLH_ideas)
+	}
+	glory_of_conquest = {
+		#global_manpower_modifier = 0.25 (effect taken in OIR_ideas)
 	}
 }
 GLH_ideas = {
