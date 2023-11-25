@@ -926,7 +926,7 @@ deserteur_act = {
  		full_idea_group = spy_ideas
  	}
  
- 	morale_damage = 0.075
+ 	morale_damage = 0.05
  	manpower_recovery_speed = 0.1
  
  	effect = {}
