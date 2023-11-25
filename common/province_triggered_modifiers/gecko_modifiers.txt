@@ -120,7 +120,6 @@ conquest_of_constantinople = {
 	}
 	infantry_power = 0.05
 	cavalry_power = 0.05
-	global_tax_modifier = 0.05
 	
 	#Province scope
 	on_activation = {
@@ -224,7 +223,6 @@ conquest_of_cairo = {
 		}	
 	infantry_power = 0.05
 	cavalry_power = 0.05
-	production_efficiency = 0.05
 	
 	#Province scope
 	on_activation = {
@@ -346,18 +344,12 @@ conquest_of_moscow = {
 					type = all
 					country_or_non_sovereign_subject_holds = PREV
 				}
-				NOT = { 	
-					has_global_modifier_value = {
-					which = discipline
-					value = 0.31
-					}
-				}
 			}
 		controlled_by = ROOT
 		has_owner_accepted_culture = yes
 	}	
-	discipline = 0.025
-	land_morale = 0.025
+	infantry_power = 0.05
+	cavalry_power = 0.05
 	
 	#Province scope
 	on_activation = {
