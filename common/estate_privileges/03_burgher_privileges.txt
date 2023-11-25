@@ -2729,9 +2729,9 @@ estate_burghers_financial_demand = {
 	modifier = {can_not_declare_war = yes}
 	
 	benefits = {
-		interest = -0.5
+		interest = -0.75
 	}
-	
+	cooldown_years = 10
 	#on_granted = {
 	#	enable_estate_action = {
 	#		estate_action = ASK_FOR_CONTRIBUTION_BURGHERS
