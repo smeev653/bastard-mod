@@ -180,6 +180,8 @@ technology = {
 	cavalry_shock		=	0.25
 	infantry_shock		= 	0.15
 	infantry_fire 		= 	0.1
+	enable = large_cast_bronze_mortar 
+	enable = houfnice
 }
 
 technology = {
@@ -229,7 +231,6 @@ technology = {
 	enable = ottoman_spahi		
 	enable = culverin		
 	enable = pedrero
-	enable = houfnice	
 	enable = schwarze_reiter
 	enable = african_mossi_horsemen
 	enable = african_abyssinian_cavalry
