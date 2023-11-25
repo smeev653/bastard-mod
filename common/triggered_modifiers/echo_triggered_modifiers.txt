@@ -29,18 +29,6 @@ Minor = {
 				ai = no
 			}	
 			NOT = { is_emperor = yes }
-			NOT = { tag  = CAS }
-			NOT = { tag  = ENG }
-			NOT = { tag  = BUR }
-			NOT = { tag  = HAB }
-			NOT = { tag  = POL }
-			NOT = { tag  = MOS }
-			NOT = { tag  = TUR }
-			NOT = { tag  = MAM }
-			NOT = { tag  = BAH }
-			NOT = { tag  = VIJ }
-			NOT = { tag  = HUN }
-			NOT = { tag  = FRA }
 	}
 	
 	trigger = {
@@ -49,15 +37,10 @@ Minor = {
 		NOT = { is_colonial_nation = yes }	
 	}
 	advisor_cost = -0.25
-	advisor_pool = 1
 	interest = -0.25
 	global_regiment_cost = -0.1
-	#development_cost = -0.2
 	monthly_reform_progress_modifier = 0.025
 	ae_impact = -0.1
-	country_admin_power = 1
-	country_diplomatic_power = 1
-	country_military_power = 1
 }
 
 We_stand_alone = {
