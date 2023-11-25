@@ -377,7 +377,6 @@ absolutist_france_reform = {
 			}
 			mission_completed = fra_movement_centralization
 		}
-		always = no
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 50
