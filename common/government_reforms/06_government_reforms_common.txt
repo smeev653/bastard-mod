@@ -2685,8 +2685,9 @@ qollar_aghasi_regiments_reform = {
 	modifiers = {
 		reinforce_cost_modifier = -0.25
 		global_autonomy = -0.03
-		cav_to_inf_ratio = 0.15
+		cav_to_inf_ratio = 0.1
 		cavalry_cost = -0.1
+		cavalry_power = 0.05
 	}
 
 	ai = {
@@ -3135,6 +3136,7 @@ gendarmes_reform = {
 		cavalry_power = 0.1 
 		nobles_loyalty_modifier = 0.05
 		morale_damage = 0.05
+		cav_to_inf_ratio = 0.1
 	}
 	ai = {
 		factor = 1
