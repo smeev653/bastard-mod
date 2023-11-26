@@ -326,22 +326,22 @@ country_decisions = {
 		}
 	}
 
-	echo_development_counter = {
+	development_counter = {
 		color = { 166  0  0 }
 		potential = { ai = no }
 		allow = {
 			if = {
 				limit = {
-					has_country_flag = has_echo_development_counter_cflag
+					has_country_flag = has_development_counter_cflag
 				}
 				custom_trigger_tooltip = {
-					tooltip = echo_development_counter_tt
+					tooltip = development_counter_tt
 				}
 			}
 			hidden_trigger = {
 				if = {
 					limit = {
-						NOT = { has_country_flag = has_echo_development_counter_cflag }
+						NOT = { has_country_flag = has_development_counter_cflag }
 					}
 					always = yes
 				}
@@ -353,14 +353,15 @@ country_decisions = {
 		effect = {
 			if = {
 				limit = {
-					NOT = { has_country_flag = has_echo_development_counter_cflag }
+					NOT = { has_country_flag = has_development_counter_cflag }
 				}
-				custom_tooltip = echo_development_counter_tt_updater
-				hidden_effect = { echo_development_counter = { on_startup = yes } }
+				custom_tooltip = development_counter_update_tt
+				hidden_effect = { development_counter = { on_startup = yes } }
 			}
 		}
 	}
 	educate_ruler = {
+		color = { 166  0  0 }
 		potential = {
 			ai = no
 			NOT = { government = republic }
@@ -373,7 +374,7 @@ country_decisions = {
 		}
 		allow = {
 			custom_trigger_tooltip = {
-				tooltip = bastard_less_than_9_stats_tt
+				tooltip = educate_ruler_tt
 				NOT = {
 					check_variable = {
 						which = ruler_total_skill

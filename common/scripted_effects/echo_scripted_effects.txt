@@ -1,27 +1,27 @@
-echo_development_counter = {
+development_counter = {
 	[[on_startup]
 		if = {
 			limit = {
 				ai = no	
-				NOT = { has_country_flag = has_echo_development_counter_cflag }				
+				NOT = { has_country_flag = has_development_counter_cflag }				
 			}
 			set_variable = {
-				which = echo_adm_dev_counter
+				which = adm_dev_counter
 				value = 0
 			}
 			set_variable = {
-				which = echo_dip_dev_counter
+				which = dip_dev_counter
 				value = 0
 			}
 			set_variable = {
-				which = echo_mil_dev_counter
+				which = mil_dev_counter
 				value = 0
 			}
 			set_variable = {
-				which = echo_total_dev_counter
+				which = total_dev_counter
 				value = 0
 			}
-			set_country_flag = has_echo_development_counter_cflag
+			set_country_flag = has_development_counter_cflag
 		}
 	]
 	
@@ -31,11 +31,11 @@ echo_development_counter = {
 			if = {
 				limit = { ai = no }
 				change_variable = {
-					which = echo_adm_dev_counter
+					which = adm_dev_counter
 					value = 1
 				}
 				change_variable = {
-					which = echo_total_dev_counter
+					which = total_dev_counter
 					value = 1
 				}
 			}
@@ -46,11 +46,11 @@ echo_development_counter = {
 			if = {
 				limit = { ai = no }
 				change_variable = {
-					which = echo_dip_dev_counter
+					which = dip_dev_counter
 					value = 1
 				}
 				change_variable = {
-					which = echo_total_dev_counter
+					which = total_dev_counter
 					value = 1
 				}
 			}
@@ -61,11 +61,11 @@ echo_development_counter = {
 			if = {
 				limit = { ai = no }
 				change_variable = {
-					which = echo_mil_dev_counter
+					which = mil_dev_counter
 					value = 1
 				}
 				change_variable = {
-					which = echo_total_dev_counter
+					which = total_dev_counter
 					value = 1
 				}
 			}
