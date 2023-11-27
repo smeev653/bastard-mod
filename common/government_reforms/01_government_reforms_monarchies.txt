@@ -4895,7 +4895,7 @@ centralize_reform = {
 				tooltip = less_than_15_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 15
+						value = 20
 					}
 				}
 			}
@@ -4906,7 +4906,7 @@ centralize_reform = {
 				tooltip = less_than_25_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 25
+						value = 30
 					}
 				}
 			}
@@ -4917,7 +4917,7 @@ centralize_reform = {
 				tooltip = less_than_35_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 35
+						value = 40
 					}
 				}
 			}
@@ -4928,7 +4928,7 @@ centralize_reform = {
 				tooltip = less_than_50_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 50
+						value = 55
 					}
 				}
 			}
@@ -4941,7 +4941,7 @@ centralize_reform = {
 				tooltip = less_than_15_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 15
+						value = 20
 					}
 				}
 			}
@@ -4952,7 +4952,7 @@ centralize_reform = {
 				tooltip = less_than_25_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 25
+						value = 30
 					}
 				}
 			}
@@ -4963,7 +4963,7 @@ centralize_reform = {
 				tooltip = less_than_35_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 35
+						value = 40
 					}
 				}
 			}
@@ -4974,14 +4974,15 @@ centralize_reform = {
 				tooltip = less_than_50_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 50
+						value = 55
 					}
 				}
 			}
 		}
 	}
 	modifiers = {
-		development_cost_modifier = -0.05
+		development_cost_modifier = -0.1
+		global_manpower_modifier = 0.1
 		global_prosperity_growth = 0.5
 		all_estate_loyalty_equilibrium = -0.05
 	}
