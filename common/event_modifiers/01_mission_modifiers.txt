@@ -8047,7 +8047,7 @@ hsa_republican_modus_operandi_modifier = {
 	reform_progress_growth = 0.1 
 }
 hsa_holstentor_burgtor_modifier = {
-	defensiveness = 1 
+	local_defensiveness = 1 
 }
 hsa_theory_of_mercantilism_modifier = {
 	mercantilism_cost = -0.1 
@@ -10445,7 +10445,6 @@ turkoman_heal_internal_divisions = {
 }
 
 turkoman_sons_of_conquerors = {
-	cav_to_inf_ratio = 0.25
 	cavalry_shock = 0.25
 }
 
