@@ -12020,6 +12020,47 @@ CNN_ideas = {
 	}
 }
 
+DAL_ideas = {
+	start = {
+		trade_efficiency = 0.15
+		land_morale = 0.1
+	}
+	
+	bonus = {
+		naval_morale = 0.15
+	}
+	
+	trigger = {
+		tag = DAL
+
+	}
+	free = yes		#will be added at load.
+	
+	DAL_kingdom_of_dalmatia = {
+		reform_progress_growth = 0.15
+		global_unrest = -1
+	}
+	DAL_principalities = {
+		global_foreign_trade_power = 0.15
+	}
+	DAL_language = {
+		num_accepted_cultures = 2
+	}
+	DAL_art_and_lit = {
+		global_institution_spread = 0.1
+		development_cost = -0.05
+	}
+	DAL_independent_army = {
+		infantry_power = 0.15
+	}
+	DAL_arsenal = {
+		naval_forcelimit_modifier = 0.25
+	}
+	DAL_illyria = {
+		core_creation = -0.15
+	}
+}
+
 ORD_ideas = {
 	start = {
 		defensiveness = 0.20 # change

@@ -185,7 +185,7 @@ X_VEN_ottomans_defeated_cmod = {
 }
 
 X_VEN_innovative_tactics_cmod = {
-	mil_tech_cost_modifier = -0.1
+	cavalry_power = 0.1
 }
 
 X_VEN_galilean_ballistics_cmod = {

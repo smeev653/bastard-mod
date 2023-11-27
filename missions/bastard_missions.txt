@@ -479,11 +479,10 @@ X_VEN_slot_1 = {
 			commandant = 3
 		}
 		effect = {
-			add_yearly_manpower = 5
-			custom_tooltip = X_VEN_mission_24_tt 
+			add_yearly_manpower = 1
 			add_country_modifier = {
 				name = X_VEN_innovative_tactics_cmod
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1507,26 +1506,6 @@ X_VEN_slot_3 = {
 						navy_size = ROOT
 					}
 				}
-			}
-			num_of_owned_provinces_with = {
-				value = 5
-				sea_zone = {
-					OR = {
-						province_id = 1308
-						province_id = 1309
-						province_id = 1310
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = X_VEN_mission_6_tt2
-					any_trade_node_member_province = {
-						OR = {
-							province_id = 151
-							province_id = 1308
-						}
-					}
-				}
-				province_has_center_of_trade_of_level = 2
 			}
 			151 = {
 				trade_share = {
