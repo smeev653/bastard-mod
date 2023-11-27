@@ -277,6 +277,7 @@ development_of_infrastructure = {
 	category = 3
 
 	allow = {
+		always = no
 	}
 	
 	effect = {

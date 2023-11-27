@@ -5608,49 +5608,6 @@ KHI_ideas = {
 	}
 }
 
-BAH_ideas = {
-	start = {
-		cavalry_power = 0.1
-		army_tradition = 0.5
-	}
-
-	bonus = {
-		stability_cost_modifier = -0.1
-	}
-	
-	trigger = {
-		tag = BAH
-		religion_group = muslim
-	}
-	free = yes		#will be added at load.
-	
-	gharbians = {
-		manpower_recovery_speed = 0.1
-	}
-	legacy_of_gisu_daraz = {
-		religious_unity = 0.25
-		prestige = 0.5
-	}
-	dakani_language = {
-		num_accepted_cultures = 1
-	}
-	karimis = {
-		trade_efficiency = 0.1
-	}
-	takht_e_firoza = {
-		diplomatic_reputation = 1
-	}
-	bahmani_primogeniture = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.3
-		meritocracy = 1
-		horde_unity = 1
-	}
-	madrasa_of_mahmud_gawan = {
-		idea_cost = -0.1
-	}
-}
 
 JAJ_ideas = {
 	start = {

@@ -1883,12 +1883,12 @@ war_council_meeting_mod = {
 }
 
 equipped_streltsy_modifier_weaker = {
-	infantry_power = 0.1
+	infantry_power = 0.05
 	is_streltsy_modifier = yes
 }
 
 equipped_streltsy_modifier = {
-	infantry_power = 0.15
+	infantry_power = 0.1
 	is_streltsy_modifier = yes
 }
 
@@ -1899,7 +1899,7 @@ prepared_streltsy_modifier = {
 }
 
 new_order_regiment_mobilized_modifier = {
-	reinforce_speed = 0.2
+	infantry_power = 0.1
 }
 
 inward_focus_modifier = {
@@ -2068,8 +2068,8 @@ samurai_regiment = {
 }
 
 qizilbash_regiment = {
-	fire_damage_received = -0.1
-	morale_damage_received = -0.1
+	fire_damage_received = -0.05
+	land_maintenance_modifier = -0.25
 }
 
 mamluks_regiment = {

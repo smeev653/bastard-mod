@@ -13845,7 +13845,7 @@ per_sponsorship_of_christian_armenians_modifier = {
 	qizilbash_loyalty_modifier = -0.1
 }
 per_elitist_caste_modifier = {
-	same_culture_advisor_cost = -0.2
+	same_culture_advisor_cost = -0.1
 	culture_conversion_cost = -0.2 
 	qizilbash_loyalty_modifier = 0.1
 }
@@ -13941,7 +13941,7 @@ per_shirley_reforms_the_army2_modifier = {
 	army_tradition = 0.25
 }
 per_porcelain_exports_to_the_west_modifier = {
-	trade_efficiency = 0.15
+	trade_efficiency = 0.1
 }
 zoroastrian_interests = {
 	tolerance_own = -2

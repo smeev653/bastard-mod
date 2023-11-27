@@ -111,7 +111,7 @@ kok_persia_conquest_mission_slot_1 = {
 			country_event_with_effect_insight = {
 				id = flavor_per.39
 				effect = "
-					add_yearly_manpower = 2
+					add_yearly_manpower = 1
 					add_accepted_culture_or_dip_power = {
 						culture = turkish
 						free = yes
@@ -950,10 +950,9 @@ kok_persia_mission_origins_slot_qoyunlu = {
 	generic = no 
 	ai = yes
 	potential_on_load = {
-		has_dlc = "King of Kings"
+		always = no
 	}
 	potential = {
-		always = no
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
 		or = {
@@ -1573,7 +1572,7 @@ kok_persia_military_mission_slot_2 = {
 		effect = {
 			create_general_with_pips = {
 				tradition = 50
-				#add_shock = 1
+				add_shock = 1
 			}
 		}
 	}
@@ -3321,7 +3320,7 @@ kok_persia_culture_mission_slot_2 = {
 				1340 = { every_trade_node_member_country = { limit = { 1340 = { trade_share = { country = PREV share = 5 } } NOT = { tag = ROOT } } country_event = { id = flavor_per.26 } } }
 			}
 			add_years_of_trade_income = {
-				years = 4
+				years = 1
 				custom_tooltip = zan_settle_trade_posts_ct
 			}
 		}
@@ -3475,74 +3474,8 @@ kok_persia_culture_mission_slot_3 = {
 			}
 		}
 		trigger = {
-			OR = {
-				any_ally = {
-					owns = 1816
-					owns = 1821
-					owns = 667
-					has_opinion = {
-						who = root
-						value = 150
-					}
-				}
-				AND = {
-					owns = 1816
-					owns = 1821
-					owns = 667
-				}
-			}
 		}
 		effect = {
-			simple_dynamic_effect = {
-				first_custom_tooltip = per_sino_persians_relations_at
-				first_limit = "
-					any_ally = {
-						owns = 1816
-						owns = 1821
-						owns = 667
-						has_opinion = {
-							who = root
-							value = 150
-						}
-					}
-				"
-				first_effect = "
-					tooltip = {
-						country_event = { id = flavor_per.27 }
-						custom_tooltip = EVENT_INSIGHT_INTRO
-						custom_tooltip = per_sino_persians_relations_bt
-					}
-				"
-				second_limit = "
-					owns = 1816
-					owns = 1821
-					owns = 667
-				"
-				second_effect = "
-					add_adm_power = 100
-					add_dip_power = 100
-					add_mil_power = 100
-				"
-			}
-			#dynamic effects + country events = never works
-			hidden_effect = {
-				if = {
-					limit = {
-						any_ally = {
-							owns = 1816
-							owns = 1821
-							owns = 667
-							has_opinion = {
-								who = root
-								value = 150
-							}
-						}
-					}
-					country_event = {
-						id = flavor_per.27
-					}
-				}
-			}
 		}
 	}
 }
@@ -3705,13 +3638,9 @@ kok_persia_culture_mission_slot_4 = {
 				}
 			}
 			OR = {
-				has_estate_privilege = estate_church_independent_inquisition
-				has_estate_privilege = estate_burghers_commercial_board_of_advice
-				has_estate_privilege = estate_nobles_advisors
-				has_estate_privilege = estate_rajput_advisor
-				has_estate_privilege = estate_maratha_advisor
-				has_estate_privilege = estate_vaisyas_advisor
-				has_estate_privilege = estate_ghulams_advisor
+				has_estate_privilege = estate_church_clerical_ministers
+				has_estate_privilege = estate_burghers_promote_burgher_bookkeeping
+				has_estate_privilege = estate_nobles_officer_corp
 			}
 		}
 		effect = {

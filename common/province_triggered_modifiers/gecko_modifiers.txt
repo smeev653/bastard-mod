@@ -580,7 +580,7 @@ conquest_of_herat = {
 				religion = tengri_pagan_reformed
 			}
 		owner = {	
-			balkh_area = {
+			herat_area = {
 					type = all
 					country_or_non_sovereign_subject_holds = PREV
 				}	
