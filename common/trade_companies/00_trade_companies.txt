@@ -646,23 +646,26 @@ trade_company_genua = {
 	color = { 218 215 56 }
 	
 	provinces = {
-		124 125 126 2982 #sicily_area
-		115 116 117 2978 2980 #tuscany_area
-		123 1934 2984 #calabria_area
-		101 102 2992 #liguria_area
-		103 1875 2981 #piedmont_area
-		127 1247 2986 #corsica_sardinia_area
-		201 202 2991 #provence_area
-		4696  # new for 1.30
-		4727 4735 4736 4737 # also new for 1.30, but this time it's in Italy
-		118 2976 4731 4732 # lazio-umbria
-		121 2983 4734 # campania
-		104 1862 2979 4728 4740 # Lombardy
-		197 212 213 2987 2988 #catalonia_area
-		220 1750 4549 4550 #valencia_area
-		211 214 2990 4557 #aragon_area
-		333 4559 4560 # Baleares
-		196 200 2753 4391 4695 #languedoc_area
+		1298 #Water
+		201 202 2991 4696 #provence_area
+		102 2992 101 #genoa_area
+		4727 103 1875 2981 #piedmont_area
+		4728 2979 4740 104 1862 #lombardy_area
+		2980 115 116 2978 117 #tuscanny_area
+		2976 118 4731 4732 #lazio_umbria_area
+		121 4734 2983 #campania_area
+		1934 2984 123 #calabria_area
+		124 2982 126 #eastern_sicily_area
+		125 4737 4736 #western_sicily_area
+		2986 4735 127 1247 #western_mediteranean_islands_area
+		#valencia
+		4550 220 4549 1750 #valencia_area
+		2988 213 2987 212 197 #catalonia_area
+		211 214 4557 2990 #aragon_area
+		4560 333 4559 #baleares_area
+		4391 200 2753 4695 196 #languedoc_area
+		203 204 4719 205 #savoy
+		1867 4720 1871 165 4721 #romandie
 	}
 	
 	# Specific
