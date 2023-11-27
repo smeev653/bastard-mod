@@ -391,12 +391,12 @@ absolutist_france_reform = {
 		all_estate_influence_modifier = -0.1
 		max_absolutism = 10
 		development_cost = -0.05
-		fire_damage = 0.1
+		fire_damage = 0.05
 	}
 
-	#custom_attributes = {
-	#	centralize_state_development = yes 
-	#}
+	custom_attributes = {
+		centralize_state_development = yes 
+	}
 }
 
 indep_daimyo = {
@@ -2260,6 +2260,7 @@ prussian_monarchy = {
 	legacy_equivalent = prussian_monarchy_legacy
 
 	modifiers = {
+		vassal_income = 0.15
 		war_exhaustion = -0.02
 		global_unrest = -2
 		global_autonomy = -0.075
@@ -2363,6 +2364,7 @@ prussian_monarchy_base = {
 	legacy_equivalent = prussian_monarchy_legacy
 
 	modifiers = {
+		vassal_income = 0.15
 		war_exhaustion = -0.02
 		global_unrest = -2
 		global_autonomy = -0.075
@@ -4896,7 +4898,7 @@ centralize_reform = {
 				tooltip = less_than_15_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 20
+						value = 15
 					}
 				}
 			}
@@ -4907,7 +4909,7 @@ centralize_reform = {
 				tooltip = less_than_25_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 30
+						value = 20
 					}
 				}
 			}
@@ -4918,7 +4920,7 @@ centralize_reform = {
 				tooltip = less_than_35_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 40
+						value = 35
 					}
 				}
 			}
@@ -4929,7 +4931,7 @@ centralize_reform = {
 				tooltip = less_than_50_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 55
+						value = 50
 					}
 				}
 			}
@@ -4942,7 +4944,7 @@ centralize_reform = {
 				tooltip = less_than_15_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 20
+						value = 15
 					}
 				}
 			}
@@ -4953,7 +4955,7 @@ centralize_reform = {
 				tooltip = less_than_25_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 30
+						value = 25
 					}
 				}
 			}
@@ -4964,7 +4966,7 @@ centralize_reform = {
 				tooltip = less_than_35_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 40
+						value = 35
 					}
 				}
 			}
@@ -4975,17 +4977,18 @@ centralize_reform = {
 				tooltip = less_than_50_provinces_on_same_continent
 				NOT = {
 					num_of_owned_provinces_with = {
-						value = 55
+						value = 50
 					}
 				}
 			}
 		}
 	}
 	modifiers = {
-		development_cost_modifier = -0.1
-		global_manpower_modifier = 0.1
 		global_prosperity_growth = 0.5
 		all_estate_loyalty_equilibrium = -0.05
+	}
+	effect = {
+		custom_tooltip = bs_can_take_marches_tt
 	}
 	conditional = {
 		allow = {
@@ -4993,8 +4996,8 @@ centralize_reform = {
 		}
 		custom_attributes = {
 			#centralize_state_half_refund = yes
-			#centralize_state_no_reform_cost = yes
-			#centralize_state_development = yes
+			centralize_state_no_reform_cost = yes
+			centralize_state_development = yes
 		}
 	}
 }

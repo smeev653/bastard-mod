@@ -114,22 +114,22 @@
  echo.4.a:0 "Good."
 #############scripted functions######################
 
-cant_colonize_nw_tt:0 "Can only colonise the following regions once unlocked:\n\nCanada, Eastern America, Caribbean and Brazil.\n\nColonial Nations can only be established in Colonial Brazil, however you may establish Trade Companies instead in the regions previously mentioned."
-bs_cant_state_nw_tt:0 "Cannot make states in the New World."
-cant_colonize_nw_until_enabled_tt:0 "Can only colonise after the event: "Discovery of the New World" has fired."
-bastard_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YEconomic Golden Age§! or extend the current one by §G30§! years"
-bs_pol_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YGolden Age§! or extend the current one by §G30§! years"
-bs_stability_must_be_at_least_3:0 "Stability must be 3 to Declare Bankruptcy."
-area_has_total_development_of_type_tt_tax: "The sum of the §YBase Tax§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
-area_has_total_development_of_type_tt_production: "The sum of the §YBase Production§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
-area_has_total_development_of_type_tt_manpower: "The sum of the §YBase Manpower§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
-######trade companies#######
-carribean_company: "Carribean Company"
-hudson_bay_company: "Hudson Bay Company"
-eastern_america_company: "Eastern America Company"
+ cant_colonize_nw_tt:0 "Can only colonise the following regions once unlocked:\n\nCanada, Eastern America, Caribbean and Brazil.\n\nColonial Nations can only be established in Colonial Brazil, however you may establish Trade Companies instead in the regions previously mentioned."
+ bs_cant_state_nw_tt:0 "Cannot make states in the New World."
+ cant_colonize_nw_until_enabled_tt:0 "Can only colonise after the event: "Discovery of the New World" has fired."
+ bastard_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YEconomic Golden Age§! or extend the current one by §G30§! years"
+ bs_pol_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YGolden Age§! or extend the current one by §G30§! years"
+ bs_stability_must_be_at_least_3:0 "Stability must be 3 to Declare Bankruptcy."
+ area_has_total_development_of_type_tt_tax: "The sum of the §YBase Tax§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
+ area_has_total_development_of_type_tt_production: "The sum of the §YBase Production§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
+ area_has_total_development_of_type_tt_manpower: "The sum of the §YBase Manpower§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
+ ######trade companies#######
+ carribean_company: "Carribean Company"
+ hudson_bay_company: "Hudson Bay Company"
+ eastern_america_company: "Eastern America Company"
 ##
 ###trade nodes###
-hatton_bank:0 "Hatton Bank"
+ hatton_bank:0 "Hatton Bank"
 #################estate privileges################################
  bs_estate_church_one_faith_one_culture_gta:0 "Every owned province of the §Y[Root.Religion.GetName]§! faith, which is either in the §Y[Root.Culture.GetGroupName]§! culture group or has an §Yaccepted culture§!, gains '§YReligious Society§!', giving the following effects:\nLocal Unrest: §G-2.00§!"
  bs_estate_church_one_faith_one_culture_gtb:2 "Every owned province, which is NOT in the §Y[Root.Culture.GetGroupName]§! culture group and has NOT an §Yaccepted culture§!, gains '§YHeretic Culture§!', giving the following effects:\nLocal Unrest: §R+3.00§!\nLocal Culture Conversion Cost: §G-25%§!"
@@ -138,4 +138,8 @@ hatton_bank:0 "Hatton Bank"
  bs_ARB_unlock_oasis_development:1 "Unlock §Y[Root.GetBurghersOrFallbackName]§! Estate Privilege '§YOasis Development§!', allowing us to reduce the penalty for §YArid§! climate provinces and to get §G-20.0%§! Local Development Cost in §YDesert§! and §YCoastal Desert§! provinces."
  bs_estate_cossacks_exploration_expedition_effect_tooltip:1 "§G-10%§! local development cost in all Steppe provinces"
 ###ideas###
-offensive_ap_tt: "Recruit General: §G+0.375%§"
+ offensive_ap_tt: "Recruit General: §G+0.375%§"
+###marches###
+ bs_tooltip_many_marches:0 "Can't have more than 4 Marches."
+ bs_tooltip_enable_marches:0 "Must have Centralised Bureaucracy reform and be under the province limit to make Marches."
+ bs_can_take_marches_tt:0 "Can create Marches."
