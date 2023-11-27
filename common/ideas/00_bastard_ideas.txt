@@ -707,7 +707,7 @@ LOB_ideas = {
 VEN_ideas = {
 	start = {
 		infantry_power = 0.1
-		allowed_marine_fraction = 0.25
+		prestige = 1
 	}
 	
 	bonus = {
@@ -722,7 +722,7 @@ VEN_ideas = {
 		reform_progress_growth = 0.25
 	}
 	conscription = {
-		global_sailors_modifier = 0.33
+		allowed_marine_fraction = 0.25
 	}
 	venetian_arsenal = {
 		galley_power = 0.2
