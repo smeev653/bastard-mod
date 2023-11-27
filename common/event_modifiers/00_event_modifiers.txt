@@ -829,7 +829,7 @@ revocation_of_restraint_of_appeals = {
 }
 
 hire_privateers = {
-	embargo_efficiency = 1
+	embargo_efficiency = 0.5
 }
 
 counter_reformation = {
