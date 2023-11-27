@@ -2150,6 +2150,14 @@ genua={
 		}
 	}
 	outgoing={
+		name="bordeaux"
+		path={
+		}
+		control={
+			2903.000 1375.000 2880.500000 
+		}
+	}
+	outgoing={
 		name="sevilla"
 		path={
 		}
