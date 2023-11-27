@@ -714,40 +714,40 @@ gc_morocco_3 = {
 			}
 		}
 	}
-	gc_mor_italy_conquest = {
-		icon = renaissance_city
-		required_missions = { gc_mor_pirates }
-		
-		provinces_to_highlight = {
-			OR = {
-				area = naples_area
-				area = calabria_area
-				area = apulia_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		
-		trigger = {
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 8 # out of 10
-				OR = {
-					area = naples_area
-					area = calabria_area
-					area = apulia_area
-				}
-			}
-		}
-		
-		effect = {
-			add_mil_power = 150
-			add_country_modifier = {
-				name = "gc_mor_italy"
-				duration = -1
-			}
-		}
-	}
+	#gc_mor_italy_conquest = {
+	#	icon = renaissance_city
+	#	required_missions = { gc_mor_pirates }
+	#	
+	#	provinces_to_highlight = {
+	#		OR = {
+	#			area = naples_area
+	#			area = calabria_area
+	#			area = apulia_area
+	#		}
+	#		NOT = {
+	#			country_or_non_sovereign_subject_holds = ROOT
+	#		}
+	#	}
+	#	
+	#	trigger = {
+	#		num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+	#			value = 8 # out of 10
+	#			OR = {
+	#				area = naples_area
+	#				area = calabria_area
+	#				area = apulia_area
+	#			}
+	#		}
+	#	}
+	#	
+	#	effect = {
+	#		add_mil_power = 150
+	#		add_country_modifier = {
+	#			name = "gc_mor_italy"
+	#			duration = -1
+	#		}
+	#	}
+	#}
 }
 
 gc_morocco_4 = {
