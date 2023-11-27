@@ -422,7 +422,7 @@ trade_company_north_sea = {
 	
 	provinces = {
 		248 249 251 #lowlands_area
-		246 247 4361 4362 244 4375 #scottish_marches_area
+		4361 4362 #scottish_marches_area
 		253 4364 4365 #kingdom_of_the_isles_area
 		250 252 369 4110 4363 #highlands_area
 		375 376 4119 #connacht_area
