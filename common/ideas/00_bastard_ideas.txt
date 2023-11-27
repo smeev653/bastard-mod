@@ -300,7 +300,7 @@ HAN_ideas = {
 WES_ideas = {
 	start = {
 		infantry_power = 0.1
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.2
 	}
 	bonus = {
 		global_manpower_modifier = 0.15
