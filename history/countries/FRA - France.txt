@@ -100,6 +100,10 @@ change_estate_land_share = {
         dip = 4
         mil = 4
     }
+	clear_scripted_personalities = yes
+	add_ruler_personality = calm_personality
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = lawgiver_personality
 }
 
 1423.7.3 = {
