@@ -507,20 +507,8 @@ trade_company_english_channel = {
 	color = { 220 138 57 }
 	
 	provinces = {
-		167 168 1879 4385 #normandy_area
-		87 88 89 1743 #picardy_area
-		241 242 4366 4369 #wales_area
-		245 4367 4368 4785 #yorkshire_area
-		239 240 4372 #west_midlands_area
-		243 1860 1861 4370 4376 #east_midlands_area
-		233 234 4130 4373 4374 #wessex_area
-		235 236 237 238 4371 #home_counties_area
-		92 95 98 99 2974 #netherlands & brabant_area
-		96 97 4383 #holland_area
-		100 1931 4381 4382 #frisia_area
-		90 1744 1865 #flanders_area
-		4769 4770 1742
-		169 170 171 172 4384 #brittany_area
+		1269 1270 1271 241 242 4366 4369 245 4367 4368 4785 239 240 4372 243 1860 1861 4370 4376 233 234 4130 4373 4374 235 236 237 238 4371
+		246 247 4375 244 #northern england
 	}
 	
 	# Specific
@@ -536,14 +524,19 @@ trade_company_english_channel = {
 trade_company_bordeaux = {
 	color = { 36 132 247 }
 	
-	provinces = {
+	provinces ={
+		1276 #Water 
 		190 195 199 # massif_central_area
 		194 198 4112 #guyenne_area
 		180 4111 4386 4387 #poitou_area
-		173
 		174 175 176 #pyrenees_area
-		177 178 4389 #loire_area
 		4694 4697 4777 # new for 1.30
+		173 #labourd
+		178 177 4389 #loire_valley_area
+		169 170 171 172 4384 #brittany_area
+		1879 4385 167 168 #normandy
+		179 184 4776 #orleanaise
+		183 185 4388 #ile de france
 	}
 	
 	# Specific
@@ -630,15 +623,13 @@ trade_company_champagne = {
 	color = { 193 26 14 }
 	
 	provinces = {
-		182 183 185 4388 #ile_de_france_area
-		179 184 4776 # Orleans area
-		181 186 4390 #champagne_area
-		187 188 189 #lorraine_area
-		165 1867 1871 #romandie_area
-		91 93 94 1866 #wallonia_area
-		191 192 193 1877 4392 #bourgogne_area
-		203 204 205 4719 #savoy_dauphine_area
-		4720 4721 4764 4766 
+		182 181 186 4390 187 188 189 91 93 94 1866 191 192 193 1877 4392 4764 4766
+		87 88 89 1743 #picardy
+		90 1865 4769 #flanders
+		1744 92 2974 #south brabant
+		95 4770 1742  #north brabant
+		96 97 98 4383 #holland
+		99 100 1931 4381 4382 #frisia
 	}
 	
 	# Specific
