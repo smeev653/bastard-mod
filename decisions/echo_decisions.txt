@@ -68,83 +68,6 @@ country_decisions = {
 				set_country_flag = X_POR_economic_golden_age_cflag
 			}
 		}
-	}
-	
-	sm_hire_explorer = {
-		color = { 166  0  0 }
-		potential = {
-				is_bankrupt = no
-				ai = no
-				NOT = { has_country_modifier = hired_explorer }
-			}
-			allow = {
-				always = yes
-			}
-			effect = {
-				add_years_of_income = -0.1
-				create_explorer = { tradition = 10 }
-				add_country_modifier = {
-				name = "hired_explorer"
-				duration = 1825
-				hidden = yes
-				}
-			}
-		}	
-		
-	sm_hire_conquistador = {
-		color = { 166  0  0 }
-		potential = {
-				is_bankrupt = no
-				ai = no
-				NOT = { has_country_modifier = hired_conquistador }
-			}
-			allow = {
-				always = yes
-			}
-			effect = {
-				add_years_of_income = -0.2
-				create_conquistador = { tradition = 10 }
-				add_country_modifier = {
-				name = "hired_conquistador"
-				duration = 1825
-				hidden = yes
-				}
-			}	
-		}
-	free_colonist = {
-		color = { 166  0  0 }
-		potential = {
-				NOT = {
-					capital_scope = {
-						continent = north_america
-					}
-				}
-				NOT = {
-					capital_scope = {
-						continent = south_america
-					}
-				}
-				NOT = {
-					capital_scope = {
-						continent = asia
-					}
-				}
-				NOT = {
-					is_nomad = yes
-				}
-				NOT = { has_country_modifier = free_colonist}	
-				ai = no
-			}
-
-		allow = {
-			dip_tech = 6
-		}
-		effect = {
-			add_country_modifier = {
-				name = "free_colonist"
-				duration = -1
-			}
-		}
 	}	
 	echo_critical_events = {
 		color = { 166  0  0 }
@@ -175,51 +98,6 @@ country_decisions = {
 			}
 		}
 		effect = {
-		}
-	}
-	echo_recruit_admin_advisor = {
-		color = { 166  0  0 }
-		potential = {
-			ai = no
-       }
-		allow = {
-			adm_power = 25
-			ai = no
-		}
-		effect = {
-			country_event = {
-				id = echo.10
-			}
-		}
-	}
-	echo_recruit_diplomatic_advisor = {
-		color = { 166  0  0 }
-		potential = {
-			ai = no
-       }
-		allow = {
-			dip_power = 25
-			ai = no
-		}
-		effect = {
-			country_event = {
-				id = echo.11
-			}
-		}
-	}
-	echo_recruit_military_advisor = {
-		color = { 166  0  0 }
-		potential = {
-			ai = no
-       }
-		allow = {
-			mil_power = 25
-			ai = no
-		}
-		effect = {
-			country_event = {
-				id = echo.12
-			}
 		}
 	}
 	Create_a_Trade_Hub = {
@@ -326,22 +204,22 @@ country_decisions = {
 		}
 	}
 
-	echo_development_counter = {
+	development_counter = {
 		color = { 166  0  0 }
 		potential = { ai = no }
 		allow = {
 			if = {
 				limit = {
-					has_country_flag = has_echo_development_counter_cflag
+					has_country_flag = has_development_counter_cflag
 				}
 				custom_trigger_tooltip = {
-					tooltip = echo_development_counter_tt
+					tooltip = development_counter_tt
 				}
 			}
 			hidden_trigger = {
 				if = {
 					limit = {
-						NOT = { has_country_flag = has_echo_development_counter_cflag }
+						NOT = { has_country_flag = has_development_counter_cflag }
 					}
 					always = yes
 				}
@@ -353,18 +231,19 @@ country_decisions = {
 		effect = {
 			if = {
 				limit = {
-					NOT = { has_country_flag = has_echo_development_counter_cflag }
+					NOT = { has_country_flag = has_development_counter_cflag }
 				}
-				custom_tooltip = echo_development_counter_tt_updater
-				hidden_effect = { echo_development_counter = { on_startup = yes } }
+				custom_tooltip = development_counter_update_tt
+				hidden_effect = { development_counter = { on_startup = yes } }
 			}
 		}
 	}
 	educate_ruler = {
+		color = { 166  0  0 }
 		potential = {
 			ai = no
 			NOT = { government = republic }
-			NOT = { has_ruler_flag = educate_ruler }
+			NOT = { has_ruler_flag = educate_ruler_rflag }
 			has_regency = no
 			has_consort_regency = no
 		}
@@ -373,7 +252,7 @@ country_decisions = {
 		}
 		allow = {
 			custom_trigger_tooltip = {
-				tooltip = bastard_less_than_9_stats_tt
+				tooltip = educate_ruler_tt
 				NOT = {
 					check_variable = {
 						which = ruler_total_skill
@@ -390,7 +269,7 @@ country_decisions = {
 		}
 		effect = {
 			educate_ruler = { educate = yes }
-			set_ruler_flag = educate_ruler
+			set_ruler_flag = educate_ruler_rflag
 		}
 	}
 	prepare_for_holy_war = {	
