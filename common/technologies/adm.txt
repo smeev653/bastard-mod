@@ -115,6 +115,7 @@ technology = { #Modern Theocracy
 	year = 1531
 	allowed_idea_groups = 3
 	theocratic_government = yes
+	governing_capacity = 100
 }
 
 technology = { #Textile Manufactory
