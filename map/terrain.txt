@@ -131,6 +131,7 @@ categories =  {
 			4831 4832 # Mandala
 
 			2774 2775 2794 2796 #South Somalia
+			87 #calais
 		}		
 	}
 	

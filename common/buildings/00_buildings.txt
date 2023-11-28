@@ -2381,7 +2381,7 @@ furnace = {
 
 ramparts = {
 	cost = 500
-	time = 30
+	time = 24
 	modifier = {
 		local_hostile_attrition = 1
 		local_defensiveness = 0.15

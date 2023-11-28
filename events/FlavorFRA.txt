@@ -1731,17 +1731,15 @@ country_event = {
 				167 = {
 					cede_province = FRA
 				}
-				87 = {
-				cede_province = BUR
-				hidden_effect = { add_local_autonomy = -90 }
-			}				
+		}				
 			add_truce_with = FRA
-		}
+	
 		FRA = { country_event = { id = flavor_fra.8 } }
 		#add_prestige = -10
 		#add_stability = -1
 		set_country_flag = rb_gave_up_maine
-	}
+	}	
+}
 	#option = {
 	#	name = "flavor_fra.6.b"
 	#	ai_chance = {
@@ -1758,7 +1756,7 @@ country_event = {
 	#	custom_tooltip = flavor_fra.6.a.tt
 	#	FRA = { country_event = { id = flavor_fra.7 } }
 	#}
-}
+
 
 # The Surrender of Maine
 #country_event = {
@@ -1860,10 +1858,6 @@ country_event = {
 		}
 		167 = {
 			cede_province = FRA
-			hidden_effect = { add_local_autonomy = -90 }
-		}
-		87 = {
-			cede_province = BUR
 			hidden_effect = { add_local_autonomy = -90 }
 		}
 	}
