@@ -1380,7 +1380,7 @@ AHU_ideas = {
 GBR_ideas = {
 	start = {
 		fire_damage = 0.1
-		allowed_marine_fraction = 0.2
+		allowed_marine_fraction = 0.25
 	}
 
 	bonus = {
