@@ -22,7 +22,7 @@ center_of_trade = 2
 
 
 add_province_triggered_modifier=conquest_of_moscow
-add_province_triggered_modifier=the_motherland_calls
+#add_province_triggered_modifier=the_motherland_calls
 
 
 

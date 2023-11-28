@@ -2583,7 +2583,7 @@ rus_reinforced_defenses = {
 }
 
 rus_icon_climacus_bonus = {
-	land_morale = 0.05
+	land_morale = 0.1
 }
 rus_icon_eleusa_bonus = {
 	missionaries = 1
@@ -2816,7 +2816,7 @@ rus_religious_zeal = {	#Permanent
 }
 
 rus_western_military_tactics = {	#Permanent
-	discipline = 0.025
+	discipline = 0.05
 }
 
 rus_bureaucratic_adm_focus = {
