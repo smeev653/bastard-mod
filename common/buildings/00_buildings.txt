@@ -2596,11 +2596,6 @@ state_house = {
 		cost = 500
 		time = 60
 
-	bonus_manufactory = { # Will apply an extra modifier if these goods
-		paper
-		glass
-		gems
-	}
 
 	build_trigger = {
 		NOT = {
@@ -2632,11 +2627,7 @@ state_house = {
 	}
 
 	modifier = {
-		statewide_governing_cost = -0.15
 		local_tax_modifier = 1.5
-	}
-	bonus_modifier = {
-		statewide_governing_cost = -0.15
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
