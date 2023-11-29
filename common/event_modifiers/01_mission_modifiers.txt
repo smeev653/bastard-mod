@@ -1970,7 +1970,7 @@ eng_strict_marines = {	#Permanent
 }
 
 eng_the_redcoat = {	#Permanent
-	infantry_power = 0.1
+	fire_damage = 0.1
 }
 
 # Scottish Missions

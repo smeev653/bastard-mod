@@ -669,7 +669,14 @@ tower_of_london = {
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
-		
+		conditional_modifier = {
+			trigger = {
+				current_age = age_of_discovery
+			}
+			modifier = {
+				 	local_defender_dice_roll_bonus = 1
+			}
+		}
 		conditional_modifier = {
 			trigger = {
 				owner = { 
@@ -721,7 +728,14 @@ tower_of_london = {
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
-		
+		conditional_modifier = {
+			trigger = {
+				current_age = age_of_discovery
+			}
+			modifier = {
+				 	local_defender_dice_roll_bonus = 1
+			}
+		}
 		conditional_modifier = {
 			trigger = {
 				owner = { 
@@ -774,7 +788,14 @@ tower_of_london = {
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
-		
+		conditional_modifier = {
+			trigger = {
+				current_age = age_of_discovery
+			}
+			modifier = {
+				 	local_defender_dice_roll_bonus = 1
+			}
+		}
 		conditional_modifier = {
 			trigger = {
 				owner = { 

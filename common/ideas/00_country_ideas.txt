@@ -134,50 +134,6 @@ GER_ideas = {
 	}
 }
 
-ENG_ideas = {
-	start = {
-		infantry_power = 0.10 # agincourt
-		global_unrest = -1 # magna carta, parliament
-	}
-
-	bonus = {
-		naval_morale = 0.1
-	}
-	
-	trigger = {
-		tag = ENG
-	}
-	free = yes		#will be added at load.
-	
-	royal_navy = {
-		navy_tradition = 0.25
-		heavy_ship_power = 0.10
-	}
-	eltham_ordinance = {
-		production_efficiency = 0.1
-	}
-	secretaries_of_state = {
-		diplomatic_upkeep = 1
-	}
-	navigation_acts = {
-		trade_efficiency = 0.1
-	}
-	eng_red_coats = {
-		fire_damage = 0.1
-		allowed_marine_fraction = 0.25
-	}
-	sick_and_hurt_board = {
-		sailors_recovery_speed = 0.10
-		sailor_maintenance_modifer = -0.1
-	}
-	british_bill_of_rights = {
-		years_of_nationalism = -5
-		num_of_parliament_issues = 1
-	}
-}
-
-
-
 EIC_ideas = {
 	start = {
 		global_prov_trade_power_modifier = 0.2
