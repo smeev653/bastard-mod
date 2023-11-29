@@ -39,3 +39,12 @@ echo.12.h:0 "£no£ Don't Recruit Anyone"
 echo.14.t:0 "Discovery of the New World!"
 echo.14.d:0 "All nations can now colonise and establish Trade Companies in following regions:\n\nCanada, Eastern America, Caribbean. Colonial Nations may be established in Brazil.
 echo.14.a:0 "Got it."
+
+ #gecko burgundy
+ gc_burgundy_event.1.t:0 "The Ascension of Burgundy to an Independent Kingdom"
+ gc_burgundy_event.1.d:0 "The Duchy of Burgundy is no more. Through a series of acquisitions and shrewd diplomacy, they have broken free from the authority of the French king and have been crowned in Trier by the Emperor."
+ gc_burgundy_event.1.a:0 "So be it."
+
+ gc_burgundy_event.2.t:0 "The Purchase of the Counties of Elsass and Ferrette"
+ gc_burgundy_event.2.d:0 "Through our deft diplomacy, we have convinced the Emperor to sell us the Counties of Ferrette, Mulhousen and Elsass. The Emperor has however now also gained a claim on these territories.."
+ gc_burgundy_event.2.a:0 "It is our right."

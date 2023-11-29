@@ -60,6 +60,11 @@
  desc_echo_por_colonist:0 ""
  echo_grand_captain_cooldown_100:0 "Grand Captain Cooldown"
  echo_commandant_cooldown_100:0 "Inspiration Leader Cooldown"
+#Burgundy
+ bs_lowland_integration:0 "Lowland Integration"
+ bs_bur_realm_united_mod:0 "United Realm"
+ charles_court_reorganisation:0 "Reorganised Court"
+ charles_army_reorganisation:0 "Army Reorganised"
  ####################
  # Events
  ####################
