@@ -524,7 +524,7 @@ trade_company_english_channel = {
 trade_company_bordeaux = {
 	color = { 36 132 247 }
 	
-	provinces ={
+	provinces = {
 		1276 #Water 
 		190 195 199 # massif_central_area
 		194 198 4112 #guyenne_area
@@ -537,6 +537,10 @@ trade_company_bordeaux = {
 		1879 4385 167 168 #normandy
 		179 184 4776 #orleanaise
 		182 183 185 4388 #ile de france
+		209 210 2989 #basque_country
+		207 208 216 4553 #leon_area
+		206 4554 4555 4558 #galicia_area
+		1746 1745 215 4552 #north_castille_area
 	}
 	
 	# Specific
@@ -554,9 +558,7 @@ trade_company_sevilla = {
 	
 	provinces = {
 		1293 #Water 
-		207 208 216 4553 #leon_area
-		206 4554 4555 4558 #galicia_area
-		1746 1745 215 4552 #north_castille_area
+
 		217 4789 4551 2755 #south_castille_area
 		218 1747 4788 #extremadura_area
 		219 221 2754 2751 4547 #toledo_area
@@ -565,8 +567,6 @@ trade_company_sevilla = {
 		227 229 230 4787 4150 #alentejo_state
 		231 232 228 1851 4556 #beiras_state
 		366 4565 367 368 #macaronesia_area
-		209 210 2989 #basque_country
-		
 		347 1110 2470 #southern_morocco_area
 		342 345 2469 4564 #western_morocco_area
 		343 344 2467 2468 #marrekesh_area

@@ -2204,9 +2204,7 @@ sevilla={
 	}
 	members={ 
 		1293 #Water 
-		207 208 216 4553 #leon_area
-		206 4554 4555 4558 #galicia_area
-		1746 1745 215 4552 #north_castille_area
+
 		217 4789 4551 2755 #south_castille_area
 		218 1747 4788 #extremadura_area
 		219 221 2754 2751 4547 #toledo_area
@@ -2215,8 +2213,6 @@ sevilla={
 		227 229 230 4787 4150 #alentejo_state
 		231 232 228 1851 4556 #beiras_state
 		366 4565 367 368 #macaronesia_area
-		209 210 2989 #basque_country
-		
 		347 1110 2470 #southern_morocco_area
 		342 345 2469 4564 #western_morocco_area
 		343 344 2467 2468 #marrekesh_area
@@ -2258,9 +2254,11 @@ bordeaux={
 		173 #labourd
 		178 177 4389 #loire_valley_area
 		169 170 171 172 4384 #brittany_area
-		1879 4385 167 168 #normandy
 		179 184 4776 #orleanaise
-		182 183 185 4388 #ile de france
+		209 210 2989 #basque_country
+		207 208 216 4553 #leon_area
+		206 4554 4555 4558 #galicia_area
+		1746 1745 215 4552 #north_castille_area
 	}
 }
 venice={
@@ -2314,6 +2312,8 @@ champagne={
 		95 4770 1742  #north brabant
 		96 97 98 4383 #holland
 		99 100 1931 4381 4382 #frisia
+		1879 4385 167 168 #normandy
+		182 183 185 4388 #ile de france
 	}
 	end=yes
 }
