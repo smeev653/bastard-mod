@@ -4,7 +4,7 @@ estate_ghulams_land_rights = {
 	max_absolutism = -5
 	
 	influence = 0.05
-	is_valid = {always = no)
+	is_valid = {always = no}
 	can_select = {
 		not = { has_estate_privilege = estate_nobles_land_rights }
 		not = { has_estate_privilege = estate_qizilbash_land_rights }
