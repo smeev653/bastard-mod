@@ -1540,7 +1540,7 @@ gbr_row_3 = {
 			}
 			add_country_modifier = {
 				name = gbr_end_of_the_villeinage
-				duration = 9125
+				duration = 3650
 			}
 		}
 		ai_weight = {
