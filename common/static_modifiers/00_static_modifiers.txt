@@ -1422,7 +1422,6 @@ naval_forcelimit = {
 }
 
 trade_company_strong = {
-	merchants = 1
 	naval_forcelimit = 10
 }
 
