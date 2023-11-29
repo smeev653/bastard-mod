@@ -2444,7 +2444,7 @@ MOS_ideas = {
 
 TUN_ideas = {
 	start = {
-		development_cost_in_primary_culture = -0.1
+		development_cost_in_primary_culture = -0.05
 		galley_power = 0.2		
 	}
 	bonus = {
@@ -2484,7 +2484,7 @@ TUN_ideas = {
 
 TUN_improved_ideas = {
 	start = {
-		development_cost_in_primary_culture = -0.1
+		development_cost_in_primary_culture = -0.05
 		galley_power = 0.2		
 	}
 	bonus = {

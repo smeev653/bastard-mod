@@ -9867,7 +9867,7 @@ spa_bid_for_the_hab_crown_modifier = {
 spa_royal_authority_restored_modifier = {
 	monthly_reform_progress = 0.2
 	global_autonomy = -0.025
-	development_cost = -0.05
+	development_cost = -0.1
 }
 
 spa_valladolid_court_modifier = {
