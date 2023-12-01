@@ -1090,14 +1090,13 @@ defensive_ideas = {
 	}
 	improved_body_armor = {
 		shock_damage_received = -0.15
-		morale_damage_received = -0.05
 	}
 	defensive_mentality = {
 		defensiveness = 0.25
 		global_manpower_modifier = 0.15
 	}
 	until_the_last_man = {
-		morale_damage_received = -0.15
+		morale_damage_received = -0.2
 	}
 	homeland_specialization = {
 		reinforce_speed = 0.33
