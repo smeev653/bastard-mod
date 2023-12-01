@@ -1965,7 +1965,7 @@ eng_the_man_of_war = {	#Permanent
 }
 
 eng_strict_marines = {	#Permanent
-	shock_damage_received = -0.1
+	discipline = 0.05
 	is_marine_modifier = yes
 }
 
