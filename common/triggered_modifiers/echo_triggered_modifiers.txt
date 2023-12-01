@@ -76,8 +76,9 @@ We_stand_alone = {
 	reinforce_cost_modifier = -0.05
 	global_prosperity_growth = 0.5
 	fort_maintenance_modifier = -0.10
-	land_forcelimit_modifier = 0.1
+	land_forcelimit_modifier = 0.15
 	merc_maintenance_modifier = -0.15
+	mercenary_manpower = 0.1
 	expand_infrastructure_cost_modifier = -0.25
 }
 
