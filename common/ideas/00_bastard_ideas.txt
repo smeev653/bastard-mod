@@ -1162,9 +1162,7 @@ BUR_Ideas = {
 		prestige_decay = -0.01
 	}
 	bur_regimental_system = {
-		manpower_in_own_culture_provinces = 0.10
-		manpower_in_accepted_culture_provinces = 0.10
-		manpower_in_culture_group_provinces = 0.10
+		manpower_in_own_culture_provinces = 0.2
 	}
 }
 LOT_ideas = {
