@@ -345,6 +345,7 @@ settlements = {
 		
 	cost = 200.0
 	allow = {
+		always = no
 		OR = {
 			trade_company_region = carribean_company
 			trade_company_region = eastern_america_company
@@ -372,6 +373,7 @@ district = {
 		
 	cost = 400.0
 	allow = {
+		always = no
 		OR = {
 			trade_company_region = carribean_company
 			trade_company_region = eastern_america_company
