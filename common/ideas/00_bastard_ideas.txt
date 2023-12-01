@@ -1423,7 +1423,7 @@ GBR_ideas = {
 	}
 
 	bonus = {
-		backrow_artillery_damage = 0.15
+		backrow_artillery_damage = 0.1
 	}
 	
 	trigger = {
@@ -1433,11 +1433,10 @@ GBR_ideas = {
 
 	gbr_acts_of_union = {
 		global_tax_modifier = 0.1
-		manpower_recovery_speed = 0.15
 	}
 	city_upon_a_hill = {
-		land_morale = 0.1
-	}
+		manpower_recovery_speed = 0.2
+	}	
 	the_british_parliament = {
 		global_unrest = -1
 		num_of_parliament_issues = 1
