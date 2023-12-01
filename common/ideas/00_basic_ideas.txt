@@ -273,9 +273,7 @@ expansion_ideas = {
  	}
 	additional_diplomats = {
 		num_accepted_cultures = 1
-		manpower_in_accepted_culture_provinces = 0.1
-		manpower_in_culture_group_provinces = 0.1
-		manpower_in_own_culture_provinces = 0.1
+		manpower_in_own_culture_provinces = 0.15
 	}
 	competetive_merchants  = {
 		placed_merchant_power_modifier = 0.5

@@ -1919,9 +1919,7 @@ cultural_safe_haven_reform = {
 	allow_normal_conversion = yes
 
 	modifiers = {
-		manpower_in_own_culture_provinces = 0.05
-		manpower_in_accepted_culture_provinces = 0.05
-		manpower_in_culture_group_provinces = 0.05
+		manpower_in_own_culture_provinces = 0.1
 	}
 	#custom_attributes = {
 	#	unrest_per_accepted_culture = yes	#Reduces Global Unrest by 0.25 per accepted culture	#For 1.35, not implemented yet.

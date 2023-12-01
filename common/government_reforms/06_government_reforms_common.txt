@@ -3487,9 +3487,8 @@ allotment_system = {
 	}
 	modifiers = {
 		#has_carolean = yes
-		manpower_in_own_culture_provinces = 0.15
-		manpower_in_accepted_culture_provinces = 0.1
-		#amount_of_carolean = 0.25
+		manpower_in_own_culture_provinces = 0.2
+		amount_of_carolean = 0.25
 	}
 
 	ai = {
@@ -3908,10 +3907,7 @@ lockean_proviso_reform = {
 		NOT = { has_government_attribute = is_pirate_republic_reform }
 	}
 	trigger = {
-		OR = { 
-			full_idea_group = economic_ideas
-			full_idea_group = infrastructure_ideas 
-		}
+		full_idea_group = economic_ideas
 		if = {
 			limit = {
 				is_revolutionary = yes
