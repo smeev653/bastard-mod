@@ -62,6 +62,7 @@ We_stand_alone = {
 					NOT = { num_of_allies = 1 }
 					has_country_modifier = Peace_of_Italy
 					has_country_modifier = Berber_Raids
+					has_country_modifier = Stop_the_raids
 				}
 				NOT = { is_hegemon = yes }
 				NOT = { is_colonial_nation = yes }	
@@ -511,9 +512,38 @@ Berber_Raids = {
 		}
 	}
 	defensiveness = 0.15
-	infantry_power = 0.05
-	ship_durability = 0.05
-	global_autonomy = -0.05
 	available_province_loot = 1
 	coast_raid_range = 1
+}
+
+Stop_the_raids = {
+	potential = {
+		OR = {
+			tag = CAS
+			tag = POR
+		}
+		current_age = age_of_discovery
+	}
+
+	trigger = {
+			OR = {
+					great_power_rank = 5
+					 is_great_power = no
+					}
+			OR = {		
+				AND = {		
+					tag = CAS		
+					alliance_with = POR
+				}
+				AND = {		
+					tag = POR		
+					alliance_with = CAS
+				}
+				TUN = { alliance_with = MOR }
+			}	
+			NOT = { is_lacking_institutions = yes }		
+		
+	}
+	navy_tradition = 0.5
+	army_tradition = 0.5
 }
