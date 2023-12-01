@@ -5468,7 +5468,7 @@ edict_of_potsdam_modifier = {
 }
 
 pru_german_confederation = {
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 }
 
 empowered_junkers = {
