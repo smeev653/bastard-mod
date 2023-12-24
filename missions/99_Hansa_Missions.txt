@@ -1254,7 +1254,6 @@ lubeck_missions_3 = {
 				}
 			}
 			45 = { is_strongest_trade_power = ROOT }
-			1975 = { is_strongest_trade_power = ROOT }
 			1926 = { is_strongest_trade_power = ROOT }
 			33 = { is_strongest_trade_power = ROOT }
 			custom_trigger_tooltip = {
@@ -1927,9 +1926,9 @@ lubeck_missions_5 = {
 		icon = imperial_navy 
 		required_missions = { hsa_bypass_sound_toll }
 		position = 5
-		provinces_to_highlight = { province_id = 1975 }
+		provinces_to_highlight = { province_id = 45 }
 		trigger = {
-			1975 = {
+			45 = {
 				trade_share = {
 					country = ROOT 
 					share = 50
