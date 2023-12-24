@@ -1377,7 +1377,7 @@ AHU_ideas = {
 }
 ENG_ideas = {
 	start = {
-		infantry_power = 0.15 # agincourt
+		infantry_power = 0.1 # agincourt
 		global_unrest = -1 # magna carta, parliament
 	}
 
@@ -1418,7 +1418,7 @@ ENG_ideas = {
 }
 GBR_ideas = {
 	start = {
-		infantry_power = 0.15
+		infantry_power = 0.1
 		allowed_marine_fraction = 0.25
 	}
 
