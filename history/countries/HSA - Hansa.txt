@@ -13,6 +13,7 @@ historical_friend = RIG #Riga
 
 1444.11.11 = {
 	monarch = {
+		birth_date = 1415.9.22
 		name = "Stadtrat"
 		adm = 3
 		dip = 3
