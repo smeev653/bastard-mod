@@ -69,6 +69,7 @@ can_colonize_province = {
 						colonial_region = colonial_alaska
 						region = australia_region
 						region = oceanea_region
+						region = mississippi_region
 					}
 				}	
 		}
