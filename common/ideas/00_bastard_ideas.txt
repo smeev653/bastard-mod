@@ -2244,7 +2244,7 @@ AKK_ideas = {
 }
 QOM_ideas = {
 	start = {
-		land_morale = 0.15
+		land_morale = 0.10
 		manpower_recovery_speed = 0.1
 	}
 	bonus = {
