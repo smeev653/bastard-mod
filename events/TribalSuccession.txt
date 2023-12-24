@@ -16,10 +16,7 @@ country_event = {
 		}
 		NOT = { has_country_flag = no_new_succession_crisis_if_pretender_rebels }
 		num_of_cities = 4
-		OR = {
-			NOT = { legitimacy_or_horde_unity = 50 }
-			has_regency = yes
-		}
+		has_regency = yes
 	}
 	
 		option = {
@@ -40,5 +37,6 @@ country_event = {
 			change_mil = 1
 			claim = 100
 		}
+		kill_heir = yes
 	}
 }
