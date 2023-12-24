@@ -563,7 +563,7 @@ loyal_conduct_act = {
  		full_idea_group = diplomatic_ideas 
  	}
  	
- 	mercenary_discipline = 0.05
+ 	mercenary_discipline = 0.03
  	
  	effect = {}
  	removed_effect = {}

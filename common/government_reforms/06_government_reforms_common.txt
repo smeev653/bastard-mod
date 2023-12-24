@@ -3031,9 +3031,9 @@ condottieri_contracts_reform = {
 		}
 	}
 	modifiers = {
-		mercenary_cost = -0.33
+		#mercenary_cost = -0.15
 		possible_condottieri = 1
-		mercenary_discipline = 0.05
+		#mercenary_discipline = 0.05
 	}
 	custom_attributes = {
 		mercs_do_not_cost_army_professionalism = yes

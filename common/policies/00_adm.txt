@@ -1085,7 +1085,7 @@ efficient_war_taxes_act = {
 		full_idea_group = economic_ideas 
 	}
 
-	mercenary_cost = -0.15
+	mercenary_cost = -0.1
 	mercenary_discipline = 0.025
 
 	effect = {}

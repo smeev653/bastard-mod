@@ -348,7 +348,7 @@ administrative_ideas = {
 		advisor_cost = -0.15
 	}
 	administrative_council = {
-		mercenary_manpower = 0.15
+		mercenary_manpower = 0.1
 		expand_administration_cost = -0.25
 	}
 	centralization = {
@@ -834,7 +834,7 @@ plutocracy_ideas = {
 	#}
 
 	tradition_of_payment = {
-		mercenary_cost = -0.2
+		mercenary_cost = -0.1
 	}
 	abolished_serfdom = {
 		land_morale = 0.10
@@ -1340,7 +1340,7 @@ mercenary_ideas = {
 		infantry_power = 0.1
 	}
 	organised_mercenary_payment = {
-		mercenary_cost = -0.33
+		mercenary_cost = -0.15
 		merc_maintenance_modifier = -0.5
 	}
 	war_council = {
@@ -1358,7 +1358,7 @@ mercenary_ideas = {
 		reinforce_cost_modifier = -0.33
 	}
 	organised_mercenary_recruitment = { 
-		mercenary_manpower = 0.5
+		mercenary_manpower = 0.33
 	}
 
 	ai_will_do = {
