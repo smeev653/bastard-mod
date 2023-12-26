@@ -40,7 +40,6 @@ steppe_horde = {
 		development_cost = -0.1
 		loot_amount = 0.50
 		global_institution_spread = -0.15
-		cav_to_inf_ratio = 0.4
 		#movement_speed = 0.2
 		global_manpower_modifier = 0.1
 		land_forcelimit_modifier = 0.1
