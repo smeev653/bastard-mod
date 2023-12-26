@@ -26,7 +26,11 @@ kaffa_slave_market = {
 
 	trigger = {
 		owner = {
-			tag = CRI
+			OR = {
+				tag = CRI
+				tag = GOL
+				tag = GLH
+			}	
 		}
 		controlled_by = ROOT
 	}
