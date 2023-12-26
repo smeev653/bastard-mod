@@ -143,8 +143,6 @@ NDefines.NMilitary.TRANSPORT_COST = 1
 NDefines.NMilitary.TRANSPORT_SHIP_SAILORS_COST = 1					-- 1 = 1 men in cost.
 NDefines.NMilitary.TRANSPORT_TIME = 90	
 NDefines.NMilitary.GALLEY_TIME = 90							-- _MDEF_GALLEY_TIME = 10,
-NDefines.NMilitary.NOMAD_PLAINS_SHOCK_BONUS = 0.05 
-NDefines.NMilitary.NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.05
 NDefines.NMilitary.CAWA_STARTING_STRENGTH = 0.1
 NDefines.NMilitary.REBEL_TRADITION_GAIN = 0.75 					-- _MDEF_REBEL_TRADITION_GAIN_; Factor of army/navy tradition gained from fighting rebels and pirates.
 NDefines.NMilitary.NATIVE_FEROCITY_IMPACT = -1
