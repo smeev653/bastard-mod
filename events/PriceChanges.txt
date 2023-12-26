@@ -1054,6 +1054,10 @@ country_event = {
 
 	trigger = {
 		dip_tech = 8
+		OR = {
+			has_reform = shogunate
+			tag = JAP
+		}
 		NOT = { has_global_flag = japanese_tea_happened }
 	}
 	mean_time_to_happen = {

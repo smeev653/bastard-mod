@@ -1036,7 +1036,7 @@ FRA_ideas = {
 	}
 	
 	bonus = {
-				build_cost = -0.1
+		build_cost = -0.1
 	}	
 
 	trigger = {
