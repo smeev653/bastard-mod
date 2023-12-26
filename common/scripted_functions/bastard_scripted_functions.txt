@@ -67,8 +67,6 @@ can_colonize_province = {
 						colonial_region = colonial_california
 						colonial_region = colonial_louisiana
 						colonial_region = colonial_alaska
-						region = australia_region
-						region = oceanea_region
 						region = mississippi_region
 					}
 				}	
@@ -120,32 +118,5 @@ can_make_state = {
 					}
 			}
 		}
-}
-
-can_colonize_province_siberian_frontier = {
-	condition = {
-		tooltip = "cant_colonize_nw_tt"
-		potential = {
-		}
-
-		allow = {
-				NOT = {
-					OR = {
-						superregion = china_superregion
-						superregion = far_east_superregion
-						superregion = east_indies_superregion
-						superregion = oceania_superregion
-						superregion = africa_superregion
-						superregion = southern_africa_superregion
-						continent = north_america
-						continent = south_america
-						region = mongolia_region
-						region = tibet_region
-						region = central_asia_region
-						region = east_siberia_region
-				}
-				
-		}
-	}
 }
 

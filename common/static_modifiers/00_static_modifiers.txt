@@ -2078,7 +2078,7 @@ mamluks_regiment = {
 }
 
 geobukseon_ship = {
-	ship_durability = 0.1
+	#ship_durability = 0.1
 	galley_power = 0.1
 }
 
@@ -2090,11 +2090,11 @@ man_of_war_ship = {
 
 galleon_ship = {
 	hull_size_modifier = 0.1
-	heavy_ship_power = 0.1
+	#heavy_ship_power = 0.1
 }
 
 galleass_ship = {
-	galley_power = 0.2
+	galley_power = 0.1
 }
 
 caravel_ship = {

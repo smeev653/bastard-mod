@@ -55,7 +55,6 @@ country_event = {
 					NOT = {
 						continent = north_america
 						continent = south_america
-						continent = asia
 					}
 				}
 				is_nomad = no
