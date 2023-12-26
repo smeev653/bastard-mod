@@ -3,13 +3,13 @@ defined_text = {
     text = {
         localisation_key = gecko_mercs_cavalry_key
         trigger = {
-			has_country_flag = gecko_mercs_recruit_cavalry
+			has_country_flag = gecko_mercs_recruit_cavalry_cflag
         }
     }
     text = {
         localisation_key = gecko_mercs_infantry_key
         trigger = {
-			NOT = { has_country_flag = gecko_mercs_recruit_cavalry }
+			NOT = { has_country_flag = gecko_mercs_recruit_cavalry_cflag }
         }
     }
 }
