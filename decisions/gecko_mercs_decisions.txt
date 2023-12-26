@@ -8,14 +8,14 @@ country_decisions = {
 			gecko_mercs = { update = yes }
 			if = {
 				limit = {
-					NOT = { has_country_flag = gecko_mercs_recruit_cavalry }
+					NOT = { has_country_flag = gecko_mercs_recruit_cavalry_cflag }
 				}
 				custom_tooltip = change_gecko_mercs_unit_type_decision_tt
-				set_country_flag = gecko_mercs_recruit_cavalry
+				set_country_flag = gecko_mercs_recruit_cavalry_cflag
 			}
 			else = {
 				custom_tooltip = change_gecko_mercs_unit_type_decision_tt2
-				clr_country_flag = gecko_mercs_recruit_cavalry
+				clr_country_flag = gecko_mercs_recruit_cavalry_cflag
 			}
 			gecko_mercs = { update = yes }
 		}
