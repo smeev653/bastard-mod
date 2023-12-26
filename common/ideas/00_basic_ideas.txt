@@ -789,20 +789,17 @@ aristocracy_ideas = {
 	bonus = {
 		fire_damage_received = -0.10
 	}
+	noble_knights = {
+		shock_damage = 0.1
+	}
 	military_traditions = {
 		mil_tech_cost_modifier  = -0.1
 		army_tradition_from_battle = 0.25
 	}	
-	international_nobility = {
-		discipline = 0.025
-	}
 	local_nobility = {
 		global_regiment_cost = -0.05
 		nobles_loyalty_modifier = 0.1
 		nomadic_tribes_loyalty_modifier = 0.1
-	}
-	noble_knights = {
-		shock_damage = 0.1
 	}
 	noble_resilience = {
 		leader_siege = 1
@@ -814,6 +811,9 @@ aristocracy_ideas = {
 	noble_officers = {
 		army_tradition_decay = -0.01
 		navy_tradition_decay = -0.01
+	}
+	international_nobility = {
+		discipline = 0.05
 	}
 	ai_will_do = {
 		factor = 5
