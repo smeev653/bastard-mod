@@ -11,9 +11,9 @@ elector = yes
 		name = "Maria I"
 		dynasty = "d'Aragó"
 		birth_date = 1429.11.19
-		dip = 4
-		mil = 4
-		adm = 4
+		dip = 5
+		mil = 5
+		adm = 5
 		female = yes
 	}
 	clear_scripted_personalities = yes
