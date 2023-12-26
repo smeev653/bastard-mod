@@ -700,7 +700,6 @@ LOB_ideas = {
 	}
 	LOB_rule_mediterranean = {
 		number_of_cannons_flagship_modifier = 0.50
-		galley_power = 0.2 
 	}
 }
 
@@ -725,7 +724,7 @@ VEN_ideas = {
 		allowed_marine_fraction = 0.25
 	}
 	venetian_arsenal = {
-		galley_power = 0.2
+		navy_tradition = 1
 	}
 	printing_industry = {
 		technology_cost = -0.1
@@ -1825,8 +1824,7 @@ ITA_ideas = {
 		infantry_power = 0.15
 	}
 	mare_nostrum = {
-		galley_cost = -0.15
-		galley_power = 0.20
+		navy_tradition = 1
 	}
 	office_of_censor = {
 		global_manpower_modifier = 0.33
@@ -1838,7 +1836,7 @@ ITA_ideas = {
 		prestige = 1
 	}
 	path_to_citizenship = {
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 }
 ROM_ideas = {
@@ -1914,7 +1912,7 @@ MOR_ideas = {
 		land_morale = 0.1
 	}
 	mor_fleet = {
-		galley_power = 0.2
+		navy_tradition = 1
 	}
 	mor_pirate_republics = {
 		global_own_trade_power = 0.15
@@ -2442,7 +2440,7 @@ MOS_ideas = {
 TUN_ideas = {
 	start = {
 		development_cost_in_primary_culture = -0.05
-		galley_power = 0.2		
+		navy_tradition = 1		
 	}
 	bonus = {
 		naval_forcelimit_modifier = 0.25
@@ -2460,7 +2458,6 @@ TUN_ideas = {
 		country_diplomatic_power = 1
 	}
 	corsairs = {
-		navy_tradition = 1
 		shock_damage = 0.1
 	}
 	tun_caliphate = {
@@ -2482,7 +2479,7 @@ TUN_ideas = {
 TUN_improved_ideas = {
 	start = {
 		development_cost_in_primary_culture = -0.05
-		galley_power = 0.2		
+		navy_tradition = 1		
 	}
 	bonus = {
 		naval_forcelimit_modifier = 0.25
@@ -2502,7 +2499,6 @@ TUN_improved_ideas = {
 		country_diplomatic_power = 1
 	}
 	corsairs = {
-		navy_tradition = 1
 		shock_damage = 0.1
 	}
 	tun_caliphate = {
