@@ -243,7 +243,7 @@ age_of_discovery = {
 		songhai_timbuktu_university = {
 			allow = {
 					OR = {
-						tag = YAO
+						tag = SON
 						tag = PR2
 					}	
 				}	
