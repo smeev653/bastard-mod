@@ -2691,3 +2691,39 @@ RJP_ideas = {
 	}
 }
 
+MSA_ideas = {
+	start = {
+		global_trade_power = 0.15
+		land_morale = 0.1
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = MSA
+	}
+	free = yes
+	settle_the_islands = { # same as malay ideas
+		global_colonial_growth = 20
+	}
+	msa_advanced_galley_warfare = {
+		movement_speed = 0.1
+	}
+	msa_expert_haggling = {
+		trade_efficiency = 0.15
+	}
+	msa_chart_the_seas = {
+		manpower_recovery_speed = 0.15
+	}
+	msa_in_every_port = {
+		merchants = 1
+		ship_power_propagation = 0.2
+	}
+	msa_sea_nomads_steering = {
+		trade_steering = 0.25
+	}
+	msa_spice_kings = {
+		global_trade_goods_size_modifier = 0.1
+	}
+}
+
