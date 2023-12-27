@@ -3267,9 +3267,9 @@ country_event = {
 			name = "Gustav I"
 			dynasty = "Vasa"
 			age = 27
-			adm = 6
+			adm = 4
 			dip = 4
-			mil = 4
+			mil = 5
 		}
 		if = {
 			limit = { has_heir = yes }
