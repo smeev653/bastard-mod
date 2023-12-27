@@ -9363,6 +9363,7 @@ fra_toulon_dockyards_modifier = {
 
 fra_musketeers_modifier = {
 	allowed_musketeer_fraction = 0.15
+	has_muskeeter = yes
 }
 
 fra_catholic_supremacy_modifier = {	
