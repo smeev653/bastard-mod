@@ -897,7 +897,7 @@ milan_missions_4 = { #Made by Big Boss for Flavor Universalis
 					ROOT = {
 						NOT = {
 							num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-								value = 20
+								value = 25
 								OR = {
 									area = lombardy_area
 									area = venetia_area
@@ -922,7 +922,7 @@ milan_missions_4 = { #Made by Big Boss for Flavor Universalis
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 20
+				value = 25
 				OR = {
 					area = lombardy_area
 					area = venetia_area
