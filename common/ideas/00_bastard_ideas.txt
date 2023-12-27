@@ -1247,7 +1247,7 @@ POR_ideas = {
 SPA_ideas = {
 	start = {
 		land_morale = 0.15
-		allowed_tercio_fraction = 0.25
+		allowed_tercio_fraction = 0.15
 	}
 	
 	bonus = {
