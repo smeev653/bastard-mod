@@ -7,7 +7,7 @@ capital = 466	#Sarai
 historical_rival = TUR
 historical_rival = KAZ
 religious_school = hanafi_school
-
+add_truce_with = MOS
 1432.1.1 = {
 	monarch = {
 		name = "Küchük Muhammad"
