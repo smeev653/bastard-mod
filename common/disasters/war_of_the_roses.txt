@@ -79,15 +79,15 @@ war_of_the_roses = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = { ADM = 2 }
+			NOT = { ADM = 4 }
 		}		
 		modifier = {
 			factor = 0.5
-			NOT = { DIP = 2 }
+			NOT = { DIP = 4 }
 		}		
 		modifier = {
 			factor = 0.5
-			NOT = { MIL = 2 }
+			NOT = { MIL = 4 }
 		}		
 		
 	}
