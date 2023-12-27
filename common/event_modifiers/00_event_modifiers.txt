@@ -9488,15 +9488,15 @@ harmony_banned_book = {
 #Shinto Incidents
 
 wokou_closed_ending = {
-	global_prov_trade_power_modifier = 0.2
+	global_prov_trade_power_modifier = 0.5
 }
 
 wokou_no_effort_ending = {
-	trade_efficiency = 0.2
+	trade_efficiency = 0.15
 }
 
 wokou_turned_to_navy = {
-	ship_durability = 0.2
+	ship_durability = 0.1
 }
 
 wokou_pirate_stronghold_hostile = {
@@ -9647,7 +9647,7 @@ guns_commonplace = {
 }
 
 traditional_warfare = {
-	land_morale = 0.15
+	land_morale = 0.1
 }
 
 firearm_restrictions = {
@@ -9679,7 +9679,7 @@ shinto_converted_to_mahayana = {
 }
 
 shinto_kirishitan_realm = {
-	advisor_cost = -0.25
+	advisor_cost = -0.2
 }
 
 significant_christian_presence = {

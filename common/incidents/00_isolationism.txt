@@ -14,7 +14,7 @@ incident_neo_confucianism = {
 			NOT = { is_incident_active = yes }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 7300 }
 			}
 		}
 	}
@@ -72,7 +72,7 @@ incident_nanban = {
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 7300 }
 			}
 		}
 	}
@@ -109,7 +109,7 @@ incident_firearms = {
 			is_incident_active = no
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 7300 }
 			}
 		}
 	}
@@ -157,7 +157,7 @@ incident_spread_of_christianity = {
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 7300 }
 			}
 		}
 	}
@@ -209,7 +209,7 @@ incident_shogunate_authority = {
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 7300 }
 			}
 		}
 	}
@@ -242,7 +242,7 @@ incident_ikko_shu = {
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 7300 }
 			}
 		}
 	}
@@ -282,7 +282,7 @@ incident_wokou = {
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 7300 }
 			}
 		}
 	}
@@ -316,7 +316,7 @@ incident_urbanization = {
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 7300 }
 			}
 		}
 	}
