@@ -1170,50 +1170,6 @@ SCO_Ideas = {
 
 
 
-JAP_ideas = {
-	start = {
-		stability_cost_modifier = -0.1
-		discipline = 0.05
-	}
-	
-	bonus = {
-		infantry_power = 0.15
-	}
-	
-	trigger = {
-		tag = JAP
-	}
-	free = yes
-	
-	reformed_land_holding = {
-		global_manpower_modifier = 0.2
-		allowed_samurai_fraction = 0.15
-		has_samurai = yes 
-	}
-	jap_unification_under_the_emperor = {
-		global_unrest = -2
-	}
-	jap_modernization = {
-		technology_cost = -0.05
-		global_institution_spread = 0.1
-	}
-	jap_maritime_legacy = {
-		ship_durability = 0.1
-	}
-	jap_land_of_the_rising_sun = {
-		prestige = 1
-	}
-	jap_kaitakudan = {
-		global_colonial_growth = 20
-	}
-	jap_great_power_diplomacy = {
-		ae_impact = -0.15
-	}
-}
-
-
-
-
 NAP_ideas = {
 	start = {
 		global_institution_spread = 0.1 #University of Naples, Angevine Heritage, Academies, centre of Neapolitan renaissance.
@@ -1468,62 +1424,7 @@ OMA_ideas = {
 }
 
 
-KOR_ideas = {
-	start = {
-		build_cost = -0.1
-		land_morale = 0.1
-	}
-	
-	bonus = {
-		infantry_power = 0.1
-	}
-	
-	trigger = {
-		tag = KOR
-	}
-	free = yes
 
-	kor_uijeongbu = {
-		advisor_cost = -0.1
-		all_estate_loyalty_equilibrium = 0.05
-	}
-	metal_movable_type = {
-		adm_tech_cost_modifier = -0.05
-		innovativeness_gain = 0.5
-	}
-	choi_mu_seon_gunpower_engines = {
-		fire_damage = 0.1
-	}
-	korean_artisanery = {
-		prestige = 1
-		development_cost = -0.05
-	}
-	hyanyak_system = {
-		production_efficiency = 0.10
-	}
-	geobukseon = {
-		ship_durability = 0.1
-		naval_morale = 0.05
-		has_geobukseon = yes
-	}
-	kyujanggak = {
-		idea_cost = -0.1
-	}
-
-	#hanguel_alphabet = {
-	#	technology_cost = -0.1
-	#}
-	#grand_code = {
-	#	stability_cost_modifier = -0.10
-	#}
-	#hopae_system = {
-	#	global_manpower_modifier = 0.10
-	#}
-	#kor_economy_reform = {
-	#	global_tax_modifier = 0.10
-	#}
-	
-}
 
 
 BOH_ideas = {

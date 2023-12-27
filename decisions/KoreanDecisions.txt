@@ -69,7 +69,7 @@ country_decisions = {
 		ai_importance = 500		
 	}
 
-} #End of country decisions
+ #End of country decisions
 	found_hall_of_worthies = {
 		potential = { #Removed as actually set up in 1420 and later disbanded in 1456.
 			always = no
