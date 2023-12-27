@@ -3,6 +3,7 @@ country_decisions = {
 	enthrone_timurid_prince = {
 		major = yes
 		potential = {
+			NOT = { has_country_flag = enthroned_a_timurid_prince }
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { dynasty = "Timurid" }

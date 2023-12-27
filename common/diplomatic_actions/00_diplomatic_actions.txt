@@ -139,7 +139,7 @@ declarewar = {
 		}
 		allow = {
 			FROM = { total_development = 300 }
-			FROM = { capital_scope = { supperegion = tartary_superregion } } 
+			FROM = { capital_scope = { superregion = tartary_superregion } } 
 		}
 	}
 	#condition = {
