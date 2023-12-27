@@ -2,3 +2,4 @@
 ####################
 gc_truce_with_ally:0 "Cannot ally this nation until the "Broke Alliance" opinion modifier has ticked down to 0 as we recently broke alliance with them. This is usually 5 years, but is effected by Improve Relations."
 gecko_stability:0 "Must have 0 Stability or higher to declare war."
+bastard_mng_dec_horde:0 "Must have passed 5 Imperial Reforms or the target must be a horde with over 300 total development to declare war."

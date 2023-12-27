@@ -129,6 +129,19 @@ declarewar = {
 			stability = 0
 		}
 	}
+	condition = {
+		tooltip = bastard_mng_dec_horde
+		potential = {
+			tag = MNG
+			NOT = {
+				 empire_of_china_num_reforms_passed = 5
+			}	
+		}
+		allow = {
+			FROM = { total_development = 300 }
+			FROM = { capital_scope = { supperegion = tartary_superregion } } 
+		}
+	}
 	#condition = {
 	#	tooltip = GRAND_CRUSADE_NO_OTHER_WAR
 	#	potential = { }
@@ -757,8 +770,28 @@ tributary_state_action = {
 			}
 		}
 	}
+	condition = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			OR = {
+				FROM = { capital_scope = { superregion = china_superregion } }
+				FROM = { capital_scope = { superregion = far_east_superregion } }
+				FROM = { capital_scope = { superregion = east_indies_superregion } }
+			}	
+		}
+	}
 }
 ask_for_tributary_state_action = {
+	condition = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			always = no
+		}
+	}
 	condition = {
 		potential = {
 			ai = yes
@@ -781,7 +814,6 @@ ask_for_tributary_state_action = {
 		}
 	}
 }
-
 break_alliance = {
 	effect = {
 		on_alliance_broken_effect = yes
