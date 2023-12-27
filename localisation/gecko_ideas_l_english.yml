@@ -75,3 +75,8 @@
  LOB_italian_scholars_desc:0 "Italy is the birthplace of the Renaissance. We cannot allow ourselves to not be the world's pioneers in regards to technological innovation. Let us establish Lombardy as the house of science and advancement!" 
  LOB_rule_mediterranean:0 "Rule the Mediterranean" 
  LOB_rule_mediterranean_desc:0 "The Mediterranean Sea has seen millenia of combat and prospecting conquerors. Our navy will reign supreme from the coasts of the Aegean to the Genoan coasts." 
+ 
+ #korean minors
+ fo_korean_city_ideas:0 "Korean City State Ideas"
+ fo_korean_city_ideas_start:0 "Korean City State Traditions"
+ fo_korean_city_ideas_bonus:0 "Korean City State Ambitions"
