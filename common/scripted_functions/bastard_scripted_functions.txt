@@ -68,6 +68,8 @@ can_colonize_province = {
 						colonial_region = colonial_louisiana
 						colonial_region = colonial_alaska
 						region = mississippi_region
+						region = east_siberia_region
+						region = west_siberia_region
 					}
 				}	
 		}
