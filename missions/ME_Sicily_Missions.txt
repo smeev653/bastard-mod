@@ -162,6 +162,9 @@ sicily_mission_1 = {
 					duration = -1
 				}
 			}
+			125 = {
+				add_center_of_trade_level = 2
+			}
 		}
 	}
 
