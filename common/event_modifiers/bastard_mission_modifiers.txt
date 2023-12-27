@@ -50,6 +50,12 @@ fertile_crescent = {
 	local_development_cost = -0.05
 	trade_goods_size_modifier = 0.1
 }
+
+bastard_muskeeter_modifier = {
+	infantry_power = 0.1
+	land_maintenance_modifier = 0.05
+	is_musketeer_modifier = yes
+}	
 ####################austria###################
 bs_royal_hungary = {
 	land_morale = 0.1

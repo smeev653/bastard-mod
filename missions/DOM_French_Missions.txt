@@ -3311,6 +3311,10 @@ french_missions_3_normal_continued = {
 			}
 		}
 		effect = {
+			add_country_modifier = {
+					name = bastard_muskeeter_modifier
+					duration = -1 
+				}
 			custom_tooltip = fra_reward_after_court_country_tt
 			tooltip = {
 				add_country_modifier = {
