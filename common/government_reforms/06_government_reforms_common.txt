@@ -3101,7 +3101,7 @@ musketeers_reform = {
 	}
 	modifiers = {
 		has_musketeer = yes
-		allowed_musketeer_fraction = 0.2
+		allowed_musketeer_fraction = 0.25
 		nobles_influence_modifier = -0.1
 	}
 	
