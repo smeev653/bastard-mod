@@ -162,9 +162,6 @@ sicily_mission_1 = {
 					duration = -1
 				}
 			}
-			125 = {
-				add_center_of_trade_level = 2
-			}
 		}
 	}
 
@@ -661,6 +658,7 @@ sicily_mission_3 = {
 		}
 		trigger = {
 			125 = {
+				province_has_center_of_trade_of_level = 2
 				owned_by = ROOT
 				OR = {	
 					base_production = 10
@@ -671,6 +669,7 @@ sicily_mission_3 = {
 		}
 		effect = {
 			125 = {
+				add_center_of_trade_level = 2
 				if = {
 					limit = {
 						has_building = shipyard
