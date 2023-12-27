@@ -114,7 +114,8 @@ NDefines.NEconomy.COT_DOWNGRADE_PRESTIGE_COST = 0
 NDefines.NEconomy.GOLD_MINE_DEPLETION_THRESHOLD = 10				-- Gold mines above production level or above can be depleted
 NDefines.NEconomy.GOLD_MINE_DEPLETION_CHANCE = 0.05
 NDefines.NEconomy.TRADE_PROPAGATE_DIVIDER = 20
-
+NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0.2						-- 100 men/month is minimum
+NDefines.NMilitary.MIN_MONTHLY_SAILORS = 10						-- 5 sailors/month is minimum
 NDefines.NMilitary.MERCENARY_REINFORCE_COST_MULTIPLIER = 1
 NDefines.NMilitary.FORTRESS_COST = 0.166
 NDefines.NMilitary.ARMY_DRILL_YEARLY_GAIN = 33.3
