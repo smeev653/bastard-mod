@@ -19,6 +19,7 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+				tag = SHY
 				tag = QOM
 				tag = KHO
 				tag = FRS
@@ -131,10 +132,10 @@ country_decisions = {
 			OR = {
 				culture_group = iranian
 				primary_culture = uzbehk
+				primary_culture = khazak
 				primary_culture = turkmeni
 			}
 			religion_group = muslim
-			dynasty = "Timurid"
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -179,6 +180,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = TIM
+			change_government_to_monarchy = yes
 			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes

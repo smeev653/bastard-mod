@@ -931,13 +931,11 @@ BUK_ideas = {
 	}
 	buk_naqshbandi_patronage = {
 		manpower_recovery_speed = 0.15
-		global_institution_spread = 0.15
 	}
 	buk_mahalla_schools = {
 		technology_cost = -0.05
 	}
 	buk_the_jews_of_bukhara = {
-		artillery_power = 0.15
 		artillery_cost = -0.15	
 	}
 	buk_the_ark = {
@@ -2303,7 +2301,7 @@ TIM_ideas = {
 		land_morale = 0.1
 	}
 	unleash_the_tiger = {
-		shock_damage = 0.1
+		shock_damage = 0.15
 	}
 	chagatai_literature = {
 		legitimacy = 1
