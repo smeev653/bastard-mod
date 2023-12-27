@@ -1479,9 +1479,6 @@ SWE_ideas = {
 		horde_unity = 1
 		possible_policy = 1
 	}
-	swedish_steel = {
-		discipline = 0.05
-	}
 	hakkapelitta = {
 		shock_damage = 0.1
 	}
@@ -1497,6 +1494,9 @@ SWE_ideas = {
 	}
 	union_and_security_act = {
 		global_manpower_modifier = 0.15
+	}
+	swedish_steel = {
+		discipline = 0.05
 	}
 }
 
