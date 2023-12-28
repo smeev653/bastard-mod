@@ -1330,6 +1330,7 @@ is_great_power = {						#Only works with Rights of Man DLC enabled
 in_golden_era = {
 	land_morale = 0.1
 	naval_morale = 0.1
+	max_general_fire = 1
 	max_absolutism = 5
 	max_revolutionary_zeal = 10
 }

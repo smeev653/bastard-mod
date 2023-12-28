@@ -82,5 +82,4 @@ reserves_organisation_modifier = {
 
 	general_cost = -0.125
 	drill_gain_modifier = 0.25
-	max_general_fire = 1
 }
