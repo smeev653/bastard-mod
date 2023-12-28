@@ -125,7 +125,9 @@ country_decisions = {
 					NOT = {
 						province_has_center_of_trade_of_level = 1
 					}
-				
+					NOT = { continent = north_america }
+					NOT = { continent = south_america }
+					NOT = { continent = oceania }
 			}
 			NOT = { has_country_modifier = trade_hub_created }
 			treasury = 200

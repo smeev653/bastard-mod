@@ -133,6 +133,9 @@ country_event = {
 						has_building = trade_depot
 						has_building = stock_exchange
 					}
+					NOT = { continent = north_america }
+					NOT = { continent = south_america }
+					NOT = { continent = oceania }
 				}
 				add_base_production = 2
 				center_of_trade = 1
