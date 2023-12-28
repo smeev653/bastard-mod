@@ -277,6 +277,7 @@ country_decisions = {
 			major = yes
 			#######
 			potential = {
+					always = no
 					is_at_war = no
 					ai = no
 					religion_group = muslim
