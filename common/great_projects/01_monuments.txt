@@ -9640,13 +9640,15 @@ potosi = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			if = {
-				limit = {
-					NOT = {trade_goods = gold}
+			765 = {
+				if = {
+					limit = {
+						NOT = {trade_goods = gold}
+					}
+				change_trade_goods = gold
+				}
 			}
-			change_trade_goods = gold
 		}
-		
 		conditional_modifier = {
 			trigger = {
 				owner = {
