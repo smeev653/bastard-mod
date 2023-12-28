@@ -1423,6 +1423,7 @@ naval_forcelimit = {
 
 trade_company_strong = {
 	naval_forcelimit = 10
+	merchants = 1
 }
 
 large_colonial_nation = {
