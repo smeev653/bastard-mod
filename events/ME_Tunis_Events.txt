@@ -553,7 +553,7 @@ province_event = {
 			add_building = temple
 		}
 		
-		change_culture = sephardic
+		#change_culture = sephardic
 		
 		add_stability_or_adm_power = yes
 	}
