@@ -1426,10 +1426,10 @@ trade_company_strong = {
 }
 
 large_colonial_nation = {
-	merchants = 1
-	global_trade_power = 0.05
-	naval_forcelimit = 10
-	land_forcelimit = 5
+	#merchants = 1
+	#global_trade_power = 0.05
+	#naval_forcelimit = 10
+	#land_forcelimit = 5
 }
 
 new_world_exploitation_modifier = {
@@ -1442,20 +1442,20 @@ gbr_colonial_investment = {
 }
 
 crown_colony_overlord = {
-	merchants = 1
-	global_trade_power = 0.05
+	#merchants = 1
+	#global_trade_power = 0.05
 }
 
 private_enterprise_overlord = {
-	merchants = 1
-	global_trade_power = 0.05
-	global_tariffs = -0.05
+	#merchants = 1
+	#global_trade_power = 0.05
+	#global_tariffs = -0.05
 }
 
 self_governing_colony_overlord = {
-	merchants = 1
-	global_trade_power = 0.05
-	global_tariffs = -0.10
+	#merchants = 1
+	#global_trade_power = 0.05
+	#global_tariffs = -0.10
 }
 
 crown_colony_subject = {

@@ -13075,7 +13075,7 @@ holy_city_kairouan = {
 			
 		}
 		country_modifiers = {
-			placed_merchant_power_modifier = 1
+			#placed_merchant_power_modifier = 1
 			center_of_trade_upgrade_cost = -0.1
 		}
 		on_upgraded = {
@@ -13099,7 +13099,7 @@ holy_city_kairouan = {
 			
 		}
 		country_modifiers = {
-			placed_merchant_power_modifier = 1
+			#placed_merchant_power_modifier = 1
 			center_of_trade_upgrade_cost = -0.2
 			reduced_trade_penalty_on_non_main_tradenode = 0.1
 		}	
@@ -13120,7 +13120,7 @@ holy_city_kairouan = {
 			
 		}
 		country_modifiers = {
-			placed_merchant_power_modifier = 1
+			#placed_merchant_power_modifier = 1
 			center_of_trade_upgrade_cost = -0.2
 			reduced_trade_penalty_on_non_main_tradenode = 0.25 
 		}
