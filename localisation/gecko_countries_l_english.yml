@@ -2,7 +2,6 @@
   
   GZM:0 "Great Zimbabwe"
   GZM_ADJ:0 "Great Zimbabwe"
-  
   AHU:0 "Habsburg Empire"
   AHU_ADJ:0 "Austrian"
   FO1:0 "Goguryeo"
@@ -19,3 +18,5 @@
   FO6_ADJ:0 "Ye"
   FO7:0 "Dongye"
   FO7_ADJ:0 "Dongye"
+  PR2:0 "Sokoto"
+  PR2_ADJ:0 "Sokotian"
