@@ -136,6 +136,10 @@ War_chest = {
 		ROOT = {
 				ai = no	
 			}
+		OR = {	
+			current_age = age_of_discovery
+			current_age = age_of_reformation
+		}	
 	}
 
 
