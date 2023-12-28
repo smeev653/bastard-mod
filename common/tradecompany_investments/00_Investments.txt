@@ -125,9 +125,9 @@ company_warehouse = {
 			trade_company_region = hudson_bay_company
 		}
 	}
-	company_province_area_modifier = {
-		province_trade_power_value = 2
-	}
+	#company_province_area_modifier = {
+	#	province_trade_power_value = 2
+	#}
 
 	area_modifier = {
 		local_production_efficiency = 0.25
@@ -152,9 +152,9 @@ company_depot = {
 			trade_company_region = hudson_bay_company
 		}
 	}
-	company_province_area_modifier = {
-		province_trade_power_value = 4
-	}
+	#company_province_area_modifier = {
+	#	province_trade_power_value = 4
+	#}
 
 	area_modifier = {
 		local_production_efficiency = 0.5
