@@ -2281,7 +2281,7 @@ QOM_ideas = {
 
 TIM_ideas = {
 	start = {
-		diplomatic_upkeep = 1
+		manpower_recovery_speed = 0.2
 		leader_land_shock = 1
 	}
 	
@@ -2298,7 +2298,7 @@ TIM_ideas = {
 		prestige = 1
 	}
 	the_mantle_of_the_great_khan = {
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 	unleash_the_tiger = {
 		shock_damage = 0.15
