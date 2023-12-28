@@ -166,12 +166,10 @@ country_decisions = {
 				AND = {
 					owns_core_province = 429	# Isfahan
 					owns_core_province = 2213	# Qom
-					owns_core_province = 2218	# Shiraz
 				}
 				AND = {
 					owns_core_province = 451	# Kabul
 					owns_core_province = 445	# Merv
-					owns_core_province = 428	# Teheran/Rayy
 				}
 			}
 		}
