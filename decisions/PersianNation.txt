@@ -30,6 +30,7 @@ country_decisions = {
 				has_country_flag = turkoman_can_form_persia
 			}
 			NOT = { tag = MUG }
+			NOT = { tag = TIM }
 			NOT = { tag = PER }
 			NOT = { tag = ERS }
 			NOT = { tag = HLR }
@@ -92,19 +93,6 @@ country_decisions = {
 			kartli_kakheti_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-			}
-			if = {
-				limit = {
-					tag = TIM
-				}
-				not = { exists = TRS }
-				not = { exists = AFG }
-				not = { exists = SIS }
-				not = { exists = FRS }
-				not = { exists = KHO }
-				not = { exists = QOM }
-				not = { exists = LRI }
-				not = { exists = ARD }
 			}
 		}
 		effect = {
