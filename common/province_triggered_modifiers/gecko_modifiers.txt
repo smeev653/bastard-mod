@@ -422,7 +422,6 @@ conquest_of_nogay = {
 	}	
 	horde_unity = 1
 	land_morale = 0.025
-	discipline = 0.025
 	#Province scope
 	on_activation = {
 	
