@@ -246,8 +246,6 @@ country_decisions = {
 			ai = no
 			NOT = { government = republic }
 			NOT = { has_ruler_flag = educate_ruler_rflag }
-			has_regency = no
-			has_consort_regency = no
 		}
 		ai_will_do = {
 			factor = 0
