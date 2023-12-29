@@ -47,7 +47,7 @@ country_decisions = {
 					root = {
 						NOT = {
 							num_of_owned_provinces_with = {
-								value = 40
+								value = 45
 								region = italy_region
 								is_core = root
 							}
@@ -77,7 +77,7 @@ country_decisions = {
 			owns_core_province = 116	# Firenze
 			owns_core_province = 118	# Roma
 			num_of_owned_provinces_with = {
-				value = 40
+				value = 45
 				region = italy_region
 				is_core = root
 			}
