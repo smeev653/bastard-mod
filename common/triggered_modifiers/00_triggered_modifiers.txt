@@ -794,7 +794,7 @@ golden_age_of_piracy = {
 			light_ships_in_province  = ROOT
 		}
 	}
-	privateer_efficiency = 0.5
+	privateer_efficiency = 0.25
 	treasure_fleet_income = 0.25
 }
 
