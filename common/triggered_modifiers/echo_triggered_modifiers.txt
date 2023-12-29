@@ -21,6 +21,8 @@ Steppe_rule = {
 	potential = {
 		ai = no
 		is_nomad= yes
+		religion = sunni
+		current_age = age_of_discovery
 	}
 	
 
@@ -29,6 +31,22 @@ Steppe_rule = {
 		current_age = age_of_discovery
 	}
 	cav_to_inf_ratio = 0.25
+	horde_unity = 2
+}
+Steppe_rule_2 = {
+	potential = {
+		ai = no
+		is_nomad= yes
+		religion = tengri_pagan_reformed
+		current_age = age_of_discovery
+	}
+	
+
+	trigger = {	
+		religion = tengri_pagan_reformed
+		current_age = age_of_discovery
+	}
+	horde_unity = 2
 }
 
 Minor = {
