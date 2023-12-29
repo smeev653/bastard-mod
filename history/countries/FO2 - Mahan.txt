@@ -1,5 +1,6 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = korean_monarchy
+add_harmonized_religion = mahayana
 government_rank = 1
 technology_group = chinese
 religion = confucianism
@@ -8,6 +9,13 @@ capital = 737
 fixed_capital = 737
 add_truce_with = MJZ
 add_truce_with = UES
+korea_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 1428.1.1 = {
 	monarch = {
 		name = "Sejong Do" #Sejong Daewang
