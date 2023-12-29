@@ -563,15 +563,9 @@ estate_qizilbash_regimental_discipline = {
 			duration = -1
 			hidden = yes
 		}
-		scaling_with_influence_privilege_tooltip = {
-			estate_privilege = estate_qizilbash_regimental_discipline
-		}
 	}
 	on_revoked = {
 		remove_country_modifier = estate_qizilbash_regimental_discipline_qizilbash
-		scaling_with_influence_privilege_tooltip = {
-			estate_privilege = estate_qizilbash_regimental_discipline
-		}
 	}
 	on_invalid = {
 		remove_country_modifier = estate_qizilbash_regimental_discipline_qizilbash

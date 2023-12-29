@@ -367,6 +367,7 @@ conquest_of_moscow = {
 
 conquest_of_tabriz = {
 	potential = {
+		always = no
 		normal_or_historical_nations = yes
 		OR = {
 				religion = sunni
@@ -567,22 +568,10 @@ conquest_of_copenhagen = {
 conquest_of_herat = {
 	potential = {
 		normal_or_historical_nations = yes
-		OR = {
-				religion = sunni
-				religion = shiite
-				religion = ibadi
-				religion = tengri_pagan_reformed
-			}
 	}
 	trigger = {
 		controlled_by = ROOT
 		has_owner_accepted_culture = yes
-		OR = {
-				religion = sunni
-				religion = shiite
-				religion = ibadi
-				religion = tengri_pagan_reformed
-			}
 		owner = {	
 			herat_area = {
 					type = all
