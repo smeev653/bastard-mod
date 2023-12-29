@@ -400,7 +400,7 @@ conquest_of_tabriz = {
 	
 	}
 }
-conquest_of_samarkand = {
+conquest_of_nogay = {
 	potential = {
 		normal_or_historical_nations = yes
 	}
@@ -412,7 +412,7 @@ conquest_of_samarkand = {
 					value = 0.31
 					}
 				}
-				transoxiana_area = {
+				astrakhan_area = {
 					type = all
 					country_or_non_sovereign_subject_holds = PREV
 				}	
@@ -420,8 +420,9 @@ conquest_of_samarkand = {
 		controlled_by = ROOT
 		has_owner_accepted_culture = yes	
 	}	
-	discipline = 0.025
+	horde_unity = 1
 	land_morale = 0.025
+	discipline = 0.025
 	#Province scope
 	on_activation = {
 	
