@@ -2334,6 +2334,7 @@ GLH_ideas = {
 	
 	glh_legacy_of_the_golden_horde = {
 		leader_land_shock = 1
+		discipline = 0.05
 	}
 	glh_perso_mongol_administration = {
 		core_creation = -0.25
