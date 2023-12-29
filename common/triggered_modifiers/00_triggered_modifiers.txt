@@ -787,17 +787,15 @@ synthetic_remnants = {
 golden_age_of_piracy = {
 	potential = {
 		has_global_flag = golden_age_of_piracy
-		NOT = { # lasts 50 years
-			had_global_flag = { flag = golden_age_of_piracy days = 18250 }
-		}
-		1516 = { has_discovered = ROOT }
+		1563 = { has_discovered = ROOT }
 	}
 	trigger = {
-		1516 = {
-			is_strongest_trade_power = ROOT
+		1563 = {
+			light_ships_in_province  = ROOT
 		}
 	}
-	trade_efficiency = 0.05
+	privateer_efficiency = 0.5
+	treasure_fleet_income = 0.25
 }
 
 ######################################
