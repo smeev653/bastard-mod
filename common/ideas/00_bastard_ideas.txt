@@ -2301,12 +2301,8 @@ TIM_ideas = {
 	unleash_the_tiger = {
 		shock_damage = 0.15
 	}
-	chagatai_literature = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.3
-		meritocracy = 1	#For completion's sake
-		horde_unity = 1
+	bastard_populating_the_steppes = {
+		global_manpower_modifier = 0.2
 	}
 	timurid_renaissance = {
 		technology_cost = -0.05
@@ -2315,13 +2311,13 @@ TIM_ideas = {
 		global_own_trade_power = 0.25
 	}
 	reform_the_diwan = {
-		yearly_corruption = -0.1
+		morale_damage_received = -0.1
  	}
 }
 
 GLH_ideas = {
 	start = {
-		fire_damage_received = -0.1
+		development_cost = -0.05
 		build_cost = -0.05
 	}
 	bonus = {
