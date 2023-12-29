@@ -245,6 +245,7 @@ conquest_of_fez = {
 	trigger = {
 		owner = {
 				NOT = { tag = MOR }
+				NOT = { tag = TUN }
 				NOT = { tag = ADU }
 				NOT = { 	
 					has_global_modifier_value = {
