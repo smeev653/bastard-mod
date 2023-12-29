@@ -129,12 +129,7 @@ country_decisions = {
 					ai = no
 				}
 			}
-			OR = {
-				culture_group = iranian
-				primary_culture = uzbehk
-				primary_culture = khazak
-				primary_culture = turkmeni
-			}
+			tag = SHY
 			religion_group = muslim
 		}
 		provinces_to_highlight = {
