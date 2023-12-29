@@ -622,7 +622,7 @@ conquest_of_ayutthaya = {
 					value = 0.31
 					}
 				}
-				central_thailand_area = {
+				central_thai_area = {
 					type = all
 					country_or_non_sovereign_subject_holds = PREV
 				}	
