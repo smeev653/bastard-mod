@@ -1701,17 +1701,17 @@ divert_trade = {
 
 karma_just_right = {
 	discipline = 0.05
-	global_manpower_modifier = 0.2
+	development_cost = -0.05
 }
 
 karma_too_high = {
 	discipline = 0.05
-	global_manpower_modifier = 0.2
+	development_cost = -0.05
 }
 
 karma_too_low = {
 	discipline = 0.05
-	global_manpower_modifier = 0.2
+	development_cost = -0.05
 }
 
 ########################################
