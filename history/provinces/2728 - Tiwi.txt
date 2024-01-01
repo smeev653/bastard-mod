@@ -4,7 +4,7 @@
 culture = gunwinyguan
 religion = dreamtime
 capital = "Tiwi"
-is_city = yes
+
 hre = no
 trade_goods = fish
 base_manpower = 1

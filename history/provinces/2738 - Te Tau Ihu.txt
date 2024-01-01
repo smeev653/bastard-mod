@@ -4,7 +4,7 @@ latent_trade_goods = {
 	coal
 }
 
-is_city = yes
+
 culture = maori
 religion = animism
 hre = no

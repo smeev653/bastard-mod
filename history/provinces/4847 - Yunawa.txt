@@ -4,7 +4,6 @@ culture = paman
 religion = dreamtime
 capital = "Yunawa"
 hre = no
-is_city = yes
 trade_goods = fish
 base_manpower = 1
 base_tax = 1
