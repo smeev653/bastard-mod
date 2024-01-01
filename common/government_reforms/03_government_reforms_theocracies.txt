@@ -1277,6 +1277,7 @@ monastic_breweries_reform = {
 
 warrior_monks_reform = {
 	potential = {
+		always = no
 		OR = {
 			religion_group = eastern
 			AND = {
