@@ -299,6 +299,7 @@ estate_brahmins_brahmin_leadership = {
 	influence = 0.05
 	is_valid = {
 		NOT = { religion_group = muslim }
+		always = no
 	}
 	
 	penalties = {
