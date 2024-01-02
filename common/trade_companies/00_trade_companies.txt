@@ -168,30 +168,30 @@ trade_company_east_india = {
 	}
 }
 
-trade_company_burma = {
-	color = { 135 150 0 }
-	
-	provinces = {
-		570 573 2041 #naga_hills_area
-		584 2399 581 #upper_burma_area
-		2398 580 4393 2397 #chindwin_area
-		566 571 2040 2042 4440 #assam_area
-		4394 4396 585 4395 #central_burma_area
-		583 588 2400 4397 4406 #shan_hill_area
-		587 2401 4398 #karenni_area 
-		582 2395 2396 4404 4405 #kachin_area
-		567 2091 4473 #tripura_area
-		586 590 1815 2403 4399 #lower_burma_area
-	}
-	
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_BURMA_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_BURMA_India_Trade_Company"
-	}
-}
+#trade_company_burma = {
+#	color = { 135 150 0 }
+#	
+#	provinces = {
+#		570 573 2041 #naga_hills_area
+#		584 2399 581 #upper_burma_area
+#		2398 580 4393 2397 #chindwin_area
+#		566 571 2040 2042 4440 #assam_area
+#		4394 4396 585 4395 #central_burma_area
+#		583 588 2400 4397 4406 #shan_hill_area
+#		587 2401 4398 #karenni_area 
+#		582 2395 2396 4404 4405 #kachin_area
+#		567 2091 4473 #tripura_area
+#		586 590 1815 2403 4399 #lower_burma_area
+#	}
+#	
+#	# Generic
+#	names = {
+#		name = "TRADE_COMPANY_BURMA_Root_Culture_GetName"
+#	}
+#	names = {
+#		name = "TRADE_COMPANY_BURMA_India_Trade_Company"
+#	}
+#}
 
 trade_company_coromandel = {
 	color = { 50 30 210 }
@@ -343,10 +343,9 @@ trade_company_moluccas = {
 trade_company_indochina = {
 	color = { 84 152 93 }
 	
-	provinces = {
-		592 600 601 602 603 604 605 606 609 607 608 611 612 614 615 1817 1823 1844 1022 2374 2375 2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 2387 2388 2389 591 2404 2371 1365
-		589 #Karenni
-		4822 4823 4824 4825 4826 4827 4828 4829 4830 4831 4832 4833 4834 4835 4836 4837 4838 4839 4840 4841 4842
+	provinces={
+		570 573 2041 584 2399 581 2398 580 4393 2397 566 571 2040 2042 4440 4394 4396 585 4395 583 588 2400 4397 4406 587 2401 4398 582 2395 2396 4404 4405 567 2091 4473 1815 4399 586 590 2403 
+		592 600 601 602 603 604 605 606 609 607 608 611 612 614 615 1817 1823 1844 1022 2374 2375 2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 2387 2388 2389 591 2404 2371 1365 589 4822 4823 4824 4825 4826 4827 4828 4829 4830 4831 4832 4833 4834 4835 4836 4837 4838 4839 4840 4841 4842 
 	}
 	
 	# Specific
