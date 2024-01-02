@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 2
 discovered_by = polynesian_tech
 extra_cost = 15
-center_of_trade = 1
+#center_of_trade = 1
 
 1616.4.21 = {
 	discovered_by = NED	# Explorers Willem Schouten and Jacob Le Maire
