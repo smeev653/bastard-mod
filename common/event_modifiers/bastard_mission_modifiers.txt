@@ -1,3 +1,7 @@
+b_burma_disc = {
+	discipline = 0.05
+}	
+
 bs_lowland_integration = {
 	diplomatic_annexation_cost = -0.2
 }
