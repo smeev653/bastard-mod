@@ -310,11 +310,15 @@ tau_slot_2 = {
 			else = {
 				custom_trigger_tooltip = {
 					tooltip = obj_humiliate_rival_tooltip
-					has_country_flag = humiliated_rival
+					OR = {
+						has_country_flag = humiliated_rival
+						has_country_flag =gecko_show_strength
+					}	
 				}
 			}
 		}
 		effect = {
+			
 			central_burma_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -358,17 +362,17 @@ tau_slot_2 = {
 				area = upper_burma_area
 			}
 			NOT = {
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
 			central_burma_area = {
 				type = all
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT	
 			}
 			upper_burma_area = {
 				type = all
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT	
 			}
 		}
 		effect = {
@@ -637,6 +641,7 @@ tau_slot_3 = {
 			}
 		}
 		effect = {
+			custom_tooltip = bastard_convert_trib_to_vassal
 			586 = {
 				change_culture = ROOT
 				add_province_modifier = {
