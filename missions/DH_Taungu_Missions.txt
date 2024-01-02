@@ -291,31 +291,7 @@ tau_slot_2 = {
 			}
 		}
 		trigger = {
-			if = {
-				limit = {
-					tag = TAU
-				}
-				4396 = {
-					owned_by = ROOT
-				}
-			}
-			else_if = {
-				limit = {
-					tag = BPR
-				}
-				585 = {
-					owned_by = ROOT
-				}
-			}
-			else = {
-				custom_trigger_tooltip = {
-					tooltip = obj_humiliate_rival_tooltip
-					OR = {
-						has_country_flag = humiliated_rival
-						has_country_flag =gecko_show_strength
-					}	
-				}
-			}
+			army_size_percentage = 0.8
 		}
 		effect = {
 			kachin_area = {
