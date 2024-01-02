@@ -73,6 +73,7 @@ Minor = {
 	global_regiment_cost = -0.1
 	monthly_reform_progress_modifier = 0.025
 	ae_impact = -0.1
+	fort_maintenance_modifier = -0.67
 }
 
 We_stand_alone = {

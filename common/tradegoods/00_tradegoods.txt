@@ -1737,7 +1737,7 @@ dyes = {
 tropical_wood = {
 	color = { 0.45 0.47 0.09 }
 	modifier = {
-		build_cost = -0.05
+		development_cost = -0.025
 	}
 	province = {
 		local_build_cost = -0.2

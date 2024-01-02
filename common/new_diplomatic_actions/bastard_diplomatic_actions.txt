@@ -15,6 +15,9 @@ bastard_convert_trib_to_vassal = {
 		}
 	}
 	is_allowed = {
+		FROM = {
+			NOT = { total_development = 300 }
+		}
 		dip_power = 50
 		mission_completed = tau_build_palace
 		if = {

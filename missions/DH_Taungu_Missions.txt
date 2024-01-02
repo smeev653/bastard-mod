@@ -341,7 +341,6 @@ tau_slot_2 = {
 		provinces_to_highlight = {
 			OR = {
 				area = central_burma_area
-				area = upper_burma_area
 				area = kachin_area
 			}
 			NOT = {
@@ -357,14 +356,20 @@ tau_slot_2 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
-			upper_burma_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
 		}
 		effect = {
 			add_legitimacy = 20
-			add_adm_power = 100
+			add_adm_power = 200
+			if = {
+				limit = {
+					4404 = {
+						NOT = { has_building = fort_15th }
+					}
+				}
+				4404 = {
+					add_building = fort_15th
+				}
+			}
 		}
 		ai_weight = {
 			factor = 500	#Reasonable conquest
@@ -599,6 +604,26 @@ tau_slot_3 = {
 				}
 				586 = {
 					add_center_of_trade_level = 1
+				}
+			}
+			if = {
+				limit = {
+					590 = {
+						NOT = { has_building = fort_15th }
+					}
+				}
+				590 = {
+					add_building = fort_15th
+				}
+			}
+			if = {
+				limit = {
+					1815 = {
+						NOT = { has_building = fort_15th }
+					}
+				}
+				1815 = {
+					add_building = fort_15th
 				}
 			}
 			arakan_area = {

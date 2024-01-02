@@ -1344,45 +1344,6 @@ VIJ_ideas = {
 	}
 }
 
-
-AYU_ideas = {
-	start = {
-		cavalry_power = 0.15
-		liberty_desire_from_subject_development = -0.2
-	}
-	
-	bonus = {
-		diplomatic_annexation_cost = -0.15
-	}
-	
-	trigger = {
-		tag = AYU
-	}
-	free = yes
-	
-	white_elephant = {
-		vassal_income = 0.2
-	}
-	corvee_system = {
-		global_manpower_modifier = 0.25
-	}
-	trading_links = {
-		diplomatic_reputation = 1
-	}
-	ayu_foreign_mercenaries = {
-		merc_maintenance_modifier = -0.15
-	}
-	ayu_embassies = {
-		improve_relation_modifier = 0.3
-	}
-	phrai_luang = {
-		development_cost = -0.1
-	}
-	personal_executions = {
-		harsh_treatment_cost = -0.2
-	}
-}
-
 OMA_ideas = {
 	start = {
 		naval_morale = 0.15
