@@ -2659,6 +2659,7 @@ MSA_ideas = {
 	free = yes
 	settle_the_islands = { # same as malay ideas
 		global_colonial_growth = 20
+		colonists = 1
 	}
 	msa_advanced_galley_warfare = {
 		movement_speed = 0.1
@@ -2779,6 +2780,43 @@ KOR_ideas = {
 	#}
 }
 
+AYU_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		liberty_desire_from_subject_development = -0.2
+	}
+	
+	bonus = {
+		diplomatic_annexation_cost = -0.15
+	}
+	
+	trigger = {
+		tag = AYU
+	}
+	free = yes
+
+	corvee_system = {
+		vassal_income = 0.2
+	}
+	phrai_luang = {
+		development_cost = -0.1
+	}
+	white_elephant = {
+		cavalry_power = 0.15
+	}
+	trading_links = {
+		diplomatic_reputation = 1
+	}
+	ayu_foreign_mercenaries = {
+		merc_maintenance_modifier = -0.15
+	}
+	ayu_embassies = {
+		improve_relation_modifier = 0.3
+	}
+	personal_executions = {
+		harsh_treatment_cost = -0.2
+	}
+}
 AVA_ideas = {
 	start = {
 		land_morale = 0.1
@@ -2808,10 +2846,10 @@ AVA_ideas = {
 		stability_cost_modifier = -0.10
 	}
 	ava_bamar_literature = {
-		same_culture_advisor_cost = -0.2
+		same_religion_advisor_cost = -0.15
 	}
 	ava_hill_tribes = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.25
 	}
 	legacy_of_the_pagan_dynasty = {
 		prestige = 1
@@ -2835,7 +2873,7 @@ SIA_ideas = {
     }
     sia_advanced_elephant_warfare = {
 		cavalry_power = 0.15
-		#cavalry_fire = 1
+		cavalry_fire = 0.5
     }
     sia_experienced_ambassadors = {
         diplomatic_reputation = 2
