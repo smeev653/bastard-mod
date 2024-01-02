@@ -318,7 +318,13 @@ tau_slot_2 = {
 			}
 		}
 		effect = {
-			
+			kachin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 			central_burma_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -360,6 +366,7 @@ tau_slot_2 = {
 			OR = {
 				area = central_burma_area
 				area = upper_burma_area
+				area = kachin_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -367,6 +374,10 @@ tau_slot_2 = {
 		}
 		trigger = {
 			central_burma_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			kachin_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
@@ -641,7 +652,7 @@ tau_slot_3 = {
 			}
 		}
 		effect = {
-			custom_tooltip = bastard_convert_trib_to_vassal
+			custom_tooltip = bastard_convert_trib_to_vassal_tt
 			586 = {
 				change_culture = ROOT
 				add_province_modifier = {
