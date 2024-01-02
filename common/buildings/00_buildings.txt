@@ -2011,7 +2011,7 @@ fort_18th = {
 ################################################
 
 manufactory = {
-	cost = 500
+	cost = 400
 	time = 60
 	modifier = {
 		trade_goods_size = 0.8
