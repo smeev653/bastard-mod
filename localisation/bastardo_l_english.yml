@@ -60,6 +60,7 @@
  desc_echo_por_colonist:0 ""
  echo_grand_captain_cooldown_100:0 "Grand Captain Cooldown"
  echo_commandant_cooldown_100:0 "Inspiration Leader Cooldown"
+ b_burma_disc:0 "Burmese Empire"
 #Burgundy
  bs_lowland_integration:0 "Lowland Integration"
  bs_bur_realm_united_mod:0 "United Realm"
