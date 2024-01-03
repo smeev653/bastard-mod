@@ -1,10 +1,6 @@
 # No previous file for Apatzingan
 
 culture = purepecha
-#owner = CLM
-#controller = CLM
-#add_core = CLM
-
 religion = nahuatl
 capital = "Apatzingan"
 trade_goods = grain

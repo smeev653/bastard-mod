@@ -91,73 +91,19 @@ can_move_trade_port = {
 
 can_colonize_province = {
 	condition = {
-		tooltip = "cant_colonize_nw_tt"
+		tooltip = "cant_colonize_siberia_tt"
 		potential = {
 		}
 
 		allow = {
 				NOT = {
 					OR = {
-						colonial_region = colonial_colombia
-						colonial_region = colonial_la_plata
-						colonial_region = colonial_peru
-						colonial_region = colonial_louisiana
-						colonial_region = colonial_mexico
-						colonial_region = colonial_california
-						colonial_region = colonial_louisiana
-						#colonial_region = colonial_alaska
-						region = mississippi_region
 						region = east_siberia_region
 						region = west_siberia_region
 					}
 				}	
 		}
 	}
-	condition = {
-		tooltip = "cant_colonize_nw_until_enabled_tt"
-		potential = {
-			OR = {
-					region = northeast_america_region 
-					region = southeast_america_region 
-					region = canada_region 
-					region = hudson_bay_region 
-					region = carribeans_region
-			}
-		}
-		allow = {
-			FROM = {
-				has_country_modifier = free_colonist
-			}	
-				OR = {
-					region = northeast_america_region 
-					region = southeast_america_region 
-					region = canada_region 
-					region = hudson_bay_region 
-					region = carribeans_region
-				}
-				
-		}
-	}
 }
 
-can_make_state = {
-	condition = {
-		tooltip = "bs_cant_state_nw_tt"
-			potential = {
-				FROM = {
-						ai = no
-				}	
-			}
-			allow = {
-					area_for_scope_province = {
-							type = all
-							NOT = {	region = carribeans_region }
-							NOT = {	region = northeast_america_region }
-							NOT = {	region = southeast_america_region }
-							NOT = {	region = canada_region }
-							NOT = {	region = hudson_bay_region }
-					}
-			}
-		}
-}
 

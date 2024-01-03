@@ -3041,20 +3041,6 @@ on_colony_finished_effect = {
 			id = flavor_gbr.200
 		}
 	}
-	if = {
-		limit = {
-			ROOT = {
-				OR = {
-					region = carribeans_region 
-					region = northeast_america_region 
-					region = southeast_america_region 
-					region = canada_region 
-					region = hudson_bay_region 
-				}	
-			}
-		}
-		add_to_trade_company = ROOT
-	}
 }
 
 on_colonist_boosting_colony_effect = {

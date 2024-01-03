@@ -1,10 +1,6 @@
 # No previous file for Tziccoac
 
 culture = wastek
-#owner = HST
-#controller = HST
-#add_core = HST
-
 religion = mesoamerican_religion
 capital = "Tziccoac"
 trade_goods = sugar

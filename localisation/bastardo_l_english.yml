@@ -123,8 +123,7 @@
  echo.4.a:0 "Good."
 #############scripted functions######################
 
- cant_colonize_nw_tt:0 "Can only colonise the following regions once unlocked:\n\nCanada, Eastern America, Caribbean and Brazil.\n\nColonial Nations can only be established in Colonial Brazil, however you may establish Trade Companies instead in the regions previously mentioned."
- bs_cant_state_nw_tt:0 "Cannot make states in the New World."
+ cant_colonize_siberia_tt:0 "Can't colonise Siberia."
  cant_colonize_nw_until_enabled_tt:0 "Can only colonise after the event: "Discovery of the New World" has fired."
  bastard_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YEconomic Golden Age§! or extend the current one by §G30§! years"
  bs_pol_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YGolden Age§! or extend the current one by §G30§! years"
