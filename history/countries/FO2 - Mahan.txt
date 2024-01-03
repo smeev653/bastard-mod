@@ -1,6 +1,5 @@
 government = monarchy
 add_government_reform = korean_monarchy
-add_harmonized_religion = mahayana
 government_rank = 1
 technology_group = chinese
 religion = confucianism

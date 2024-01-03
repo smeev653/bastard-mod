@@ -126,7 +126,7 @@ jesuit_order = {
     cost = 50
     cost_type = adm_power
     per_province_effect = {
-        add_base_tax = 1
+        add_base_production = 1
     }
     per_province_abandon_effect = {
         add_base_manpower = -1
@@ -138,7 +138,7 @@ jesuit_order = {
         }
     }
     modifier = {
-		local_development_cost_modifier = -0.05
+		local_development_cost_modifier = -0.1
     }
     ai_priority = {
         factor = 2

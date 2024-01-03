@@ -82,7 +82,6 @@ grand_armada = {
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine } 
 		NOT = {
 			OR = {
-				primary_culture = portugese
 				primary_culture = brazilian
 				primary_culture = aragonese
 				primary_culture = catalan

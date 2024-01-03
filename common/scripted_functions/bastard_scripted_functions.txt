@@ -48,7 +48,46 @@ can_increase_autonomy = {
 		}
 }
 
+can_move_capital = {
+	condition = {
+		tooltip = "NO_CAPITAL_MOVE_SHOGUN"
+		potential = {
+			FROM = {
+				has_reform = shogunate
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = "bs_no_africa"
+		potential = {
+			FROM = {
+				tag = POR
+			}
+		}
+		allow = {
+			NOT = {
+					continent = africa
+			}
+		}
+	}
+}
 
+can_move_trade_port = {
+	condition = {
+		tooltip = "bs_no_africa_trade"
+		potential = {
+			FROM = {
+				tag = POR
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+}
 
 can_colonize_province = {
 	condition = {
