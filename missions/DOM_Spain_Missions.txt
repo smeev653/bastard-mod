@@ -1045,7 +1045,7 @@ dom_cas_missions_2 = {
 		trigger = {
 			num_of_owned_provinces_with = {
 				has_manpower_building_trigger = yes 
-				value = 15
+				value = 10
 			}
 			reform_level = 4
 			NOT = { current_age = age_of_discovery }
