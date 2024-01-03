@@ -39,7 +39,7 @@ gc_por_1 = {
 		completed_by = 1501.1.1
 		
 		provinces_to_highlight = {
-			colonial_region = colonial_brazil
+			region = brazil_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
@@ -47,7 +47,7 @@ gc_por_1 = {
 		trigger = { 
 			custom_trigger_tooltip = {
 				tooltip = miss_discover_brazil
-				colonial_brazil = {
+				brazil_region = {
 					has_discovered = ROOT
 				}
 			}
@@ -55,7 +55,7 @@ gc_por_1 = {
 				tooltip = miss_colonize_brazil
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 					value = 1
-					colonial_region = colonial_brazil
+					region = brazil_region
 					is_city = yes
 				}
 			}
@@ -79,7 +79,7 @@ gc_por_1 = {
 		completed_by = 1540.1.1
 		
 		provinces_to_highlight = {
-			colonial_region = colonial_brazil
+			region = brazil_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
@@ -87,7 +87,7 @@ gc_por_1 = {
 		trigger = { 
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 10
-				colonial_region = colonial_brazil
+				region = brazil_region
 				is_city = yes
 			}
 		}
@@ -154,7 +154,7 @@ gc_por_1 = {
 		required_missions = { gc_por_bandeirantes }
 		position = 5
 		provinces_to_highlight = {
-			colonial_region = colonial_brazil
+			region = brazil_region
 		}
 		
 		trigger = {
@@ -167,7 +167,7 @@ gc_por_1 = {
 					tooltip = port_jesuits_tooltip
 					num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
 						holy_order = jesuit_order
-						colonial_region = colonial_brazil
+						region = brazil_region
 						value = 7
 					}
 				}
@@ -177,7 +177,7 @@ gc_por_1 = {
 					tooltip = port_jesuits_alternative_tooltip
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						religion = ROOT
-						colonial_region = colonial_brazil
+						region = brazil_region
 						value = 35
 					}
 				}

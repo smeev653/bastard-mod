@@ -757,7 +757,7 @@ dom_cas_missions_1_c = {
 		position = 9
 
 		provinces_to_highlight = {
-			colonial_region = colonial_la_plata
+			region = la_plata_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = yes
 		}
@@ -765,7 +765,7 @@ dom_cas_missions_1_c = {
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 5
-				colonial_region = colonial_la_plata
+				region = la_plata_region
 				is_city = yes
 			}
 		}
@@ -786,7 +786,7 @@ dom_cas_missions_1_c = {
 		completed_by = 1509.1.1
 		position = 10
 		provinces_to_highlight = {
-			colonial_region = colonial_colombia
+			region = colombia_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
@@ -799,7 +799,7 @@ dom_cas_missions_1_c = {
 					tooltip = colombia_holy_order_tooltip
 					num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
 						has_holy_order_trigger = yes
-						colonial_region = colonial_colombia
+						region = colombia_region
 						value = 5
 					}
 				}
@@ -809,12 +809,12 @@ dom_cas_missions_1_c = {
 					tooltip = colombia_holy_order_alternative_tooltip
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						religion = ROOT
-						colonial_region = colonial_colombia
+						region = colombia_region
 						value = 25
 					}
 				}
 			}
-			colonial_colombia = {
+			colombia_region = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -2595,7 +2595,7 @@ dom_cas_missions_3_c = {
 			else = {
 				custom_trigger_tooltip = {
 					tooltip = miss_discover_caribbean
-					colonial_the_carribean = { has_discovered = ROOT }
+					carribeans_region = { has_discovered = ROOT }
 				}
 			}
 		}
@@ -2673,7 +2673,7 @@ dom_cas_missions_3_c = {
 		required_missions = { gc_cas_spa_new_spain2 }
 		position = 13
 		provinces_to_highlight = {
-			colonial_region = colonial_california
+			region = california_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
@@ -2701,7 +2701,7 @@ dom_cas_missions_3_c = {
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 5
-				colonial_region = colonial_california
+				region = california_region
 				is_city = yes
 			}
 		}
@@ -2711,7 +2711,7 @@ dom_cas_missions_3_c = {
 				add_base_tax = 3
 			}
 			4637 = { add_center_of_trade_level = 1  add_base_production = 4 } 
-			colonial_california = {
+			california_region = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }

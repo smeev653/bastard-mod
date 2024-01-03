@@ -761,19 +761,19 @@ french_missions_1_Continuation_a = {
 				limit = { is_random_new_world = no }
 				custom_trigger_tooltip = {
 					tooltip = fra_canada_discovery.tooltip
-					colonial_canada = {
+					hudson_bay_region = {
 						has_discovered = ROOT
 					}
 				}
 				custom_trigger_tooltip = {
 					tooltip = fra_carib_discovery.tooltip
-					colonial_the_carribean = {
+					carribeans_region = {
 						has_discovered = ROOT
 					}
 				}
 				custom_trigger_tooltip = {
 					tooltip = fra_louis_discovery.tooltip
-					colonial_louisiana = {
+					mississippi_region = {
 						has_discovered = ROOT
 					}
 				}

@@ -9529,7 +9529,7 @@ el_escorial = {
 
 potosi = {
 	# province it starts in
-	start = 765
+	start = 795
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1444.01.01 #1545.01.01 #Date the silver mine started to be exploited
@@ -9640,14 +9640,13 @@ potosi = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			765 = {
-				if = {
-					limit = {
-						NOT = {trade_goods = gold}
-					}
-				change_trade_goods = gold
+			if = {
+				limit = {	
+					NOT = { trade_goods = gold }
 				}
+				change_trade_goods = gold 
 			}
+			else = { add_base_production = 1 }
 		}
 		conditional_modifier = {
 			trigger = {

@@ -124,17 +124,12 @@
 #############scripted functions######################
 
  cant_colonize_siberia_tt:0 "Can't colonise Siberia."
- cant_colonize_nw_until_enabled_tt:0 "Can only colonise after the event: "Discovery of the New World" has fired."
  bastard_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YEconomic Golden Age§! or extend the current one by §G30§! years"
  bs_pol_if_used_ge_rest_else_30_years_extension_tt:0 "Gain an additional §YGolden Age§! or extend the current one by §G30§! years"
  bs_stability_must_be_at_least_3:0 "Stability must be 3 to Declare Bankruptcy."
  area_has_total_development_of_type_tt_tax: "The sum of the §YBase Tax§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
  area_has_total_development_of_type_tt_production: "The sum of the §YBase Production§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
  area_has_total_development_of_type_tt_manpower: "The sum of the §YBase Manpower§! of all provinces in the §Y[This.GetAreaName]§! area is at least §Y[Trigger.development]§!"
- ######trade companies#######
- carribean_company: "Carribean Company"
- hudson_bay_company: "Hudson Bay Company"
- eastern_america_company: "Eastern America Company"
 ##
 ###trade nodes###
  hatton_bank:0 "Hatton Bank"

@@ -828,11 +828,11 @@ gbr_row_slot_2 = {
 				limit = { is_random_new_world = no }
 				custom_trigger_tooltip = {
 					tooltip = miss_discover_eastern_america
-					colonial_eastern_america = { has_discovered = ROOT }
+					northeast_america_region = { has_discovered = ROOT }
 				}
 				custom_trigger_tooltip = {
 					tooltip = miss_discover_caribbean
-					colonial_the_carribean = { has_discovered = ROOT }
+					carribeans_region = { has_discovered = ROOT }
 				}
 			}
 			else = {
@@ -880,7 +880,7 @@ gbr_row_slot_2 = {
 				limit = { is_random_new_world = no }
 				custom_trigger_tooltip = {
 					tooltip = miss_discover_canada
-					colonial_canada = {
+					hudson_bay_region = {
 						has_discovered = ROOT
 					}
 				}
@@ -2961,7 +2961,10 @@ ave_row_4 = {
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = miss_discover_eastern_america
-				colonial_eastern_america = { has_discovered = ROOT }
+				OR = {
+						northeast_america_region = { has_discovered = ROOT }
+						southeast_america_region = { has_discovered = ROOT }
+				}
 			}
 		}	
 		effect = {

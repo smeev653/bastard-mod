@@ -699,7 +699,8 @@ streamlined_galley_production = {
 	}
 	
 	allowed_marine_fraction = 0.25
-
+	has_marines = yes
+	
 	effect = {}
 	removed_effect = {}
 	ai_will_do = {

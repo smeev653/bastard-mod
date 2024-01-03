@@ -17,10 +17,7 @@ country_decisions = {
 			NOT = { exists = SCA }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
-			OR = {
-				tag = SWE
-				tag = DAN
-			}
+			culture_group = scandinavian
 			OR = {
 				ai = no
 				AND = {
@@ -134,7 +131,7 @@ country_decisions = {
 					}
 					if = {
 						limit = { mission_completed = dan_colonize_the_caribbean }
-						colonial_louisiana = {
+						mississippi_region = {
 							limit = {
 								NOT = { is_core = ROOT }
 								NOT = { is_permanent_claim = ROOT }
@@ -142,7 +139,7 @@ country_decisions = {
 							}
 							add_permanent_claim = ROOT
 						}
-						colonial_mexico = {
+						mexico_region = {
 							limit = {
 								NOT = { is_core = ROOT }
 								NOT = { is_permanent_claim = ROOT }
@@ -153,7 +150,18 @@ country_decisions = {
 					}
 					if = {
 						limit = { mission_completed = dan_colonize_north_america }
-						colonial_canada = {
+						canada_region = {
+							limit = {
+								NOT = { is_core = ROOT }
+								NOT = { is_permanent_claim = ROOT }
+								NOT = { owner = { is_subject_of = ROOT } }
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+					if = {
+						limit = { mission_completed = dan_colonize_north_america }
+						hudson_bay_region = {
 							limit = {
 								NOT = { is_core = ROOT }
 								NOT = { is_permanent_claim = ROOT }
