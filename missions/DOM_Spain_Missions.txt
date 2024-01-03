@@ -1437,14 +1437,14 @@ dom_cas_missions_2_c = {
 		required_missions = { gc_cas_spa_caribbean_discovery2 }
 		position = 9
 		provinces_to_highlight = {
-			colonial_region = colonial_colombia
+			region = colombia_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = yes
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 5
-				colonial_region = colonial_colombia
+				region = colombia_region
 				is_city = yes
 			}
 		}
@@ -1690,22 +1690,6 @@ dom_cas_missions_2_c = {
 			owns_or_non_sovereign_subject_of = 795
 			809 = {
 				country_or_non_sovereign_subject_holds = ROOT
-			}
-			if = {
-				limit = {
-					has_dlc = "Dharma"
-				}
-				809 = {
-					province_has_center_of_trade_of_level = 3
-				}
-			}
-			else = {
-				809 = {
-					OR = {
-						has_building = trade_depot
-						has_building = stock_exchange
-					}
-				}
 			}
 			809 = {
 				is_strongest_trade_power = ROOT
