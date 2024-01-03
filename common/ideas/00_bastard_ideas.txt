@@ -815,7 +815,7 @@ AFG_ideas = {
 		diplomatic_reputation = 1
 	}
 	durrani_imperialism = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	institutionalized_loya_jirga = {
 		legitimacy = 1
@@ -1888,7 +1888,7 @@ ROM_ideas = {
 MOR_ideas = {
 	start = {
 		naval_forcelimit_modifier = 0.25
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	bonus = {
 		shock_damage = 0.1
@@ -1990,7 +1990,7 @@ MAM2_ideas = { #Mission reward to double mam_monopoly_ports // see mam_establish
 		manpower_recovery_speed = 0.15
 	}
 	purchase_new_mamelukes = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	mam_army_reform = {
 		discipline = 0.05
@@ -2029,7 +2029,7 @@ MAM_ideas = {
 		manpower_recovery_speed = 0.15
 	}
 	purchase_new_mamelukes = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	
 	reform_fellah_system = {
@@ -2108,7 +2108,7 @@ TUR_ideas = {
 		manpower_recovery_speed = 0.15
 	}		
 	timariot_system = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	autonmous_pashas = {
 		global_unrest = -2
@@ -2128,7 +2128,7 @@ TUR_ideas = {
 
 HUN_ideas = {
 	start = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 		recover_army_morale_speed = 0.10
 	}
 	
@@ -2802,7 +2802,7 @@ AYU_ideas = {
 		development_cost = -0.1
 	}
 	white_elephant = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	trading_links = {
 		diplomatic_reputation = 1
@@ -2824,7 +2824,7 @@ AVA_ideas = {
 	}
 	
 	bonus = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	
 	trigger = {

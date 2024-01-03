@@ -153,9 +153,9 @@ country_decisions = {
 		color = { 166  0  0 }
 		potential = { 
 			ai = no
-			NOT = { has_country_modifier = echo_provincial_investment_cmod }
 		}
 		allow = {
+			NOT = { has_country_modifier = echo_provincial_investment_cmod }
 			is_at_war = no
 			any_owned_province = {
 				base_production = 10
