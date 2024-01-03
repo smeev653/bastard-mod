@@ -8,7 +8,7 @@ fixed_capital = 341 # Cannot move capital away from this province & no power cos
 religious_school = maliki_school
 add_truce_with = GRA
 add_truce_with = SIC
-
+historical_rival = GRA
 change_estate_land_share = {
 	estate = estate_nobles
 	share = 10

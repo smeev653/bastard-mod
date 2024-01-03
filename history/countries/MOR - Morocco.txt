@@ -9,6 +9,7 @@ religious_school = maliki_school
 add_truce_with = GRA
 add_truce_with = CAS
 add_truce_with = POR
+historical_rival = GRA
 change_estate_land_share = {
 	estate = estate_nobles
 	share = 5
