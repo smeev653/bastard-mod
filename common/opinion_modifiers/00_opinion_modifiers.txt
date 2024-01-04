@@ -731,8 +731,8 @@ broke_march = {
 
 
 violated_tordesillas = {
-	opinion = -50
-	yearly_decay = 1
+	#opinion = -50
+	#yearly_decay = 1
 }
 
 ##############
