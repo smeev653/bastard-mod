@@ -574,7 +574,7 @@ base_values = {
 	vassal_income = 0.10
 	horde_unity = -2
 	devotion = -0.5
-	meritocracy = -2
+	meritocracy = -1
 	governing_capacity = 200
 	num_accepted_cultures = 2
 	monthly_splendor = 1
@@ -655,7 +655,7 @@ positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
 }
 
 negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mandate
-	meritocracy = -2
+	meritocracy = -1
 	reduced_liberty_desire = -30
 	global_trade_goods_size_modifier = -0.5
 	fire_damage_received = 0.5
@@ -1019,7 +1019,7 @@ devotion = {
 # Multiplied by current meritocracy - 50
 meritocracy = {
 	global_spy_defence = 1.0
-	advisor_cost = -0.5
+	advisor_cost = -0.2
 	reform_progress_growth = 0.5
 }
 
