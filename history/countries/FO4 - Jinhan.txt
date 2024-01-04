@@ -7,3 +7,4 @@ primary_culture = korean
 capital = 2745
 fixed_capital = 2745
 add_truce_with = MJZ
+historical_rival = MJZ
