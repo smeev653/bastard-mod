@@ -194,7 +194,7 @@ age_of_discovery = {
 					tag = POR				
 			}
 			modifier = {
-				global_colonial_growth = 35
+				global_colonial_growth = 15
 				fire_damage = 0.1
 			}
 			ai_will_do = {

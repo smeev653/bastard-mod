@@ -65,7 +65,18 @@ Tortilla_workaround = {
 	}
 	global_colonial_growth = 20
 }
+Tortilla_workaround_POR = {
+	potential = {
+		ai = no
+		tag = POR
+		religion = catholic
+	}
+	
 
+	trigger = {		
+	}
+	global_colonial_growth = -20
+}
 Minor = {
 	potential = {
 	OR = {
