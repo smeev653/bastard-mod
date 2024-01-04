@@ -6061,6 +6061,7 @@ peg_devotion = {
 
 siam_mandala_modifier = {
 	vassal_income = 0.33
+	development_cost_in_primary_culture = -0.1
 }
 
 siam_monument_modifier = {
@@ -6069,7 +6070,8 @@ siam_monument_modifier = {
 }
 
 siam_best_city_modifier = {
-	development_cost = -0.05
+	development_cost_in_primary_culture = -0.1
+	vassal_income = 0.15
 }
 
 siam_trade = {
