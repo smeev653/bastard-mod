@@ -1200,14 +1200,13 @@ cb_revoke_electorate = {
 # When someone is privateering in a node that you trade and have some power in.
 cb_privateers = {
 	prerequisites_self = {
-			FROM = {ai = yes }
+		is_revolutionary = no
 	}
 
 	prerequisites = {
 		FROM = {
 			has_privateers = yes
 		}
-		FROM = {ai = yes }
 		or = {
 			home_trade_node = {
 				trade_share = {
