@@ -4,7 +4,13 @@ technology_group = nomad_group
 primary_culture = manchu
 religion = tengri_pagan_reformed
 capital = 2111
-
+historical_rivals = FO1
+historical_rivals = FO2
+historical_rivals = FO3
+historical_rivals = FO4
+historical_rivals = FO5
+historical_rivals = FO6
+historical_rivals = FO7
 1399.1.1 = {
 	monarch = {
 		name = "Bukuri Yongson"
