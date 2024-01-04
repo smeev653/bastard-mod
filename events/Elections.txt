@@ -163,11 +163,11 @@ country_event = {
 				limit = {
 					has_country_flag = increased_election_cost
 				}
-				add_scaled_republican_tradition = -20
+				add_scaled_republican_tradition = -25
 				clr_country_flag = increased_election_cost
 			}
 			else = {
-				add_scaled_republican_tradition = -15
+				add_scaled_republican_tradition = -20
 			}
 		}
 		random_list = {
