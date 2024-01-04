@@ -56,10 +56,12 @@ Tortilla_workaround = {
 	
 
 	trigger = {	
-		has_opinion_modifier = {
-		who = ROOT
-		modifier = violated_tordesillas
-		}
+		PAP = {
+			has_opinion_modifier = {
+			who = ROOT
+			modifier = violated_tordesillas
+			}
+		}	
 	}
 	global_colonial_growth = 20
 }
