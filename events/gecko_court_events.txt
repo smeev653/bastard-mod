@@ -50,6 +50,7 @@ country_event = {
 	}
 	option = { #Promote colonial expansion
 		trigger = {
+			NOT = {is_colonial_nation = yes}
 			OR = {
 				capital_scope = {
 					NOT = {

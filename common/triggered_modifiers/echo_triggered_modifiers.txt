@@ -68,12 +68,15 @@ Tortilla_workaround = {
 Tortilla_workaround_POR = {
 	potential = {
 		ai = no
-		tag = POR
-		religion = catholic
+		OR = {
+			tag = POR
+			overlord = {tag = POR}
+		}	
 	}
 	
 
-	trigger = {		
+	trigger = {	
+		religion = catholic
 	}
 	global_colonial_growth = -20
 }

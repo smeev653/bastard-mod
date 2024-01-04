@@ -384,6 +384,7 @@ estate_burghers_new_world_charter = {
 	
 	influence = 0.05
 	is_valid = {
+		NOT = { is_colonial_nation = yes }
 		OR = {
 			num_of_colonists = 1
 			num_of_colonies = 1
