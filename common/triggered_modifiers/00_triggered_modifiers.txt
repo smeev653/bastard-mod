@@ -791,7 +791,7 @@ golden_age_of_piracy = {
 	}
 	trigger = {
 		1563 = {
-			light_ships_in_province  = ROOT
+			has_merchant = PREV
 		}
 	}
 	privateer_efficiency = 0.25
