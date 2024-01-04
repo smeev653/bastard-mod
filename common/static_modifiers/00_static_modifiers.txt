@@ -975,7 +975,7 @@ negative_karma = {
 
 # Multiplied by Development/COUNTRY_DEVELOPMENT_SCALE
 country_development = {
-	#horde_unity = -3
+	horde_unity = -3
 }
 
 # Multiplied by current Legitimacy - 50

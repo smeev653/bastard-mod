@@ -31,7 +31,7 @@ Steppe_rule = {
 		current_age = age_of_discovery
 	}
 	cav_to_inf_ratio = 0.25
-	horde_unity = 2
+	horde_unity = 5
 }
 Steppe_rule_2 = {
 	potential = {
@@ -46,7 +46,7 @@ Steppe_rule_2 = {
 		religion = tengri_pagan_reformed
 		current_age = age_of_discovery
 	}
-	horde_unity = 2
+	horde_unity = 5
 }
 
 Minor = {
