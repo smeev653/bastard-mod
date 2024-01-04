@@ -139,7 +139,7 @@ declarewar = {
 		}
 		allow = {
 			FROM = { total_development = 300 }
-			FROM = { capital_scope = { superregion = tartary_superregion } } 
+			FROM = { is_nomad = yes }
 		}
 	}
 	#condition = {
@@ -773,6 +773,7 @@ tributary_state_action = {
 	condition = {
 		potential = {
 			ai = no
+			is_emperor_of_china = yes
 		}
 		allow = {
 			OR = {
