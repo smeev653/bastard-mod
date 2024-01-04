@@ -157,7 +157,6 @@ mnd_siam_2 = {
 			}
 		}
 		effect = {
-			custom_tooltip = japanese_mercs_flag
 			define_general = {
 				shock = 5
 				fire = 4
@@ -291,7 +290,7 @@ mnd_siam_3 = {
 		}
 		trigger = {
 			is_monarch_leader = yes
-			army_size = 0.8
+			army_size_percentage = 0.8
 		}
 		effect = {
 			if = {
