@@ -427,10 +427,6 @@ tau_slot_2 = {
 		}
 		effect = {
 			set_government_rank = 3
-			add_country_modifier = {
-				name = "b_burma_disc"
-				duration = -1
-			}
 			if = {
 				limit = {
 					NOT = { any_country = { has_country_flag = is_burma } }
@@ -699,6 +695,10 @@ tau_slot_3 = {
 			}
 		}
 		effect = {
+			add_country_modifier = {
+				name = "b_burma_disc"
+				duration = -1
+			}
 			add_country_modifier = {
 				name = "tau_elephant_battle"
 				duration = 7300
