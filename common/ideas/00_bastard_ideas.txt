@@ -986,47 +986,7 @@ PR2_ideas = {
         manpower_recovery_speed = 0.2
     }
 }
-NED_ideas = {
-	start = {
-		leader_land_fire = 1
-		global_manpower_modifier = 0.25
-	}
-	
-	bonus = {
-		artillery_fire = 0.5
-	}
 
-	trigger = {
-		OR = {
-			tag = NED
-			tag = HOL
-		}
-	}
-	free = yes		#will be added at load.
-	
-	amsterdam_wisselbank = {
-		interest = -0.25
-	}
-	dutch_trading_spirit = {
-		merchants = 1
-		trade_efficiency = 0.1
-	}
-	polders = {
-		development_cost = -0.05
-	}
-	instructie_voor_de_admiraliteiten = {
-		allowed_marine_fraction = 0.25
-	}
-	embrace_humanism = {
-		land_morale = 0.1
-	}
-	army_sappers = {
-		siege_ability = 0.15
-	}
-	platoon_fire = {
-		fire_damage = 0.15
-	}
-}
 
 FRA_ideas = {
 	start = {
@@ -1202,6 +1162,47 @@ LOT_ideas = {
 	}
 	lot_european_empire = {
 		core_creation = -0.15
+	}
+}
+NED_ideas = {
+	start = {
+		leader_land_fire = 1
+		global_manpower_modifier = 0.25
+	}
+	
+	bonus = {
+		artillery_fire = 0.5
+	}
+
+	trigger = {
+		OR = {
+			tag = NED
+			tag = HOL
+		}
+	}
+	free = yes		#will be added at load.
+	
+	amsterdam_wisselbank = {
+		interest = -0.25
+	}
+	dutch_trading_spirit = {
+		merchants = 1
+		trade_efficiency = 0.1
+	}
+	polders = {
+		development_cost = -0.05
+	}
+	instructie_voor_de_admiraliteiten = {
+		allowed_marine_fraction = 0.25
+	}
+	embrace_humanism = {
+		land_morale = 0.1
+	}
+	army_sappers = {
+		siege_ability = 0.15
+	}
+	platoon_fire = {
+		fire_damage = 0.15
 	}
 }
 POR_ideas = {
