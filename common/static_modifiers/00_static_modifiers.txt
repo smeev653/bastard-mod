@@ -1453,9 +1453,9 @@ private_enterprise_overlord = {
 }
 
 self_governing_colony_overlord = {
-	#merchants = 1
-	#global_trade_power = 0.05
-	#global_tariffs = -0.10
+	merchants = 1
+	global_trade_power = 0.05
+	global_tariffs = -0.10
 }
 
 crown_colony_subject = {
@@ -1472,7 +1472,7 @@ private_enterprise_subject = {
 
 self_governing_colony_subject = {
 	colonists = 1
-	development_cost = -0.15
+	development_cost = -0.1
 	liberty_desire = 25
 }
 

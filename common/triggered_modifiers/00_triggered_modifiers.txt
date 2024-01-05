@@ -794,6 +794,7 @@ golden_age_of_piracy = {
 			has_merchant = PREV
 		}
 	}
+	merchants = 1
 	privateer_efficiency = 0.25
 	treasure_fleet_income = 0.25
 }
