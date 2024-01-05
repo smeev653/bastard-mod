@@ -6,6 +6,7 @@ Splendid_Court= {
 	
 
 	trigger = {
+		NOT = {is_colonial_nation = yes }
 		is_at_war = no
 		OR = {
 			has_adm_advisor_3 = yes

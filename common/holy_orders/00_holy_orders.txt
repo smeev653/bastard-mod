@@ -5,6 +5,7 @@ benedictines = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -42,6 +43,7 @@ carthusians = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -79,6 +81,7 @@ hieronymites = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -116,6 +119,7 @@ jesuit_order = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 			#has_country_flag = enable_jesuit_order_flag
@@ -157,6 +161,7 @@ augustinians = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -194,6 +199,7 @@ carmelites = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -231,6 +237,7 @@ dominican_order = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -288,6 +295,7 @@ franciscan_order = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -333,6 +341,7 @@ alcantara_order = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -374,6 +383,7 @@ avis_order = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -415,6 +425,7 @@ calatrava_order = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -457,6 +468,7 @@ montesa_order = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -499,6 +511,7 @@ san_juan_order = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -548,6 +561,7 @@ santiago_order = {
 			AND = { 
 				culture_group = iberian
 				religion = catholic
+				NOT = {is_colonial_nation = yes }
 			}
 			has_country_flag = enable_holy_orders_flag 
 		}
@@ -587,6 +601,7 @@ shadhili_order = {
 			  primary_culture = tunisian
               has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
         }
+		NOT = {is_colonial_nation = yes }
         religion_group = muslim
     }
     color = { 80 255 120 }
@@ -629,6 +644,7 @@ qadiri_order = {
 			  primary_culture = tunisian
               has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
         }
+		NOT = {is_colonial_nation = yes }
         religion_group = muslim
     }
     color = { 170 230 30 }
@@ -650,7 +666,7 @@ qadiri_order = {
     }
     modifier = {
         local_culture_conversion_cost = -0.3
-        local_build_cost = -0.1
+        local_development_cost_modifier = -0.1
     }
     ai_priority = {
         factor = 1
@@ -671,6 +687,7 @@ aissawa_order = {
 			  primary_culture = tunisian
               has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
         }
+		NOT = {is_colonial_nation = yes }
         religion_group = muslim
     }
     color = { 255 170 30 }
