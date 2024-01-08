@@ -169,6 +169,7 @@ country_decisions = {
 
 	enforce_hangeul_alphabet_decision = {
 		potential = {
+			always = no
 			has_government_attribute = has_hangeul_alphabet_decisions
 			NOT = { has_country_modifier = hangeul_alphabet }
 		}
