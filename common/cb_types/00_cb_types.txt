@@ -768,9 +768,10 @@ cb_colonial = {
 		po_return_cores
 		po_become_vassal
 		po_subjugate_vassal
+		po_change_religion
+		po_form_personal_union
 		po_become_tributary_state
 		po_subjugate_tributary_state
-		po_form_personal_union
 		po_transfer_vassals
 		po_gold
 		po_concede_defeat
@@ -778,8 +779,10 @@ cb_colonial = {
 		po_trade_power
 		po_steer_trade
 		po_humiliate
+		po_enforce_rebel_demands
+		po_revoke_elector
+		po_change_government
 	}
-}
 
 # Liberation CB
 cb_liberation = {
