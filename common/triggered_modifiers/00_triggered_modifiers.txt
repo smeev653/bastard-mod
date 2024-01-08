@@ -791,8 +791,11 @@ golden_age_of_piracy = {
 	}
 	trigger = {
 		1563 = {
-			has_merchant = PREV
-		}
+			has_privateer_share_in_trade_node = {
+			who = ROOT
+			share = 10
+			}
+		}	
 	}
 	merchants = 1
 	privateer_efficiency = 0.25
