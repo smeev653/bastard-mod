@@ -61,7 +61,7 @@ adult_baptism_aspect = {
 		}
 	}
 	modifier = { 
-		global_missionary_strength = 0.01
+		manpower_recovery_speed = 0.15
 	}
 	ai_will_do = {
 		factor = 12
