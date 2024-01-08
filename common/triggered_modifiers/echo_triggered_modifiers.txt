@@ -617,3 +617,23 @@ Stop_the_raids = {
 	navy_tradition = 0.5
 	army_tradition = 0.5
 }
+
+asian_colonising = {
+	potential = {
+		num_of_ports = 1
+		NOT = {
+			capital_scope = {
+				continent = oceania
+			}
+		}
+	}
+
+	trigger = {
+		num_of_ports = 4
+		OR = {
+			1997 = { has_merchant = ROOT } #Polynesian
+		}
+	}
+
+	merchants = 1
+}
