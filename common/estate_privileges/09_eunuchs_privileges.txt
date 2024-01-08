@@ -194,7 +194,7 @@ estate_eunuchs_western_bureau_privilege = {
 	can_select = { }
 	influence = 0.05
 	benefits = { 
-		imperial_mandate = 0.02
+		imperial_mandate = 0.05
 		reform_progress_growth = 0.1
 	}
 	penalties = {
@@ -217,7 +217,7 @@ estate_eunuchs_eastern_bureau_privilege = {
 	can_select = { }
 	influence = 0.05
 	benefits = { 
-		imperial_mandate = 0.03
+		imperial_mandate = 0.05
 		meritocracy = 0.1
 	}
 	penalties = {
