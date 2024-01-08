@@ -783,7 +783,7 @@ cb_colonial = {
 		po_revoke_elector
 		po_change_government
 	}
-
+}
 # Liberation CB
 cb_liberation = {
 
@@ -1465,7 +1465,6 @@ cb_chinese_unification = {
 			NOT = { has_country_modifier = the_mandate_of_heaven }
 			is_emperor_of_china = no
 		}
-		is_neighbor_of = FROM
 	}
 
 	attacker_disabled_po = {
