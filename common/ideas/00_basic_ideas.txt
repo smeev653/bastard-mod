@@ -931,7 +931,7 @@ theocracy_gov_ideas = {
 	category = MIL
 	
 	bonus = {
-		development_cost = -0.05
+		leader_land_shock = 1
 		church_loyalty_modifier = 0.1
 		brahmins_hindu_loyalty_modifier = 0.1
 		brahmins_muslim_loyalty_modifier = 0.1
@@ -963,10 +963,11 @@ theocracy_gov_ideas = {
 		missionaries = 1
 		devotion = 1
 		legitimacy = 0.5
+		development_cost = -0.05
 	}
 	martyrs = {
 		manpower_in_true_faith_provinces = 0.15
-		infantry_fire = 0.1
+
 	}
 	ai_will_do = {
 		factor = 3.75
