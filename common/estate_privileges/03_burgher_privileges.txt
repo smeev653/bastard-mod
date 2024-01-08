@@ -391,7 +391,7 @@ estate_burghers_new_world_charter = {
 		}
 	}
 	penalties = {
-		global_tariffs = -0.25
+		global_tariffs = -0.1
 	}
 	benefits = {
 		global_colonial_growth = 25
