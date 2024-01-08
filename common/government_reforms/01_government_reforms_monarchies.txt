@@ -403,7 +403,6 @@ indep_daimyo = {
 	icon = "samurai"
 	allow_normal_conversion = no
 	potential = {
-		always = no
 		NOT = { has_country_flag = formed_japan_flag }
 		OR = {
 			AND = {
@@ -2749,6 +2748,11 @@ mughal_government = {
 			iqta_mechanic
 		}
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 }
 
 revolutionary_empire_reform = {
@@ -4611,6 +4615,11 @@ khalsa_reform = {
 	potential = {
 		has_dlc = "Dharma"
 		religion = sikhism
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
 	}
 	modifiers = {
 		tolerance_heathen = 1
