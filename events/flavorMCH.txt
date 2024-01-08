@@ -464,16 +464,11 @@ country_event = {
 				has_dlc = "Mandate of Heaven"
 
 			}
-			add_mandate = -50
+			add_mandate = -10
 		}
 		else = {
 			add_horde_unity = -50
 			add_legitimacy = -50
-		}
-		tooltip = {
-			FROM = {
-				grant_independence = yes
-			}
 		}
 	}
 }
