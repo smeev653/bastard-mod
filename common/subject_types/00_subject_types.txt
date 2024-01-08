@@ -584,7 +584,7 @@ colony = {
 	diplomacy_subject_sprite = GFX_diplomacy_subjectcolony
 
 	# Properties:
-	can_release_and_play = yes
+	can_release_and_play = no
 	uses_tariffs = yes
 	eats_overlords_colonies = yes
 	has_colonial_parent = yes
@@ -596,7 +596,6 @@ colony = {
 	overlord_enforce_peace_attacking = yes
 	can_transfer_in_peace = no
 	press_sailors = yes
-	transfer_trade_power = yes
 	can_concentrate_development = no
 	extend_trading_range = yes
 
@@ -635,7 +634,7 @@ colony = {
 	increase_tariffs = yes
 	decrease_tariffs = yes
 	enforce_culture = yes
-
+	divert_trade = yes
 	# Modifiers:
 	modifier_overlord = {
 		modifier = large_colonial_nation
@@ -1105,7 +1104,7 @@ commercial_enterprise = {
 	block_settlement_growth = yes
 	allow_settlement_growth = yes
 	upgrade_subject_type = yes
-	can_release_and_play = yes							# "Release Colony" in SubjectView
+	can_release_and_play = no							# "Release Colony" in SubjectView
 
 	# Modifiers:
 	modifier_overlord = {

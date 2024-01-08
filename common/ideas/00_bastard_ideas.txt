@@ -2483,7 +2483,7 @@ colonial_ideas = {
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		land_morale = -0.10
 	}
 	
 	trigger = {
