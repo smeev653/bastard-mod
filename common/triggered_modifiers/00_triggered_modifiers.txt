@@ -793,7 +793,7 @@ golden_age_of_piracy = {
 		1563 = {
 			has_privateer_share_in_trade_node = {
 			who = ROOT
-			share = 1
+			share = 0.1
 			}
 		}	
 	}
