@@ -315,6 +315,19 @@ allianceaction = {
 		}
 	}
 	condition = {
+		tooltip = bastard_mng_cant_ally_non_trib_horde
+		potential = {
+			ROOT = { tag = MNG }
+		}
+		allow = {
+			FROM = {
+				NOT = {
+					is_nomad = yes
+				}
+			}
+		}
+	}
+	condition = {
 		tooltip = PIRATE_DENIED_ALLIANCE
 		potential = {
 			has_government_attribute = cannot_ally_non_pirates
