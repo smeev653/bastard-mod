@@ -92,7 +92,8 @@
  Steppe_rule:0 "Steppe Rule: Islam"
  Steppe_rule_2:0 "Steppe Rule: Tengri"
  asian_colonising:0 "New World Ventures"
-
+ Tortilla_workaround:0 "Treaty of Tordesillas"
+ Tortilla_workaround_POR:0 "Treaty of Tordesillas"
  #Centers of Trade
  regional_port:0 "Regional Port"
  regional_port_desc:0 ""
