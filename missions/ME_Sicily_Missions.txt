@@ -1555,14 +1555,6 @@ sicily_mission_5 = {
 					has_forcelimit_building_trigger = yes
 				}
 			}
-			151 = {
-				country_or_non_sovereign_subject_holds = ROOT
-				base_manpower = 10
-				OR = {
-					has_manpower_building_trigger = yes
-					has_forcelimit_building_trigger = yes
-				}
-			}
 		}
 		effect = {
 			add_country_modifier = {
