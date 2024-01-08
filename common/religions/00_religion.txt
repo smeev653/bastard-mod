@@ -759,8 +759,7 @@ christian = {
 			}
 	
 			icon_nicholas = {
-				improve_relation_modifier = 0.25
-				ae_impact = -0.1
+				global_tax_modifier = 0.2
 				
 				visible = {
 					always = yes
