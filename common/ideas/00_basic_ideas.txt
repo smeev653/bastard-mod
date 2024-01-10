@@ -19,7 +19,7 @@ innovativeness_ideas = {
 	}
 	scientific_revolution = {
 		technology_cost = -0.1
-		embracement_cost = -0.1
+		embracement_cost = -0.25
 	}
 	empiricism = {
 		reform_progress_growth = 0.25
@@ -43,6 +43,7 @@ innovativeness_ideas = {
 	}
 	expanded_policies = {
 		possible_policy = 1
+		free_policy = 1
 	}
 
 	ai_will_do = {
