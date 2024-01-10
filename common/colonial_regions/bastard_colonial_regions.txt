@@ -23,7 +23,9 @@ colonial_alaska = {
 	religion = {
 		shamanism = 10
 	}
-
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
 	provinces = {
 		979 978 977 976 975 974 972 2022 2609 2610 2611 2612 2613
 		2481 2482 2483 872 2019 2020 2489 2490 2486 2487 2488 873 2484 2485 874 2604 2605 2606 2607
