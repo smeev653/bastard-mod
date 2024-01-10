@@ -832,7 +832,7 @@ SIC_ideas = {
 	}
 	sic_greater_sicily = {
 		cavalry_power = 0.1
-		infantry_power = 0.1
+		infantry_power = 0.05
 	}
 }
 

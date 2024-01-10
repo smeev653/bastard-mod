@@ -348,7 +348,7 @@ administrative_ideas = {
 		reform_progress_growth = 0.25
 	}
 	civil_servants = {
-		advisor_cost = -0.2
+		advisor_cost = -0.15
 	}
 	administrative_council = {
 		mercenary_manpower = 0.1
