@@ -348,7 +348,7 @@ administrative_ideas = {
 		reform_progress_growth = 0.25
 	}
 	civil_servants = {
-		advisor_cost = -0.15
+		advisor_cost = -0.2
 	}
 	administrative_council = {
 		mercenary_manpower = 0.1
@@ -363,7 +363,7 @@ administrative_ideas = {
 		state_maintenance_modifier = -0.25
 	}
 	cultural_regulations = {
-		development_cost_in_primary_culture = -0.1
+		development_cost = -0.05
 	}
 	resilient_state = {
 		manpower_recovery_speed = 0.10
@@ -432,7 +432,6 @@ infrastructure_ideas = {
 	}
 	administrative_efficiency_idea = {
 		state_governing_cost = -0.15
-		centralize_state_cost = -0.2
 	}
 	fort_logistics = {
 		fort_maintenance_modifier = -0.25
