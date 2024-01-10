@@ -8824,7 +8824,7 @@ mjz_eight_banners_modifier = {
 }
 
 mch_seven_grievances_declaration_modifier = {
-	global_attacker_dice_roll_bonus = 1 
+	#global_attacker_dice_roll_bonus = 1 
 	siege_ability = 0.2
 }
 
