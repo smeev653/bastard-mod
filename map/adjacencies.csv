@@ -11,6 +11,17 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 130;4753;sea;1308;-1;-1;-1;-1;Istria-Zara
 28;36;sea;1254;-1;-1;-1;-1;Nyland-Reval
 3;25;sea;1255;-1;-1;-1;-1;Kalmar-Gotland
+982;981;sea;1491;-1;-1;-1;-1;Unamakik-Taqamkuk  
+493;1881;sea;1523;-1;-1;-1;-1;St. Martin-St. Thomas 
+496;497;sea;1523;-1;-1;-1;-1;Guadelupe-Dominica 
+488;487;sea;1516;-1;-1;-1;-1;Jamaica-Zui 
+500;502;sea;1522;-1;-1;-1;-1;Trinidad-St. Vincent 
+501;499;sea;1522;-1;-1;-1;-1;Barbados-St. Lucia 
+1881;494;sea;1523;-1;-1;-1;-1;St. Martin-St. Kitts 
+492;493;sea;1526;-1;-1;-1;-1;St. Thomas-Boriken 
+492;4621;sea;1526;-1;-1;-1;-1;Boriken-Higuey 
+483;2654;sea;1524;-1;-1;-1;-1;Baracoa-Turks Islands 
+2654;489;sea;1516;-1;-1;-1;-1;Baracoa-Tortuga 
 333;4559;sea;1300;-1;-1;-1;-1;Majorca-Minorca
 4560;333;sea;1295;-1;-1;-1;-1;Ibiza-Majorca
 366;4565;sea;1471;-1;-1;-1;-1;Canaries
