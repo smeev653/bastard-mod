@@ -95,7 +95,8 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		culture_conversion_cost = -0.20
+		culture_conversion_cost = -0.2
+		culture_conversion_time = -0.2
 		brahmins_hindu_loyalty_modifier = 0.1
 		church_loyalty_modifier = 0.1
 	}
@@ -115,6 +116,7 @@ religious_ideas = {
 		global_missionary_strength = 0.02
 		prestige_per_development_from_conversion = 0.5
 		monthly_piety_accelerator = 0.01
+		years_of_nationalism = -10
 	}
 	devoutness = {
 		tolerance_own = 2
@@ -126,6 +128,7 @@ religious_ideas = {
 	}
 	religious_tradition = {
 		yearly_government_power = 1.5
+		curia_powers_cost = -0.2
 		prestige = 1
 	}
 	inquisition = {
@@ -951,6 +954,7 @@ theocracy_gov_ideas = {
 	alpha_and_omega = {
 		warscore_cost_vs_other_religion = -0.05
 		culture_conversion_cost = -0.15
+		culture_conversion_time = -0.15
 	}
 	friends_in_high_places = {
 		leader_cost = -0.15

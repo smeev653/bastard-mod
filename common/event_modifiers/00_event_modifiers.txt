@@ -12910,6 +12910,7 @@ estate_church_united_faith_and_culture = {
 estate_church_false_culture = {
 	local_unrest = 3
 	local_culture_conversion_cost = -0.25
+	local_culture_conversion_time = -0.15
 	picture = "global_unrest_opposite"
 }
 
