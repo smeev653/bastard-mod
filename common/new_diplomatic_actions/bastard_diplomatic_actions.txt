@@ -20,14 +20,8 @@ bastard_convert_trib_to_vassal = {
 		}
 		dip_power = 50
 		mission_completed = tau_build_palace
-		if = {
-			limit = {
-				FROM = { liberty_desire = 50 }
-			}
-			custom_trigger_tooltip = {
-				tooltip = FROM_IS_REBELLIOUS_TT
-				FROM = { liberty_desire = 50 }
-			}
+		NOT = {
+			FROM = { liberty_desire = 50 }
 		}
 	}
 	on_accept = {
@@ -36,7 +30,7 @@ bastard_convert_trib_to_vassal = {
 			subject = FROM
 			keep_liberty_desire = yes
 		}
-		ROOT  = {
+		ROOT = {
 			add_dip_power = -50
 		}	
 	}
