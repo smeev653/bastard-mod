@@ -1110,8 +1110,8 @@ defensive_ideas = {
 		max_hostile_attrition = 1 
 	}
 	ditch_defense = {
-		garrison_damage = 0.5
-		garrison_size = 0.25
+		garrison_damage = 0.25
+		garrison_size = 0.5
 		may_refill_garrison = yes
 	}
 	terrain_defence = {
