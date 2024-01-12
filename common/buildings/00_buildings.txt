@@ -1247,7 +1247,7 @@ training_fields = {
 		local_manpower_modifier = 1
 	}
 	bonus_modifier = {
-		land_manpower = 0.25
+		local_manpower = 0.25
 	}
 	bonus_manufactory = { # Will apply an extra modifier if these goods
 		livestock
