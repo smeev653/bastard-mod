@@ -2717,7 +2717,10 @@ ahmudan_system_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Domination"
+		OR = {
 		culture_group = burman
+		culture_group = thai_group
+		}
 	}
 	trigger = {
 		if = {
