@@ -13321,7 +13321,7 @@ council_of_the_chamber_mod = {
 
 council_of_finance_mod = {
 	inflation_reduction = 0.05
-	interest = -0.25
+	interest = -0.5
 }
 
 council_of_the_inquisition_mod = {
@@ -13347,11 +13347,11 @@ council_of_the_crusade_mod = {
 }
 
 council_of_military_orders_mod = {
-	army_tradition = 1
+	army_tradition = 0.5
 }
 
 council_of_the_armada_mod = {
-	navy_tradition = 1
+	navy_tradition = 0.5
 }
 
 rallied_volunteers_level_1 = {

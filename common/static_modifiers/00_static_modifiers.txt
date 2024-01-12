@@ -2321,18 +2321,6 @@ slackening_modifier = {
 	reinforce_cost_modifier = -0.1
 }
 
-royal_council_meeting_mod = {
-	country_admin_power = 1
-}
-
-state_council_meeting_mod = {
-	country_diplomatic_power = 1
-}
-
-war_council_meeting_mod = {
-	country_military_power = 1
-}
-
 average_overseas_subject_liberty_desire = { #only counts subjects with capitals on different continents than yours, 100% LD => 100% modifier
 
 }
