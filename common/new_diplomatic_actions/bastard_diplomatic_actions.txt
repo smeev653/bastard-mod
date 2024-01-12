@@ -34,6 +34,7 @@ bastard_convert_trib_to_vassal = {
 				OR = {
 					tag = AYU
 					tag = SIA
+				}	
 			}
 			mission_completed = mnd_siam_devaraja
 		}

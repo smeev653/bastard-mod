@@ -7799,9 +7799,6 @@ inukshuk = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			num_accepted_cultures = 1
-			overlord = {
-				num_accepted_cultures = 1
-			}
 		}
 
 		#what effects happen when this tier is achieved
@@ -7832,10 +7829,6 @@ inukshuk = {
 		country_modifiers = {
 			num_accepted_cultures = 1
 			same_culture_advisor_cost = -0.15
-			overlord = {
-				num_accepted_cultures = 1
-				same_culture_advisor_cost = -0.15
-			}
 		}
 
 		#what effects happen when this tier is achieved
@@ -7864,11 +7857,6 @@ inukshuk = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			overlord = {
-							num_accepted_cultures = 2
-							same_culture_advisor_cost = -0.2
-							promote_culture_cost = -0.15
-						}
 			num_accepted_cultures = 2
 			same_culture_advisor_cost = -0.2
 			promote_culture_cost = -0.15
