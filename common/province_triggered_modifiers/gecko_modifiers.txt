@@ -687,7 +687,7 @@ conquest_of_pest = {
 					value = 0.31
 					}
 				}
-				alfold_area = {
+				transdanubia_area = {
 					type = all
 					country_or_non_sovereign_subject_holds = PREV
 				}	
