@@ -1762,7 +1762,7 @@ high_harmony = {
 	meritocracy = 1
 	legitimacy = 0.5
 	devotion = 1
-	harmonization_speed = 0.5
+	harmonization_speed = 1
 	yearly_corruption = -0.5
 }
 
