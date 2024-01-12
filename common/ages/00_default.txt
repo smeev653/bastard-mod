@@ -556,7 +556,7 @@ age_of_reformation = {
 				}
 			}
 			modifier = {
-				manpower_in_true_faith_provinces = 0.2
+				development_cost_in_primary_culture = -0.2
 			}
 			ai_will_do = {
 				factor = 100
@@ -723,18 +723,52 @@ age_of_absolutism = {
 		ab_dutch_trade = {
 			allow = {
 				OR = {
-					tag = DLH
-					tag = HIN
-					tag = BHA
+					culture_group = central_indic
+					culture_group = dravidian
+					culture_group = western_aryan
+					culture_group = hindusthani
+					culture_group = eastern_aryan
 				}	
 			}
 			modifier = {
-				artillery_power = 0.1
+				administrative_efficiency = 0.1
 			}
 			ai_will_do = {
 				factor = 100
 			}
-		}	
+		}
+		ab_million_rice_fields = {
+			allow = {
+				OR = {
+					culture_group = burman
+					culture_group = malay
+					culture_group = thai_group
+				}
+			}
+			modifier = {
+				land_forcelimit_modifier = 0.2
+				global_manpower_modifier = 0.2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_bushido = {
+			allow = {
+				OR = {
+					culture_group = japanese_g
+					culture_group = korean_g
+					tag = JAP
+					tag = KOR
+				}
+			}
+			modifier = {
+				land_morale = 0.1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
 		ab_sweden_manpower = {
 			allow = {
 				OR = {

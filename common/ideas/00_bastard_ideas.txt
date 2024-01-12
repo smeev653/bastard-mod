@@ -2486,7 +2486,7 @@ TUN_ideas = {
 
 TUN_improved_ideas = {
 	start = {
-		development_cost_in_primary_culture = -0.05
+		development_cost_in_primary_culture = -0.1
 		navy_tradition = 1		
 	}
 	bonus = {

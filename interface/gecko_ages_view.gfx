@@ -46,6 +46,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/ab_minor_building_dev.dds"
 	}
 	spriteType = {
+		name = "GFX_ab_million_rice_fields"
+		texturefile = "gfx/interface/ages/ab_million_rice_fields.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_dutch_trade"
+		texturefile = "gfx/interface/ages/ab_dutch_trade.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_bushido"
+		texturefile = "gfx/interface/ages/ab_bushido.dds"
+	}
+	spriteType = {
 		name = "GFX_ab_improved_weaponry1"
 		texturefile = "gfx/interface/ages/ab_improved_weaponry.dds"
 	}
