@@ -12,7 +12,7 @@ benedictines = {
 		religion_group = christian
     }
     color = { 141 153 119 }
-    cost = 50
+    cost = 75
     cost_type = adm_power
     per_province_effect = {
         add_base_tax = 1
@@ -50,7 +50,7 @@ carthusians = {
 		religion_group = christian
     }
     color = { 35 113 186 } 
-    cost = 50
+    cost = 75
     cost_type = adm_power
     per_province_effect = {
         add_base_tax = 1
@@ -88,7 +88,7 @@ hieronymites = {
 		religion_group = christian
     }
     color = { 174 178 193 }
-    cost = 50
+    cost = 75
     cost_type = adm_power
     per_province_effect = {
         add_base_tax = 1
@@ -127,8 +127,8 @@ jesuit_order = {
 		religion_group = christian
     }
     color = { 255 240 200 }
-    cost = 50
-    cost_type = adm_power
+    cost = 75
+    cost_type = dip_power
     per_province_effect = {
         add_base_production = 1
     }
@@ -142,7 +142,7 @@ jesuit_order = {
         }
     }
     modifier = {
-		local_development_cost_modifier = -0.1
+		local_development_cost_modifier = -0.05
     }
     ai_priority = {
         factor = 2
@@ -168,7 +168,7 @@ augustinians = {
 		religion_group = christian
     }
     color = { 19 79 44 } 
-    cost = 50
+    cost = 75
     cost_type = dip_power
     per_province_effect = {
         add_base_production = 1
@@ -206,7 +206,7 @@ carmelites = {
 		religion_group = christian
     }
     color = { 54 216 132 } 
-    cost = 50
+    cost = 75
     cost_type = dip_power
     per_province_effect = {
         add_base_production = 1
@@ -244,7 +244,7 @@ dominican_order = {
 		religion_group = christian
     }
     color = { 200 100 255 }
-    cost = 50
+    cost = 75
     cost_type = dip_power
     per_province_effect = {
         add_base_production = 1
@@ -302,7 +302,7 @@ franciscan_order = {
 		religion_group = christian
     }
     color = { 110 190 240 }
-    cost = 50
+    cost = 75
     cost_type = dip_power
     per_province_effect = {
         add_base_production = 1
@@ -352,7 +352,7 @@ alcantara_order = {
 		}
     }
     color = { 71 41 0 } 
-    cost = 50
+    cost = 75
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 1
@@ -395,7 +395,7 @@ avis_order = {
 		}
     }
     color = { 65 77 86 }
-    cost = 50
+    cost = 75
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 1
@@ -438,7 +438,7 @@ calatrava_order = {
 		}
     }
     color = { 106 147 116 } 
-    cost = 50
+    cost = 75
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 1
@@ -480,7 +480,7 @@ montesa_order = {
 		}
     }
     color = { 140 120 134 }
-    cost = 50
+    cost = 75
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 1
@@ -530,7 +530,7 @@ san_juan_order = {
 		}
     }
     color = { 188 192 242 }
-    cost = 50
+    cost = 75
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 1
@@ -568,7 +568,7 @@ santiago_order = {
 		religion_group = christian
     }
     color = { 35 42 140 } 
-    cost = 50
+    cost = 75
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 1
@@ -605,7 +605,7 @@ shadhili_order = {
         religion_group = muslim
     }
     color = { 80 255 120 }
-    cost = 50
+    cost = 75
     cost_type = adm_power
     per_province_effect = {
         add_base_tax = 1
@@ -648,7 +648,7 @@ qadiri_order = {
         religion_group = muslim
     }
     color = { 170 230 30 }
-    cost = 50
+    cost = 75
     cost_type = dip_power
     per_province_effect = {
         add_base_production = 1
@@ -691,7 +691,7 @@ aissawa_order = {
         religion_group = muslim
     }
     color = { 255 170 30 }
-    cost = 50
+    cost = 75
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 1
@@ -738,7 +738,7 @@ mevlevi_order = {
         }
     }
     color = { 150 130 200 }
-    cost = 50
+    cost = 75
     cost_type = dip_power
     per_province_effect = {
         add_base_production = 1
@@ -781,7 +781,7 @@ bektashi_order = {
         }
     }
     color = { 110 0 140 }
-    cost = 50
+    cost = 75
     cost_type = dip_power
     per_province_effect = {
         add_base_production = 1
@@ -824,7 +824,7 @@ buzhengshi = {
 		} 
     }
     color = { 0 230 210 }
-    cost = 50
+    cost = 75
     cost_type = adm_power
     per_province_effect = {
         add_base_tax = 1 
@@ -855,7 +855,7 @@ anchasi = {
 		} 
     }
     color = { 80 255 190 }
-    cost = 50
+    cost = 75
     cost_type = dip_power
     per_province_effect = {
         add_base_production = 1 
@@ -886,7 +886,7 @@ du_si = {
 		} 
     }
     color = { 240 255 10 }
-    cost = 50
+    cost = 75
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 1 
@@ -918,7 +918,7 @@ kashifs = {
 		} 
     }
     color = { 240 255 10 }
-    cost = 50
+    cost = 75
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 1
@@ -952,7 +952,7 @@ savafid_order = {
         religion = shiite
     }
     color = { 68 110 35 }
-    cost = 100
+    cost = 150
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 2
@@ -990,7 +990,7 @@ zahediyeh_order = {
         religion_group = muslim
     }
     color = { 217 144 88 }
-    cost = 100
+    cost = 150
     cost_type = dip_power
     per_province_effect = {
         add_base_production = 2
