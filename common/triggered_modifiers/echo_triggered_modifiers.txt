@@ -146,7 +146,23 @@ We_stand_alone = {
 	mercenary_manpower = 0.1
 	expand_infrastructure_cost_modifier = -0.25
 }
-
+Great_power_dominance = {
+	potential = {
+			ROOT = {
+				ai = no	
+			}	
+	}
+	trigger  = {
+		NOT = { great_power_rank = 4 }
+				OR = {
+					NOT = { num_of_allies = 1 }
+				}
+				NOT = { is_hegemon = yes }
+				NOT = { is_colonial_nation = yes }	
+				NOT = { is_lacking_institutions = yes }
+	}
+	all_power_cost = -0.025
+}
 HRE_backup = {	
 	potential = {
 				OR = {
