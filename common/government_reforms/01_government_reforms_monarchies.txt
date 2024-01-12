@@ -3095,7 +3095,7 @@ sakdina_system_reform = {
 		}
 	}
 	modifiers = {
-		stability_cost_modifier = -0.05
+		stability_cost_modifier = -0.2
 		global_unrest = -2
 	}
 	ai = {
@@ -3117,7 +3117,7 @@ uparaja_reform = {
 		technology_group = chinese
 	}
 	modifiers = {
-		monthly_heir_claim_increase = 0.05
+		num_accepted_cultures = 1
 		legitimacy = 0.5
 		prestige = 0.5
 	}
@@ -5290,6 +5290,7 @@ corvee_reform = {
 	modifiers = {
 		global_manpower_modifier = 0.1
 		build_cost = -0.1
+		num_accepted_cultures = 1
 	}
 	custom_attributes = {
 		manpower_sailors_on_build = yes
