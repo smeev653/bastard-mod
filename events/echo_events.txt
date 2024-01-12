@@ -79,7 +79,7 @@ province_event = {
 			add_country_modifier = {
 				name = echo_provincial_investment_cmod
 				duration = 3650
-				hidden = yes
+				#hidden = yes
 			}
 			add_treasury = -250
 			add_dip_power = -100

@@ -2464,9 +2464,6 @@ soldier_households = {
 	manufactory = {
 		all
 	}
-	build_trigger = {
-		development = 30
-	}
 	bonus_manufactory = { # Will apply an extra modifier if these goods
 		grain
 		fish
