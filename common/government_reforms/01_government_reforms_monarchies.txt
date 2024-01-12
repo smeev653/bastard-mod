@@ -3086,17 +3086,18 @@ sakdina_system_reform = {
 		OR = {
 			primary_culture = central_thai
 			primary_culture = northern_thai
+			culture_group = burman
 		}
 	}
 	potential = {
 		OR = {
 			primary_culture = central_thai
 			primary_culture = northern_thai
+			culture_group = burman
 		}
 	}
 	modifiers = {
-		stability_cost_modifier = -0.2
-		global_unrest = -2
+		infantry_power = 0.1
 	}
 	ai = {
 		factor = 100
