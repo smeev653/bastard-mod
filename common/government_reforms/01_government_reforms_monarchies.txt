@@ -4601,8 +4601,8 @@ poligar_reform = {
 		}
 	}
 	modifiers = {
-		infantry_power = 0.1
-		development_cost = -0.05
+		infantry_power = 0.05
+		build_cost = -0.05
 	}
 	ai = {
 		factor = 3
