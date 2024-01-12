@@ -226,6 +226,12 @@ barracks = {
 	modifier = {
 		local_manpower_modifier = 0.5
 	}
+	bonus_modifier = {
+		local_manpower = 0.25
+	}
+	bonus_manufactory = { # Will apply an extra modifier if these goods
+		livestock
+	}
 	on_built = {
 		if = {
 			limit = {
@@ -667,7 +673,12 @@ regimental_camp = {
 		land_forcelimit = 0.75
 		
 	}
-
+	bonus_modifier = {
+		land_forcelimit = 0.25
+	}
+	bonus_manufactory = { # Will apply an extra modifier if these goods
+		grain
+	}
 	on_built = {
 		add_development_from_building = {
 			building = regimental_camp
@@ -1235,7 +1246,12 @@ training_fields = {
 	modifier = {
 		local_manpower_modifier = 1
 	}
-	
+	bonus_modifier = {
+		land_manpower = 0.25
+	}
+	bonus_manufactory = { # Will apply an extra modifier if these goods
+		livestock
+	}
 	on_built = {
 		if = {
 			limit = {
@@ -1781,6 +1797,12 @@ conscription_center = {
 
 	modifier = {
 		land_forcelimit = 1.5
+	}
+	bonus_modifier = {
+		land_forcelimit = 0.5
+	}
+	bonus_manufactory = { # Will apply an extra modifier if these goods
+		grain
 	}
 	on_built = {
 		add_development_from_upgrading_or_building = {
