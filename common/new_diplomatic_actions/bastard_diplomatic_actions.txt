@@ -8,7 +8,11 @@ bastard_convert_trib_to_vassal = {
 	require_acceptance = yes
 
 	is_visible = {
-		tag = AVA
+		OR = {
+			tag = AVA
+			tag = AYU
+			tag = SIA
+		}
 		FROM = {
 			is_subject_of = ROOT
 			is_subject_of_type = tributary_state
@@ -19,7 +23,20 @@ bastard_convert_trib_to_vassal = {
 			NOT = { total_development = 300 }
 		}
 		dip_power = 50
-		mission_completed = tau_build_palace
+		if = {
+			limit = {
+				tag = AVA
+			}
+			mission_completed = tau_build_palace
+		}
+		if = {
+			limit = {
+				OR = {
+					tag = AYU
+					tag = SIA
+			}
+			mission_completed = mnd_siam_devaraja
+		}
 		NOT = {
 			FROM = { liberty_desire = 50 }
 		}
