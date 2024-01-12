@@ -3569,11 +3569,22 @@ tenochtitlan = {
 	}
 
 	#can our country upgrade it?
-	can_upgrade_trigger = {
-			mexico_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+	can_upgrade_trigger = {	
+		852 = {
+			is_core = ROOT
+		}
+		4570 = {
+			is_core = ROOT
+		}
+		4571 = {
+			is_core = ROOT
+		}
+		4572 = {
+			is_core = ROOT
+		}
+		2626 = {
+			is_core = ROOT
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3636,7 +3647,43 @@ tenochtitlan = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			mexico_area = {
+			852 = {
+				if = {
+					limit = {	
+						NOT = { trade_goods = gold }
+					}
+				change_trade_goods = gold 
+			}
+			else = { add_base_production = 1 }
+			}
+			4570 = {
+				if = {
+					limit = {	
+						NOT = { trade_goods = gold }
+					}
+				change_trade_goods = gold 
+			}
+			else = { add_base_production = 1 }
+			}
+			4571 = {
+				if = {
+					limit = {	
+						NOT = { trade_goods = gold }
+					}
+				change_trade_goods = gold 
+			}
+			else = { add_base_production = 1 }
+			}
+			4572 = {
+				if = {
+					limit = {	
+						NOT = { trade_goods = gold }
+					}
+				change_trade_goods = gold 
+			}
+			else = { add_base_production = 1 }
+			}
+			2626 = {
 				if = {
 					limit = {	
 						NOT = { trade_goods = gold }
@@ -7752,6 +7799,9 @@ inukshuk = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			num_accepted_cultures = 1
+			overlord = {
+				num_accepted_cultures = 1
+			}
 		}
 
 		#what effects happen when this tier is achieved
@@ -7782,6 +7832,10 @@ inukshuk = {
 		country_modifiers = {
 			num_accepted_cultures = 1
 			same_culture_advisor_cost = -0.15
+			overlord = {
+				num_accepted_cultures = 1
+				same_culture_advisor_cost = -0.15
+			}
 		}
 
 		#what effects happen when this tier is achieved
@@ -7810,6 +7864,11 @@ inukshuk = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			overlord = {
+							num_accepted_cultures = 2
+							same_culture_advisor_cost = -0.2
+							promote_culture_cost = -0.15
+						}
 			num_accepted_cultures = 2
 			same_culture_advisor_cost = -0.2
 			promote_culture_cost = -0.15
@@ -11410,7 +11469,7 @@ cartagena_de_indias = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			global_ship_trade_power = 0.1
+			#global_ship_trade_power = 0.1
 		}
 		on_upgraded = {
 		}
@@ -11432,7 +11491,7 @@ cartagena_de_indias = {
 			local_defensiveness = 0.15
 		}
 		country_modifiers = {		
-			global_ship_trade_power = 0.2
+			#global_ship_trade_power = 0.2
 			prestige_from_naval = 0.5
 		}
 		on_upgraded = {
@@ -11455,7 +11514,7 @@ cartagena_de_indias = {
 			local_defensiveness = 0.25
 		}
 		country_modifiers = {
-			global_ship_trade_power = 0.3
+			#global_ship_trade_power = 0.3
 			prestige_from_naval = 1
 		}
 		on_upgraded = {
@@ -17082,13 +17141,13 @@ salvador_da_bahia = {
 			factor = 350
 		}
 		province_modifiers = {
-			province_trade_power_value = 10
+			#province_trade_power_value = 10
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			global_trade_power = 0.1
-			global_colonial_growth = 10
+			#global_trade_power = 0.1
+			global_colonial_growth = 15
 		}
 		on_upgraded = {
 		}
@@ -17102,7 +17161,7 @@ salvador_da_bahia = {
 			factor = 750
 		}
 		province_modifiers = {
-			province_trade_power_value = 15
+			#province_trade_power_value = 15
 		}
 		area_modifier = {
 		}
@@ -17110,8 +17169,8 @@ salvador_da_bahia = {
 			trade_goods_size = 0.25
 		}
 		country_modifiers = {
-			global_trade_power = 0.15
-			global_colonial_growth = 15
+			#global_trade_power = 0.15
+			global_colonial_growth = 20
 		}
 		on_upgraded = {
 		}
@@ -17125,7 +17184,7 @@ salvador_da_bahia = {
 			factor = 1500
 		}
 		province_modifiers = {
-			province_trade_power_value = 25
+			#province_trade_power_value = 25
 		}
 		area_modifier = {
 		}
@@ -17133,8 +17192,8 @@ salvador_da_bahia = {
 			trade_goods_size = 0.5
 		}
 		country_modifiers = {
-			global_trade_power = 0.2
-			global_colonial_growth = 20
+			#global_trade_power = 0.2
+			global_colonial_growth = 35
 		}
 		on_upgraded = {
 		}
