@@ -589,6 +589,7 @@ base_values = {
 	num_of_parliament_issues = 10
 	sunk_ship_morale_hit_recieved = -0.99
 	privateer_efficiency = -0.75
+	morale_damage = -0.1
 	has_marines = yes
 }
 
@@ -2054,7 +2055,7 @@ streltsy_regiment = {
 
 tercio_regiment = {
 	shock_damage_received = -0.3
-	morale_damage_received = -0.1
+	#morale_damage_received = -0.1
 }
 
 musketeer_regiment = {
@@ -2063,7 +2064,7 @@ musketeer_regiment = {
 
 samurai_regiment = {
 	discipline = 0.05
-	morale_damage_received = -0.1
+	#morale_damage_received = -0.1
 	reinforce_cost_modifier = 0.5
 }
 
@@ -2074,7 +2075,7 @@ qizilbash_regiment = {
 
 mamluks_regiment = {
 	drill_gain_modifier = 1
-	morale_damage = 0.15
+	morale_damage = 0.2
 	reinforce_speed = 0.33 
 }
 
@@ -2116,7 +2117,7 @@ cossacks_regiment = {
 }
 
 carolean_regiment = {
-	morale_damage = 0.05
+	morale_damage = 0.1
 	drill_decay_modifier = -0.25
 }
 
