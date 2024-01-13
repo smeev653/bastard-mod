@@ -634,7 +634,7 @@ colony = {
 	increase_tariffs = yes
 	decrease_tariffs = yes
 	enforce_culture = yes
-	divert_trade = yes
+	transfer_trade_power = yes
 	# Modifiers:
 	modifier_overlord = {
 		modifier = large_colonial_nation
@@ -1416,7 +1416,7 @@ cultural_sphere_of_influence_subject = {
 	support_loyalists = yes
 	subsidize_armies = yes
 	send_officers = yes
-	divert_trade= yes
+	divert_trade = yes
 	# (immediate)
 	placate_rulers = no
 	place_relative_on_throne = no

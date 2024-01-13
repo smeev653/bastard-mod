@@ -1282,7 +1282,7 @@ POR_ideas = {
 		global_colonial_growth = 15
 	}
 	the_bandeirantes = {
-		trade_efficiency = 0.1
+		trade_efficiency = 0.05
 	}
 	royal_absolutism = {
 		build_cost = -0.1

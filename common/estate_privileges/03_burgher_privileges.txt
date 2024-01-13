@@ -1407,6 +1407,7 @@ estate_burghers_private_trade_fleets = {
 	influence = 0.1
 	
 	is_valid = {
+		NOT = { is_colonial_nation = yes }
 		OR = {
 			has_dlc = "Emperor"
 			has_dlc = "King of Kings"
@@ -2514,6 +2515,7 @@ estate_burghers_economical_boost = {
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	is_valid = {
 		has_dlc = "Domination"
+		NOT = { is_colonial_nation = yes }
 	}
 	can_select = {
 		if = {
