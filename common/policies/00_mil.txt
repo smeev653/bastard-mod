@@ -321,7 +321,7 @@ superior_fortification_act = {
 		full_idea_group = defensive_ideas
 	}
 	
-	morale_damage = 0.2
+	morale_damage = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -536,7 +536,7 @@ local_army_organisation = {
 		full_idea_group = defensive_ideas
 	}
 
-	morale_damage = 0.2
+	morale_damage = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -1319,7 +1319,7 @@ religious_spread_policy = {
  		full_idea_group = theocracy_gov_ideas
  	}
  	
- 	morale_damage = 0.2
+ 	morale_damage = 0.15
 	
  	effect = {}
  	removed_effect = {}
