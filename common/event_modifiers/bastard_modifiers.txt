@@ -11,3 +11,12 @@ tur_age_ability_modifier = {
 jihad = {
        monthly_piety = -0.08
 }
+
+
+Great_power_dominance_timer = {
+}
+
+Great_power_dominance_established = {
+	governing_capacity = 400
+	num_accepted_cultures = 1
+}

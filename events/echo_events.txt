@@ -474,7 +474,7 @@ country_event = {
 			has_country_modifier = echo_development	
     }
     mean_time_to_happen = {
-        months = 12
+        months = 1
     }
 	
     option = {
@@ -506,5 +506,54 @@ country_event = {
 				name = "free_colonist"
 				duration = -1
 			}
+	}
+}
+
+country_event = {
+    id = echo.15
+    title = echo.15.t
+    desc = echo.15.d
+    picture = COURT_eventPicture
+
+    trigger = {
+		NOT = { has_country_modifier = Great_power_dominance_established }
+		has_country_modifier = Great_power_dominance
+		NOT = {
+		 	current_age = age_of_discovery
+		}
+	}
+	mean_time_to_happen = {
+        months = 1
+    }
+	hidden = yes
+    option = {
+		name = echo.15.a
+		set_country_flag = Great_power_dominance_timer
+	}
+}
+
+country_event = {
+    id = echo.16
+    title = echo.16.t
+    desc = echo.16.d
+    picture = COURT_eventPicture
+
+    trigger = {
+		NOT = { has_country_modifier = Great_power_dominance_established }
+		had_country_flag = {
+		flag = Great_power_dominance_timer
+		days = 3650
+		}
+		NOT = { governing_capacity_percentage = 1.01 }
+	}
+	mean_time_to_happen = {
+        months = 1
+    }
+    option = {
+		name = echo.16.a
+		add_country_modifier = {
+			name = Great_power_dominance_established
+			duration = -1
+		}
 	}
 }
