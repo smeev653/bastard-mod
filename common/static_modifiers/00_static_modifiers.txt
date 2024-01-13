@@ -1442,19 +1442,19 @@ gbr_colonial_investment = {
 }
 
 crown_colony_overlord = {
-	#merchants = 1
+	merchants = 1
 	#global_trade_power = 0.05
 }
 
 private_enterprise_overlord = {
-	#merchants = 1
+	merchants = 1
 	#global_trade_power = 0.05
-	#global_tariffs = -0.05
+	global_tariffs = -0.05
 }
 
 self_governing_colony_overlord = {
 	merchants = 1
-	global_trade_power = 0.05
+	#global_trade_power = 0.05
 	global_tariffs = -0.10
 }
 
@@ -1474,6 +1474,7 @@ self_governing_colony_subject = {
 	colonists = 1
 	development_cost = -0.1
 	liberty_desire = 25
+	#global_ship_trade_power = -0.2
 }
 
 march_subject = {
@@ -2185,6 +2186,8 @@ over_governing_capacity_modifier = {
 	reform_progress_growth = -1
 	embracement_cost = 1
 	yearly_corruption = 1
+	colony_cost_modifier = 1
+	global_colonial_growth = -100
 }
 
 #Scales with used capacity, being at full capacity means 100% of the modifier
@@ -2192,6 +2195,7 @@ under_governing_capacity_modifier = {
 }
 #Scales with unused capacity, eing at full capacity means 0% of the modifier
 reverse_under_governing_capacity_modifier = {
+	development_cost = -0.1
 }
 
 lost_hegemony = {
