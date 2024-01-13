@@ -3673,7 +3673,7 @@ citizenry_reform = {
 	}
 	modifiers = {
 		land_morale = 0.05
-		morale_damage = 0.025
+		morale_damage = 0.05
 	}
 	ai = {
 		factor = 1.5

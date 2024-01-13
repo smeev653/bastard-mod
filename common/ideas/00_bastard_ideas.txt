@@ -1110,7 +1110,7 @@ FRA_ideas_2 = {
 	}
 	elan = {
 		land_morale = 0.15
-		morale_damage = 0.05
+		morale_damage = 0.1
 	}
 	mandats_territoriaux = {
 		production_efficiency = 0.15

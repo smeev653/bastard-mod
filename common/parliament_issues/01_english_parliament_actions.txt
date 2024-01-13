@@ -1894,7 +1894,7 @@ discipline_for_the_marines_acts = {
 	}
 	
 	modifier = {
-		morale_damage = 0.1
+		morale_damage = 0.15
 		is_marine_modifier = yes
 	}
 	

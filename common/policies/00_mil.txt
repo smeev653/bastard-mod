@@ -321,7 +321,7 @@ superior_fortification_act = {
 		full_idea_group = defensive_ideas
 	}
 	
-	morale_damage = 0.1
+	morale_damage = 0.2
 
 	effect = {}
 	removed_effect = {}
@@ -400,7 +400,7 @@ ora_et_labora_policy = {
  	}
  	
  	land_morale = 0.025
- 	morale_damage = 0.05
+ 	morale_damage = 0.1
  	
  	effect = {}
  	removed_effect = {}
@@ -442,7 +442,7 @@ military_zeal_act = {
 		full_idea_group = religious_ideas
 	}
 	
-	morale_damage = 0.05
+	morale_damage = 0.1
 	land_morale = 0.025
 
 	effect = {}
@@ -536,7 +536,7 @@ local_army_organisation = {
 		full_idea_group = defensive_ideas
 	}
 
-	morale_damage = 0.1
+	morale_damage = 0.2
 
 	effect = {}
 	removed_effect = {}
@@ -981,7 +981,7 @@ deserteur_act = {
  		full_idea_group = spy_ideas
  	}
  
- 	morale_damage = 0.05
+ 	morale_damage = 0.1
  	manpower_recovery_speed = 0.1
  
  	effect = {}
@@ -1188,7 +1188,7 @@ sturdy_argument_act = {
 		full_idea_group = defensive_ideas 
 	}
 	
-	morale_damage = 0.05
+	morale_damage = 0.1
 	land_morale = 0.025
 	
 	effect = {}
@@ -1319,7 +1319,7 @@ religious_spread_policy = {
  		full_idea_group = theocracy_gov_ideas
  	}
  	
- 	morale_damage = 0.1
+ 	morale_damage = 0.2
 	
  	effect = {}
  	removed_effect = {}
