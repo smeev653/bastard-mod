@@ -345,7 +345,7 @@ administrative_ideas = {
 	}
 	stable_government = {
 		stability_cost_modifier = -0.10 
-		reform_progress_growth = 0.25
+		reform_progress_growth = 0.5
 	}
 	civil_servants = {
 		advisor_cost = -0.15
@@ -639,7 +639,7 @@ court_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	tranquil_coordination = {
-		reform_progress_growth = 0.15
+		reform_progress_growth = 0.2
 		technology_cost = -0.05
 	}
 	long_echo = {
