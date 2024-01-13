@@ -1011,7 +1011,6 @@ offensive_ideas = {
 
 	shock_tactics = {
 		shock_damage = 0.1
-		morale_damage = 0.05
 	}
 	glory_on_the_battlefield = {
 		army_tradition_from_battle = 0.25
