@@ -248,7 +248,7 @@ age_of_discovery = {
 					}	
 				}	
 				modifier = {
-					technology_cost = -0.075
+					technology_cost = -0.1
 				}
 				ai_will_do = {
 					factor = 100
@@ -262,9 +262,7 @@ age_of_discovery = {
 				}	
 			}
 			modifier = {
-				defensiveness = 0.35
-				gold_depletion_chance_modifier = -1
-				fort_maintenance_modifier = -0.5
+				mercenary_discipline = 0.05
 			}
 			ai_will_do = {
 				factor = 10
@@ -292,11 +290,11 @@ age_of_discovery = {
 				OR = {
 					tag = SHY
 					tag = BUK
+					tag = TIM
 				}	
 			}
 			modifier = {
-				technology_cost = -0.025
-				idea_cost = -0.1
+				technology_cost = -0.1
 			}
 			ai_will_do = {
 				factor = 10
@@ -714,7 +712,7 @@ age_of_absolutism = {
 				tag = FRA
 			}
 			modifier = {
-				fire_damage = 0.15
+				fire_damage = 0.2
 			}
 			ai_will_do = {
 				factor = 100
@@ -763,7 +761,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				land_morale = 0.1
+				land_morale = 0.15
 			}
 			ai_will_do = {
 				factor = 100
@@ -802,7 +800,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				amount_of_banners = 0.5
+				amount_of_banners = 0.75
 			}
 			ai_will_do = {
 				factor = 100
@@ -984,7 +982,7 @@ age_of_revolutions = {
 				tag = RUS
 			}
 			modifier = {
-				land_morale = 0.1
+				land_morale = 0.15
 			}
 			ai_will_do = {
 				factor = 100
@@ -998,7 +996,7 @@ age_of_revolutions = {
 				}
 			}
 			modifier = {
-				morale_damage_received = -0.2
+				morale_damage_received = -0.25
 			}
 			ai_will_do = {
 				factor = 100
