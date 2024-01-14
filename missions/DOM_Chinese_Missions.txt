@@ -1275,7 +1275,7 @@ ming_missions_2 = {
 					num_of_light_ship = 25
 				}
 				AND = {
-					has_idea_group = trade_ideas 
+					has_idea_group = maritime_ideas 
 					OR = {
                         north_america = { has_discovered = ROOT }
                         south_america = { has_discovered = ROOT }
@@ -1320,7 +1320,7 @@ ming_missions_2 = {
 				}
 				if = {
 					limit = {
-						trade_ideas = 1 
+						maritime_ideas = 1 
 						OR = {
 							north_america = { has_discovered = ROOT }
 							south_america = { has_discovered = ROOT }
@@ -4700,7 +4700,7 @@ ming_missions_4_generic = {
 				always = no 
 			}
 			OR = { 
-				full_idea_group = trade_ideas 
+				full_idea_group = maritime_ideas 
 				dip = 6 
 				has_reform = free_trade_reform
 			}
@@ -4938,7 +4938,7 @@ ming_missions_4_dynamic_2 = {
 		trigger = { 
 			not_in_mission_preview_mode = { key = MNG }
 			OR = { 
-				full_idea_group = trade_ideas 
+				full_idea_group = maritime_ideas 
 				dip = 6 
 				has_reform = free_trade_reform
 			}
@@ -6539,7 +6539,7 @@ ming_missions_5_b = {
 			}
 			else = {
 				OR = { 
-					full_idea_group = trade_ideas 
+					full_idea_group = maritime_ideas 
 					dip = 6 
 					monthly_dip = 10 
 					national_focus = DIP 
@@ -6548,42 +6548,11 @@ ming_missions_5_b = {
 		}
 		
 		effect = {
-			custom_tooltip = mng_improve_haijin_policy_reward_tt
-			tooltip = {
-				add_province_modifier = {
-					name = mng_safe_coasts_modifier
-					duration = 9125 
-				}
-				if = {
-					limit = { has_dlc = "Mandate of Heaven" }
-					add_prosperity = 100 
-				}
-				else = { add_base_production = 1 } 
-			}
-			
-			custom_tooltip = mng_repeal_and_replace_reward_policy_tt
-			tooltip = {
-				define_advisor = {
-					type = trader 
-					cost_multiplier = 0.1 
-				}
-				if = { 
-					limit = { 
-						is_emperor_of_china = yes
-						has_dlc = "Mandate of Heaven" 
-					}
-					add_mandate = 10 
-				}
-				else = { add_prestige_or_monarch_power = { amount = 25 } }
-				change_government_reform_progress = 100 
-			}
-			
-			hidden_effect = { 
 				if = {
 					limit = { mission_completed = mng_repeal_haijin_policy }
 					define_advisor = {
 						type = trader 
-						cost_multiplier = 0.1 
+						cost_multiplier = 0.25
 					}
 					if = { 
 						limit = { 
@@ -6596,7 +6565,7 @@ ming_missions_5_b = {
 						add_prestige_or_monarch_power = { amount = 25 }
 					}
 					change_government_reform_progress = 100 
-					set_country_flag = mng_trade_eff_per_dip_advisor_level_flag
+					#set_country_flag = mng_trade_eff_per_dip_advisor_level_flag
 				}
 				else = {
 					if = {
@@ -6626,7 +6595,7 @@ ming_missions_5_b = {
 							add_base_production = 1
 						}
 					}
-					set_country_flag = mng_dev_per_adm_advisor_level_flag
+					#set_country_flag = mng_dev_per_adm_advisor_level_flag
 					if = {
 						limit = { has_dlc = "Mandate of Heaven" }
 						add_mandate = 10
@@ -6635,7 +6604,6 @@ ming_missions_5_b = {
 						add_prestige_or_monarch_power = { amount = 25 }
 					} 
 				}
-			}
 		}
 	}
 }
@@ -6686,7 +6654,7 @@ DOM_Qing_Missions_5_dynamic_b = {
 				has_reform = mercantilistic_approach_reform
 			}
 			OR = {
-				full_idea_group = trade_ideas 
+				full_idea_group = maritime_ideas 
 				dip = 6 
 				if = {
 					limit = { has_estate = estate_burghers }
