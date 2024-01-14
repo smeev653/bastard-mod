@@ -677,11 +677,7 @@ negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mand
 }
 
 lost_mandate_of_heaven = {
-	land_morale = -0.1
-	stability_cost_modifier = 0.5
-	global_unrest = 5
-	reduced_liberty_desire = -50
-	legitimacy = -1
+	global_unrest = 3
 }
 
 cancelled_loan = {
