@@ -622,10 +622,11 @@ lost_control_of_beijing = {
 	}
 
 	trigger = {
-		OR = {
-			NOT = { owns = 1816 }
-			NOT = { controls = 1816 }
-		}
+		NOT = {
+			1816 = {
+				country_or_subject_holds = ROOT
+			}
+		}	
 	}
 
 	ai_weight = {
@@ -642,10 +643,11 @@ lost_control_of_nanjing = {
 	}
 
 	trigger = {
-		OR = {
-			NOT = { owns = 1821 }
-			NOT = { controls = 1821 }
-		}
+		NOT = {
+			1821 = {
+				country_or_subject_holds = ROOT
+			}
+		}	
 	}
 
 	ai_weight = {
@@ -662,10 +664,11 @@ lost_control_of_canton = {
 	}
 
 	trigger = {
-		OR = {
-			NOT = { owns = 667 }
-			NOT = { controls = 667 }
-		}
+		NOT = {
+			667 = {
+				country_or_subject_holds = ROOT
+			}
+		}	
 	}
 
 	ai_weight = {
