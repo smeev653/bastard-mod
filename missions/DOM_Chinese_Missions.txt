@@ -285,6 +285,7 @@ DOM_Qing_Related_Missions_1 = {
 			tag = MJZ
 			tag = MCH
 			tag = QNG
+			has_country_flag = b_allow_china_missions
 			#tag = KRC
 			tag = MYR
 			tag = EJZ
@@ -647,6 +648,7 @@ ming_missions_1_b = {
 		OR = {
 			tag = MNG
 			tag = QNG 
+			has_country_flag = b_allow_china_missions
 			tag = MCH 
 			tag = YAN
 			tag = JIN
@@ -910,7 +912,10 @@ DOM_Qing_Missions_1_b_formable = {
 	#potential_on_load = { has_dlc = "Mandate of Heaven" }
 	potential = {
 		has_dlc = "Domination"
-		tag = QNG
+		OR = {
+			tag = QNG
+			has_country_flag = b_allow_china_missions
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1352,6 +1357,7 @@ DOM_Qing_Missions_2 = {
 			tag = MJZ
 			tag = MCH
 			tag = QNG
+			has_country_flag = b_allow_china_missions
 			#tag = KRC
 			tag = MYR
 			tag = EJZ
@@ -1848,6 +1854,7 @@ ming_missions_2_b = {
 		OR = {
 			tag = MNG
 			tag = QNG 
+			has_country_flag = b_allow_china_missions
 			tag = MCH 
 			tag = YAN
 			tag = JIN
@@ -2266,7 +2273,10 @@ DOM_Qing_Missions_2_b = {
 	#potential_on_load = { has_dlc = "Mandate of Heaven" }
 	potential = {
 		has_dlc = "Domination"
-		tag = QNG
+		OR = {
+			tag = QNG
+			has_country_flag = b_allow_china_missions
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -3409,7 +3419,7 @@ DOM_Qing_Missions_3 = {
 	generic = no
 	ai = yes
 	#potential_on_load = { has_dlc = "Mandate of Heaven" }
-	potential = {
+	potential = {`
 		has_dlc = "Domination"
 		OR = {
 			tag = MJZ
@@ -3802,6 +3812,7 @@ ming_missions_3_b = {
 		OR = {
 			tag = MNG
 			tag = QNG 
+			has_country_flag = b_allow_china_missions
 			tag = MCH 
 			tag = YAN
 			tag = JIN
@@ -4133,7 +4144,10 @@ DOM_Qing_Missions_3_b = {
 	#potential_on_load = { has_dlc = "Mandate of Heaven" }
 	potential = {
 		has_dlc = "Domination"
-		tag = QNG
+		OR = {
+			tag = QNG
+			has_country_flag = b_allow_china_missions
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -5004,6 +5018,7 @@ DOM_Qing_Missions_4 = {
 			tag = MJZ
 			tag = MCH
 			tag = QNG
+			has_country_flag = b_allow_china_missions
 			#tag = KRC
 			tag = MYR
 			tag = EJZ
@@ -5101,6 +5116,7 @@ ming_missions_4_b = {
 		OR = {
 			tag = MNG
 			tag = QNG 
+			has_country_flag = b_allow_china_missions
 			tag = MCH 
 			tag = YAN
 			tag = JIN
@@ -5425,6 +5441,7 @@ ming_missions_4_moh = {
 		OR = {
 			tag = MNG
 			tag = QNG 
+			has_country_flag = b_allow_china_missions
 			tag = MCH 
 			tag = YAN
 			tag = JIN
@@ -5486,7 +5503,10 @@ DOM_Qing_Missions_4_b = {
 	ai = yes
 	#potential_on_load = { has_dlc = "Mandate of Heaven" }
 	potential = {
-		tag = QNG
+		OR = {
+			tag = QNG
+			has_country_flag = b_allow_china_missions
+		}
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "Domination"
 	}
@@ -6362,6 +6382,7 @@ ming_missions_5_b = {
 		OR = {
 			tag = MNG 
 			tag = QNG 
+			has_country_flag = b_allow_china_missions
 			tag = MCH 
 			tag = YAN
 			tag = JIN
@@ -6615,7 +6636,10 @@ DOM_Qing_Missions_5_dynamic_b = {
 	#potential_on_load = { has_dlc = "Mandate of Heaven" }
 	potential = {
 		has_dlc = "Domination"
-		tag = QNG
+		OR = {
+			tag = QNG
+			has_country_flag = b_allow_china_missions
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes	
@@ -6720,7 +6744,10 @@ DOM_Qing_Missions_5_intial = {
 	#potential_on_load = { has_dlc = "Mandate of Heaven" }
 	potential = {
 		has_dlc = "Domination"
-		tag = QNG
+		OR = {
+			tag = QNG
+			has_country_flag = b_allow_china_missions
+		}
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_country_flag = qng_close_ports_flag }
 		NOT = { has_country_flag = qng_open_ports_flag } 
@@ -6845,7 +6872,10 @@ DOM_Qing_Missions_5_a = {
 	#potential_on_load = { has_dlc = "Mandate of Heaven" }
 	potential = {
 		has_dlc = "Domination"
-		tag = QNG
+		OR = {
+			tag = QNG
+			has_country_flag = b_allow_china_missions`
+		}
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_country_flag = qng_close_ports_flag }
 		has_country_flag = qng_open_ports_flag 
@@ -6935,7 +6965,10 @@ DOM_Qing_Missions_5_b = {
 	#potential_on_load = { has_dlc = "Mandate of Heaven" }
 	potential = {
 		has_dlc = "Domination"
-		tag = QNG
+		OR = {
+			tag = QNG
+			has_country_flag = b_allow_china_missions
+		}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = qng_close_ports_flag
 		NOT = { has_country_flag = qng_open_ports_flag }

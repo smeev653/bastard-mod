@@ -346,5 +346,23 @@ country_decisions = {
 					duration = -1
 			}
 		}
-	}	
+	}
+	b_china_missions = {
+		color = { 41  233  249 }
+		potential = {
+			is_emperor_of_china = yes
+			NOT = {tag = MNG}
+			NOT = {tag = QNG}
+			NOT = {has_country_flag = b_allow_china_missions}
+		}	
+		allow = {
+			is_emperor_of_china = yes
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+		}	
+		effect = {
+			set_country_flag = b_allow_china_missions
+			swap_non_generic_missions = yes
+		}
+	}
 }
