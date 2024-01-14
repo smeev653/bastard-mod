@@ -350,6 +350,7 @@ country_decisions = {
 	b_china_missions = {
 		color = { 41  233  249 }
 		potential = {
+			always = no
 			is_emperor_of_china = yes
 			NOT = {tag = MNG}
 			NOT = {tag = QNG}

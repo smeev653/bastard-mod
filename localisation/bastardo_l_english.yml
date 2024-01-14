@@ -40,6 +40,10 @@
  #trade hubs
  Create_a_Trade_Hub_title:0 "Create a Center of Trade"
  Create_a_Trade_Hub_desc:0 "At least one of our province has become a trade hub and could potentially become a center of trade, our merchants say. They would however, need some investment to make this happen."
+#misc
+ master_of_india_title:0 "Indian Hegemony"
+ master_of_india:0 "Indian Hegemony"
+ b_china_missions_title:0 "Enable Chinese Missions"
  ####################
  # Modifiers
  ####################
