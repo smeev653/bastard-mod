@@ -1895,97 +1895,6 @@ PLC_LIT_ideas = {
 		technology_cost = -0.05
 	}
 }
-HAB_ideas = {
-	start = {
-		manpower_recovery_speed = 0.2
-		improve_relation_modifier = 0.3
-	}
-	
-	bonus = {
-		infantry_power = 0.1
-	}
-	
-	trigger = {
-		OR = {
-			tag = HAB
-			AND = {
-				tag = STY
-				dynasty = "von Habsburg"
-			}
-		}
-	}
-	free = yes		#will be added at load.
-
-	imperial_ambitions = {
-		imperial_authority = 0.1
-		diplomatic_annexation_cost = -0.15
-	}
-	military_border = {
-		global_garrison_growth = 0.25
-		defensiveness = 0.15
-	}
-	habsburg_dominance = {
-		land_morale = 0.1
-	}
-	fugger_banks = {
-		inflation_reduction = 0.1
-	}
-
-	edict_of_restitution = {
-		global_missionary_strength = 0.02
-	}
-	austrian_court = {
-		diplomatic_upkeep = 1
-	}
-	hofkriegsrat = {
-		reinforce_speed = 0.3
-		discipline = 0.05
-	}
-}
-AHU_ideas = {
-	start = {
-		manpower_recovery_speed = 0.2
-		artillery_power = 0.1
-	}
-	
-	bonus = {
-		land_morale = 0.15
-	}
-	
-	trigger = {
-		OR = {
-			tag = AHU
-		}
-	}
-	free = yes		#will be added at load.
-
-	gc_imperial_ambitions = {
-		global_own_trade_power = 0.2
-		diplomatic_annexation_cost = -0.15
-	}
-	gc_military_border = {
-		garrison_size = 0.25
-		defensiveness = 0.2
-	}
-	gc_AHU_NI_3 = {
-		infantry_power = 0.1
-	}
-	gc_fugger_banks = {
-		build_cost = -0.05
-		development_cost = -0.05
-	}
-
-	gc_edict_of_restitution = {
-		movement_speed = 0.10
-	}
-	gc_austrian_court = {
-		diplomatic_reputation = 3
-	}
-	hofkriegsrat = {
-		reinforce_speed = 0.3
-		discipline = 0.05
-	}
-}
 ITA_ideas = {
 	start = {
 		global_trade_power = 0.20
@@ -2347,6 +2256,136 @@ HUN_ideas = {
 	}
 	hungarian_estates_general = {
 		no_religion_penalty = yes
+	}
+}
+
+EOH_ideas = {
+	start = {
+		cavalry_power = 0.15
+		land_morale = 0.1
+		no_religion_penalty = yes
+	}
+	bonus = {
+		army_tradition = 1
+	}
+	trigger = {
+		tag = EOH
+	}
+	free = yes		#will be added at load.
+	
+	gc_reformed_coinage = {
+		global_tax_modifier = 0.15
+	}
+	gc_found_the_black_army = {
+		discipline = 0.05
+		mercenary_discipline = 0.025
+	}
+	bulwark_of_christianity = {
+		global_manpower_modifier = 0.20
+	}
+	gc_hun_renaissanse_knowledge = {
+		technology_cost = -0.05
+		development_cost -0.05
+	}
+	curtailed_peasantry = {
+		production_efficiency = 0.1
+	}
+	strengthened_towns = {
+		global_own_trade_power = 0.25
+	}
+	gc_hungarian_estates_general = {
+		country_military_power = 1
+	}
+}
+HAB_ideas = {
+	start = {
+		manpower_recovery_speed = 0.2
+		improve_relation_modifier = 0.3
+	}
+	
+	bonus = {
+		infantry_power = 0.1
+	}
+	
+	trigger = {
+		OR = {
+			tag = HAB
+			AND = {
+				tag = STY
+				dynasty = "von Habsburg"
+			}
+		}
+	}
+	free = yes		#will be added at load.
+
+	imperial_ambitions = {
+		imperial_authority = 0.1
+		diplomatic_annexation_cost = -0.15
+	}
+	military_border = {
+		global_garrison_growth = 0.25
+		defensiveness = 0.15
+	}
+	habsburg_dominance = {
+		land_morale = 0.1
+	}
+	fugger_banks = {
+		inflation_reduction = 0.1
+	}
+
+	edict_of_restitution = {
+		global_missionary_strength = 0.02
+	}
+	austrian_court = {
+		diplomatic_upkeep = 1
+	}
+	hofkriegsrat = {
+		reinforce_speed = 0.3
+		discipline = 0.05
+	}
+}
+AHU_ideas = {
+	start = {
+		manpower_recovery_speed = 0.2
+		artillery_power = 0.1
+	}
+	
+	bonus = {
+		land_morale = 0.15
+	}
+	
+	trigger = {
+		OR = {
+			tag = AHU
+		}
+	}
+	free = yes		#will be added at load.
+
+	gc_imperial_ambitions = {
+		global_own_trade_power = 0.2
+		diplomatic_annexation_cost = -0.15
+	}
+	gc_military_border = {
+		garrison_size = 0.25
+		defensiveness = 0.2
+	}
+	gc_AHU_NI_3 = {
+		infantry_power = 0.1
+	}
+	gc_fugger_banks = {
+		build_cost = -0.05
+		development_cost = -0.05
+	}
+
+	gc_edict_of_restitution = {
+		movement_speed = 0.10
+	}
+	gc_austrian_court = {
+		diplomatic_reputation = 3
+	}
+	hofkriegsrat = {
+		reinforce_speed = 0.3
+		discipline = 0.05
 	}
 }
 PER_ideas = {

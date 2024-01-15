@@ -2,6 +2,7 @@
 GZM = "countries/Great Zimbabwe.txt"
 PR2 = "countries/PRSokoto.txt"
 AHU = "countries/HabsburgEmpire.txt"
+EOH = "countries/EmpireOfHungary.txt"
 #Korea
 FO1 = "countries/Goguryeo.txt"
 FO2 = "countries/Mahan.txt"
