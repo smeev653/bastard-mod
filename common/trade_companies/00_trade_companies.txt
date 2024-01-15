@@ -682,10 +682,10 @@ trade_company_wien = {
 	color = { 220 220 220 }
 	
 	provinces = {
-		64 65 76 128 132 133 134 1757 1770 1863 2955 2956 2957 68 1868 70 1872 73 110 1768
-		4707 4708 4709 4710 4711 4712 4713
-		4758 4759 4760 4761 4762 # Austria 1.30
-		265 4237 4726 # Moravia
+		64 65 76 128 132 133 134 1757 1770 1863 2955 2956 2957 68 1868 70 1872 73 110 1768 4707 4708 4709 4710 4711 4712 4713 4758 4759 4760 4761 4762 265 4237 4726 
+		135 1864 4126 4240 6099 #transdanubia_area
+		155 1953 4125 6100 153 #alfold_area
+		154 162 1318 1772 4236 #slovakia_area
 	}
 	
 	# Specific
@@ -734,36 +734,35 @@ trade_company_krakow = {
 	}
 }
 
-trade_company_pest = {
-	color = { 172 95 81 }
-	
-	provinces = {
-		135 153 1864 4126 4240 # Transdanubia
-		155 1953 1954 4125 # Alfold
-		154 162 1318 1772 4236 # Slovakia
-		157 158 1952 4127 # Northern Transylvania
-		156 1951 4128 # Southern Transylvania
-		152 1767 4173 4756 # Slavonia
-		160 161 2998 4531 4532 # wallachia_area
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_PEST_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_PEST_European_Trade_Company"
-	}
-}
+#trade_company_pest = {
+#	color = { 172 95 81 }
+#	
+#	provinces = {
+#		135 153 1864 4126 4240 # Transdanubia
+#		155 1953 1954 4125 # Alfold
+#		154 162 1318 1772 4236 # Slovakia
+#		157 158 1952 4127 # Northern Transylvania
+#		156 1951 4128 # Southern Transylvania
+#		152 1767 4173 4756 # Slavonia
+#		160 161 2998 4531 4532 # wallachia_area
+#	}
+#	
+#	# Specific
+#	# Generic
+#	names = {
+#		name = "TRADE_COMPANY_PEST_Root_Culture_GetName"
+#	}
+#	names = {
+#		name = "TRADE_COMPANY_PEST_European_Trade_Company"
+#	}
+#}
 
 trade_company_ragusa = {
 	color = { 85 89 67 }
 	
 	provinces = {
-		137 138 139 140 141 142 143 144 147 1766 1827 1831 1853 3000 3002 3001 4174 4175 4176 131 148 1828 136 1826 4239
-		145 146 163 1773 #morea_area
-		4702 4699 4698 4701 4750 4752 4753 4754 4755 4757 4780 # 1.30
+		137 138 139 140 141 142 143 144 147 1766 1827 1831 1853 3000 3002 3001 4174 4175 4176 131 148 1828 136 1826 4239 145 146 1773 4702 4699 4698 4701 4750 4752 4753 4754 4755 4757 4780 
+		152 4756 1767 4173 #slavonia_area
 	}
 	
 	# Specific
@@ -788,6 +787,9 @@ trade_company_constantinople = {
 		326 4312 4313 #ankara_area
 		164 320 2348 3003 #aegean_archipelago_area
 		4700 4703 4704 4705 4706 4779 # 1.30
+		156 1951 4128 1954 #southern_transylvania_area
+		157 158 1952 4127 #transylvania_area
+		160 161 2998 4531 4532 #wallachia_area
 	}
 	
 	# Specific
