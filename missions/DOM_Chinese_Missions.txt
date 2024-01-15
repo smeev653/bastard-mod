@@ -3417,7 +3417,7 @@ DOM_Qing_Missions_3 = {
 	generic = no
 	ai = yes
 	#potential_on_load = { has_dlc = "Mandate of Heaven" }
-	potential = {`
+	potential = {
 		has_dlc = "Domination"
 		OR = {
 			tag = MJZ
