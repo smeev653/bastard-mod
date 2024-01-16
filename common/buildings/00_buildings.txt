@@ -613,6 +613,7 @@ dock = {
 	}
 	modifier = {
 		local_sailors_modifier = 0.5
+		trade_value_modifier = 0.1
 		local_has_man_of_war = yes
 		local_has_galleass = yes
 		allowed_num_of_buildings = 1
@@ -1714,6 +1715,7 @@ drydock = {
 
 	modifier = {
 		local_sailors_modifier = 1.0
+		trade_value_modifier = 0.2
 		local_has_man_of_war = yes
 		local_has_galleass = yes
 		allowed_num_of_buildings = 1
