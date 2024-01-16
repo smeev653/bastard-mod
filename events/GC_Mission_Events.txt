@@ -19,8 +19,8 @@ country_event = {
 			define_ruler = {
 				name = "Hayreddin Barbarossa"
 				adm = 5
-				dip = 4
-				mil = 5
+				dip = 5
+				mil = 6
 				claim = 95
 			}
 			hidden_effect = {
