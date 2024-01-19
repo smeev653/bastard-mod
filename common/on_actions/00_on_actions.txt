@@ -5162,6 +5162,10 @@ on_minority_expelled = {
 
 # THIS = Raiding country, FROM = Sea province
 on_raid_coast = {
+	change_variable = {
+			which = num_of_raided_coasts
+			value = 1
+		}
 	if = {
 		limit = {
 			has_faction = pr_buccaneers

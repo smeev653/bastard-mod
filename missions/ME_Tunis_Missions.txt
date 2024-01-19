@@ -350,7 +350,7 @@ TUN_missions_1 = {
 				custom_trigger_tooltip = {
 					tooltip = TUN_provinces_raided_125
 					check_variable = {
-						which = NumOfRaidedCoasts
+						which = num_of_raided_coasts
 						value = 125
 					}
 				}
