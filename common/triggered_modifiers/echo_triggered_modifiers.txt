@@ -243,7 +243,7 @@ Ahead_of_time = {
 		NOT = { is_lacking_institutions = yes }
 	}
 	monthly_reform_progress_modifier = 0.25
-	yearly_army_professionalism = 0.002
+	yearly_innovativeness = 0.2
 	army_tradition = 1
 }
 TUR = {
