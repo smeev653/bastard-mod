@@ -538,7 +538,7 @@ warsubsidy = {
 		allow = {
 			always = no	
 		}
-	}
+	}	
 }
 
 offerloan = {
