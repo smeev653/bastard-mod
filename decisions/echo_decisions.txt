@@ -176,7 +176,9 @@ country_decisions = {
 		color = { 41  233  249 }
 		potential = {
 			ai = no
-			adm_tech = 6
+			adm_tech = 11
+			dip_tech = 11
+			mil_tech = 11
 			NOT = {has_country_flag = hide_extra_decisions}
 		}
 		provinces_to_highlight = {
@@ -309,7 +311,6 @@ country_decisions = {
 		effect = {
 			if = {
 				limit = {
-					is_at_war = no
 					any_owned_province = {
 						base_production = 10
 						has_production_building_trigger = yes
