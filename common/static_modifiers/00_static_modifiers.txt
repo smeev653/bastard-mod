@@ -1474,7 +1474,7 @@ private_enterprise_subject = {
 
 self_governing_colony_subject = {
 	colonists = 1
-	development_cost = -0.1
+	#development_cost = -0.1
 	liberty_desire = 25
 	#global_ship_trade_power = -0.2
 }
