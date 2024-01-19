@@ -3,6 +3,7 @@ country_decisions = {
 		color = { 41  233  249 }
 		potential = {
 			ai = no
+			NOT = { has_country_flag = hide_extra_decisions }
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -110,8 +111,7 @@ country_decisions = {
 	Create_a_Trade_Hub = {
 		color = { 166  0  0 }
 		potential = {
-			ai = no
-			has_dlc = "Dharma"
+
 		}
 		
 		allow = {
@@ -148,15 +148,118 @@ country_decisions = {
 		}
 		
 	}
-	
+	hide_extra_decisions = {
+		color = { 41  233  249 }
+		potential = {
+				ai = no
+				NOT = { has_country_flag = hide_extra_decisions }
+			}
+			allow = {
+			}
+			effect = {
+				set_country_flag = hide_extra_decisions
+			}
+	}
+	show_extra_decisions = {
+		color = { 41  233  249 }
+		potential = {
+				ai = no
+				has_country_flag = hide_extra_decisions 
+			}
+			allow = {
+			}
+			effect = {
+				clr_country_flag = hide_extra_decisions
+			}
+	}
+	show_bad_provinces = {
+		color = { 41  233  249 }
+		potential = {
+			ai = no
+			adm_tech = 6
+			NOT = {has_country_flag = hide_extra_decisions}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						has_building = wharf
+						has_building = weapons
+						has_building = textile
+						has_building = tradecompany
+						has_building = farm_estate
+						has_building = mills
+						has_building = plantations
+					}
+					NOT = {has_production_building_trigger = yes }
+				}	
+				AND = {
+					NOT = {
+						OR = {
+							has_building = wharf
+							has_building = weapons
+							has_building = textile
+							has_building = tradecompany
+							has_building = farm_estate
+							has_building = mills
+							has_building = plantations
+						}
+					}
+					has_production_building_trigger = yes 
+				}	
+			}
+			OR = {
+				owned_by = ROOT 
+				is_core = ROOT 
+			}
+		}
+		allow = {
+		}
+	}
+	show_bad_temples = {
+		color = { 41  233  249 }
+		potential = {
+			ai = no
+			adm_tech = 6
+			NOT = {has_country_flag = hide_extra_decisions}
+		}
+		provinces_to_highlight = {
+			OR = {
+				has_building = temple
+				has_building = cathedral
+			}
+			NOT = { num_free_building_slots = 1 }
+			OR = {
+				NOT = { has_manpower_building_trigger = yes }
+				NOT = { has_forcelimit_building_trigger = yes  }
+				NOT = {
+					OR = {
+						has_building = wharf
+						has_building = weapons
+						has_building = textile
+						has_building = tradecompany
+						has_building = farm_estate
+						has_building = mills
+						has_building = plantations
+					}
+				}
+				NOT = {has_production_building_trigger = yes }		
+			}	
+			OR = {
+				owned_by = ROOT 
+				is_core = ROOT 
+			}
+		}
+		allow = {
+		}
+	}
 	echo_provincial_investment = {
 		color = { 166  0  0 }
 		potential = { 
-			ai = no
+			
 		}
 		allow = {
 			NOT = { has_country_modifier = echo_provincial_investment_cmod }
-			is_at_war = no
 			any_owned_province = {
 				base_production = 10
 				has_production_building_trigger = yes
