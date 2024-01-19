@@ -172,7 +172,7 @@ country_decisions = {
 				clr_country_flag = hide_extra_decisions
 			}
 	}
-	show_bad_provinces = {
+	show_bad_production_provinces = {
 		color = { 41  233  249 }
 		potential = {
 			ai = no
@@ -208,6 +208,37 @@ country_decisions = {
 					has_production_building_trigger = yes 
 				}	
 			}
+			OR = {
+				owned_by = ROOT 
+				is_core = ROOT 
+			}
+		}
+		allow = {
+		}
+	}
+	show_bad_manpower_provinces = {
+		color = { 41  233  249 }
+		potential = {
+			ai = no
+			adm_tech = 15
+			NOT = {has_country_flag = hide_extra_decisions}
+		}
+		provinces_to_highlight = {
+			OR = {
+				has_building = wharf
+				has_building = weapons
+				has_building = textile
+				has_building = tradecompany
+				has_building = farm_estate
+				has_building = mills
+				has_building = furnace
+				has_building = plantations
+				has_building = ramparts
+				has_building = impressment_offices
+				has_building = state_house
+				has_building = armory
+			}
+			NOT = { has_building = soldier_households }
 			OR = {
 				owned_by = ROOT 
 				is_core = ROOT 
