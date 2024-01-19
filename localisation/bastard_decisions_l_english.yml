@@ -6,7 +6,7 @@ bastard_korea_formation_desc:0 "Later Silla nearly united the Korean peoples in 
 b_form_eoh_title:0 "Form the Empire of Hungary"
 b_form_eoh_desc:0 ""
 show_bad_production_provinces_title:0 "Highlight Bad Production Provinces"
-show_bad_provinces_desc:0 "Highlight provinces with a workshop and no manufactory OR a manufactory and no workshop."
+show_bad_production_provinces_desc:0 "Highlight provinces with a workshop and no manufactory OR a manufactory and no workshop."
 show_bad_temples_title:0 "Highlight Bad Temple Provinces"
 show_bad_temples_desc:0 "Highlight provinces with a temple and no building slots and missing either a Forcelimit Building, Manpower Building, Production Building or Manufactory."
 show_bad_manpower_provinces_title:0 "Highlight Provinces Missing Soldier Households"
