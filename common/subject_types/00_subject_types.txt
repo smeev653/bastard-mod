@@ -596,6 +596,7 @@ colony = {
 	overlord_enforce_peace_attacking = yes
 	can_transfer_in_peace = no
 	press_sailors = yes
+	transfer_trade_power = yes
 	can_concentrate_development = no
 	extend_trading_range = yes
 
@@ -634,7 +635,6 @@ colony = {
 	increase_tariffs = yes
 	decrease_tariffs = yes
 	enforce_culture = yes
-	transfer_trade_power = yes
 	# Modifiers:
 	modifier_overlord = {
 		modifier = large_colonial_nation
