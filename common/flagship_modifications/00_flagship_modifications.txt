@@ -231,6 +231,7 @@ spanish_treasure_fleet = {
             tag = SPA
             tag = CAS
         }
+		always = no
         normal_or_historical_nations = yes
     }
 	modifier = {

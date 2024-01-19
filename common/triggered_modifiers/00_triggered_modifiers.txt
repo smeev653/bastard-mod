@@ -796,11 +796,15 @@ golden_age_of_piracy = {
 		1563 = {
 			has_merchant = ROOT
 		}
+		ROOT = {
+			has_privateers = yes
+		}
+		num_ships_privateering = 10
 	}	
 	
 	merchants = 1
-	privateer_efficiency = 0.25
-	treasure_fleet_income = 0.25
+	privateer_efficiency = 1
+	#treasure_fleet_income = 0.25
 }
 
 ######################################
