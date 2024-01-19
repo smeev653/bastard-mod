@@ -506,10 +506,58 @@ insultaction = {
 	}
 }
 giftaction = {
+	condition = {
+		tooltip = b_gift_action
+		potential = {
+			NOT = {
+				OR = {
+					FROM = { is_colonial_nation = yes }
+					FROM = { is_subject_of = ROOT }
+				}
+			}	
+		}
+		allow = {
+			always = no	
+		}
+	}
 	effect = {
 		change_asha_vahishta = { value = 1 }
 	}
 }
+warsubsidy = {
+	condition = {
+		tooltip = b_warsubsidy_action
+		potential = {
+			NOT = {
+				OR = {
+					FROM = { is_colonial_nation = yes }
+					FROM = { is_subject_of = ROOT }
+				}
+			}	
+		}
+		allow = {
+			always = no	
+		}
+	}
+}
+
+offerloan = {
+	condition = {
+		tooltip = b_offerloan_action
+		potential = {
+			NOT = {
+				OR = {
+					FROM = { is_colonial_nation = yes }
+					FROM = { is_subject_of = ROOT }
+				}
+			}	
+		}
+		allow = {
+			always = no	
+		}
+	}
+}
+
 fabricate_claim = {
 	effect = {
 		change_asha_vahishta = { value = -1 }
@@ -521,6 +569,20 @@ break_marriage = {
 	}
 }
 takeondebt = {
+	condition = {
+		tooltip = b_takeondebt_action
+		potential = {
+			NOT = {
+				OR = {
+					FROM = { is_colonial_nation = yes }
+					FROM = { is_subject_of = ROOT }
+				}
+			}	
+		}
+		allow = {
+			always = no	
+		}
+	}
 	effect = {
 		change_asha_vahishta = { value = 2 }
 	}
