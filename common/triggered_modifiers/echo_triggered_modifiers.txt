@@ -620,12 +620,13 @@ Stop_the_raids = {
 				AND = {		
 					tag = CAS		
 					alliance_with = POR
+					TUN = { alliance_with = MOR }
 				}
 				AND = {		
 					tag = POR		
 					alliance_with = CAS
+					TUN = { alliance_with = MOR }
 				}
-				TUN = { alliance_with = MOR }
 			}	
 			NOT = { is_lacking_institutions = yes }		
 		
