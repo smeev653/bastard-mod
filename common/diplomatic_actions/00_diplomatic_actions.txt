@@ -506,20 +506,6 @@ insultaction = {
 	}
 }
 giftaction = {
-	condition = {
-		tooltip = b_gift_action
-		potential = {
-			NOT = {
-				OR = {
-					FROM = { is_colonial_nation = yes }
-					FROM = { is_subject_of = ROOT }
-				}
-			}	
-		}
-		allow = {
-			always = no	
-		}
-	}
 	effect = {
 		change_asha_vahishta = { value = 1 }
 	}
