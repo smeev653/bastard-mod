@@ -356,48 +356,21 @@ TUN_missions_1 = {
 				}
 				#custom_trigger_tooltip = { tooltip = ARB_playtester_note }
 			}
+			OR = {
+					1298 = {
+						trade_share = {
+							country = ROOT
+							share = 10
+						}
+					}
+					1293 = {
+						trade_share = {
+							country = ROOT
+							share = 10
+						}
+					}
+				}
 			
-			if = {
-				limit = {
-					OR = {
-						has_dlc = "Wealth of Nations"
-						has_dlc = "Golden Century"
-						has_dlc = "Mare Nostrum"
-						has_dlc = "El Dorado"
-					}
-					ai = no
-				}
-				OR = {
-					1298 = {
-						has_privateer_share_in_trade_node = {
-							who = ROOT
-							share = 0.10
-						}
-					}
-					1293 = {
-						has_privateer_share_in_trade_node = {
-							who = ROOT
-							share = 0.10
-						}
-					}
-				}
-			}
-			else = {
-				OR = {
-					1298 = {
-						trade_share = {
-							country = ROOT
-							share = 10
-						}
-					}
-					1293 = {
-						trade_share = {
-							country = ROOT
-							share = 10
-						}
-					}
-				}
-			}
 		}
 		effect = {
 			add_country_modifier = {
