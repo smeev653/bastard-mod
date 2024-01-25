@@ -1095,7 +1095,7 @@ defensive_ideas = {
 		shock_damage_received = -0.15
 	}
 	defensive_mentality = {
-		defensiveness = 0.25
+		defensiveness = 0.15
 		global_manpower_modifier = 0.15
 	}
 	until_the_last_man = {
@@ -1111,8 +1111,8 @@ defensive_ideas = {
 		max_hostile_attrition = 1 
 	}
 	ditch_defense = {
-		garrison_damage = 0.25
-		garrison_size = 0.5
+		garrison_damage = 0.15
+		garrison_size = 0.25
 		may_refill_garrison = yes
 	}
 	terrain_defence = {
