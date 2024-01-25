@@ -703,7 +703,7 @@ maritime_ideas = {
 	}
 	merchant_marine = {
 		allowed_marine_fraction = 0.25
-		shock_damage_received = -0.1
+		shock_damage_received = -0.15
 	}
 	overseas_merchants = {
 		merchants = 1

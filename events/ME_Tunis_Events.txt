@@ -579,7 +579,7 @@ province_event = {
 			add_building = temple
 		}
 		
-		change_culture = sephardic
+		#change_culture = sephardic
 		
 		owner = {
 			add_country_modifier = {
@@ -607,7 +607,6 @@ province_event = {
 		add_base_tax = 1 
 		
 		change_religion = jewish	
-		change_culture = sephardic
 		
 		add_province_modifier = {
 			name = TUN_dont_want_sephardic_jews
