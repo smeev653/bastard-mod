@@ -27,3 +27,7 @@ master_of_india = {
 	fire_damage = 0.1
 	num_accepted_cultures = 3
 }
+
+bad_building = {
+	local_unrest = 0.01
+}

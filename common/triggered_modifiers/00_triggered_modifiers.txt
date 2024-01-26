@@ -796,9 +796,6 @@ golden_age_of_piracy = {
 		1563 = {
 			has_merchant = ROOT
 		}
-		1563 = {
-			has_privateers = yes
-		}
 		num_ships_privateering = 10
 	}	
 	
