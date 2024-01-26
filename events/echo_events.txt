@@ -45,16 +45,10 @@ province_event = {
 		#Couldn't get tooltips for trigger switch working, so using if/else
 		if = {
 			limit = { trade_goods = grain }
-			if = {
-				limit = { continent = africa }
-				change_trade_goods = cotton
-			}
-			else = {
 				add_province_modifier = {
 					name = echo_production_hub_grain_pmod
 					duration = -1
 				}
-			}
 		}
 		else_if = {
 			limit = { trade_goods = livestock }
