@@ -40,6 +40,7 @@ military_hegemon = {
 		global_regiment_cost = -0.025
 		reinforce_speed = 0.125
 		siege_ability = 0.1
+		army_tradition = 1
 	}
 	
 	max = {

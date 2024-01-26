@@ -34,6 +34,7 @@ naval_hegemon = {
 	max = {
 		all_power_cost = -0.1
 		backrow_artillery_damage = 0.15
+		navy_tradition = 1
 	}
 	
 }

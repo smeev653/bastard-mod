@@ -162,6 +162,8 @@ Great_power_dominance = {
 				NOT = { is_lacking_institutions = yes }
 	}
 	all_power_cost = -0.025
+	army_tradition_decay = -0.005
+	navy_tradition_decay = -0.005
 }
 HRE_backup = {	
 	potential = {
@@ -243,7 +245,7 @@ Ahead_of_time = {
 		NOT = { is_lacking_institutions = yes }
 	}
 	monthly_reform_progress_modifier = 0.25
-	yearly_innovativeness = 0.2
+	yearly_innovativeness = 0.4
 	army_tradition = 1
 }
 TUR = {

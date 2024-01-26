@@ -3699,7 +3699,7 @@ new_order_regiments_reform = {
 	modifiers = {
 		yearly_army_professionalism = 0.0025
 		drill_gain_modifier = 0.5
-		army_tradition = 0.5
+		#army_tradition = 0.5
 	}
 
 	conditional = {
