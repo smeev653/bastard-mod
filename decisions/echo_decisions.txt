@@ -219,7 +219,7 @@ country_decisions = {
 		allow = {
 		}
 		effect = {
-			every_core_province = {
+			every_owned_province = {
 				limit = {
 					NOT = { trade_goods = grain }
 						OR = {
@@ -260,8 +260,7 @@ country_decisions = {
 					duration = 3650 
 				}
 			}
-			if = {
-				any_owned_province = {
+			every_owned_province = {
 					limit = {
 						has_province_modifier = bad_building_production
 						has_production_building_trigger = yes
@@ -276,7 +275,6 @@ country_decisions = {
 						}
 					}
 					remove_province_modifier = bad_building_production
-				}	
 			}	
 		}
 	}
@@ -318,7 +316,7 @@ country_decisions = {
 		allow = {
 		}
 		effect = {
-			every_core_province = {
+			every_owned_province = {
 				limit = {
 					OR = {
 						has_building = wharf
@@ -352,15 +350,13 @@ country_decisions = {
 					duration = 3650 
 				}
 			}
-			if = {
-				any_owned_province = {
+			every_owned_province = {
 					limit = {
 						has_province_modifier = bad_building_soldier_household
 						has_building = soldier_households
 					}
 					remove_province_modifier = bad_building_soldier_household
 				}	
-			}
 		}
 	}
 	show_bad_temples = {
@@ -401,7 +397,7 @@ country_decisions = {
 		allow = {
 		}
 		effect = {
-			every_core_province = {
+			every_owned_province = {
 				limit = {
 					has_tax_building_trigger = yes
 					NOT = { base_tax = 5 }
@@ -432,14 +428,12 @@ country_decisions = {
 					duration = 3650 
 				}
 			}
-			if = {
-				any_owned_province = {
+			every_owned_province = {
 					limit = {
 						has_province_modifier = bad_building_temple
 						has_tax_building_trigger = no	
 					}
 					remove_province_modifier = bad_building_temple
-				}	
 			}			
 		}
 	}

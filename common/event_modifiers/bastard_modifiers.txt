@@ -29,13 +29,19 @@ master_of_india = {
 }
 
 bad_building_soldier_household = {
-	trade_value = -0.01
+	local_build_time = -0.1
+	trade_value = 0.25
+	trade_goods_size = -0.25
 }
 
 bad_building_temple = {
-	trade_value = -0.01
+	local_build_time = -0.1
+	trade_value = 0.25
+	trade_goods_size = -0.25
 }
 
 bad_building_production = {
-	trade_value = -0.01
+	local_build_time = -0.1
+	trade_value = 0.25
+	trade_goods_size = -0.25
 }
