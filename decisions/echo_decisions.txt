@@ -218,6 +218,67 @@ country_decisions = {
 		}
 		allow = {
 		}
+		effect = {
+			every_core_province = {
+				limit = {
+					NOT = { trade_goods = grain }
+						OR = {
+							AND = {
+								OR = {
+									has_building = wharf
+									has_building = weapons
+									has_building = textile
+									has_building = tradecompany
+									has_building = farm_estate
+									has_building = mills
+									has_building = plantations
+								}
+								NOT = {has_production_building_trigger = yes }
+							}	
+							AND = {
+								NOT = {
+									OR = {
+										has_building = wharf
+										has_building = weapons
+										has_building = textile
+										has_building = tradecompany
+										has_building = farm_estate
+										has_building = mills
+										has_building = plantations
+									}
+								}
+								has_production_building_trigger = yes 
+							}	
+						}
+						OR = {
+							owned_by = ROOT 
+							is_core = ROOT 
+						}	
+				}
+				add_province_modifier = { 
+					name = bad_building_production
+					duration = 3650 
+				}
+			}
+			if = {
+				any_owned_province = {
+					limit = {
+						has_province_modifier = bad_building_production
+						has_production_building_trigger = yes
+						OR = {
+							has_building = wharf
+							has_building = weapons
+							has_building = textile
+							has_building = tradecompany
+							has_building = farm_estate
+							has_building = mills
+							has_building = plantations
+						}
+					}
+					remove_province_modifier = bad_building_production
+				}	
+			}	
+		}
 	}
 	show_bad_manpower_provinces = {
 		color = { 41  233  249 }
@@ -287,9 +348,18 @@ country_decisions = {
 					}
 				}
 				add_province_modifier = { 
-					name = bad_building
+					name = bad_building_soldier_household
 					duration = 3650 
 				}
+			}
+			if = {
+				any_owned_province = {
+					limit = {
+						has_province_modifier = bad_building_soldier_household
+						has_building = soldier_households
+					}
+					remove_province_modifier = bad_building_soldier_household
+				}	
 			}
 		}
 	}
@@ -329,6 +399,48 @@ country_decisions = {
 			}
 		}
 		allow = {
+		}
+		effect = {
+			every_core_province = {
+				limit = {
+					has_tax_building_trigger = yes
+					NOT = { base_tax = 5 }
+					NOT = { num_free_building_slots = 1 }
+					OR = {
+						NOT = { has_manpower_building_trigger = yes }
+						NOT = { has_forcelimit_building_trigger = yes  }
+						NOT = {
+							OR = {
+								has_building = wharf
+								has_building = weapons
+								has_building = textile
+								has_building = tradecompany
+								has_building = farm_estate
+								has_building = mills
+								has_building = plantations
+							}
+						}
+					NOT = {has_production_building_trigger = yes }		
+					}	
+					OR = {
+						owned_by = ROOT 
+						is_core = ROOT 
+					}
+				}
+				add_province_modifier = { 
+					name = bad_building_temple
+					duration = 3650 
+				}
+			}
+			if = {
+				any_owned_province = {
+					limit = {
+						has_province_modifier = bad_building_temple
+						has_tax_building_trigger = no	
+					}
+					remove_province_modifier = bad_building_temple
+				}	
+			}			
 		}
 	}
 	echo_provincial_investment = {

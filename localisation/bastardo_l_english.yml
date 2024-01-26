@@ -120,6 +120,12 @@
  trade_hub_created_2:0 "Trade Hub Created Recently"
  jihad:0 "Jihad"
  Great_power_dominance_established:0 "Imperial Administration"
+ bad_building_soldier_household:0 "Missing Soldier Household in Province"
+ bad_building_soldier_household_desc:0 "This province is missing a Soldier's Household as highlighted in the previous decision."
+ bad_building_templed:0 "Bad Temple in Province"
+ bad_building_soldier_household_desc:0 "This province has a bad Temple as highlighted in the previous decision."
+ bad_building_produtin:0 "Missing Workshop or Manufactory in Province"
+ bad_building_soldier_household_desc:0 "This province is missing a Workshop or Manufactory as highlighted in the previous decision."
  ##################################events########################################
  #internal dev
  echo.2.t:0 "Internal Development"

@@ -9,7 +9,7 @@ tur_age_ability_modifier = {
 }
 
 jihad = {
-       monthly_piety = -0.08
+    monthly_piety = -0.08
 }
 
 
@@ -28,6 +28,14 @@ master_of_india = {
 	num_accepted_cultures = 3
 }
 
-bad_building = {
-	local_unrest = 0.01
+bad_building_soldier_household = {
+	trade_value = -0.01
+}
+
+bad_building_temple = {
+	trade_value = -0.01
+}
+
+bad_building_production = {
+	trade_value = -0.01
 }
