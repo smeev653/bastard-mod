@@ -758,7 +758,7 @@ excellent_vintage = {
 }
 
 poor_uniforms = {
-	land_morale = -0.05
+	#land_morale = -0.05
 }
 
 salt_crisis = {
@@ -771,7 +771,7 @@ good_supplies = {
 }
 
 poor_copper = {
-	artillery_cost = 0.20
+	artillery_cost = 0.10
 }
 
 poor_iron = {
@@ -792,7 +792,7 @@ harvest_fails = {
 }
 
 tribal_succession_crisis = {
-	global_unrest = 10
+	#global_unrest = 10
 }
 
 the_statue_in_restraint_of_appeals = {
