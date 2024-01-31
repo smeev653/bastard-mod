@@ -246,7 +246,7 @@ estate_jains_diplomacy = {
 estate_jains_clerical_class = {
 	icon = privilege_patronize_jain_families
 	
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.1
 	can_select = {
@@ -345,7 +345,7 @@ estate_jains_conscientious_objection = {
 
 estate_jains_grant_liberties = {
 	icon = privilege_tolerance_heathen
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.1
 	
@@ -396,7 +396,7 @@ estate_jains_land_trade_rights = {
 
 estate_jains_monopoly_of_textiles = {
 	icon = privilege_monopoly_of_goods_cloth
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -440,10 +440,10 @@ estate_jains_monopoly_of_textiles = {
 					silk = 1
 				}
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				OR = {
 					trade_goods = cloth
@@ -521,7 +521,7 @@ estate_jains_monopoly_of_textiles = {
 
 estate_jains_monopoly_of_dyes = {
 	icon = privilege_monopoly_of_goods_dyes
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -559,10 +559,10 @@ estate_jains_monopoly_of_dyes = {
 			limit = {
 				dyes = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = dyes
 			}
@@ -634,7 +634,7 @@ estate_jains_monopoly_of_dyes = {
 
 estate_jains_monopoly_of_glass = {
 	icon = privilege_monopoly_of_goods_glass
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -672,10 +672,10 @@ estate_jains_monopoly_of_glass = {
 			limit = {
 				glass = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = glass
 			}
@@ -747,7 +747,7 @@ estate_jains_monopoly_of_glass = {
 
 estate_jains_monopoly_of_paper = {
 	icon = privilege_monopoly_of_goods_paper
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -785,10 +785,10 @@ estate_jains_monopoly_of_paper = {
 			limit = {
 				paper = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = paper
 			}
@@ -937,7 +937,7 @@ estate_jains_exclusive_trade_rights = {
 
 estate_jains_control_over_monetary_policy = {
 	icon = privilege_give_money
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.05
 	

@@ -279,7 +279,7 @@ estate_maratha_advisor = {
 
 estate_maratha_loyalty_privilege = {
 	icon = privilege_royal_authority
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	influence = 0.1
@@ -500,7 +500,7 @@ estate_maratha_special_privilege = {
 
 estate_maratha_monopoly_of_metals = {
 	icon = privilege_monopoly_of_goods_iron
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -543,10 +543,10 @@ estate_maratha_monopoly_of_metals = {
 					copper = 1
 				}
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				OR = {
 					trade_goods = iron
@@ -623,7 +623,7 @@ estate_maratha_monopoly_of_metals = {
 
 estate_maratha_monopoly_of_livestock = {
 	icon = privilege_monopoly_of_goods_livestock
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -660,10 +660,10 @@ estate_maratha_monopoly_of_livestock = {
 			limit = {
 				livestock = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = livestock
 			}
@@ -734,7 +734,7 @@ estate_maratha_monopoly_of_livestock = {
 
 estate_maratha_monopoly_of_gems = {
 	icon = privilege_monopoly_of_goods_gems
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -771,10 +771,10 @@ estate_maratha_monopoly_of_gems = {
 			limit = {
 				gems = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = gems
 			}
@@ -845,7 +845,7 @@ estate_maratha_monopoly_of_gems = {
 
 estate_maratha_subject_rights = {
 	icon = privilege_royal_authority
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.1
 	
@@ -922,7 +922,7 @@ estate_maratha_subject_rights = {
 
 estate_maratha_better_integration = {
 	icon = privilege_better_integration
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.05
 	loyalty = 0
