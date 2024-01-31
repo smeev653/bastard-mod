@@ -2732,12 +2732,12 @@ estate_burghers_financial_demand = {
 	can_select = {
 		is_at_war = no
 	}
-	modifier = {all_power_cost = 0.05}
+	modifier = {all_power_cost = 0.05 production_efficiency = 0.05}
 	
 	benefits = {
 		interest = -0.75
 	}
-	cooldown_years = 10
+	cooldown_years = 5
 	#on_granted = {
 	#	enable_estate_action = {
 	#		estate_action = ASK_FOR_CONTRIBUTION_BURGHERS
