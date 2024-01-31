@@ -3123,6 +3123,11 @@ uparaja_reform = {
 		legitimacy = 0.5
 		prestige = 0.5
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 	ai = {
 		factor = 1.5
 		modifier = {
