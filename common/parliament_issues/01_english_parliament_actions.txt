@@ -780,9 +780,9 @@ colonial_venture_act = {
 		custom_tooltip = colonial_venture_act_modifier_tt
 	}
 	
-	modifier = {
-		colony_development_boost = 1
-	}
+	#modifier = {
+	#	colony_development_boost = 1
+	#}
 	
 	chance = {
 		factor = 0

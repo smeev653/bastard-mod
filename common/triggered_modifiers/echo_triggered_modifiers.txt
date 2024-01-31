@@ -49,23 +49,7 @@ Steppe_rule_2 = {
 	}
 	horde_unity = 5
 }
-Tortilla_workaround = {
-	potential = {
-		ai = no
-		religion = catholic
-	}
-	
 
-	trigger = {	
-		PAP = {
-			has_opinion_modifier = {
-			who = ROOT
-			modifier = violated_tordesillas
-			}
-		}	
-	}
-	global_colonial_growth = 20
-}
 Tortilla_workaround_POR = {
 	potential = {
 		ai = no
