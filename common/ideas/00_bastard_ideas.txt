@@ -2034,7 +2034,7 @@ ADU_ideas = {
 	free = yes        #will be added at load.
     
 	adu_stand_against_the_reconquista = {
-		fire_damage_received = -0.1
+		fire_damage_received = -0.15
 	}
 	adu_taifa_adminstration = {
 		development_cost = -0.05
@@ -2042,7 +2042,7 @@ ADU_ideas = {
     }
 	adu_ahl_uhl_dhimma = {
 		discipline = 0.05
-		shock_damage = 0.1
+		cavalry_power = 0.1
     }
 	adu_legacy_of_ibn_arabi = {
 		idea_cost = -0.1
