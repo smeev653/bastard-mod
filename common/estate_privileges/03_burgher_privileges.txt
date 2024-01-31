@@ -569,7 +569,7 @@ estate_burghers_indebted_to_burghers = {
 
 estate_burghers_free_enterprise = {
 	icon = privilege_comission_merchant_ships_for_war
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	influence = 0.1
@@ -721,7 +721,7 @@ estate_burghers_land_trade_rights = {
 
 estate_burghers_monopoly_of_textiles = {
 	icon = privilege_monopoly_of_goods_cloth
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -763,10 +763,10 @@ estate_burghers_monopoly_of_textiles = {
 					silk = 1
 				}
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				OR = {
 					trade_goods = cloth
@@ -843,7 +843,7 @@ estate_burghers_monopoly_of_textiles = {
 
 estate_burghers_monopoly_of_dyes = {
 	icon = privilege_monopoly_of_goods_dyes
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -879,10 +879,10 @@ estate_burghers_monopoly_of_dyes = {
 			limit = {
 				dyes = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = dyes
 			}
@@ -954,7 +954,7 @@ estate_burghers_monopoly_of_dyes = {
 
 estate_burghers_monopoly_of_glass = {
 	icon = privilege_monopoly_of_goods_glass
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -990,10 +990,10 @@ estate_burghers_monopoly_of_glass = {
 			limit = {
 				glass = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = glass
 			}
@@ -1083,7 +1083,7 @@ estate_burghers_monopoly_of_glass = {
 
 estate_burghers_monopoly_of_paper = {
 	icon = privilege_monopoly_of_goods_paper
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -1119,10 +1119,10 @@ estate_burghers_monopoly_of_paper = {
 			limit = {
 				paper = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = paper
 			}
@@ -1195,7 +1195,7 @@ estate_burghers_monopoly_of_paper = {
 
 estate_burghers_the_great_privilege = {
 	icon = privilege_grant_autonomy
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		has_dlc = "Emperor"
@@ -1352,7 +1352,7 @@ estate_burghers_exclusive_trade_rights = {
 
 estate_burghers_control_over_monetary_policy = {
 	icon = privilege_monopoly
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.05
 	
@@ -1752,7 +1752,7 @@ estate_burghers_orang_laut_alliances = {
 #Mission tree rewards
 estate_burghers_hydraulic_rights = {
 	icon = privilege_dev_cost_desert
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.05
 	
@@ -1945,7 +1945,7 @@ estate_burghers_control_over_the_mint = {
 
 estate_burghers_forest_expansion = {
 	icon = privilege_dev_cost_forest
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.05
 	
@@ -2023,7 +2023,7 @@ estate_burghers_forest_expansion = {
 
 estate_burghers_mountain_expansion = {
 	icon = privilege_dev_cost_mountain
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.05
 	
@@ -2234,7 +2234,7 @@ estate_burghers_orthodox_tolerance = {
 
 estate_burghers_polish_merchant_seal = {
 	icon = privilege_make_generous_donation
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		has_dlc = "Lions of the North"
@@ -2260,7 +2260,7 @@ estate_burghers_polish_merchant_seal = {
 #Russia Privileges
 estate_burghers_rise_of_the_burghers = {
 	icon = privilege_peasant
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		has_dlc = "Domination"
@@ -2359,7 +2359,7 @@ estate_burghers_the_new_middle_class = {
 
 estate_burghers_sindicat_remensa_privilege = {
 	icon = estate_burghers_sindicat_remensa_privilege
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		has_dlc = "Domination"
@@ -2383,7 +2383,7 @@ estate_burghers_sindicat_remensa_privilege = {
 #England
 estate_burghers_autonomous_trade_companies = {
 	icon = privilege_make_generous_donation
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		has_dlc = "Domination"
@@ -2817,7 +2817,7 @@ estate_burghers_promote_burgher_bookkeeping = {
 estate_burghers_great_works_of_iran = {
 	icon = privilege_dev_cost_desert
 	land_share = 5
-	max_absolutism = -10
+	max_absolutism = -5
 	
 	influence = 0.05
 	is_valid = {
@@ -3030,7 +3030,7 @@ estate_burghers_nile_goods_transport = {
 
 estate_burghers_monopoly_of_coffee = {
 	icon = estate_burghers_monopoly_of_coffee
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -3063,10 +3063,10 @@ estate_burghers_monopoly_of_coffee = {
 			limit = {
 				coffee = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = coffee
 			}
@@ -3146,7 +3146,7 @@ estate_burghers_reliance_on_republics = {
 	icon = estate_burghers_reliance_on_republics
 	loyalty = -0.05
 	influence = 0
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		OR = {
@@ -3228,7 +3228,7 @@ estate_burghers_exkousseiai_for_latins = {
 	icon = estate_burghers_exkousseiai_for_latins
 	loyalty = -0.1
 	influence = -0.05
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		OR = {
@@ -3388,7 +3388,7 @@ estate_burghers_YEM_coffee_monopoly = {
 	icon = estate_burghers_monopoly_of_coffee
 	
 	influence = 0
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		mission_completed = YEM_coffee
@@ -3401,7 +3401,7 @@ estate_burghers_YEM_coffee_monopoly = {
 			limit = {
 				coffee = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
 			years = 15
