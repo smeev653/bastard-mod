@@ -295,7 +295,7 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	shock_damage_received = -0.1
+	siege_ability = 0.2
 
 	effect = {}
 	removed_effect = {}
