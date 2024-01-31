@@ -59,6 +59,7 @@
  bs_ARB_estate_burghers_desert_development_gt:0 "Every owned province with §YDesert§! or §YCoastal Desert§! terrain gains:\nLocal Development Cost: §G-20.0%§!"
  bs_ARB_estate_burghers_desert_development_rt:0 "Every owned province with §YDesert§! or §YCoastal Desert§! terrain loses:\nLocal Development Cost: §G-20.0%§!"
  bs_estate_dhimmi_manpower_effect_tooltip:0 "Every owned province NOT of §YMuslim§! faith gains §Y'Dhimmi Conscription'§!, giving the following effects:\nLocal Manpower Modifier: §G+15.0%§!"
+ b_colony_warscore:0 "Colony"
  #Country Modifiers
  echo_por_colonist:0 "Portuguese Colonial Policy"
  desc_echo_por_colonist:0 ""

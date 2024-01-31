@@ -45,3 +45,7 @@ bad_building_production = {
 	trade_value = 0.25
 	trade_goods_size = -0.25
 }
+
+b_colony_warscore = {
+	local_warscore_cost_modifier = 1
+}
