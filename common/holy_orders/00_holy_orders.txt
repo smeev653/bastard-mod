@@ -496,7 +496,7 @@ montesa_order = {
     }
     modifier = {
 		local_garrison_size = 0.25
-		local_garrison_damage = 0.5
+		local_garrison_damage = #0.5
     }
     ai_priority = {
         factor = 2
