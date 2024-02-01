@@ -873,7 +873,7 @@ age_of_revolutions = {
 
 		ab_allow_anti_revolutionary_zeal = {
 			modifier = {
-				free_leader_pool = 5
+				regiment_manpower_usage = -0.15
 			}
 			ai_will_do = {
 				factor = 10
