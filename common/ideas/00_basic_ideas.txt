@@ -348,26 +348,26 @@ administrative_ideas = {
 	}
 	civil_servants = {
 		advisor_cost = -0.15
-		monarch_lifespan = 0.15
+		monarch_lifespan = 0.2
 	}
 	administrative_council = {
-		mercenary_manpower = 0.1
+		mercenary_manpower = 0.2
 		expand_administration_cost = -0.25
 	}
 	centralization = {
 		global_autonomy = -0.05
-		centralize_state_cost = -0.15
+		centralize_state_cost = -0.2
 	}
 	bookkeeping = {
 		interest = -0.25
-		state_maintenance_modifier = -0.25
+		state_maintenance_modifier = -0.33
 	}
 	cultural_regulations = {
-		development_cost = -0.05
+		development_cost_modifier = -0.05
 	}
 	resilient_state = {
 		manpower_recovery_speed = 0.10
-		recover_army_morale_speed = 0.10
+		recover_army_morale_speed = 0.15
 	}
 
 	ai_will_do = {
