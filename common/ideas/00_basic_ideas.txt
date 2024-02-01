@@ -790,17 +790,18 @@ aristocracy_ideas = {
 	category = MIL
 
 	bonus = {
-		fire_damage_received = -0.10
+		fire_damage_received = -0.1
 	}
 	noble_knights = {
-		shock_damage = 0.1
+		cavalry_power = 0.1
+		cavalry_cost = -0.1
 	}
 	military_traditions = {
 		mil_tech_cost_modifier  = -0.1
 		army_tradition_from_battle = 0.25
 	}	
 	local_nobility = {
-		global_regiment_cost = -0.05
+		leader_cost = -0.1
 		nobles_loyalty_modifier = 0.1
 		nomadic_tribes_loyalty_modifier = 0.1
 	}
@@ -816,7 +817,7 @@ aristocracy_ideas = {
 		navy_tradition_decay = -0.01
 	}
 	international_nobility = {
-		discipline = 0.05
+		land_morale = 0.075
 	}
 	ai_will_do = {
 		factor = 5
@@ -1182,6 +1183,7 @@ quality_ideas = {
 	}
 	quality_education = {
 		recover_army_morale_speed = 0.10
+		morale_damage_received = -0.1
 	}
 	massed_battery = {
 		artillery_power = 0.1
