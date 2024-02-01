@@ -486,6 +486,7 @@ spy_ideas = {
 	}
 	destabilising_efforts = {
 		advisor_cost = -0.10
+		country_diplomatic_power = 1
 	}
 	efficient_spies = {
 		yearly_corruption = -0.25
@@ -531,7 +532,6 @@ diplomatic_ideas = {
 		idea_cost = -0.1
 	}
 	cabinet = {
-		country_diplomatic_power = 1
 		advisor_cost = -0.15
 	}
 	benign_diplomats = {
