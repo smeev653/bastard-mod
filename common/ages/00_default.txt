@@ -957,7 +957,7 @@ age_of_revolutions = {
 				}
 			}
 			modifier = {
-				fire_damage_received = -0.15
+				fire_damage_received = -0.25
 			}
 			ai_will_do = {
 				factor = 100
@@ -993,6 +993,7 @@ age_of_revolutions = {
 				OR = {
 					tag = HAB
 					tag = HLR
+					tag = AHU
 				}
 			}
 			modifier = {
