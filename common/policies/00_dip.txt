@@ -376,7 +376,7 @@ black_chamber_act = {
  	}
  
  	global_manpower_modifier = 0.1
-	global_regiment_cost = -0.1
+	land_forcelimit_modifier = 0.1
  	
  	effect = {}
  	removed_effect = {}
