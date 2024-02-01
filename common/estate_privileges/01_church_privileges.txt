@@ -704,7 +704,7 @@ estate_church_freedom_of_interpretation = {
 
 estate_church_clerical_oversight = {
 	icon = privilege_tolerance_heathen
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		always = no
@@ -897,7 +897,7 @@ estate_church_administrative_privileges = {
 #DLC Privileges
 estate_church_monopoly_of_incense = {
 	icon = privilege_monopoly_of_goods_incence
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -933,10 +933,10 @@ estate_church_monopoly_of_incense = {
 			limit = {
 				incense = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = incense
 			}
@@ -1007,7 +1007,7 @@ estate_church_monopoly_of_incense = {
 
 estate_church_monopoly_of_wool = {
 	icon = privilege_monopoly_of_goods_wool
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -1043,10 +1043,10 @@ estate_church_monopoly_of_wool = {
 			limit = {
 				wool = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = wool
 			}
@@ -1117,7 +1117,7 @@ estate_church_monopoly_of_wool = {
 
 estate_church_monopoly_of_wine = {
 	icon = privilege_monopoly_of_goods_wine
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -1154,10 +1154,10 @@ estate_church_monopoly_of_wine = {
 			limit = {
 				wine = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = wine
 			}
@@ -1228,7 +1228,7 @@ estate_church_monopoly_of_wine = {
 
 estate_church_monopoly_of_slaves = {
 	icon = privilege_monopoly_of_goods_slaves
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	
 	is_valid = {
@@ -1265,10 +1265,10 @@ estate_church_monopoly_of_slaves = {
 			limit = {
 				slaves = 1
 			}
-			add_mercantilism = 1
+			add_mercantilism = 2
 		}
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 9
 			trigger = {
 				trade_goods = slaves
 			}
@@ -1742,7 +1742,7 @@ estate_church_lao_animism = {
 
 estate_church_religious_diplomats = {
 	icon = privilege_religious_diplomats
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.1
 	loyalty = 0
@@ -1981,7 +1981,7 @@ estate_church_one_faith_one_culture = {
 #Privilege to enable cults for heirs
 estate_church_heir_shrine = {
 	icon = privilege_heir_cult
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.1
 	loyalty = 0
@@ -2078,7 +2078,7 @@ estate_church_embrace_singluar_cult = {
 #Privilge to enable cult switching
 estate_church_flexible_cults = {
 	icon = privilege_switch_hindu_deity
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.05
 	is_valid = {
@@ -2887,7 +2887,7 @@ estate_church_union_of_the_churches = {
 	icon = estate_church_union_of_the_churches
 	loyalty = -0.1
 	influence = 0
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		OR = {
@@ -2977,7 +2977,7 @@ estate_church_muslim_integration = {
 	icon = privilege_send_emissary_to_pope
 	loyalty = 0
 	influence = 0.05
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	is_valid = {
 		has_unlocked_estate_privilege = { estate_privilege = estate_church_muslim_integration }
@@ -3053,7 +3053,7 @@ estate_church_fund_dar_al_hadith = {
 
 estate_church_fund_madrasas = {
 	icon = estate_church_fund_madrasas
-	max_absolutism = -10
+	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	land_share = 5
 	
