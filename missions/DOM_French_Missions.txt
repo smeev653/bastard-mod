@@ -781,7 +781,7 @@ french_missions_1_Continuation_a = {
 			else = {
 				OR = {
 					national_focus = DIP 
-					full_idea_group = exploration_ideas 
+					num_of_colonists = 1
 					num_of_light_ship = 25
 				}
 			}

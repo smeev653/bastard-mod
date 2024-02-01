@@ -631,7 +631,7 @@ country_event = {
 	
 	trigger = {
 		tag = POR
-		exploration_ideas = 2
+		num_of_colonists = 1
 		NOT = { has_global_flag = columbus_happened }
 		is_year = 1470
 		OR = {

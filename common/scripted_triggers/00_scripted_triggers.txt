@@ -2707,14 +2707,7 @@ has_not_any_exploration_ideas = {
 }
 
 has_any_exploration_idea = {
-	OR = {
-		has_idea = quest_for_the_new_world
-		has_idea = call_of_our_forefathers
-		has_idea = tonga_oceanic_empire
-		has_idea = samoa_trade
-		has_idea = legendary_voyagers
-		has_idea_group = ICE_ideas
-	}
+	num_of_colonists = 1
 }
 
 ###HAS ANY TRADE GOODS IMPORTANT FOR THE MANUFACTORIES###

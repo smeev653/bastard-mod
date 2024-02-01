@@ -1270,7 +1270,7 @@ ming_missions_2 = {
 		trigger = {
 			OR = {
 				AND = {
-					exploration_ideas = 1 
+					num_of_colonists = 1
 					dip_tech = 7 
 					num_of_light_ship = 25
 				}
@@ -1309,7 +1309,7 @@ ming_missions_2 = {
 			hidden_effect = {
 				if = {
 					limit = {
-						exploration_ideas = 1 
+						num_of_colonists = 1
 						dip_tech = 7 
 						num_of_light_ship = 25
 					}

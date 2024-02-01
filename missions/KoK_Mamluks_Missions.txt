@@ -862,9 +862,9 @@ mam_missions_2 = {
 		}
 		trigger = {
 			OR = {
-				exploration_ideas = 1
+				num_of_colonists = 1
 				mercantilism = 30
-				full_idea_group = trade_ideas
+				full_idea_group = maritime_ideas
 			}
 			OR = {
 				custom_trigger_tooltip = {
