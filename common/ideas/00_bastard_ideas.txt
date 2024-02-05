@@ -1017,7 +1017,7 @@ AFG_ideas = {
 MUG_ideas = {
 	start = {
 		core_creation = -0.15
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	
 	bonus = {
@@ -1799,7 +1799,7 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 		can_recruit_hussars = yes
 	}
 	wojsko_komputoe = {
@@ -1840,7 +1840,7 @@ PLC_ideas = {
 		army_tradition = 1
 	}
 	winged_hussars = { 
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 		can_recruit_hussars = yes
 	}
 	plc_refine_our_golden_liberty = { #Same for all of them
@@ -1885,7 +1885,7 @@ PLC_LIT_ideas = {
 		diplomatic_annexation_cost = -0.15
 	}
 	lithuanian_hussars = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 		can_recruit_hussars = yes 
 	}
 	statutes_of_lithuania = {

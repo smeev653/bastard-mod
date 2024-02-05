@@ -7741,9 +7741,7 @@ modernized_fire_ranks_modifier = {
 	fire_damage = 0.1
 }
 pol_cavalry_with_state_modifier = {
-	#cav_to_inf_ratio = 0.5 
-	cossacks_loyalty_modifier = 0.1 
-	cavalry_cost = -0.1
+	shock_damage = 0.1
 }
 pol_krakow_university_modifier = { 
 	institution_growth = 4 

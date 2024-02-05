@@ -961,11 +961,7 @@ mission_to_civilize_reform = {
 	icon = "mission_to_civilize_reform"
 	allow_normal_conversion = yes
 	trigger = {
-		OR = {
-			num_of_colonists = 1
-			has_idea_group = exploration_ideas
-			has_idea_group = expansion_ideas
-		}
+		num_of_colonists = 1
 	}
 	modifiers = {
 		colonist_placement_chance = 0.1
