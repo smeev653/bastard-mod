@@ -1,5 +1,0 @@
-#100 Naval Forcelimit = 1
-naval_forcelimit = {
-	free_navy_leader_pool = 1.25 #80 Naval Forcelimit -> +1 Free Leader
-	max_flagships = 1
-}

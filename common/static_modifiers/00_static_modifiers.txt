@@ -750,7 +750,7 @@ war = {
 }
 
 peace = {
-	war_exhaustion = -0.1
+	war_exhaustion = -0.2
 	monthly_fervor_increase = 1
 	global_autonomy = -0.1
 	global_institution_spread = 0.1
@@ -1422,7 +1422,8 @@ land_forcelimit = {
 
 #100 Naval Forcelimit = 1
 naval_forcelimit = {
-    free_navy_leader_pool = 1.25 #80 Naval Forcelimit -> +1 Free Leader
+	free_navy_leader_pool = 1.25 #80 Naval Forcelimit -> +1 Free Leader
+	max_flagships = 1
 }
 
 trade_company_strong = {
