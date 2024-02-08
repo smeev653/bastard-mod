@@ -207,14 +207,14 @@ severe_monsoon = {
 }
 
 blockaded = {
-	regiment_recruit_speed = 0.2
+	regiment_recruit_speed = 0.5
 	ship_recruit_speed = 0.5
 	local_monthly_devastation = 0.33
 	trade_goods_size_modifier = -0.25 
-	local_tax_modifier = -0.5
+	local_tax_modifier = -1
 	province_trade_power_modifier = -1
-	local_manpower_modifier = -1
-	local_sailors_modifier = -0.75
+	local_manpower_modifier = -1.5
+	local_sailors_modifier = -1
 	local_institution_spread = -0.1
 }
 
