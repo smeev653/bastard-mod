@@ -570,11 +570,13 @@ country_decisions = {
 	master_of_india = {
 		color = { 41  233  249 }
 		potential = {
+			is_at_war = no
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 			value = 1
 			superregion = india_superregion
 			is_city = yes
 			}
+			NOT = {has_country_modifier = master_of_india}
 		}	
 		provinces_to_highlight = {
 			AND = {
