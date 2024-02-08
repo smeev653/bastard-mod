@@ -337,13 +337,13 @@ shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 2
+		naval_forcelimit = 3
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
+		local_ship_cost = -0.1
 		local_has_man_of_war = yes
-		local_has_galleass = yes
-		allowed_num_of_buildings = 1
-		
+		local_has_galleass = yes	
+		trade_value_modifier = 0.1
 	}
 	on_built = {
 		add_development_from_building = {
@@ -612,11 +612,10 @@ dock = {
 		has_port = yes
 	}
 	modifier = {
-		local_sailors_modifier = 0.5
+		local_sailors_modifier = 1
 		trade_value_modifier = 0.1
 		local_has_man_of_war = yes
 		local_has_galleass = yes
-		allowed_num_of_buildings = 1
 	}
 	
 	on_built = {
@@ -1171,12 +1170,13 @@ grand_shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 4
-		ship_recruit_speed = -0.50
-		local_ship_repair = 0.50
+		naval_forcelimit = 6
+		ship_recruit_speed = -0.5
+		local_ship_repair = 0.5
+		local_ship_cost = -0.2
 		local_has_man_of_war = yes
 		local_has_galleass = yes
-		allowed_num_of_buildings = 1
+		trade_value_modifier = 0.1
 	}
 
 	on_built = {
@@ -1714,11 +1714,10 @@ drydock = {
 	}
 
 	modifier = {
-		local_sailors_modifier = 1.0
-		trade_value_modifier = 0.2
+		local_sailors_modifier = 2
+		trade_value_modifier = 0.1
 		local_has_man_of_war = yes
 		local_has_galleass = yes
-		allowed_num_of_buildings = 1
 	}
 	
 	on_built = {
