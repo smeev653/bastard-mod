@@ -790,17 +790,16 @@ synthetic_remnants = {
 golden_age_of_piracy = {
 	potential = {
 		has_global_flag = golden_age_of_piracy
-		1563 = { has_discovered = ROOT }
+		1516 = { has_discovered = ROOT }
 	}
 	trigger = {
-		1563 = {
+		1516 = {
 			has_merchant = ROOT
 		}
 		num_ships_privateering = 10
 	}	
 	
 	merchants = 1
-	privateer_efficiency = 1.5
 	#treasure_fleet_income = 0.25
 }
 
