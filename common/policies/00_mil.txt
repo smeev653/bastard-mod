@@ -1875,7 +1875,7 @@ black_chamber_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	artillery_fire = 0.5
+	artillery_fire = 0.25
 
 	effect = {}
 	removed_effect = {}
@@ -1900,7 +1900,7 @@ black_chamber_act_1 = {
 		NOT = { has_active_policy = black_chamber_act }
 	}
 	
-	artillery_fire = 1
+	artillery_fire = 0.5
 
 	effect = {}
 	removed_effect = {}
@@ -1924,7 +1924,7 @@ black_chamber_act_2 = {
 		NOT = { has_active_policy = black_chamber_act_1 }
 	}
 	
-	artillery_fire = 2
+	artillery_fire = 1
 
 	effect = {}
 	removed_effect = {}
