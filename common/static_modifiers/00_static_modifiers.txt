@@ -591,6 +591,7 @@ base_values = {
 	morale_damage = -0.1
 	has_marines = yes
 	sunk_ship_morale_hit_recieved = -0.9
+	max_possible_parliament_seats = 30
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -1992,7 +1993,7 @@ jafari_scholar_modifier = {
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	shock_damage = 0.1
+	morale_damage_received = -0.1
 }
 
 zaidi_scholar_modifier = {

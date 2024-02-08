@@ -1101,7 +1101,7 @@ muslim = {
 
 			picture = "GFX_icon_muslim_school_jafari"
 
-			shock_damage = 0.1
+			morale_damage_received = -0.1
 		}
 		zaidi_school = {
 			potential_invite_scholar = {
