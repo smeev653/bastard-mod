@@ -101,8 +101,8 @@ combat_janissary_decadence = {
 
 	
 	modifier = {
-		is_janissary_modifier = yes
 		discipline = 0.05
+		is_janissary_modifier = yes
 	}
 	
 	chance = {
