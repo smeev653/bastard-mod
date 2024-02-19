@@ -278,8 +278,9 @@ expansion_ideas = {
 		manpower_in_accepted_culture_provinces = 0.25
 	}
 	competetive_merchants  = {
-		placed_merchant_power_modifier = 0.5
-		trade_steering = 0.15
+		placed_merchant_power_modifier = 0.25
+		trade_steering = 0.1
+		reduced_trade_penalty_on_non_main_tradenode = 0.15
 	}
 	factories = {
 		defensiveness = 0.15
@@ -719,7 +720,8 @@ maritime_ideas = {
 	}
 	national_trade_policy = {
 		trade_efficiency = 0.10
-		mercantilism_cost = -0.25
+		mercantilism_cost = -0.15
+		reduced_trade_penalty_on_non_main_tradenode = 0.35
 	}
 
 	ai_will_do = {
