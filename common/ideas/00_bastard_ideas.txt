@@ -2041,7 +2041,7 @@ ADU_ideas = {
 		global_trade_goods_size_modifier = 0.1
     }
 	adu_ahl_uhl_dhimma = {
-		discipline = 0.05
+		#discipline = 0.05
 		cavalry_power = 0.1
     }
 	adu_legacy_of_ibn_arabi = {
