@@ -709,13 +709,13 @@ country_event = {
 		
 		ai_chance = { factor = 100 }
 		
-		western_sicily_area = {
-			change_culture = sicilian_arabic
-		}
+		#western_sicily_area = {
+		#	change_culture = sicilian_arabic
+		#}
 		
-		sicily_area = {
-			change_culture = sicilian_arabic
-		}
+		#sicily_area = {
+		#	change_culture = sicilian_arabic
+		#}
 		
 		western_sicily_area = {
 			limit = {
@@ -724,7 +724,7 @@ country_event = {
 					NOT = { ai = no } #do not take provinces away from player iwhtout consent
 				}
 			}
-			change_culture = sicilian_arabic
+			#change_culture = sicilian_arabic
 			
 			add_core = SIC
 			cede_province = SIC
@@ -742,7 +742,7 @@ country_event = {
 					NOT = { ai = no } #do not take provinces away from player iwhtout consent
 				}
 			}
-			change_culture = sicilian_arabic
+			#change_culture = sicilian_arabic
 			
 			add_core = SIC
 			cede_province = SIC
@@ -756,7 +756,7 @@ country_event = {
 		release = SIC
 		
 		SIC = {
-			change_primary_culture = sicilian_arabic
+			#change_primary_culture = sicilian_arabic
 			override_country_name = SIC_emirate_of_siicly_str
 			
 			add_country_modifier = {
