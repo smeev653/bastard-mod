@@ -5938,6 +5938,15 @@ ottoman_siyasah_tax_reform = {
 		more_15_manpower_in_heathen_provinces = yes
 		no_crownland_money_loss_to_age = yes
 	}
+	conditional = {
+		allow = {
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+	}
 }
 
 legislative_sejm = {
@@ -6259,8 +6268,7 @@ deified_monarchy_reform = {
 	icon = "divine_guidance_reform"
 	allow_normal_conversion = yes
 	modifiers = {
-		warscore_cost_vs_other_religion = -0.05
-		tolerance_own = 1
+			morale_damage_received = -0.15
 	}
 	ai = {
 		factor = 1
