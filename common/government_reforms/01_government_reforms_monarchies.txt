@@ -516,70 +516,16 @@ chinese_warlord = {
 	allow_normal_conversion = no
 	potential = {
 		OR = {
-			primary_culture = bai
-			primary_culture = miao
-			primary_culture = yi
-			culture_group = east_asian
-		}
-		OR = {
-			AND = {
-				OR = {
-					primary_culture = miao
-					primary_culture = yi
-				}
-				religion = animism
-			}
-			AND = {
-				primary_culture = bai
-				religion = buddhism
-			}
-			religion = confucianism
-		}
-		technology_group = chinese
-		capital_scope = {
-			OR = {
-				region = north_china_region
-				region = xinan_region
-				region = south_china_region
-			}
-		}
-		if = {
-			limit = { is_subject = yes }
-			overlord = { has_reform = celestial_empire }
-		}
+			tag = WUU
+			tag = CXI
+			tag = YUE
+		}	
 	}
 	trigger = {
 		OR = {
-			primary_culture = bai
-			primary_culture = miao
-			primary_culture = yi
-			culture_group = east_asian
-		}
-		OR = {
-			AND = {
-				OR = {
-					primary_culture = miao
-					primary_culture = yi
-				}
-				religion = animism
-			}
-			AND = {
-				primary_culture = bai
-				religion = buddhism
-			}
-			religion = confucianism
-		}
-		technology_group = chinese
-		capital_scope = {
-			OR = {
-				region = north_china_region
-				region = xinan_region
-				region = south_china_region
-			}
-		}
-		if = {
-			limit = { is_subject = yes }
-			overlord = { has_reform = celestial_empire }
+			tag = WUU
+			tag = CXI
+			tag = YUE
 		}
 	}
 	maintain_dynasty = yes
@@ -619,7 +565,7 @@ chinese_warlord = {
 	fixed_rank = 2
 
 	modifiers = {
-		manpower_recovery_speed = 0.25
+		advisor_cost = -0.1
 		governing_capacity = 500
 		liberty_desire = 50
 	}
