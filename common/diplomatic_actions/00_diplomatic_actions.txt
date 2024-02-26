@@ -172,7 +172,6 @@ declarewar = {
 			FROM = {
 				NOT = {is_subject_of_type = tributary_state}	
 			}
-			ai = no
 		}
 	}	
 	#condition = {
