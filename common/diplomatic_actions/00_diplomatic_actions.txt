@@ -130,6 +130,37 @@ declarewar = {
 		}
 	}
 	condition = {
+		tooltip = chinese_warlord_grace_period
+		potential = {
+			had_global_flag = {
+					flag = ming_blown_up
+					days = 1
+			}
+			FROM = {
+				OR = {
+					tag = CXI
+					tag = YUE
+					tag = WUU
+				}
+				ai = no
+			}
+		}
+		allow = {	
+				had_global_flag = {
+					flag = ming_blown_up
+					days = 7300
+				}
+				FROM = {
+					OR = {
+						tag = CXI
+						tag = YUE
+						tag = WUU
+					}	
+					ai = no
+				}
+		}	
+	}
+	condition = {
 		tooltip = bastard_mng_dec_horde
 		potential = {
 			tag = MNG
@@ -138,8 +169,9 @@ declarewar = {
 			}	
 		}
 		allow = {
-			FROM = { total_development = 300 }
+			FROM = { total_development = 299 }
 			FROM = { is_nomad = yes }
+			NOT = {is_subject_of_type = tributary_state}
 		}
 	}
 	#condition = {

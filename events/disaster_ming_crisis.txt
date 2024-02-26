@@ -448,6 +448,7 @@ country_event = {
 	}
 	
 	immediate = {
+		set_global_flag = ming_blown_up
 		hidden_effect = {
 			if = {
 				limit = {
