@@ -466,6 +466,7 @@ country_event = {
 								area = zhejiang_area
 								area = fujian_area
 								area = jiangxi_area
+								area = south_anhui_area
 							}
 							OR = {
 								controlled_by = REB
@@ -532,6 +533,7 @@ country_event = {
 								area = huguang_area
 								area = sichuan_area
 								area = chuanbei_area
+								area = chuannan_area
 							}
 							OR = {
 								controlled_by = REB
@@ -541,6 +543,11 @@ country_event = {
 						}
 						add_core = CXI
 						clear_rebels = yes
+					}
+					sichuan_area = {
+						add_base_production = 3			
+						add_base_manpower = 2
+						add_base_tax = 2
 					}
 					release = CXI
 					CXI = {
@@ -597,7 +604,7 @@ country_event = {
 							OR = {
 								area = guangdong_area
 								area = west_guangdong_area
-								area = guangxi_area
+								area = guangxi_area	
 							}
 							OR = {
 								controlled_by = REB
@@ -607,6 +614,11 @@ country_event = {
 						}
 						add_core = YUE
 						clear_rebels = yes
+					}
+					guangxi_area = {
+						add_base_production = 2			
+						add_base_manpower = 2
+						add_base_tax = 2
 					}
 					release = YUE
 					YUE = {
