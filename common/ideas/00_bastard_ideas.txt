@@ -2646,17 +2646,18 @@ TUN_ideas = {
 		global_manpower_modifier = 0.20
 	}
 	tun_attract_foreign_pirates = {
-		global_sailors_modifier = 0.20
+		allowed_marine_fraction = 0.25
 		naval_forcelimit_modifier = 0.25
 	}
 	tun_export_monopolies = {
 		trade_efficiency = 0.1
+		reduced_trade_penalty_on_non_main_tradenode = 0.15
 	}
 	tun_board_of_captains = {
 		leader_cost = -0.25
 	}
 	corsairs = {
-		land_morale = 0.15
+		land_morale = 0.2
 	}
 }
 
@@ -2675,7 +2676,7 @@ TUN_improved_ideas = {
 	free = yes
 	tun_catalan_guard_improved = {
 		mercenary_discipline = 0.05
-		mercenary_manpower = 0.15
+		mercenary_manpower = 0.25
 		infantry_power = 0.1
 	}
 	dual_diplomacy = {
@@ -2687,14 +2688,15 @@ TUN_improved_ideas = {
 		global_manpower_modifier = 0.20
 	}
 	corsairs = {
-		land_morale = 0.15
+		land_morale = 0.2
 	}
 	tun_attract_foreign_pirates = {
-		global_sailors_modifier = 0.20
+		allowed_marine_fraction = 0.25
 		naval_forcelimit_modifier = 0.25
 	}
 	tun_export_monopolies = {
 		trade_efficiency = 0.1
+		reduced_trade_penalty_on_non_main_tradenode = 0.15
 	}
 	tun_board_of_captains = {
 		leader_cost = -0.25
@@ -2846,6 +2848,9 @@ MER_ideas = {
 	mer_victory_tower = {
 		prestige = 1
 	}
+	mer_reorganized_rajput_regiments = {
+		discipline = 0.05
+	}
 	mer_kumbhalgarh = {
 		defensiveness = 0.15
 	}
@@ -2858,9 +2863,7 @@ MER_ideas = {
 	mer_firearm_drilling = {
 		fire_damage = 0.1
 	}
-	mer_reorganized_rajput_regiments = {
-		discipline = 0.05
-	}
+	
 }
 RJP_ideas = {
 	start = {
