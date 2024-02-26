@@ -151,6 +151,7 @@ Great_power_dominance = {
 }
 HRE_backup = {	
 	potential = {
+				NOT = {is_year = 1530}
 				OR = {
 					tag = HAB
 					tag = AHU
