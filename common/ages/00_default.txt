@@ -741,6 +741,9 @@ age_of_absolutism = {
 					culture_group = burman
 					culture_group = malay
 					culture_group = thai_group
+					tag = YUE
+					tag = CXI
+					tag = WUU
 				}
 			}
 			modifier = {
