@@ -4573,6 +4573,11 @@ bengali_reform = {
 		merchants = 1
 		trade_efficiency = 0.1
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 	ai = {
 		factor = 5
 	}
@@ -4589,6 +4594,11 @@ sufi_syncretism_reform = {
 	modifiers = {
 		global_missionary_strength = 0.01
 		development_cost = -0.05
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
 	}
 	ai = {
 		factor = 3
@@ -4610,6 +4620,11 @@ poligar_reform = {
 	modifiers = {
 		infantry_power = 0.05
 		build_cost = -0.05
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
 	}
 	ai = {
 		factor = 3
@@ -4654,6 +4669,11 @@ deccani_society_reform = {
 	modifiers = {
 		free_dip_policy = 1
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 	ai = {
 		factor = 3
 	}
@@ -4676,6 +4696,11 @@ black_army_reform = {
 	}
 	custom_attributes = {
 		mercs_do_not_cost_army_professionalism = yes
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
 	}
 	ai = {
 		factor = 3
@@ -4766,6 +4791,11 @@ devshirme_system_reform = {
 			devshirme_mechanic
 		}
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 	ai = {
 		factor = 300
 	}
@@ -4793,6 +4823,11 @@ ottoman_conscription_reform = {
 		manpower_in_own_culture_provinces = 0.1
 		manpower_in_true_faith_provinces = 0.1
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 	ai = {
 		factor = 300
 	}
@@ -4818,6 +4853,11 @@ separation_of_boyars_from_court_reform = {
 		maratha_exclusive_influence_modifier = -0.1
 		rajput_exclusive_influence_modifier = -0.1
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 	ai = {
 		factor = 10
 	}
@@ -4832,6 +4872,11 @@ reform_the_pronoiars_reform = {
 	modifiers = {
 		allow_client_states = yes
 		num_of_pronoiars = 2
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
 	}
 	ai = {
 		factor = 10
@@ -4863,6 +4908,11 @@ pronoiar_monarchy_reform = {
 			enables_pronoias = yes 
 		}
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 	ai = {
 		factor = 10
 	}
@@ -4884,6 +4934,11 @@ house_of_lords_reform = {
 		parliament_effect_duration = 5
 		nobles_loyalty_modifier = 0.05
 	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
+	}
 	ai = {
 		factor = 10
 	}
@@ -4904,6 +4959,11 @@ ministerialis_promotion_reform = {
 		nobles_privilege_slots = 1
 		advisor_cost = -0.1
 		monthly_favor_modifier = 0.1
+	}
+	conditional = {
+		allow = {
+		}
+		claim_states = yes
 	}
 	ai = {
 		factor = 1
