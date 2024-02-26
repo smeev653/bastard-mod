@@ -13,3 +13,4 @@ show_bad_manpower_provinces_title:0 "Highlight Provinces Missing Soldier Househo
 show_bad_manpower_provinces_desc:0 "Highlight food provinces with a manufactory slot already and no Soldier Households."
 hide_extra_decisions_title:0 "Hide Extra Decisions"
 show_extra_decisions_title:0 "Show Building Slot Decisions"
+manchu_culture_tt_2:0 "All provinces in the Mongolia and Manchuria Regions will adopt §YManchu§! culture"
