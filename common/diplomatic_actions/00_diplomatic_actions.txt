@@ -691,6 +691,15 @@ integrationaction = {
 		}
 	}
 	condition = {
+		tooltip = ASK_cannot_annex
+		potential = {
+			tag = ASK
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
 		tooltip = PUINTEGRATIONIMPOSSIBLE
 		potential = {
 			has_government_attribute = cannot_integrate_personal_unions
