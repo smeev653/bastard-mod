@@ -6328,7 +6328,7 @@ deified_monarchy_reform = {
 	icon = "divine_guidance_reform"
 	allow_normal_conversion = yes
 	modifiers = {
-			morale_damage_received = -0.15
+			morale_damage_received = -0.1
 	}
 	ai = {
 		factor = 1
