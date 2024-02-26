@@ -3034,6 +3034,7 @@ tur_expanded_administration = {
 
 tur_competent_pashas = {
 	min_local_autonomy = -10
+	local_tax_modifier = 0.13
 }
 
 tur_peak_of_ottoman_empire = {	#Permanent
