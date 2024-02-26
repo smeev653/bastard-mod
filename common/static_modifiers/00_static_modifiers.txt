@@ -293,7 +293,7 @@ patriarch_authority_global = {
 }
 
 pasha_state = {
-	local_governing_cost = -0.2
+	local_governing_cost = -0.25
 	min_local_autonomy = 20
 	local_state_maintenance_modifier = -0.33
 	local_autonomy = -0.1
