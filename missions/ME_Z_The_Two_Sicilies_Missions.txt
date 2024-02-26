@@ -7,16 +7,6 @@ the_two_sicilies_missions_1 = {
 			tag = TTS
 			tag = NAP
 			tag = SIC
-			AND = {
-				tag = ITA
-				OR = {
-					was_tag = NAP
-					was_tag = SIC
-					was_tag = TTS
-				}
-				NOT = { was_tag = SPI }
-				NOT = { was_tag = TUS }
-			}
 		}
 	}
 	has_country_shield = yes
@@ -315,16 +305,6 @@ the_two_sicilies_missions_2 = {
 			tag = TTS
 			tag = NAP
 			tag = SIC
-			AND = {
-				tag = ITA
-				OR = {
-					was_tag = NAP
-					was_tag = SIC
-					was_tag = TTS
-				}
-				NOT = { was_tag = SPI }
-				NOT = { was_tag = TUS }
-			}
 		}
 	}
 	has_country_shield = yes
@@ -467,16 +447,6 @@ the_two_sicilies_missions_3 = {
 			tag = TTS
 			tag = NAP
 			tag = SIC
-			AND = {
-				tag = ITA
-				OR = {
-					was_tag = NAP
-					was_tag = SIC
-					was_tag = TTS
-				}
-				NOT = { was_tag = SPI }
-				NOT = { was_tag = TUS }
-			}
 		}
 	}
 	has_country_shield = yes
@@ -628,16 +598,6 @@ the_two_sicilies_missions_4 = {
 			tag = TTS
 			tag = NAP
 			tag = SIC
-			AND = {
-				tag = ITA
-				OR = {
-					was_tag = NAP
-					was_tag = SIC
-					was_tag = TTS
-				}
-				NOT = { was_tag = SPI }
-				NOT = { was_tag = TUS }
-			}
 		}
 	}
 	has_country_shield = yes
@@ -851,16 +811,6 @@ the_two_sicilies_missions_5 = {
 			tag = TTS
 			tag = NAP
 			tag = SIC
-			AND = {
-				tag = ITA
-				OR = {
-					was_tag = NAP
-					was_tag = SIC
-					was_tag = TTS
-				}
-				NOT = { was_tag = SPI }
-				NOT = { was_tag = TUS }
-			}
 		}
 	}
 	has_country_shield = yes
