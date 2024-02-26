@@ -497,6 +497,16 @@ country_event = {
 						add_mil_power = 150
 						add_treasury = 1000
 						add_truce_with = MCH
+						add_truce_with = UES
+						add_truce_with = JAP
+						add_truce_with = KOR
+						add_truce_with = MLC
+						add_truce_with = SUN
+						add_truce_with = AYU
+						add_truce_with = SIA
+						add_truce_with = AVA
+						add_truce_with = SHY
+						add_truce_with = BNG
 						add_truce_with = QNG
 					}
 				}
@@ -549,6 +559,16 @@ country_event = {
 						add_mil_power = 150
 						add_treasury = 1000
 						add_truce_with = MCH
+						add_truce_with = UES
+						add_truce_with = JAP
+						add_truce_with = KOR
+						add_truce_with = MLC
+						add_truce_with = SUN
+						add_truce_with = AYU
+						add_truce_with = SIA
+						add_truce_with = AVA
+						add_truce_with = SHY
+						add_truce_with = BNG
 						add_truce_with = QNG
 					}
 				}
@@ -601,6 +621,16 @@ country_event = {
 						add_mil_power = 150
 						add_treasury = 1000
 						add_truce_with = MCH
+						add_truce_with = UES
+						add_truce_with = JAP
+						add_truce_with = KOR
+						add_truce_with = MLC
+						add_truce_with = SUN
+						add_truce_with = AYU
+						add_truce_with = SIA
+						add_truce_with = AVA
+						add_truce_with = SHY
+						add_truce_with = BNG
 						add_truce_with = QNG
 					}
 				}
