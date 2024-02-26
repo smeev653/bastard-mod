@@ -1023,6 +1023,7 @@ devotion = {
 meritocracy = {
 	global_spy_defence = 1.0
 	advisor_cost = -0.2
+	yearly_harmony = 1
 	reform_progress_growth = 0.5
 }
 

@@ -251,6 +251,7 @@ country_decisions = {
 			}
 		}
 		effect = {
+			custom_tooltip = manchu_culture_tt_2
 			1816 = {
 				move_capital_effect = yes
 				change_culture = ROOT
@@ -294,8 +295,6 @@ country_decisions = {
 						change_culture = manchu_new
 				}
 			}	
-			custom_tooltip = manchu_culture_tt_2
-			add_truce_with = MNG
 			if = {
 				limit = {
 					has_reform = steppe_horde
