@@ -3029,7 +3029,7 @@ tur_assigned_local_pasha = {
 }
 
 tur_expanded_administration = {
-	core_creation = -0.05
+	core_creation = -0.1
 }
 
 tur_competent_pashas = {
