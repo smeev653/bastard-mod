@@ -1,6 +1,5 @@
 ming_crisis = {
 	potential = {
-		always = no
 		tag = MNG
 		NOT = { has_country_flag = ming_crisis_happened }
 		normal_or_historical_nations = yes
@@ -8,7 +7,11 @@ ming_crisis = {
 	
 	can_start = {
 		has_any_disaster = no
-		NOT = { current_age = age_of_discovery }
+		NOT = {owns = 1816}
+		OR = {
+			is_bankrupt = yes
+			num_of_loans = 25
+		}
 		if = {
 			limit = {	
 				has_dlc = "Mandate of Heaven"
