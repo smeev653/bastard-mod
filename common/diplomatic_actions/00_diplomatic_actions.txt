@@ -169,11 +169,12 @@ declarewar = {
 			}	
 		}
 		allow = {
-			FROM = { total_development = 299 }
-			FROM = { is_nomad = yes }
-			NOT = {is_subject_of_type = tributary_state}
+			FROM = {
+				NOT = {is_subject_of_type = tributary_state}	
+			}
+			ai = no
 		}
-	}
+	}	
 	#condition = {
 	#	tooltip = GRAND_CRUSADE_NO_OTHER_WAR
 	#	potential = { }
@@ -882,6 +883,7 @@ tributary_state_action = {
 				FROM = { capital_scope = { superregion = china_superregion } }
 				FROM = { capital_scope = { superregion = far_east_superregion } }
 				FROM = { capital_scope = { superregion = east_indies_superregion } }
+				FROM = { capital_scope = { superregion = tartary_superregion } }
 			}	
 		}
 	}
