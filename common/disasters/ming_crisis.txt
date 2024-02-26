@@ -6,6 +6,9 @@ ming_crisis = {
 	}
 	
 	can_start = {
+		custom_trigger_tooltip = {
+			tooltip = ming_crisis_respawn_tt
+		}
 		has_any_disaster = no
 		NOT = {owns = 1816}
 		OR = {
@@ -33,6 +36,9 @@ ming_crisis = {
 	}
 	
 	can_stop = {
+		custom_trigger_tooltip = {
+			tooltip = ming_crisis_respawn_tt
+		}
 		has_any_disaster = yes
 		if = {
 			limit = {

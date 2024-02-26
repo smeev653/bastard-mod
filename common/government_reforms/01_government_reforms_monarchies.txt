@@ -2954,6 +2954,7 @@ confucian_bureaucracy = {
 			primary_culture = vietnamese
 			primary_culture = vietnamese_new
 		}
+		NOT = {has_reform = chinese_warlord }
 	}
 	modifiers = {
 		advisor_cost = -0.1

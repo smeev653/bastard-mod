@@ -156,7 +156,7 @@
  bs_ARB_unlock_oasis_development:1 "Unlock §Y[Root.GetBurghersOrFallbackName]§! Estate Privilege '§YOasis Development§!', allowing us to reduce the penalty for §YArid§! climate provinces and to get §G-20.0%§! Local Development Cost in §YDesert§! and §YCoastal Desert§! provinces."
  bs_estate_cossacks_exploration_expedition_effect_tooltip:1 "§G-10%§! local development cost in all Steppe provinces"
 ###ideas###
- offensive_ap_tt: "Recruit General: §G+0.375%§"
+ offensive_ap_tt: "Recruit General: §G+0.375%§!"
 ###marches###
  bs_tooltip_many_marches:0 "Can't have more than 4 Marches."
  bs_tooltip_enable_marches:0 "Must have Centralised Bureaucracy reform and be under the province limit to make Marches."
@@ -228,3 +228,5 @@ black_chamber_act_2:0 "The Black Chamber Act II"
  CXI_5_desc:0 "By creating an military academy, we can train our army to be better disciplined in the field of battle, as well as train our officers to command these troops."
  CXI_6_desc:0 "To increase our industrial capacity, we must jump or "leap" forward, to do this we must rapidly industrialize the state, increasing profits."
  CXI_7_desc:0 "Creating a three-level governing system will help us efficiently categorize and administrate new territories. We can transform the commanderies into cities, the countryside into counties, and the states into provinces."
+######disasters############
+ming_crisis_respawn_tt:0 "§RIf this Disaster fires, Wu, Xi and Yue will become independent and we will have the option to play as one of them. Choose carefully.§!"
