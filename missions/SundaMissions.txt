@@ -255,52 +255,16 @@ sun_2 = {
 			owned_by = MAJ
 		}
 		trigger = {
-			OR = {
-				NOT = { exists = MAJ }
-				MAJ = { 
-					is_subject_of = ROOT
-				}
-				if = {
-					limit = {
-						has_dlc = "Leviathan"
-					}
-					custom_trigger_tooltip = {
-						tooltip = sun_majapahit_relations_tt
-						AND = {
-							MAJ = {
-								is_free_or_tributary_trigger = yes
-								has_disaster = fall_of_majapahit
-							}
-							has_guaranteed = MAJ
-						}
-					}
-				}
-				else = {
-					has_guaranteed = MAJ
-				}
-			}
+			is_rival = MAJ
 		}
 		effect = {
-			if = {
-				limit = {
-					has_dlc = "Leviathan"
-				}
-				custom_tooltip = sun_can_vassalize_maj
-			}
-			if = {
-				limit = {
-					OR = {
-						has_guaranteed = MAJ
-						MAJ = {
-							is_subject_of = ROOT
+			ROOT = {
+					add_casus_belli = {
+							target = MAJ
+							type = cb_vassalize_mission
+							months = 120
 						}
-					}
-				}
-				country_event = {
-					id = flavor_sun.3
-				}
 			}
-			else = {
 				east_java_area = {
 					limit = {
 						NOT = { is_core = ROOT }
@@ -322,7 +286,7 @@ sun_2 = {
 					}
 					add_permanent_claim = ROOT
 				}
-			}
+			
 		}
 	}
 	sun_rule_java = {
@@ -341,32 +305,71 @@ sun_2 = {
 		trigger = {
 			east_java_area = {
 				type = all
-				owned_by = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 			central_java_area = {
 				type = all
-				owned_by = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 			west_java_area = {
 				type = all
-				owned_by = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 			surabaya_area = {
 				type = all
-				owned_by = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 			banten_area = {
 				type = all
-				owned_by = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 		}
 		effect = {
+			if = {
+				limit = {
+						MAJ = {
+							is_subject_of = ROOT
+						}
+					
+				}
+				country_event = {
+					id = flavor_sun.3
+				}
+			}
 			add_country_modifier = {
 				name = ruler_of_java
 				duration = -1
 			}
+			makassar_area = {
+						limit = {
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+						add_permanent_claim = ROOT
+			}	
+			sulawesi_area = {
+						limit = {
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+						add_permanent_claim = ROOT
+			}	
+			south_sulawesi_area = {
+						limit = {
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+						add_permanent_claim = ROOT
+			}	
+			spice_islands_area = {
+						limit = {
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+						add_permanent_claim = ROOT
+			}	
 		}
-	}
+	}	
 	sun_conquer_lampung = {
 		icon = mission_ne_palisades
 		required_missions = { }
