@@ -424,9 +424,9 @@ malayan_seafaring = {
 
 	cost = 0.1
 	country_modifier = {
-		regiment_disembark_speed = 0.5
-		naval_attrition = -0.25
-		transport_attrition = -0.5
+		may_explore = yes 
+		landing_penalty = -1
+		allowed_marine_fraction = 0.25
 	}
 	effect = {}
 	removed_effect = {}
