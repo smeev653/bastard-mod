@@ -3341,7 +3341,8 @@ SUN_ideas = {
 	}
 	free = yes
 	candi_shrines = {
-		tolerance_own = 1
+		global_colonial_growth = 20
+		colonists = 1
 	}
 	sunda_galuh = {
 		global_unrest = -1
