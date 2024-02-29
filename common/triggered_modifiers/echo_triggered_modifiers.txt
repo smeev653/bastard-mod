@@ -112,6 +112,7 @@ We_stand_alone = {
 					has_country_modifier = Peace_of_Italy
 					has_country_modifier = Berber_Raids
 					has_country_modifier = Stop_the_raids
+					has_country_modifier = spice_bros
 				}
 				NOT = { is_hegemon = yes }
 				NOT = { is_colonial_nation = yes }	
@@ -590,6 +591,51 @@ Berber_Raids = {
 	coast_raid_range = 1
 }
 
+spice_bros = {
+	potential = {
+		OR = {
+			tag = SUN
+			tag = MLC
+			tag = MSA
+			tag = BAN
+			tag = CRB
+		}
+		current_age = age_of_discovery
+	}
+
+	trigger = {
+			OR = {
+					great_power_rank = 5
+					 is_great_power = no
+					}
+			OR = {		
+				AND = {
+					OR = {
+						was_tag = SUN
+						tag = SUN	
+					}
+					OR = {
+						alliance_with = MLC
+						alliance_with = MSA
+					}
+				}
+				AND = {		
+					OR = {
+						was_tag = MLC
+						tag = MLC	
+					}	
+					OR = {
+						alliance_with = SUN
+						alliance_with = BAN
+						alliance_with = CRB
+					}	
+				}
+			}	
+			NOT = { is_lacking_institutions = yes }			
+	}
+	global_ship_trade_power = 0.25
+	global_colonial_growth = 25
+}
 Stop_the_raids = {
 	potential = {
 		OR = {
