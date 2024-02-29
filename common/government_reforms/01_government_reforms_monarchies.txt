@@ -3062,7 +3062,10 @@ uparaja_reform = {
 		technology_group = chinese
 	}
 	potential = {
-		religion = buddhism
+		OR = {
+			religion = buddhism
+			culture_group = malay
+		}	
 		technology_group = chinese
 	}
 	modifiers = {

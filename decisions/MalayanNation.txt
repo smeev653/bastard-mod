@@ -67,7 +67,7 @@ country_decisions = {
 				}
 				add_permanent_claim = MSA
 			}
-			molucca_region = {
+			moluccas_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_permanent_claim = ROOT }

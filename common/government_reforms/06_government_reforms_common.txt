@@ -2239,7 +2239,10 @@ wei_suo_system_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Domination"
-		culture_group = east_asian
+		OR = {
+			culture_group = east_asian
+			culture_group = malay
+		}
 		NOT = { primary_culture = korean_new }
 		NOT = { primary_culture = altaic_new }
 		NOT = { primary_culture = manchu_new }
