@@ -19,7 +19,7 @@ sun_1 = {
 		trigger = {
 			num_of_owned_provinces_with = {
 				value = 4
-				religion = sunni
+				religion = animist
 			}
 		}
 		effect = {

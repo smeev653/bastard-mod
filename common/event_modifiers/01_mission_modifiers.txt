@@ -6254,15 +6254,15 @@ malay_vassal_income = {
 }
 
 malay_convert_cost_modifier = {
-	missionary_maintenance_cost = -0.2
+	advisor_cost = -0.15
 }
 
 malay_tolerance_own = {
-	tolerance_own = 2
+	advisor_cost = -0.1
 }
 
 malay_united_nusantara = {
-	diplomatic_reputation = 1
+	infantry_power = 0.1
 }
 
 malay_military_domination = {
