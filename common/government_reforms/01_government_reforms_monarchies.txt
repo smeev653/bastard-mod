@@ -2821,7 +2821,7 @@ mandala_reform = {
 	legacy_equivalent = despotic_monarchy
 	modifiers = {
 		diplomatic_upkeep = 1
-		vassal_income = 0.15
+		vassal_income = 0.25
 		vassal_forcelimit_bonus = 1
 	}
 	free_concentrate_development = yes
