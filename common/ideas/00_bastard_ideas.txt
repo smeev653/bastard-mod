@@ -1216,7 +1216,7 @@ SON_ideas = {
 BUK_ideas = {
 	start = {
 		land_morale = 0.1
-		development_cost = -0.1
+		development_cost = -0.15
 	}
 	bonus = {
 		global_trade_goods_size_modifier = 0.15
@@ -1241,15 +1241,15 @@ BUK_ideas = {
 		technology_cost = -0.05
 	}
 	buk_the_jews_of_bukhara = {
-		artillery_cost = -0.15	
-		artillery_power = 0.05
+		artillery_cost = -0.2	
+		artillery_power = 0.15
 	}
 	buk_the_ark = {
 		production_efficiency = 0.1
 	}
 	buk_the_tower_of_death = {
 		drill_gain_modifier = 0.25
-		fire_damage = 0.1
+		artillery_fire = 1
 	}
 	buk_sahih_al-bukhari = {
 		discipline = 0.05
