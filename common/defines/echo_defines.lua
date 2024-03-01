@@ -109,7 +109,8 @@ NDefines.NCountry.NATIVE_UPRISING_COOLDOWN_MONTHS = 120
 NDefines.NCountry.NATIVE_UPRISING_CHANCE_PER_AGGRESSIVENESS = -1
 NDefines.NCountry.INNOVATIVENESS_AHEAD_OF_TIME_BONUS = 0
 NDefines.NCountry.MONARCH_MIN_SKILL = 1
-
+NDefines.NCountry.CREATE_JANISSARIES_MIL_COST = 0			-- Cost to create janissaries (per unit)
+NDefines.NCountry.CREATE_CAWA_MIL_COST = 0					-- Cost to create Cawa (per unit)
 NDefines.NEconomy.GOLD_MINE_SIZE = 35
 NDefines.NEconomy.EDICTS_DURATION_MONTHS = 1
 NDefines.NEconomy.DEBASE_MAX_CORRUPTION = 10
