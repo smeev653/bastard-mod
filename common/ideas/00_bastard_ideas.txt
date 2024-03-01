@@ -3367,7 +3367,7 @@ SUN_ideas = {
 BAN_ideas = { 
 	start = {
 		global_manpower_modifier = 0.2
-		global_missionary_strength = 0.01
+		production_efficiency = 0.15
 	}
 	bonus = {
 		discipline = 0.05
