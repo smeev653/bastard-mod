@@ -16,6 +16,7 @@ fleet_in_being = {
 free_oarsmen = {
 	can_select = {
 		is_primitive = no
+		always = no
 	}
 
 	cost = 0.1
