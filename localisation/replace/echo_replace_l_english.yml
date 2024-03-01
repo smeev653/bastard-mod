@@ -65,7 +65,7 @@ estate_nobles_right_of_counsel:0 "Invest in Heavy Cavalry"
 #naval doctrines
  chinese_treasure_fleet:0 "The Treasure Fleet"
 #government mechanics
-
+jap_20_years_devving_tax_yields_twice_bonus_1_burgher_loyalt_tt:0 "Developing our provincial £adm£ will yield twice the §YBase Tax§! Development as well as §G1§! Merchant Guilds loyalty bonus for 10 years"
 royal_council_interaction_tooltip:0 "Can choose one of the following modifiers for §Y10 years§!:\n§YCouncil of the Chamber§!:\n    Possible Advisors: §G+1§!\n    Advisor Cost: §G-10.0%§!\n\n§YCouncil of Finance§!:\n    Yearly Inflation Reduction: §G-0.05§!\n    Interest per Annum: §G-0.5.00§!\n\n§YCouncil of the Inquisition§!:\n    Missionaries: §G+1§!\n    Missionary Strength against Heretics: §G+2.0%§!"
  state_council_interaction:0 "Call the Council of State"
  state_council_interaction_desc:0 ""
