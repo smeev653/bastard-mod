@@ -236,6 +236,7 @@ monarchy = {
 				mercenary_leadership_reform
 				#Visible but locked
 				amphibious_specialization_reform
+				bastard_amphibious_specialization_reform
 				royal_marines_reform
 				maritime_military_reform
 				professional_navy_reform

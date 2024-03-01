@@ -1875,10 +1875,7 @@ bastard_amphibious_specialization_reform = {
 	icon = "marine"
 	allow_normal_conversion = yes
 	potential = {
-		OR = {
-			NOT = { has_dlc = "Domination" }
-			primary_culture = malay
-		}
+			culture_group = malay
 	}
 	trigger = {
 		num_of_ports = 1
