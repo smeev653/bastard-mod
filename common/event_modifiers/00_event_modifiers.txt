@@ -13218,6 +13218,11 @@ amphibious_specialization_reform_modifier = {
 	is_marine_modifier = yes
 }
 
+bastard_amphibious_specialization_reform_modifier = {
+	regiment_manpower_usage = -0.25
+	is_marine_modifier = yes
+}
+
 wei_suo_system_reform_barracks_modifier = {
 	garrison_growth = 0.15
 }

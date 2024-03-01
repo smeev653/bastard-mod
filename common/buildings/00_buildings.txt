@@ -2564,19 +2564,13 @@ impressment_offices = {
 		tropical_wood
 	}
 
-	build_trigger = {
-		has_port = yes
-	}
-
 	modifier = {
-		local_sailors = 250
-		ship_recruit_speed = -0.1
-		local_ship_cost = -0.05
+		local_sailors = 300
+		local_manpower = 0.2	
 	}
 	bonus_modifier = {
-		local_sailors = 250
-		ship_recruit_speed = -0.1
-		local_ship_cost = -0.05
+		local_sailors = 300
+		local_manpower = 0.2
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way

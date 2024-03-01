@@ -1871,7 +1871,68 @@ cavalry_warfare_reform = {
 		factor = 1
 	}
 }
-
+bastard_amphibious_specialization_reform = {
+	icon = "marine"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			NOT = { has_dlc = "Domination" }
+			primary_culture = malay
+		}
+	}
+	trigger = {
+		num_of_ports = 1
+		if = {
+			limit = { has_modifier_locking_military_tier = yes }
+			OR = {
+				has_reform = amphibious_specialization_reform
+				has_not_modifier_locking_military_tier = yes
+			}
+		}
+	}
+	modifiers = {
+		global_sailors_modifier = 0.25
+		regiment_disembark_speed = 0.25
+		transport_attrition = -0.25
+		allowed_marine_fraction = 0.1
+		sailor_maintenance_modifer = -0.1
+	}
+	effect = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = bastard_amphibious_specialization_reform_modifier
+				duration = -1
+				hidden = yes
+			}
+		}
+	}
+	removed_effect = {
+		hidden_effect = {
+			remove_country_modifier = bastard_amphibious_specialization_reform_modifier
+		}
+	}
+	conditional = {
+		allow = {
+			OR = {
+				has_dlc = "Domination"
+				has_dlc = "Golden Century"
+				has_dlc = "Rule Britannia"
+				has_dlc = "Lions of the North"
+			}
+		}
+		custom_attributes = {
+			marine_buff = yes	#Marines -20% Manpower Usage
+		}
+	}
+	
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { max_sailors = 50000 }
+		}
+	}
+}
 amphibious_specialization_reform = {
 	icon = "marine"
 	allow_normal_conversion = yes
@@ -1881,6 +1942,7 @@ amphibious_specialization_reform = {
 			AND = { 
 				NOT = { primary_culture = english }
 				NOT = { primary_culture = anglois }
+				NOT = { culture_group = malay }
 			}
 		}
 	}
