@@ -1458,7 +1458,7 @@ dharmic = {
 					factor = 1000
 				}
 				modifier = {
-					adm_advisor_cost = -0.1
+					country_admin_power = 1
 				}
 				teachings = {
 					share_and_consume = {
@@ -1511,7 +1511,7 @@ dharmic = {
 					}
 				}
 				modifier = {
-					mil_advisor_cost = -0.1
+					country_military_power = 1
 				}
 				teachings = {
 					gurmukhi_script_teaching = {
@@ -1619,7 +1619,7 @@ dharmic = {
 					}
 				}
 				modifier = {
-					adm_advisor_cost = -0.1
+					country_admin_power = 1
 				}
 				teachings = {
 					legitimize_inheritance = {
@@ -1676,7 +1676,7 @@ dharmic = {
 					}
 				}
 				modifier = {
-					dip_advisor_cost = -0.1
+					country_diplomatic_power = 1
 				}
 				teachings = {
 					adi_granth = {
@@ -1695,7 +1695,7 @@ dharmic = {
 						type = MIL
 						cost = 50
 
-						defensiveness = 0.075
+						land_morale = 0.05
 					}
 				}
 			}
@@ -1729,7 +1729,7 @@ dharmic = {
 					}
 				}
 				modifier = {
-					mil_advisor_cost = -0.1
+					country_military_power = 1
 				}
 				teachings = {
 					throne_of_the_timeless_one = {
@@ -1752,7 +1752,7 @@ dharmic = {
 						type = MIL
 						cost = 50
 
-						siege_ability = 0.05
+						discipline = 0.025
 					}
 				}
 			}
@@ -1786,7 +1786,7 @@ dharmic = {
 					}
 				}
 				modifier = {
-					dip_advisor_cost = -0.1
+					country_diplomatic_power = 1
 				}
 				teachings = {
 					impartial_manjis = {
@@ -1841,26 +1841,26 @@ dharmic = {
 					}
 				}
 				modifier = {
-					dip_advisor_cost = -0.1
+					country_diplomatic_power = 1
 				}
 				teachings = {
 					treat_the_sick = {
 						type = ADM
 						cost = 50
 
-						reform_progress_growth = 0.1
+						monarch_admin_power = 1
 					}
 					illiterate_recites_saloks = {
 						type = DIP
 						cost = 50
 
-						monthly_splendor = 1
+						monarch_diplomatic_power = 1
 					}
 					young_humility = {
 						type = MIL
 						cost = 50
 
-						army_tradition = 1
+						monarch_military_power = 1
 					}
 				}
 			}
@@ -1894,7 +1894,7 @@ dharmic = {
 					}
 				}
 				modifier = {
-					adm_advisor_cost = -0.1
+					country_admin_power = 1
 				}
 				teachings = {
 					the_word_of_sikh = {
@@ -1947,7 +1947,7 @@ dharmic = {
 					}
 				}
 				modifier = {
-					adm_advisor_cost = -0.1
+					country_admin_power = 1
 				}
 				teachings = {
 					pluralism = {
@@ -1966,7 +1966,7 @@ dharmic = {
 						type = MIL
 						cost = 50
 
-						yearly_army_professionalism = 0.003
+						yearly_army_professionalism = 0.005
 					}
 				}
 			}
@@ -2008,19 +2008,19 @@ dharmic = {
 						type = ADM
 						cost = 50
 
-						build_cost = -0.05
+						development_cost = -0.1
 					}
 					divine_justice = {
 						type = DIP
 						cost = 50
 
-						trade_efficiency = 0.05
+						trade_efficiency = 0.1
 					}
 					the_unchanging_writing = {
 						type = MIL
 						cost = 50
 
-						drill_gain_modifier = 0.25
+						drill_gain_modifier = 0.5
 					}
 				}
 			}
