@@ -230,6 +230,7 @@ wool = {
 				region = colombia_region
 				region = southeast_america_region
 				region = mississippi_region
+				region = south_africa_region
 			}
 			NOT = { has_terrain = mountain }
 		}
@@ -502,7 +503,7 @@ naval_supplies = {
 		naval_forcelimit_modifier = 0.20
 	}
 	province = {
-		naval_forcelimit = 0.5
+		local_sailors = 250
 	}
 
 	chance = {
@@ -870,10 +871,12 @@ iron = {
 slaves = {
 	color = { 0.0 0.0 0.0 }
 	modifier = {
-		global_tariffs = 0.25
+		manpower_recovery_speed = 0.10
+
 	}
 	province = {
-		local_missionary_strength = 0.01
+		local_manpower_modifier = 0.10
+		
 	}
 	chance = {
 		factor = 15
@@ -1549,10 +1552,10 @@ tobacco = {
 cocoa = {
 	color = { 0.45 0.21 0.09 }
 	modifier = {
-		manpower_recovery_speed = 0.05
+		global_tariffs = 0.1
 	}
 	province = {
-		local_manpower_modifier = 0.10
+		local_missionary_strength = 0.01
 	}
 
 	chance = {
@@ -2108,10 +2111,6 @@ gems = {
 			region = moluccas_region
 		}
 		modifier = {
-			factor = 1.2
-			region = south_africa_region
-		}
-		modifier = {
 			factor = 0.75
 			region = indonesia_region
 		}
@@ -2124,6 +2123,7 @@ gems = {
 			OR = {
 				continent = south_america
 				continent = north_america
+				region = south_africa_region
 			}
 		}
 		modifier = {
@@ -2132,6 +2132,7 @@ gems = {
 				area = diamantina_area
 				area = bogota_area
 				area = murray_river_area #Opal
+				region = south_africa_region
 			}
 		}
 		modifier = {
