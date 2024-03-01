@@ -119,6 +119,7 @@ NDefines.NEconomy.COT_DOWNGRADE_PRESTIGE_COST = 0
 NDefines.NEconomy.GOLD_MINE_DEPLETION_THRESHOLD = 10				-- Gold mines above production level or above can be depleted
 NDefines.NEconomy.GOLD_MINE_DEPLETION_CHANCE = 0.05
 NDefines.NEconomy.TRADE_PROPAGATE_DIVIDER = 20
+NDefines.NEconomy.HEAVY_SHIP_MAINT_FACTOR = 0.07	
 NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0.2						-- 100 men/month is minimum
 NDefines.NMilitary.MIN_MONTHLY_SAILORS = 10						-- 5 sailors/month is minimum
 NDefines.NMilitary.MERCENARY_REINFORCE_COST_MULTIPLIER = 1
@@ -145,10 +146,10 @@ NDefines.NMilitary.NAVAL_DOCTRINE_MIN_FORCE_LIMIT = 15
 NDefines.NMilitary.BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.0	-- Multiplier for morale damage taken by backrow
 NDefines.NMilitary.BACK_LINE_STRENGTH_DAMAGE_TAKEN_MODIFIER = 0.0
 NDefines.NMilitary.BACK_LINE_REINFORCE_SPEED = 40
+NDefines.NMilitary.HEAVY_SHIP_COST = 35
 NDefines.NMilitary.TRANSPORT_COST = 1
 NDefines.NMilitary.TRANSPORT_SHIP_SAILORS_COST = 1					-- 1 = 1 men in cost.
 NDefines.NMilitary.TRANSPORT_TIME = 90	
-NDefines.NMilitary.GALLEY_TIME = 90							-- _MDEF_GALLEY_TIME = 10,
 NDefines.NMilitary.CAWA_STARTING_STRENGTH = 0.1
 NDefines.NMilitary.REBEL_TRADITION_GAIN = 0.75 					-- _MDEF_REBEL_TRADITION_GAIN_; Factor of army/navy tradition gained from fighting rebels and pirates.
 NDefines.NMilitary.NATIVE_FEROCITY_IMPACT = -1
