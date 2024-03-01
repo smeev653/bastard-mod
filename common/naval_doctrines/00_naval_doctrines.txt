@@ -426,9 +426,9 @@ malayan_seafaring = {
 
 	cost = 0.1
 	country_modifier = {
-		trade_range_modifier = 0.25
-		range = 0.25
-		treasure_fleet_income = 0.25
+		regiment_disembark_speed = 0.5
+		naval_attrition = -0.25
+		transport_attrition = -0.5
 	}
 	effect = {}
 	removed_effect = {}
@@ -447,7 +447,7 @@ the_junk_fleet = {
 
 	cost = 0.1
 	country_modifier = {
-		light_ship_cost = -0.25
+		light_ship_cost = -0.5
 		naval_forcelimit_modifier = 0.25
 	}
 	effect = {}
@@ -460,7 +460,6 @@ chinese_treasure_fleet = {
 	can_select = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
-		culture = jianghuai
 	}
 
 	cost = 0.1
@@ -516,7 +515,10 @@ naval_tactica = {
 	can_select = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
-		culture_group = byzantine
+		OR = {
+			culture_group = byzantine
+			primary_culture = roman
+		}
 	}
 
 	cost = 0.1
