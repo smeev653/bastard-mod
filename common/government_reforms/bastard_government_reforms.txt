@@ -10,7 +10,7 @@ h_reform_dominion = {
 			tag = AUS
 			tag = ORJ
 			tag = DSA
-		)	
+		}	
 	}
 	modifiers = {
 		max_absolutism = -50
