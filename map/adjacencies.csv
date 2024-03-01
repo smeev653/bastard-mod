@@ -133,6 +133,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 643;2717;sea;1399;-1;-1;-1;-1;spiceislands
 644;652;sea;1402;-1;-1;-1;-1;spiceislands
 2717;645;sea;1399;-1;-1;-1;-1;spiceislands
+645;647;sea;1401;-1;-1;-1;-1;spiceislands
 647;650;sea;1400;-1;-1;-1;-1;spiceislands
 647;1245;sea;1400;-1;-1;-1;-1;spiceislands
 2722;2730;sea;1410;-1;-1;-1;-1;spiceislands
