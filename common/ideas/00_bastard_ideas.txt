@@ -3514,3 +3514,42 @@ MSA_ideas = {
 		global_trade_goods_size_modifier = 0.15
 	}
 }
+# Australia
+
+AUS_ideas = { #Australia
+	start = {
+		movement_speed = 0.1
+		siege_ability = 0.15
+	}
+	
+	bonus = {
+		possible_mil_policy = 1
+	}
+	
+	trigger = {
+		tag = AUS
+	}
+	free = yes
+	
+	AUS_outback_stations = { #Legion of Frontiersmen
+		infantry_power = 0.15
+	}
+	AUS_land_down_under = { #Australian Courts
+		yearly_corruption = -0.1
+	}
+	AUS_eureka_rebellion = { #Lessons of the Outback
+		hostile_attrition = 1
+	}
+	AUS_sandpaper_and_cheating = { #Dreamtime
+		stability_cost_modifier = -0.1
+	}
+	AUS_royal_navy = { #Kalgoorlie
+		global_trade_goods_size_modifier = 0.1
+	}
+	AUS_bushrangers = { #Trade Unions
+		global_unrest = -1
+	}
+	AUS_waltzing_matilda = { #Australia Imperialis
+		discipline = 0.05
+	}
+}

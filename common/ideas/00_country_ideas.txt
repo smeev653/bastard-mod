@@ -12886,45 +12886,6 @@ TEX_ideas = {
 	}
 }
 
-AUS_ideas = {
-	start = {	
-		global_ship_recruit_speed = -0.2
-		global_colonial_growth = 25
-	}
-	bonus = {
-		development_cost = -0.15
-	}
-	trigger = {
-		tag = AUS
-	}
-	free = yes
-	AUS_outback_stations = {
-		colonists = 1
-		effect = { remove_temporary_colonist = yes }
-	}
-	AUS_land_down_under = {
-		land_attrition = -0.1
-		hostile_attrition = 1
-	}
-	AUS_eureka_rebellion = {
-		global_manpower_modifier = 0.2
-	}
-	AUS_sandpaper_and_cheating = {
-		infantry_power = 0.1
-		allowed_marine_fraction = 0.5
-	}
-	AUS_royal_navy = {
-		global_ship_cost = -0.1
-		disengagement_chance = 0.05
-	}
-	AUS_bushrangers = {
-		shock_damage = 0.1
-	}
-	AUS_waltzing_matilda = {
-		build_cost = -0.1
-	}
-}
-
 NZL_ideas = {
 	start = {	
 		diplomatic_upkeep = 1
