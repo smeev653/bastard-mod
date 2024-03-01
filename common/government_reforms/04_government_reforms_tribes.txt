@@ -41,7 +41,8 @@ steppe_horde = {
 		development_cost = -0.1
 		loot_amount = 0.50
 		global_institution_spread = -0.15
-		#movement_speed = 0.2
+		movement_speed = 0.1
+		monthly_piety_accelerator = 0.01
 		global_manpower_modifier = 0.15
 		land_forcelimit_modifier = 0.1
 		years_of_nationalism = -5
@@ -501,7 +502,7 @@ civil_society_reform = {
 	allow_normal_conversion = yes
 	icon = "tribal_civil_society"
 	modifiers = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 		yearly_corruption = -0.05
 	}
 	ai = {
@@ -523,7 +524,7 @@ religious_societies_reform = {
 	icon = "tribal_religious_society"
 	allow_normal_conversion = yes
 	modifiers = {
-		stability_cost_modifier = -0.1
+		stability_cost_modifier = -0.15
 		religious_unity = 0.15
 	}
 	ai = {
@@ -543,7 +544,7 @@ lip_service_reform = {
 	icon = "tribal_lip_service"
 	allow_normal_conversion = yes
 	modifiers = {
-		land_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.1
 	}
 }
 

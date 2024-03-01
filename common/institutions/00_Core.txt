@@ -69,6 +69,7 @@ feudalism = {
 					culture = mali
 					culture = bilala
 					culture = uzbehk
+					culture = mishary
 					culture = khazak
 					culture = siberian
 					culture = ostyaki

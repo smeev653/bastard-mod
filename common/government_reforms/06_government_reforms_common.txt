@@ -2705,9 +2705,9 @@ subutais_strategies_reform = {
 		}
 	}
 	modifiers = {
-		infantry_power = 0.1
+		infantry_power = 0.05
 		cav_to_inf_ratio = 0.1
-		cavalry_cost = -0.1
+		cavalry_cost = -0.15
 	}
 	
 	ai = {

@@ -360,6 +360,16 @@ allianceaction = {
 		}
 	}
 	condition = {
+		tooltip = bastard_hordes_cant_ally
+		potential = {
+			ROOT = { has_reform = steppe_horde }
+			ai = yes
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
 		tooltip = PIRATE_DENIED_ALLIANCE
 		potential = {
 			has_government_attribute = cannot_ally_non_pirates
