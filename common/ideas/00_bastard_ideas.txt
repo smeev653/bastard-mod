@@ -2283,8 +2283,8 @@ EGY_ideas = {
 		country_military_power = 1
 		reinforce_speed = 0.15
 	}
-	legacy_of_the_karimis = {
-		burghers_loyalty_modifier = 0.1
+	purchase_new_mamelukes = {
+		cavalry_power = 0.1
 	}
 	nile_production = {
 		production_efficiency = 0.10
