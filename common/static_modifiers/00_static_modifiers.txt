@@ -1513,9 +1513,9 @@ all_nations = {
 }
 
 subject_nation = {
-	global_tax_income = -6
-	land_forcelimit	= -3
-	naval_forcelimit = -6
+	#global_tax_income = -6
+	#land_forcelimit	= -3
+	#naval_forcelimit = -6
 	caravan_power = -0.9
 }
 
@@ -1547,8 +1547,8 @@ same_religion_subject_bonus_mod = {
 }
 
 eyalet_modifier = {
-	global_manpower = -5
-	land_forcelimit	= -5
+	#global_manpower = -5
+	#land_forcelimit	= -5
 }
 
 #scales to amount of up-to-date forts compared to total development
