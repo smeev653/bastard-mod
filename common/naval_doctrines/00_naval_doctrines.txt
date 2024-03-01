@@ -272,8 +272,7 @@ korean_panokseon = {
 
 	cost = 0.1
 	country_modifier = {
-		galley_cost = -0.25
-		galley_power = 0.15
+		naval_forcelimit_modifier = 0.33
 	}
 	effect = {}
 	removed_effect = {}
@@ -290,7 +289,7 @@ japanese_atakebune = {
 
 	cost = 0.1
 	country_modifier = {
-		ship_durability = 0.05
+		sailor_maintenance_modifer = -0.2
 	}	
 	removed_effect = {}
 	
@@ -325,7 +324,7 @@ ottoman_great_navy = {
 	cost = 0.1
 	country_modifier = {
 		global_ship_cost = -0.1
-		naval_forcelimit_modifier = 0.2
+		naval_forcelimit_modifier = 0.25
 	}
 	effect = {}
 	removed_effect = {}
@@ -558,8 +557,7 @@ mamluk_galley_doctrine = {
 
 	cost = 0.1
 	country_modifier = {
-		galley_power = 0.15
-		galley_cost = -0.25
+		global_ship_cost = -0.2
 	}
 	effect = {} #TODO link with naval professionalism ?
 	removed_effect = {}
@@ -575,7 +573,6 @@ mamluk_light_doctrine = {
 	cost = 0.1
 	country_modifier = {
 		global_ship_trade_power = 0.15
-		light_ship_cost = -0.25
 	}
 	effect = {} #TODO link with naval professionalism ?
 	removed_effect = {}
@@ -590,8 +587,7 @@ mamluk_warships_doctrine = {
 
 	cost = 0.1
 	country_modifier = {
-		heavy_ship_power = 0.1
-		global_naval_engagement_modifier = 0.1
+		disengagement_chance = 0.15
 	}
 	effect = {} #TODO link with naval professionalism ?
 	removed_effect = {}
