@@ -50,17 +50,7 @@ country_event = {
 	}
 	option = { #Promote colonial expansion
 		trigger = {
-			NOT = {is_colonial_nation = yes}
-			OR = {
-				capital_scope = {
-					NOT = {
-						continent = north_america
-						continent = south_america
-					}
-				}
-				is_nomad = no
-				NOT = { has_country_modifier = free_colonist }
-			}
+			NOT = { has_country_modifier = free_colonist }
 			dip_tech = 6
 		}
 		name = gecko_court.1.f
