@@ -6,7 +6,11 @@ h_reform_dominion = {
 	fixed_rank = 2
 	potential = {
 		is_colonial_nation = yes
-		tag = AUS
+		OR = {
+			tag = AUS
+			tag = ORJ
+			tag = DSA
+		)	
 	}
 	modifiers = {
 		max_absolutism = -50

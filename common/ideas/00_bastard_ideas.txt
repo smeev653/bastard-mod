@@ -3553,3 +3553,86 @@ AUS_ideas = { #Australia
 		discipline = 0.05
 	}
 }
+
+# South Africa
+
+ORJ_ideas = { #Oranje
+	start = {
+		land_forcelimit_modifier = 0.15
+		land_attrition = -0.15
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = ORJ
+	}
+	free = yes
+	
+	orj_1 = { #Hard Ground
+		hostile_attrition = 1
+		defensiveness = 0.15
+	}
+	orj_2 = { #Kommandos
+		land_morale = 0.15
+		fire_damage = 0.1
+	}
+	orj_3 = { #Die Stem
+		manpower_recovery_speed = 0.2
+	}
+	orj_4 = { #Vrijstaat
+		garrison_size = 0.25
+	}
+	orj_5 = { #The Great Trek
+		movement_speed = 0.15
+	}
+	orj_6 = { #Transvaal Steel
+		infantry_cost = -0.15
+		build_cost = -0.1
+	}
+	orj_7 = { #Versterken
+		reinforce_speed = 0.33
+	}
+}
+
+DSA_ideas = { #South Africa
+	start = {
+		republican_tradition = 0.2
+		production_efficiency = 0.15
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = DSA
+	}
+	free = yes
+	
+	dsa_1 = { #Kimberlite
+		global_trade_goods_size_modifier = 0.1
+	}
+	dsa_2 = { #Kalahari Reclamation
+		development_cost = -0.1
+	}
+	dsa_3 = { #Orderly State
+		stability_cost_modifier = -0.1
+	}
+	dsa_4 = { #Cape of Storms
+		global_sailors_modifier = 0.5
+		global_ship_trade_power = 0.1
+	}
+	dsa_5 = { #Mosetsana
+		war_exhaustion = -0.05
+	}
+	dsa_6 = { #Gateway to India
+		trade_efficiency = 0.1
+		merchants = 1
+	}
+	dsa_7 = { #The Drift
+		infantry_power = 0.1
+	}
+}

@@ -2108,6 +2108,10 @@ gems = {
 			region = moluccas_region
 		}
 		modifier = {
+			factor = 1.2
+			region = south_africa_region
+		}
+		modifier = {
 			factor = 0.75
 			region = indonesia_region
 		}

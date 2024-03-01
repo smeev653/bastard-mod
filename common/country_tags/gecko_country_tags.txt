@@ -11,3 +11,6 @@ FO4 = "countries/Jinhan.txt"
 FO5 = "countries/Baekje.txt"
 FO6 = "countries/Ye.txt"
 FO7 = "countries/Dongye.txt"
+
+DSA = "countries/SouthAfrica.txt"
+ORJ = "countries/Oranje.txt"

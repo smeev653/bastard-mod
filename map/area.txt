@@ -1514,10 +1514,6 @@ quelimane_area = { #3
 	1183 1186 1192
 }
 
-limpopo_area = { #4
-	789 1181 1182 1800
-}
-
 central_swahili_coast_area = { #5
 	1196 1197 1198 1199 1201
 }
@@ -1916,15 +1912,35 @@ kongo_area = { #5
 angola_namibia_area = { #5
 	1098 1167 1171 1172 1174 
 }
-
+limpopo_area = { #4
+	789 1181 1182 1800 4958
+}
+transvaal_area = { #4
+	4781 4782 4783 4784 4954
+}
 cape_of_good_hope_area = { #5
-	833 1175 1177 1179 1180
+	1176 1175 1177 4950 4951
 }
 
 south_african_plateau_area = { #5
-	1176 1178 2856 2880 2864
+	1178 2880 4952 4948
 }
 
+highveld_area = {
+	2856 4945 4946
+}
+
+senqu_delta_area = {
+	2864 4942 4943 4956 4957
+}
+
+xhosa_area = {
+	833 1179 1180 4947 4949
+}
+
+kalahari_basin_area = {
+	4944 4953 4955
+}
 
 ########################################
 # Greater Persia		               #
@@ -3729,11 +3745,6 @@ leeward_islands_area = { #5
 windward_islands_area = { #5
     497 498 499 500 501
 }
-
-transvaal_area = { #4
-	4781 4782 4783 4784
-}
-
 #############################
 #Deprecated:
 #############################
