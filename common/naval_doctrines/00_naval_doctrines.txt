@@ -5,7 +5,7 @@ fleet_in_being = {
 
 	cost = 0.1 # money cost per each sailor employed in the whole navy
 	country_modifier = {
-		naval_maintenance_modifier = -0.15
+		naval_maintenance_modifier = -0.2
 	}
 	effect = {}
 	removed_effect = {}
@@ -272,9 +272,8 @@ korean_panokseon = {
 
 	cost = 0.1
 	country_modifier = {
-		trade_range_modifier = 0.25
-		range = 0.25
-		treasure_fleet_income = 0.25
+		galley_cost = -0.25
+		galley_power = 0.15
 	}
 	effect = {}
 	removed_effect = {}
@@ -291,11 +290,8 @@ japanese_atakebune = {
 
 	cost = 0.1
 	country_modifier = {
-		trade_range_modifier = 0.25
-		range = 0.25
-		treasure_fleet_income = 0.25
-	}
-	effect = {}
+		ship_durability = 0.05
+	}	
 	removed_effect = {}
 	
 	button_gfx = 16
