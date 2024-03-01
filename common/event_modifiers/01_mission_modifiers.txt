@@ -4820,8 +4820,8 @@ hun_hungary_poland = {
 }
 
 hun_supreme_black_army = {
-	mercenary_discipline = 0.05
-	core_creation = -0.1
+	mercenary_discipline = 0.025
+	core_creation = -0.15
 }
 
 hun_strong_economy = {
