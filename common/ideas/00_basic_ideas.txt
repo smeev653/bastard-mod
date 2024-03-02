@@ -1285,7 +1285,7 @@ quantity_ideas = {
 		land_morale = 0.05
 	}
 	reinforcement_drafts = {
-		reinforce_speed = 0.25
+		#reinforce_speed = 0.25
 		reinforce_cost_modifier = -0.33
 	}
 	improved_foraging = {
