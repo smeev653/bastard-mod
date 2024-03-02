@@ -798,9 +798,8 @@ golden_age_of_piracy = {
 		}
 		num_ships_privateering = 10
 	}	
-	
 	merchants = 1
-	privateer_efficiency = 1.25
+	privateer_efficiency = 0.25
 }
 
 ######################################
