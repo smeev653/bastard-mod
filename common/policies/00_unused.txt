@@ -60,150 +60,6 @@ exchange_of_ideas = {
  	}
  }
 
-vassal_obligations_act = {
-	monarch_power = ADM
-	
-	potential = {
- 		always = no
- 	}
-	
-	allow = {
- 		always = no
- 	}	
-	
-	global_trade_goods_size_modifier = 0.1
-	vassal_forcelimit_bonus = 1
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { vassal = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 2
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 3
-		}			
-		modifier = {
-			factor = 1.5
-			vassal = 4
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 5
-		}			
-	}
-}
-
-foreign_advisors = {
-	monarch_power = ADM
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
- 		always = no
- 	}	
-	
-	vassal_forcelimit_bonus = 0.75
-	vassal_income = 0.2
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-vassal_integration_act = {
-	monarch_power = ADM
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
- 		always = no
- 	}	
-	
-	diplomatic_annexation_cost = -0.2
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { vassal = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 2
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 3
-		}			
-		modifier = {
-			factor = 1.5
-			vassal = 4
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 5
-		}			
-	}
-	
-}
-
-overseas_dominions = {
-	monarch_power = ADM
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
- 		always = no
- 	}	
-	
-	diplomatic_upkeep = 1
-	trade_company_investment_cost = -0.2
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { vassal = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 2
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 3
-		}			
-		modifier = {
-			factor = 1.5
-			vassal = 4
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 5
-		}			
-	}
-}
-
  enlightened_aristocracy = {
  	monarch_power = ADM
  	
@@ -1059,46 +915,6 @@ church_sponsored_guilds = {
  	}
  }
 
-autonomous_estates = {
-	monarch_power = MIL
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
- 		always = no
- 	}	
-	
-	land_morale = 0.05
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { vassal = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 2
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 3
-		}			
-		modifier = {
-			factor = 1.5
-			vassal = 4
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 5
-		}	
-	}
-}
-
  inspirational_leaders = {
   	monarch_power = MIL
  	
@@ -1172,107 +988,6 @@ autonomous_estates = {
  		}
  	}
  }
-
-local_militias = {
-	monarch_power = MIL
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
- 		always = no
- 	}	
-	
-	shock_damage_received = -0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-foreign_conscription_centers = {
-	monarch_power = MIL
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
-		always = no
-	}
-	
-	land_forcelimit_modifier = 0.25
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { vassal = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 2
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 3
-		}			
-		modifier = {
-			factor = 1.5
-			vassal = 4
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 5
-		}	
-	}
-}
-
-unified_army_command = {
-	monarch_power = MIL
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
- 		always = no
- 	}	
-	
-	fire_damage = 0.1
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { vassal = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 2
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 3
-		}			
-		modifier = {
-			factor = 1.5
-			vassal = 4
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 5
-		}	
-	}
-}
-
 
  war_horses_policy = { 
  	monarch_power = MIL
@@ -1643,27 +1358,7 @@ trade_kontor_network = {
  	}
  }
 
-guerilla_warfare = {
-	monarch_power = MIL
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
-		 always = no
-	}	
-	
-	vassal_forcelimit_bonus = 1
-	vassal_manpower_bonus = 1
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.8
-	}
-}
- 
+
  
 hired_adventurers_act = {
  	monarch_power = MIL
@@ -1832,27 +1527,6 @@ cloth_quality_edict = {
  }
 
 
-cultural_unity = {
-	monarch_power = DIP
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
- 		always = no
- 	}	
-	
-	culture_conversion_cost = -0.25
-	global_tax_modifier = 0.25
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-	}
-}
-
  terms_of_surrender_statute = {
  	monarch_power = DIP
  	
@@ -1941,47 +1615,6 @@ cultural_unity = {
  		}
  	}
  }
-
-the_integrated_administration_act = {
-	monarch_power = MIL
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
-		always = no
- 	}	
-	
-	land_morale = 0.05
-	vassal_forcelimit_bonus = 0.75
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { vassal = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 2
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 3
-		}			
-		modifier = {
-			factor = 1.5
-			vassal = 4
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 5
-		}			
-	}
-}
 
 
 armed_neutrality_act = {
@@ -2096,29 +1729,6 @@ armed_neutrality_act = {
  		}				
  	}
  }
- 
- 
- one_and_true = { 
- 	monarch_power = DIP
- 	
- 	potential = {
-		always = no
-	}
- 	
- 	allow = {
-		always = no
- 	}
- 	
- 	reduced_liberty_desire = 10
- 	global_missionary_strength = 0.01
- 
- 	effect = {}
- 	removed_effect = {}
- 	ai_will_do = {
- 		factor = 0
- 	}
- }
-
  
  
  solidarity_policy = {  
@@ -2314,28 +1924,6 @@ merchants_hire_act = {
  	}
  }
 
-
-client_state_act = { 
-	monarch_power = DIP
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
- 		always = no
- 	}
-	
-	diplomatic_upkeep = 1
-	vassal_naval_forcelimit_bonus = 1
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0			
-	}
-}
-
  native_emissaries_act = {
  	monarch_power = DIP
  	
@@ -2356,27 +1944,6 @@ client_state_act = {
  	}
  }
 
-
-diplomatic_consolidation_act = { 
-	monarch_power = DIP
-	
-	potential = {
-		always = no
-	}
-	
-	allow = {
- 		always = no
- 	}
-	
-	vassal_income = 0.4
-	liberty_desire_from_subject_development = -0.2
-
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0			
-	}
-}
 
 
  colonial_boost_act = { 
