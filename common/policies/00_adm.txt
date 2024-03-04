@@ -756,6 +756,69 @@ plutocratic_rule_act = {
  		factor = 0			
  	}
  }
+ 
+foreign_advisors = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = influence_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	
+	allow = {
+		full_idea_group = influence_ideas
+		full_idea_group = innovativeness_ideas
+	}	
+	
+	technology_cost = -0.025
+	innovativeness_gain = 0.33
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vassal_integration_act = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = influence_ideas
+		has_idea_group = administrative_ideas
+	}
+	
+	allow = {
+		full_idea_group = influence_ideas
+		full_idea_group = administrative_ideas
+	}	
+	
+	trade_efficiency = 0.1
+	global_own_trade_power = 0.1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { vassal = 1 }
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 2
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 3
+		}			
+		modifier = {
+			factor = 1.5
+			vassal = 4
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 5
+		}			
+	}
+	
+}
 
 
 head_of_state_act = { 

@@ -200,6 +200,28 @@ the_integrated_administration_act = {
 		}			
 	}
 }
+
+one_and_true = { 
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = theocracy_gov_ideas
+		has_idea_group = influence_ideas
+	}
+	
+	allow = {
+		full_idea_group = theocracy_gov_ideas
+		full_idea_group = influence_ideas
+	}
+	
+	morale_damage = 0.1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0
+	}
+}
 privy_council_establishment_act = {
 	monarch_power = MIL
 
