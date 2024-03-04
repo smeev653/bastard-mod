@@ -1986,7 +1986,7 @@ formalized_measures = {
 		NOT = {mil_tech = 15}
 	}	
 
-	infantry_fire = 0.1
+	infantry_fire = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -2025,7 +2025,7 @@ formalized_measures_1 = {
 		NOT = { has_active_policy = formalized_measures }
 	}	
 
-	infantry_fire = 0.15
+	infantry_fire = 0.25
 
 	effect = {}
 	removed_effect = {}
@@ -2063,7 +2063,7 @@ formalized_measures_2 = {
 		NOT = { has_active_policy = formalized_measures_1 }
 	}	
 
-	infantry_fire = 0.2
+	infantry_fire = 0.35
 
 	effect = {}
 	removed_effect = {}
