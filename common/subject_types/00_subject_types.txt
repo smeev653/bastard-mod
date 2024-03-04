@@ -315,9 +315,6 @@ march = {
 			NOT = {
 				development_of_overlord_fraction = 0.25
 			}
-			overlord = {
-				has_reform = centralize_reform
-			}
 		}
 		expiration_message_overlord = MARCHTOOLARGE
 		expiration_message_subject = MARCHTOOLARGEUS
