@@ -1403,20 +1403,18 @@ BUR_Ideas = {
 	free = yes
 	
 	golden_fleece = {
-		merc_maintenance_modifier = -0.2
-		mercenary_discipline = 0.025
+		merc_maintenance_modifier = -0.25
+		#mercenary_discipline = 0.025
 	}
 	compagnies_ordonnance = {
 		global_trade_goods_size_modifier = 0.10
 	}
-	reform_of_feudal_army = {
-		discipline = 0.05
-	}
-
 	bur_estates_general = {
 		global_own_trade_power = 0.25
 	}
-
+	reform_of_feudal_army = {
+		discipline = 0.05
+	}
 	integrated_towns = {
 		trade_efficiency = 0.10
 	}
