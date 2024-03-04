@@ -102,7 +102,10 @@ designate_march = {
 		potential = {
 		}
 		allow = {
-			has_reform = centralize_reform
+			OR = {
+				has_reform = centralize_reform
+				has_idea = marcher_lords
+			}	
 		}
 	}
 	condition = {

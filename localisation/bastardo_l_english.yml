@@ -159,7 +159,7 @@
  offensive_ap_tt: "Recruit General: §G+0.375%§!"
 ###marches###
  bs_tooltip_many_marches:0 "Can't have more than 4 Marches."
- bs_tooltip_enable_marches:0 "Must have Centralised Bureaucracy reform and be under the province limit to make Marches."
+ bs_tooltip_enable_marches:0 "Must have the Marcher Lords idea unlocked or have the Centralised Bureaucracy reform and be under the province limit to make Marches."
  bs_can_take_marches_tt:0 "Can create Marches."
  ####age abilities######
  ab_bushido:0 "Bushido"
