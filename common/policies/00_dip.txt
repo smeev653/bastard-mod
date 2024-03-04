@@ -1,3 +1,24 @@
+cultural_unity = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = influence_ideas
+		has_idea_group = religious_ideas
+	}
+	
+	allow = {
+		full_idea_group = influence_ideas
+		full_idea_group = religious_ideas
+	}	
+	
+	#province_warscore_cost = -0.1
+	global_tax_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 0.6
+	}
+}
+
 plutocratic_ethos_act = { 
 	monarch_power = MIL
 	
