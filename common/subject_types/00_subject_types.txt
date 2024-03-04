@@ -444,8 +444,8 @@ appanage = {
 	}
 	
 	# Subject Interactions
-	seize_court_resources = no
-	request_extra_levies = no
+	seize_court_resources = yes
+	request_extra_levies = yes
 	grant_administrative_autonomy = yes
 	#(disable)
 	scutage = yes
@@ -458,7 +458,7 @@ appanage = {
 	#(enable)
 	#contribute_to_capital = yes
 	return_land = yes
-	#conscript_general = yes
+	conscript_general = yes
 	
 	# Modifiers
 	
