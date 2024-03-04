@@ -14,7 +14,7 @@ religious_school = hanafi_school
 		birth_date = 1422.1.1
 		name = "Abu'l-Khayr" 
 		dynasty = "Shaybanid"
-		dip = 3 
+		dip = 4 
 		adm = 3
 		mil = 3
 	}

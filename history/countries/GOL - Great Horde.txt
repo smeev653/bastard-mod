@@ -12,7 +12,7 @@ add_truce_with = MOS
 	monarch = {
 		name = "Küchük Muhammad"
 		dynasty = "Genghisid"
-		adm = 3
+		adm = 4
 		dip = 3
 		mil = 3
 	}
