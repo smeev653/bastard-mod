@@ -291,6 +291,8 @@ march = {
 	can_be_annexed = no
 	forcelimit_to_overlord = 0.3
 	manpower_to_overlord = 0.3
+	naval_forcelimit_to_overlord = 0.3				    
+	sailors_to_overlord = 0.6	
 	is_march = yes
 	forms_trade_companies = no
 
