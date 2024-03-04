@@ -3094,6 +3094,7 @@ fo_korean_city_ideas = {
 
 	trigger = {
 		culture_group = korean_g #Chinese
+		NOT = {is_colonial_nation = yes}
 	}
 	free = yes
 
