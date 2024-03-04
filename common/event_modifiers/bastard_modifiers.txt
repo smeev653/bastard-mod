@@ -47,5 +47,5 @@ bad_building_production = {
 }
 
 b_colony_warscore = {
-	local_warscore_cost_modifier = 1
+	local_warscore_cost_modifier = 2
 }
