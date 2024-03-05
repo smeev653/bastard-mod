@@ -113,8 +113,9 @@ kilwa_cape_missions_slot = {
 			has_discovered = 1177
 		}
 		effect = {
-			add_years_of_trade_income = {
-				years = 0.5
+			add_country_modifier = {
+				name = zan_colonial_ambition_2
+				duration = 9125
 			}
 		}
 		ai_weight = {

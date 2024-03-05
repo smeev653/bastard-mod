@@ -236,3 +236,10 @@ maghreb_oases_stability_pmod = {
 	local_development_cost = -0.3
 	allowed_num_of_buildings = 1
 }
+
+####kilwa
+
+zan_colonial_ambition_2 = {
+	global_colonial_growth = 25
+	range = 0.25
+}
