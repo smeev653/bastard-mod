@@ -1785,6 +1785,7 @@ military_engineering_reform = {
 	modifiers = {
 		artillery_barrage_cost = -0.25
 		artillery_cost = -0.25
+		assault_fort_ability = 0.15
 	}
 	
 	ai = {
