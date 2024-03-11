@@ -589,14 +589,14 @@ horde_ideas = {
 	horse_supplies = {
 		land_maintenance_modifier = -0.05
 	}
-	steppe_leaders = {
-		leader_land_shock = 1
-	}
 	traditions_of_the_great_khan = {
 		cavalry_power = 0.15
 	}
 	logistics_of_khan = {
 		#manpower_recovery_speed = 0.2 (effect taken in GLH_ideas)
+	}
+	steppe_leaders = {
+		leader_land_shock = 1
 	}
 	glory_of_conquest = {
 		#global_manpower_modifier = 0.25 (effect taken in OIR_ideas)
