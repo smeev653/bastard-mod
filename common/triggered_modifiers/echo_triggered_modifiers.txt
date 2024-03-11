@@ -668,3 +668,16 @@ Stop_the_raids = {
 	navy_tradition = 0.5
 	army_tradition = 0.5
 }
+Merc_payments = {
+	potential = {
+		ai = no
+	}
+		
+	trigger = {
+		is_at_war = yes
+		NOT = {
+			manpower_percentage = 0.1
+		}
+	}
+	mercenary_manpower = -0.01
+}

@@ -49,3 +49,8 @@ bad_building_production = {
 b_colony_warscore = {
 	local_warscore_cost_modifier = 2
 }
+
+Merc_payments_reneged = {
+	is_mercenary_modifier = yes
+	reinforce_speed = -0.33
+}

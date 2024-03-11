@@ -554,3 +554,47 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+    id = echo.17
+    title = echo.17.t
+    desc = echo.17.d
+    picture = COURT_eventPicture
+
+    trigger = {
+		NOT = { has_country_modifier = Merc_payments_reneged }
+		has_country_modifier = Merc_payments
+	}
+	mean_time_to_happen = {
+        months = 1
+    }
+	hidden = yes
+    option = {
+		name = echo.15.a
+		add_country_modifier = {
+			name = Merc_payments_reneged
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+    id = echo.18
+    title = echo.18.t
+    desc = echo.18.d
+    picture = COURT_eventPicture
+
+    trigger = {
+		has_country_modifier = Merc_payments_reneged
+		NOT = {has_country_modifier = Merc_payments }
+	}
+	
+	mean_time_to_happen = {
+        months = 1
+    }
+	hidden = yes
+    option = {
+		name = echo.18.a
+		remove_country_modifier = Merc_payments_reneged
+	}
+}
