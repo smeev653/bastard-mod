@@ -1652,6 +1652,12 @@ estate_burghers_tropical_nation = {
 		OR = {
 			has_estate_privilege = estate_burghers_tropical_nation
 			technology_group = chinese
+			OR = {
+				tag = SON
+				was_tag = SON
+				tag = ZAN
+				was_tag = ZAN
+			}
 			technology_group = indian
 		}
 	}
