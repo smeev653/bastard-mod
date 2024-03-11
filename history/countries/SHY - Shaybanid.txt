@@ -15,8 +15,8 @@ religious_school = hanafi_school
 		name = "Abu'l-Khayr" 
 		dynasty = "Shaybanid"
 		dip = 4 
-		adm = 3
-		mil = 3
+		adm = 4
+		mil = 5
 	}
 }
 
