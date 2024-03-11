@@ -1469,7 +1469,7 @@ private_enterprise_overlord = {
 self_governing_colony_overlord = {
 	merchants = 1
 	#global_trade_power = 0.05
-	global_tariffs = -0.10
+	global_tariffs = -0.20
 }
 
 crown_colony_subject = {
