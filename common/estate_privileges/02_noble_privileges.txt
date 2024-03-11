@@ -480,7 +480,7 @@ estate_nobles_right_of_counsel = {
 		cavalry_power = 0.05
 	}
 	penalties = {
-		cavalry_cost = 0.1
+		cavalry_cost = 0.05
 	}
 	on_granted = {
 		enable_estate_action = {

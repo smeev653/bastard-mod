@@ -2738,6 +2738,9 @@ estate_burghers_financial_demand = {
 		interest = -0.75
 	}
 	cooldown_years = 5
+	on_cooldown_expires = {
+		country_event = { id = echo.14 }
+	}
 	#on_granted = {
 	#	enable_estate_action = {
 	#		estate_action = ASK_FOR_CONTRIBUTION_BURGHERS

@@ -478,28 +478,27 @@ country_event = {
 }
 
 country_event = {
-    id = echo.14 #discovery of the new world
+    id = echo.14 #
     title = echo.14.t
     desc = echo.14.d
-    picture = COLONIZATION_eventPicture
-	major = yes
-	fire_only_once = yes
-    trigger = {
-			always = no
-			dip_tech = 6
-			ai = no
-    }
-    mean_time_to_happen = {
-        months = 1
-    }
+    picture = COURT_eventPicture
+    is_triggered_only = yes
 	
-    option = {
+	option = {
 		name = echo.14.a
-		set_global_flag = nw_discovered
-		add_country_modifier = {
-				name = "free_colonist"
-				duration = -1
-			}
+		custom_tooltip = bastard_renew_burgher_priv_tooltip
+		reapply_estate_privilege = { privilege = estate_burghers_financial_demand }
+	}
+	option = {
+		name = echo.14.b
+		custom_tooltip = bastard_revoke_burgher_priv_tooltip
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = -10
+		}
+		hidden_effect = {
+			remove_estate_privilege = estate_burghers_financial_demand
+		}
 	}
 }
 

@@ -34,11 +34,14 @@ echo.12.g:0 "Recruit Grand Captain"
 echo.12.h:0 "£no£ Don't Recruit Anyone"
 
 #####
-#Colonising
+#estate privileges
 ####
-echo.14.t:0 "Discovery of the New World!"
-echo.14.d:0 "All nations can now colonise and establish Trade Companies in following regions:\n\nCanada, Eastern America, Caribbean. Colonial Nations may be established in Brazil.
-echo.14.a:0 "Got it."
+echo.14.t:0 "Lapse of Burgher Demands"
+echo.14.d:0 "5 years have passed since we granted our Burghers further control over the state's affairs. We now have an opportunity to revert this decision and seize the Burgher's possessions back."
+echo.14.a:0 "Renew the privilege."
+echo.14.b:0 "Revoke the privilege."
+bastard_renew_burgher_priv_tooltip:0 "Renews the Burgher Financial Demand Privilege."
+bastard_revoke_burgher_priv_tooltip:0 "Removes the Burgher Financial Demand Privilege."
 
  #gecko burgundy
  gc_burgundy_event.1.t:0 "The Ascension of Burgundy to an Independent Kingdom"
