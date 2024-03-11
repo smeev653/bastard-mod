@@ -233,6 +233,8 @@ black_chamber_act_2:0 "The Black Chamber Act II"
 ######disasters############
  ming_crisis_respawn_tt:0 "§RIf this Disaster fires, Wu, Xi and Yue will become independent and we will have the option to play as one of them. Choose carefully.§!"
 ####hashimports#########
+ H_DOMINION:0 "Dominion"
+ H_PrimeMinister:0 "Prime Minister"
  h_reform_dominion:0 "Dominion"
  h_reform_dominion_desc:0 "A semi-independent government empowered to uphold the constitution of a former colony."
  COLONIAL_SOUTH_AFRICA_Root_Culture_GetName_SouthAfrica:0 "[Root.GetAdjective] South Africa"
