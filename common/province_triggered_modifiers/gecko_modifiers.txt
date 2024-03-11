@@ -705,7 +705,10 @@ conquest_of_pest = {
 	}
 	trigger = {
 		owner = {
-				NOT = { tag = HUN }
+				OR = {
+					NOT = { tag = HUN }
+					NOT = { tag = EOH }
+				}
 				NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
