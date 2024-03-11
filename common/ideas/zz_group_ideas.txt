@@ -583,8 +583,8 @@ horde_ideas = {
 	life_of_steppe_warrior = {
 		#land_attrition = -0.20 (effect taken in OIR_ideas)
 	}
-	traditions_of_the_great_khan = {
-		cavalry_power = 0.15
+		tradition_of_conquest = {
+		#core_creation = -0.25 (effect taken in CHG_ideas)
 	}
 	horse_supplies = {
 		land_maintenance_modifier = -0.05
@@ -592,8 +592,8 @@ horde_ideas = {
 	steppe_leaders = {
 		leader_land_shock = 1
 	}
-	tradition_of_conquest = {
-		#core_creation = -0.25 (effect taken in CHG_ideas)
+	traditions_of_the_great_khan = {
+		cavalry_power = 0.15
 	}
 	logistics_of_khan = {
 		#manpower_recovery_speed = 0.2 (effect taken in GLH_ideas)
