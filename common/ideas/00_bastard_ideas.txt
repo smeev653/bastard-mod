@@ -1760,7 +1760,7 @@ AVE_ideas = {
 }
 SWE_ideas = {
 	start = {
-		infantry_power = 0.15
+		shock_damage = 0.1
 		merc_maintenance_modifier = -0.15
 	}
 
@@ -1782,7 +1782,7 @@ SWE_ideas = {
 		possible_policy = 1
 	}
 	hakkapelitta = {
-		shock_damage = 0.1
+		infantry_power = 0.15
 	}
 	indelningsverket = {
 		manpower_recovery_speed = 0.15
@@ -2704,7 +2704,7 @@ GLH_ideas = {
 MOS_ideas = {
 	start = {
 		diplomatic_upkeep = 1
-		shock_damage_received = -0.1
+		shock_damage_received = -0.15
 	}
 
 	bonus = {
