@@ -386,12 +386,13 @@ ARB_ideas = { #Arabian Empire
 
 GZM_ideas = { #Great Zimbabwe Empire
 	start = {
-		land_morale = 0.1
+		infantry_shock = 0.25
 		infantry_cost = -0.2
 	}
 	
 	bonus = {
 		culture_conversion_cost = -0.25
+		culture_conversion_time = -0.25
 	}
 	
 	trigger = {
@@ -407,11 +408,10 @@ GZM_ideas = { #Great Zimbabwe Empire
 		discipline = 0.05
 	}
 	GZM_empowering_the_rozwi = {
-		fire_damage_received = -0.1
+		fire_damage_received = -0.15
 	}
 	GZM_4 = {
-		infantry_shock = 0.25
-		infantry_power = 0.125
+		infantry_power = 0.1
 	}
 	GZM_5 = { 
 		global_manpower_modifier = 0.2
@@ -1268,7 +1268,7 @@ PR2_ideas = {
     }
     free = yes
     PR2_1 = {
-        advisor_cost = -0.1
+        advisor_cost = -0.15
     }
     PR2_2 = {
         infantry_power = 0.1
@@ -1283,6 +1283,8 @@ PR2_ideas = {
     }
     PR2_5 = {
         num_accepted_cultures = 2
+		culture_conversion_cost = -0.25
+		culture_conversion_time = -0.25
     }
     PR2_6 = {
        prestige = 1
@@ -3577,24 +3579,23 @@ ORJ_ideas = { #Oranje
 		defensiveness = 0.15
 	}
 	orj_2 = { #Kommandos
-		land_morale = 0.15
+		land_morale = 0.1
 		fire_damage = 0.1
 	}
 	orj_3 = { #Die Stem
-		manpower_recovery_speed = 0.2
+		manpower_recovery_speed = 0.15
 	}
 	orj_4 = { #Vrijstaat
 		garrison_size = 0.25
 	}
 	orj_5 = { #The Great Trek
-		movement_speed = 0.15
+		movement_speed = 0.1
 	}
 	orj_6 = { #Transvaal Steel
 		infantry_cost = -0.15
-		build_cost = -0.1
 	}
 	orj_7 = { #Versterken
-		reinforce_speed = 0.33
+		reinforce_speed = 0.25
 	}
 }
 
@@ -3614,13 +3615,14 @@ DSA_ideas = { #South Africa
 	free = yes
 	
 	dsa_1 = { #Kimberlite
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.15
 	}
 	dsa_2 = { #Kalahari Reclamation
+		build_cost = -0.1
 		development_cost = -0.1
 	}
 	dsa_3 = { #Orderly State
-		stability_cost_modifier = -0.1
+		stability_cost_modifier = -0.15
 	}
 	dsa_4 = { #Cape of Storms
 		global_sailors_modifier = 0.5
