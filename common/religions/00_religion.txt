@@ -1154,7 +1154,7 @@ muslim = {
 			shiite
 		}
 		country = {
-			cav_to_inf_ratio = 0.10
+			global_manpower_modifier = 0.1
 			heir_chance = 1.0
 		}
 		country_as_secondary = {
