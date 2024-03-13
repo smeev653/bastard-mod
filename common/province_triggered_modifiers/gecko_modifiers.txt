@@ -445,7 +445,7 @@ conquest_of_nogay = {
 		controlled_by = ROOT
 		has_owner_accepted_culture = yes	
 	}	
-	horde_unity = 0.5
+	#horde_unity = 0.5
 	#land_morale = 0.025
 	merchants = 1
 	#Province scope
