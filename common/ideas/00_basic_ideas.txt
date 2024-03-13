@@ -796,13 +796,13 @@ aristocracy_ideas = {
 	bonus = {
 		fire_damage_received = -0.1
 	}
-	noble_knights = {
-		cavalry_power = 0.1
-		cavalry_cost = -0.1
-	}
 	military_traditions = {
 		mil_tech_cost_modifier  = -0.1
 		army_tradition_from_battle = 0.25
+	}
+	noble_knights = {
+		cavalry_power = 0.1
+		cavalry_cost = -0.1
 	}	
 	local_nobility = {
 		leader_cost = -0.1
