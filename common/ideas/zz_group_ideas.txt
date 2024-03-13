@@ -590,7 +590,7 @@ horde_ideas = {
 		land_maintenance_modifier = -0.05
 	}
 	traditions_of_the_great_khan = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	logistics_of_khan = {
 		#manpower_recovery_speed = 0.2 (effect taken in GLH_ideas)

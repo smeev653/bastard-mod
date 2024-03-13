@@ -373,7 +373,7 @@ ARB_ideas = { #Arabian Empire
 	}
 	arb_2 = { #Arabian Horsemanship
 		cavalry_cost = -0.1
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	arb_4 = { #Spreading the Prophet's Word
 		global_missionary_strength = 0.03
@@ -2381,7 +2381,7 @@ HUN_ideas = {
 
 EOH_ideas = {
 	start = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 		land_morale = 0.1
 		no_religion_penalty = yes
 	}
@@ -2685,7 +2685,7 @@ GLH_ideas = {
 		core_creation = -0.25
 	}
 	glh_tatar_traditions = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 		cavalry_cost = -0.1
 	}
 	glh_secure_the_trade_routes = {
@@ -3269,7 +3269,7 @@ SIA_ideas = {
 		adm_advisor_cost = -0.15
     }
     sia_advanced_elephant_warfare = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 		cavalry_fire = 0.5
     }
     sia_experienced_ambassadors = {
