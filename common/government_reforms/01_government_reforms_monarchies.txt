@@ -2931,7 +2931,7 @@ siamese_absolutism = {
 	modifiers = {
 		max_absolutism = 10
 		monarch_admin_power = 1
-		development_cost = -0.1
+		development_cost_in_primary_culture = -0.1
 	}
 	free_concentrate_development = yes
 }
