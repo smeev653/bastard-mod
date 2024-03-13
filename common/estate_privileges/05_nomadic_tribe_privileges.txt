@@ -300,10 +300,10 @@ estate_nomadic_tribes_autonomy_of_the_tribes = {
 	}
 	benefits = {
 	}
-	modifier_by_land_ownership = {
-		global_tax_modifier = 0.35
-	}
 	mechanics = {
+	}
+	modifier_by_land_ownership = {
+		religious_unity = 0.5
 	}
 	ai_will_do = {
 		factor = 0
