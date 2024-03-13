@@ -117,7 +117,7 @@ MCH_ideas = {
 		stability_cost_modifier = -0.1
 	}
 	link_with_the_mongol_dynasty = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	the_later_jin = {
 		horde_unity = 1
@@ -161,7 +161,7 @@ QNG_ideas = {
 		administrative_efficiency = 0.05
 	}
 	qing_viceroyalties = {
-		state_maintenance_modifier = -0.33
+		technology_cost = -0.1
 		global_autonomy = -0.05
 	}
 	qng_bogda_khan = {
