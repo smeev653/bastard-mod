@@ -566,6 +566,9 @@ diplomatic_ideas = {
 }
 
 influence_ideas = {
+	trigger = {
+		NOT = { is_colonial_nation = yes }
+	}
 	category = DIP
 	bonus = {
 		development_cost_in_primary_culture = -0.1
