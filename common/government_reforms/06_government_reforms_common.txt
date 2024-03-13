@@ -1853,6 +1853,10 @@ cavalry_warfare_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = { has_unlocked_government_reform = { government_reform = legacy_of_the_seljuk_reform } }
+		OR = {
+			NOT = {tag = MCH}
+			NOT = {was_tag = MCH}
+		}
 	}
 	trigger = {
 		if = {

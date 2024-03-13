@@ -9429,7 +9429,6 @@ harmonized_shinto = {
 # Religion Groups
 harmonized_pagan = {
 	cavalry_power = 0.1
-	cav_to_inf_ratio = 0.1
 	religion = yes
 }
 
