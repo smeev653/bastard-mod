@@ -946,7 +946,7 @@ upper_swabia_area = { #4 (East Swabia)
 
 northern_saxony_area = { #4 (Saxe-Altmark)
 	color = { 229 20 20 }
-	52 58 2964 4741 4742
+	52 58 4741 4742
 }
 
 thuringia_area = { #3
@@ -955,11 +955,11 @@ thuringia_area = { #3
 
 neumark_area = { #3
 	color = { 234 232 44 }
-	49 2969 4747
+	49 2969 4747 2993 50
 }
 
 mittelmark_area = { #5
-	50 51 1759 4748 2993
+	4786 4749 51 1759 4748 
 }
 
 vorpommern_area = { #4
@@ -1037,15 +1037,15 @@ weser_area = { #4
 }
 
 holstein_area = { #3
-	13 1775 4141 
+	13 1775 4141 44
 }
 
 lower_saxony_area = { #4
-	44 53 1857 4772
+	 53 4772 2964
 }
 
 mecklenburg_area = { #5
-	45 46 2996 4749 4786
+	46 2996 45 1857
 }
 
 ########################################

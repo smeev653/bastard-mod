@@ -404,28 +404,33 @@ trade_company_white_sea = {
 	}
 }
 
-trade_company_lubeck = {
-	color = { 190 70 70 }
-	
-	provinces = {
-		6 12 13 14 15 16 17 22 26 44 45 46 47 48 53 54 55 1775 1857 1874 1858 1981 1982 1983 1984 7 2994 2995 2996 4141 4142 4143 4144 4149 4163 4164 4165 4749 4745 4746 4771 4772 4786 23 24 2752 4145 4146
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_LUBECK_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_LUBECK_European_Trade_Company"
-	}
-}
+#trade_company_lubeck = {
+#	color = { 190 70 70 }
+#	
+#	provinces = {
+#		6 12 13 14 15 16 17 22 26 44 45 46 47 48 53 54 55 1775 1857 1874 1858 1981 1982 1983 1984 7 2994 2995 2996 4141 4142 4143 4144 4149 4163 4164 4165 4749 4745 4746 4771 4772 4786 23 24 2752 4145 4146
+#	}
+#	
+#	# Specific
+#	# Generic
+#	names = {
+#		name = "TRADE_COMPANY_LUBECK_Root_Culture_GetName"
+#	}
+#	names = {
+#		name = "TRADE_COMPANY_LUBECK_European_Trade_Company"
+#	}
+#}
 
 trade_company_baltic_sea = {
 	color = { 8 82 165 }
 	
 	provinces = {
 		1926 1 2 3 4 5 1985 8 9 11 18 19 25 27 28 29 31 35 37 38 39 40 271 273 1930 1935 1936 41 42 43 1841 767 2958 2997 4113 4114 4123 4152 4166 270 36 1834 1842 4241 4534 10 20 21 4153
+		6 12 13 14 15 16 17 22 26 1775 1981 1982 1983 1984 7 4141 4142 4143 4144 4149 4163 4164 4165 23 24 2752 4145 4146
+		47 2994 4745 1858 #vorpommern_area
+		48 2995 4746 #hinter_pommern_area
+		45 2996  46 
+		44 1857
 	}
 	
 	# Specific
@@ -557,13 +562,9 @@ trade_company_champagne = {
 	color = { 193 26 14 }
 	
 	provinces = {
-		181 186 4390 187 188 189 91 93 94 1866 191 192 193 1877 4392 4764 4766
+		181 186 4390 187 188 189 191 192 193 1877 4392 4764 4766
 		87 88 89 1743 #picardy
-		90 1865 4769 #flanders
-		1744 92 2974 #south brabant
-		95 4770 1742  #north brabant
-		96 97 98 4383 #holland
-		99 100 1931 4381 4382 #frisia
+
 		1879 4385 167 168 #normandy
 		182 183 185 4388 #ile de france
 	}
@@ -575,6 +576,28 @@ trade_company_champagne = {
 	}
 	names = {
 		name = "TRADE_COMPANY_CHAMPAGNE_European_Trade_Company"
+	}
+}
+
+trade_company_holland = {
+	color = { 255 102 0 }
+	
+	provinces = {
+		91 93 94 1866 #wallonia
+		90 1865 4769 #flanders
+		1744 92 2974 #south brabant
+		95 4770 1742  #north brabant
+		96 97 98 4383 #holland
+		99 100 1931 4381 4382 #frisia
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_HOLLAND_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_HOLLAND_European_Trade_Company"
 	}
 }
 
@@ -636,8 +659,12 @@ trade_company_rheinland = {
 	color = { 114 171 184 }
 	
 	provinces = {
-		56 72 74 75 77 78 79 80 81 82 83 84 85 86 1760 1761 1869 1870 1876 1878 1880 2973 2975 166 1873 2972 1762 66 67 4714 4718 4715 4716 4717 71 69 4722 4765 4767 4768 4774 4775 
-		70 4713 4712 #lower_swabia_area
+		57 1758 4773 2971 #braunschweig_area
+		54 55 1874 4771 #weser_area
+		56 78 80 81 82 83 84 85 86 1760 1876 1878 2973 2975 2972 1762 69 4768 4774 4775 
+		49 50 62 63 51 60 61 1759 1763 52 58 59 2964 2965 2969 2993 4741 4742 4743 4744 4747 4748 4778 
+		4772 53
+		4749 4786
 	}
 	
 	# Specific
@@ -650,21 +677,29 @@ trade_company_rheinland = {
 	}
 }
 
-trade_company_saxony = {
-	color = { 36 182 69 }
+trade_company_south_germany = {
+	color = {20 188 118}
 	
 	provinces = {
-		49 50 57 62 63 1758 51 60 61 267 1759 1763 1771 52 58 59 2964 2965 2967 2971 2969 266 2968 2970 2993
-		4724 4725 4741 4742 4743 4744 4747 4748 4773 4778
+		71 79 4715 4718 
+		4716 4717 66 67
+		77 1761 4767
+		75 4765 1880
+		72 74 4714
+		70 4713 4712 #lower_swabia_area
+		1757 2956 2957 64
+		4709 4760 76 
+		2955 4708 65 4707
+		4711 1868 1872 68
 	}
 	
 	# Specific
 	# Generic
 	names = {
-		name = "TRADE_COMPANY_SAXONY_Root_Culture_GetName"
+		name = "TRADE_COMPANY_SOUTH_GERMANY_Root_Culture_GetName"
 	}
 	names = {
-		name = "TRADE_COMPANY_SAXONY_European_Trade_Company"
+		name = "TRADE_COMPANY_SOUTH_GERMANY_European_Trade_Company"
 	}
 }
 
@@ -672,10 +707,13 @@ trade_company_wien = {
 	color = { 220 220 220 }
 	
 	provinces = {
-		64 65 76 128 132 133 134 1757 1770 1863 2955 2956 2957 68 1868 1872 73 110 1768 4707 4708 4709 4710 4711 4758 4759 4760 4761 4762 265 4237 4726 
+		128 132 133 134 1770 1863 73 110 1768 4710 4758 4759  4761 4762
 		135 1864 4126 4240 #transdanubia_area
 		155 1953 4125 153 1954 #alfold_area
-		154 162 1318 1772 4236 #slovakia_area
+		154 162 1318 1772 4236 #slovakia_area  
+		265 4237 4726 
+		266 2968 4725 4724 2970 
+		267 2967 1771 
 	}
 	
 	# Specific

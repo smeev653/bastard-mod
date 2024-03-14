@@ -117,7 +117,7 @@ lubeck_missions_1 = {
 						is_at_war = no
 					}
 				}
-				45 = { #Lubeck
+				12 = { #Lubeck
 					trade_share = {
 						country = ROOT 
 						share = 50
@@ -1094,7 +1094,7 @@ lubeck_missions_3 = {
 			if = {
 				limit = {
 					NOT = {
-						45 = { #Lubeck
+						12 = { #Lubeck
 							trade_share = {
 								country = ROOT
 								share = 50
@@ -1216,7 +1216,7 @@ lubeck_missions_3 = {
 					}
 				}
 			}
-			45 = { #Lubeck
+			12 = { #Lubeck
 				trade_share = {
 					country = ROOT 
 					share = 50
@@ -1252,7 +1252,7 @@ lubeck_missions_3 = {
 					republican_tradition = 85
 				}
 			}
-			45 = { is_strongest_trade_power = ROOT }
+			12 = { is_strongest_trade_power = ROOT }
 			1926 = { is_strongest_trade_power = ROOT }
 			33 = { is_strongest_trade_power = ROOT }
 			custom_trigger_tooltip = {
@@ -1854,7 +1854,7 @@ lubeck_missions_5 = {
 				name = hsa_victory_in_holstein_modifier
 				duration = 7300
 			}
-			45 = { #Lubeck
+			12 = { #Lubeck
 						add_trade_modifier = {
 							who = DAN
 							duration = 3650
@@ -1877,7 +1877,7 @@ lubeck_missions_5 = {
 			OR = {
 				12 = { country_or_non_sovereign_subject_holds = ROOT }
 				AND = {
-					45 = {
+					12 = {
 						NOT = {
 							trade_share = {
 								country = DAN 
@@ -1927,7 +1927,7 @@ lubeck_missions_5 = {
 		position = 5
 		provinces_to_highlight = { province_id = 45 }
 		trigger = {
-			45 = {
+			12 = {
 				trade_share = {
 					country = ROOT 
 					share = 50
@@ -1939,7 +1939,7 @@ lubeck_missions_5 = {
 				name = hsa_high_seas_navy_modifier
 				duration = 9125 
 			}
-			45 = { add_trade_node_income = 10 }
+			12 = { add_trade_node_income = 10 }
 			add_mercantilism = 5
 		}
 	}
@@ -2023,7 +2023,7 @@ lubeck_missions_5 = {
 			}
 			NOT = {
 				any_country = {
-					45 = { 
+					12 = { 
 						has_privateer_share_in_trade_node = {
 							who = PREV
 							share = 0.01

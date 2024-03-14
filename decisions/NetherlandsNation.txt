@@ -82,7 +82,6 @@ country_decisions = {
 				region = low_countries_region
 			}
 			exists = FRA
-			NOT = {total_development = FRA}
 			if = {
 				limit = {
 					tag = BUR
