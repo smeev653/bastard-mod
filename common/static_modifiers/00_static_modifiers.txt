@@ -598,6 +598,7 @@ base_values = {
 	has_marines = yes
 	sunk_ship_morale_hit_recieved = -0.9
 	max_possible_parliament_seats = 30
+	naval_attrition = -0.5
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
