@@ -1723,7 +1723,7 @@ krakow={
 gc_south_germany_tradenode = {
 	location = 1872
 	color = {
-		35  220  240
+		20 188 118
 	}
 	inland=yes
 	outgoing= {
