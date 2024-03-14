@@ -1670,7 +1670,7 @@ stadthalter_monarchy_reform = {
 	lock_level_when_selected = yes
 
 	modifiers = {
-		heavy_ship_power = 0.1
+		artillery_fire = 0.25
 		trade_efficiency = 0.1
 		reduced_liberty_desire_on_other_continent = 10
 		has_voc_indiamen = yes
