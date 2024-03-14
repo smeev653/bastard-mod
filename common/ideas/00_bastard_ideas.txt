@@ -2283,7 +2283,7 @@ EGY_ideas = {
 		country_military_power = 1
 		reinforce_speed = 0.15
 	}
-	purchase_new_mamelukes = {
+	b_purchase_new_mamelukes = {
 		infantry_power = 0.1
 	}
 	nile_production = {
