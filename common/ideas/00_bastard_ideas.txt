@@ -1495,7 +1495,7 @@ NED_ideas = {
 		trade_efficiency = 0.1
 	}
 	polders = {
-		development_cost = -0.05
+		development_cost = -0.1
 	}
 	instructie_voor_de_admiraliteiten = {
 		allowed_marine_fraction = 0.25
