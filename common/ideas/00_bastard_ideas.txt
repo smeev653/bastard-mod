@@ -3344,8 +3344,7 @@ SUN_ideas = {
 	}
 	free = yes
 	candi_shrines = {
-		global_colonial_growth = 20
-		colonists = 1
+		tolerance_own = 1
 	}
 	sunda_galuh = {
 		global_unrest = -1
@@ -3380,8 +3379,7 @@ BAN_ideas = {
 	}
 	free = yes
 	ban_struck_down_by_diamonds = {
-		global_colonial_growth = 20
-		colonists = 1
+		tolerance_own = 2
 	}
 	ban_surrounded_by_stars = {
 		global_trade_goods_size_modifier = 0.2
@@ -3417,8 +3415,12 @@ CRB_ideas = {
 	}
 	free = yes
 	crb_negara_gede = { 
-		global_colonial_growth = 20
-		colonists = 1
+		yearly_absolutism = 1
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	crb_tari_topeng = { 
 		same_culture_advisor_cost = -0.25
