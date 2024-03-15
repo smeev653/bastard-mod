@@ -2643,10 +2643,9 @@ TIM_ideas = {
 		prestige = 1
 	}
 	the_mantle_of_the_great_khan = {
-		land_morale = 0.15
+		shock_damage = 0.15
 	}
 	unleash_the_tiger = {
-		shock_damage = 0.15
 		fire_damage = 0.15
 	}
 	bastard_populating_the_steppes = {
@@ -2654,13 +2653,12 @@ TIM_ideas = {
 	}
 	timurid_renaissance = {
 		technology_cost = -0.05
-		development_cost = -0.1
 	}
 	riches_of_the_silk_road = {
 		global_own_trade_power = 0.25
 	}
 	reform_the_diwan = {
-		morale_damage_received = -0.15
+		morale_damage_received = -0.1
  	}
 }
 
