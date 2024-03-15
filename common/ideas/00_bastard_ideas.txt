@@ -1866,7 +1866,7 @@ RUS_ideas = {
 	free = yes		#will be added at load.
 
 	land_of_the_rus = {
-		shock_damage_received = -0.1
+		shock_damage_received = -0.15
 	}
 	siberian_frontier = {
 		may_establish_frontier = yes
@@ -3668,7 +3668,7 @@ CRI_ideas = {
 	}
 	
 	cri_free_cattle_grazing = {
-		cavalry_power = 0.05
+		cavalry_power = 0.15
 	}
 	cri_settle_the_steppes = {
 		build_cost = -0.05
