@@ -1020,7 +1020,7 @@ offensive_ideas = {
 	}
 
 	shock_tactics = {
-		shock_damage = 0.1
+		shock_damage = 0.15
 	}
 	glory_on_the_battlefield = {
 		army_tradition_from_battle = 0.25
@@ -1043,6 +1043,7 @@ offensive_ideas = {
 	}
 	superior_firepower = {
 		artillery_power = 0.10
+		artillery_cost = -0.15
 	}
 
 	ai_will_do = {
@@ -1183,7 +1184,7 @@ quality_ideas = {
 		infantry_power = 0.1
 	}
 	battlefield_commisions = {
-		army_tradition = 0.75
+		army_tradition = 0.5
 	}
 	military_drill = {
 		drill_gain_modifier = 0.15
