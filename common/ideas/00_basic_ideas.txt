@@ -980,7 +980,7 @@ theocracy_gov_ideas = {
 		development_cost = -0.05
 	}
 	martyrs = {
-		manpower_in_true_faith_provinces = 0.2
+		manpower_in_true_faith_provinces = 0.15
 
 	}
 	ai_will_do = {
