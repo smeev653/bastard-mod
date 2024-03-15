@@ -27,7 +27,7 @@ kaffa_slave_market = {
 	trigger = {
 		owner = {
 			OR = {
-				tag = GOL
+				tag = CRI
 				tag = GLH
 			}	
 		}

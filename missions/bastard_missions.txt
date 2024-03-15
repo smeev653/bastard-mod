@@ -2495,7 +2495,7 @@ X_CRI_slot_1 = {
 			1322 = {
 				trade_share = {
 					country = ROOT
-					share = 45
+					share = 15
 				}
 			}
 			custom_trigger_tooltip = { 
@@ -2524,7 +2524,7 @@ X_CRI_slot_1 = {
 			}
 		}
 		effect = {
-			gazaria_area = {
+			crimea_area = {
 				add_local_autonomy = -10
 				add_base_tax = 1
 			}
@@ -2581,8 +2581,8 @@ X_CRI_slot_1 = {
 				limit = { NOT = { has_completed_all_reforms_trigger = yes } }
 				add_reform_progress_small_effect = yes
 			}
-			add_mandate = 10
-			X_improve_ruler_stats_effect = { all = yes all_amount = 2 }
+			change_dip = 1
+			change_mil = 1
 			custom_tooltip = X_CRI_mission_9_tt
 			hidden_effect = {
 				every_owned_province = {
@@ -2642,7 +2642,7 @@ X_CRI_slot_2 = {
 		}
 		trigger = {
 			num_of_light_ship = 20
-			284 = {
+			2410 = {
 				owned_by = ROOT
 				X_has_latest_building_trigger = { sailors = yes builder = ROOT }
 			}
@@ -2653,24 +2653,12 @@ X_CRI_slot_2 = {
 				trade_goods = slaves
 				amount = 8
 			}
-			estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 60
-			}
 		}
 		effect = {
 			add_navy_tradition = 20
 			create_admiral = { tradition = 50 }
-			284 = {
+			2410 = {
 				change_trade_goods = slaves
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-			change_estate_land_share = {
-				estate = estate_burghers
-				share = -10
 			}
 		}
 	}
@@ -2782,10 +2770,6 @@ X_CRI_slot_3 = {
 				estate = estate_nomadic_tribes
 				loyalty = 60
 			}
-			estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = 60
-			}
 			284 = { X_has_latest_building_trigger = { fort = yes builder = ROOT } }
 		}
 		effect = {
@@ -2839,7 +2823,6 @@ X_CRI_slot_3 = {
 				}
 				set_capital = 284
 			}
-			country_event = { id = X_CRI_events.6 }
 		}
 	}
 	#Crimean Slave Trade
@@ -2890,21 +2873,11 @@ X_CRI_slot_3 = {
 				}
 				custom_tooltip = MONOPOLY_INCOME_SLAVES_DESC
 			}
-			284 = {
+			2447 = {
 				change_trade_goods = slaves
 				X_center_of_trade_effect = { cost_equivalency_max_lvl_2 = yes }
-				rename_capital = "Qarasubazar"
-			}
-			if = { 
-				limit = { 
-					has_estate = estate_nomadic_tribes
-					has_estate = estate_burghers
-				} 
-				set_estate_privilege = X_estate_burghers_privilege_1
-			}
-			else = { 
-				add_treasury = 500
-			}
+			}	
+			add_treasury = 500
 		}
 	}
 	#Great Raid of Moscow
@@ -3153,10 +3126,7 @@ X_CRI_slot_4 = {
 							any_owned_province = {
 								OR = {
 									has_terrain = steppe
-									AND = {
-										region = ruthenia_region
-										X_flatland_terrain_trigger = yes
-									}
+									region = ruthenia_region
 								}
 							}
 						}
@@ -3195,10 +3165,6 @@ X_CRI_slot_5 = {
 		trigger = {
 			calc_true_if = {
 				desc = X_CRI_mission_12_tt
-				odessa_area = {
-					type = all
-					country_or_subject_holds = ROOT
-				}
 				yedisan_area = {
 					type = all
 					country_or_subject_holds = ROOT		
@@ -3223,7 +3189,7 @@ X_CRI_slot_5 = {
 					type = all
 					country_or_subject_holds = ROOT		
 				}
-				amount = 20
+				amount = 15
 			}
 		}
 		effect = {

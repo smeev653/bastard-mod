@@ -572,6 +572,22 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
+		crimean_raids = {
+		
+			allow = {
+				OR = {
+					tag = CRI
+					tag = GLH
+				}	
+				
+			}	
+			modifier = {
+				movement_speed = 0.25
+			}
+			ai_will_do = {
+					factor = 100
+			}
+		}
 	}
 }
 

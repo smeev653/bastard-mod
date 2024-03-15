@@ -3641,3 +3641,41 @@ DSA_ideas = { #South Africa
 		infantry_power = 0.1
 	}
 }
+
+CRI_ideas = {
+	start = {
+		tolerance_heathen = 3
+		trade_efficiency = 0.1
+	}
+	bonus = {
+		global_manpower_modifier = 0.15
+	}
+	trigger = {
+		tag = CRI
+	}
+	free = yes
+	cri_slavers = {
+		global_own_trade_power = 0.25
+	}
+	
+	cri_ruthenian_raids = {
+		loot_amount = 0.25
+		shock_damage = 0.10
+	}
+	cri_genghisid_legacy = {
+		land_morale = 0.1
+	}
+	cri_allow_nogai_protectorates = {
+		manpower_recovery_speed = 0.15
+	}
+	
+	cri_free_cattle_grazing = {
+		cavalry_power = 0.05
+	}
+	cri_settle_the_steppes = {
+		build_cost = -0.05
+	}
+	cri_despoilers = {
+		leader_land_manuever = 1
+	}
+}
