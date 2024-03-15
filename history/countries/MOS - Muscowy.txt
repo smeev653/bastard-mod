@@ -36,7 +36,7 @@ national_focus = ADM
 	}
 }
 
-1420.1.1 = { leader = {	name = "Yuri Patrikeev"		type = general	fire = 2	shock = 4	manuever = 3	siege = 1	death_date = 1439.1.1 } }
+1420.1.1 = { leader = {	name = "Yuri Patrikeev"		type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1453.1.1 } }
 
 1424.2.27 = {
 	monarch = {
