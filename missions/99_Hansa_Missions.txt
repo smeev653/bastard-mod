@@ -280,8 +280,6 @@ lubeck_missions_1 = {
 						num_of_subjects = 1 
 					}
 				}
-				custom_trigger_tooltip = { 
-					tooltip = hsa_either_trade_or_subject_all_100_tt
 					all_country = {
 						OR = {
 							NOT = { is_in_trade_league_with = ROOT }
@@ -298,7 +296,6 @@ lubeck_missions_1 = {
 							}
 						}
 					}
-				}
 			}
 		}
 		effect = {
