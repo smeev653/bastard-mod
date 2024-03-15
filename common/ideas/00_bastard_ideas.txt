@@ -3655,7 +3655,6 @@ CRI_ideas = {
 	cri_slavers = {
 		global_own_trade_power = 0.25
 	}
-	
 	cri_ruthenian_raids = {
 		loot_amount = 0.25
 		shock_damage = 0.10
@@ -3663,13 +3662,14 @@ CRI_ideas = {
 	cri_genghisid_legacy = {
 		land_morale = 0.1
 	}
+		cri_free_cattle_grazing = {
+		cavalry_power = 0.15
+	}
 	cri_allow_nogai_protectorates = {
 		manpower_recovery_speed = 0.15
 	}
 	
-	cri_free_cattle_grazing = {
-		cavalry_power = 0.15
-	}
+
 	cri_settle_the_steppes = {
 		build_cost = -0.05
 	}
