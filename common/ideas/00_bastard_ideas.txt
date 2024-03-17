@@ -417,7 +417,7 @@ GZM_ideas = { #Great Zimbabwe Empire
 		global_manpower_modifier = 0.2
 	}
 	GZM_6 = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 	}
 	GZM_vashambadzi = {
 		trade_efficiency = 0.1

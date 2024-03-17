@@ -660,7 +660,7 @@ SZO_ideas = {
 		land_morale = 0.1
 	}
 	SZO_alpine_engineering = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 	}
 	SZO_key_to_italy = {
 		trade_steering = 0.2
@@ -2227,7 +2227,7 @@ BRI_ideas = {
 NAJ_ideas = {
 	start = {
 		global_missionary_strength = 0.02
-		movement_speed = 0.15
+		movement_speed = 0.1
 	}
 	
 	bonus = {
@@ -3784,7 +3784,7 @@ MOL_ideas = {
 
 AIR_ideas = {
 	start = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 		caravan_power = 0.2
 	}
 	
@@ -7869,7 +7869,7 @@ PAT_ideas = {
 KAF_ideas = {
 	start = {
 		tolerance_heathen = 2
-		movement_speed = 0.15
+		movement_speed = 0.1
 	}
 	bonus = {
 		stability_cost_modifier = -0.1
@@ -8081,7 +8081,7 @@ YUA_ideas = {
 		shock_damage = 0.1
 	}
 	yua_a_thousand_miles_as_if_at_home = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 		envoy_travel_time = -0.1
 	}
 	yua_sino_mongol_administration = {
@@ -8987,7 +8987,7 @@ TKI_ideas = {
 	}
 	free = yes
 	tki_genji_in_mino = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 	}
 	tki_ranjatai = {
 		prestige = 1
@@ -9245,7 +9245,7 @@ ISK_ideas = {
 		fire_damage = 0.1
 	}
 	isk_upgrade_roads = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 	}
 	isk_port_development = {
 		development_cost = -0.1
@@ -10536,7 +10536,7 @@ MHR_ideas = {
 		leader_naval_manuever = 1
 	}
 	mhr_camels = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 		cavalry_cost = -0.05
 	}
 	mhr_book_of_navigation = {
@@ -10976,7 +10976,7 @@ KTB_ideas = {
 		spy_offence = 0.2
 	}
 	ktb_the_march_of_kitabatake_akiee = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 	}
 }
 
@@ -11850,7 +11850,7 @@ CRN_ideas = {
 		land_forcelimit_modifier = 0.2
 	}
 	crn_gear_rout = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 	}
 	crn_arthurian_romanticism = {
 		prestige_decay = -0.01
@@ -12796,7 +12796,7 @@ ILK_ideas = {
 		num_accepted_cultures = 1
 	}
 	ilk_yam_networks = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 		envoy_travel_time = -0.25
 	}
 	ilk_mongol_peace = {
@@ -12873,7 +12873,7 @@ TEX_ideas = {
 	}
 	vaqueros = {
 		land_attrition = -0.1
-		movement_speed = 0.15
+		movement_speed = 0.1
 	}
 	tex_native_frontiers = {
 		army_tradition_decay = -0.01
@@ -13072,7 +13072,7 @@ SNA_ideas = {
 		land_forcelimit_modifier = 0.25
 	}
 	SNA_taking_the_fight_south = {
-		movement_speed = 0.15
+		movement_speed = 0.1
 		prestige_from_land = 0.5
 	}
 }
