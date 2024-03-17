@@ -991,9 +991,9 @@ kok_persia_mission_origins_slot_qoyunlu = {
 			NOT = { num_of_loans = 1 }
 		}
 		effect = {
-			unlock_estate = {
-				estate = estate_nomadic_tribes
-			}
+			#unlock_estate = {
+			#	estate = estate_nomadic_tribes
+			#}
 			add_government_power = {
 				mechanic_type = persian_influence_mechanic
 				power_type = persian_influence

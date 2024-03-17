@@ -2767,8 +2767,8 @@ legacy_of_the_seljuk_reform = {
 		}
 	}
 	modifiers = {
-		cav_to_inf_ratio = 0.15
-		cavalry_cost = -0.25
+		cavalry_power = 0.1
+		cavalry_cost = -0.1
 		nomadic_tribes_loyalty_modifier = 0.1
 		nomadic_tribes_privilege_slots = 1
 	}
