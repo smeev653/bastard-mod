@@ -1,9 +1,9 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4024;1103;sea;1454;-1;-1;-1;-1;Maroantsetra-Ile-Bourbon
 1103;1102;sea;1455;-1;-1;-1;-1;Ile-Bourbon-Mauritus
-1102;1101;sea;1620;-1;-1;-1;-1;Mauritus-Hollhavai
+1102;1101;sea;1455;-1;-1;-1;-1;Mauritus-Hollhavai
 1101;1999;sea;1621;-1;-1;-1;-1;Hollhavai-Cocos-Islands
-1999;1998;sea;1621;-1;-1;-1;-1;Cocos-Islands-Christmas-Island
+1999;1998;sea;1624;-1;-1;-1;-1;Cocos-Islands-Christmas-Island
 1998;4790;sea;1353;-1;-1;-1;-1;Christmas-Island-Pangguyanan
 623;624;sea;1352;-1;-1;-1;-1;Tulangbewang-Banten
 1101;1248;sea;1623;-1;-1;-1;-1;Hollhavai-Maldives
