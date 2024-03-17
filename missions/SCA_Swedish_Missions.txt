@@ -1059,7 +1059,7 @@ swe_diplomacy_mission_slot = {
 			else = {
 				custom_tooltip = swe_bane_of_the_hansa_ct
 			}
-			45 = {
+			12 = {
 				add_trade_modifier = {
 					who = ROOT
 					duration = 18250

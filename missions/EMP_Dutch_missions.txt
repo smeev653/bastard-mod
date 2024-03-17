@@ -644,7 +644,7 @@ emp_ned_slot3_branch = {
 			province_id = 45
 		}
 		trigger = {
-			45 = {
+			12 = {
 				trade_share = {
 					country = ROOT
 					share = 33

@@ -639,7 +639,7 @@ sca_development_slot_2 = {
 			}
 		}
 		effect = {
-			45 = {
+			12 = {
 				add_trade_modifier = {
 					who = ROOT
 					duration = -1

@@ -174,7 +174,7 @@ nor_colonialism_mission_slot = {
 					share = 75
 				}
 			}
-			45 = {
+			12 = {
 				OR = {
 					is_strongest_trade_power = ROOT
 					trade_share = {

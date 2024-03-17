@@ -1423,7 +1423,7 @@ liv_lva_trade_mission_slot = {
 				}
 			}
 			else = {
-				45 = {
+				12 = {
 					OR = {
 						is_strongest_trade_power = ROOT
 						country_or_non_sovereign_subject_holds = ROOT
@@ -1431,7 +1431,7 @@ liv_lva_trade_mission_slot = {
 					}
 				}
 			}
-			45 = { has_merchant = ROOT }
+			12 = { has_merchant = ROOT }
 		}
 		effect = {
 			add_years_of_trade_income = {
@@ -1453,7 +1453,7 @@ liv_lva_trade_mission_slot = {
 						owns = 17
 					}
 				}
-				45 = {
+				12 = {
 					add_trade_modifier = {
 						who = ROOT
 						duration = -1
@@ -1463,7 +1463,7 @@ liv_lva_trade_mission_slot = {
 				}
 			}
 			else = {
-				45 = {
+				12 = {
 					add_trade_modifier = {
 						who = ROOT
 						duration = -1
@@ -4094,7 +4094,7 @@ liv_dummy_mission_slot_3 = {
 		}
 		effect = {
 			custom_tooltip = liv_livonian_path_effects_tt
-			45 = {
+			12 = {
 				add_trade_modifier = {
 					who = ROOT
 					duration = 18250
@@ -4151,7 +4151,7 @@ liv_dummy_mission_slot_3 = {
 						}
 					}
 					else = {
-						45 = {
+						12 = {
 							OR = {
 								is_strongest_trade_power = ROOT
 								country_or_non_sovereign_subject_holds = ROOT
@@ -4159,7 +4159,7 @@ liv_dummy_mission_slot_3 = {
 							}
 						}
 					}
-					45 = { has_merchant = ROOT }
+					12 = { has_merchant = ROOT }
 				}
 				AND = {
 					custom_trigger_tooltip = {
@@ -4198,7 +4198,7 @@ liv_dummy_mission_slot_3 = {
 						owns = 17
 					}
 				}
-				45 = {
+				12 = {
 					add_trade_modifier = {
 						who = ROOT
 						duration = -1
@@ -4208,7 +4208,7 @@ liv_dummy_mission_slot_3 = {
 				}
 			}
 			else = {
-				45 = {
+				12 = {
 					add_trade_modifier = {
 						who = ROOT
 						duration = -1
