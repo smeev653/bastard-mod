@@ -261,7 +261,7 @@ technology = {
 	#Matchlock Musket
 	infantry_shock		= 	0.20
 	cavalry_fire		= 	0.25
-
+	artillery_fire 		= 	0.2
 	
 	weapons = yes
 	armory = yes
@@ -277,7 +277,7 @@ technology = {
 	
 	supply_limit 		= 	0.5
 	military_tactics	=	0.25
-
+	artillery_fire 		= 	0.2
 	enable = tofongchis_musketeer		
 	enable = ottoman_sekban		
 	enable = rajput_musketeer	
@@ -302,8 +302,7 @@ technology = {
 	
 	#Trunnions
 	artillery_shock 	= 	0.1
-	artillery_fire 		= 	0.4
-	
+	artillery_fire 		= 	0.25
 	enable = small_cast_iron_bombard
 	enable = large_cast_iron_bombard
 }
@@ -316,6 +315,7 @@ technology = {
 	fort_16th = yes
 	infantry_fire		=	0.3
 	cavalry_shock		=	0.25
+	artillery_fire 		= 	0.25
 	enable = african_hussar
 	enable = ottoman_hussar
 	enable = french_caracolle 
@@ -353,7 +353,7 @@ technology = {
 	land_morale 		=	1.0
 	military_tactics	=	0.25
 	cavalry_shock		=	0.25
-
+	artillery_fire 		= 	0.25
 	
 	enable = irish_charge 
 	enable = dutch_maurician	
@@ -375,7 +375,7 @@ technology = {
 	
 	#Standardisation of Calibre
 	artillery_shock 	= 	0.1
-	artillery_fire 		= 	1.0	
+	artillery_fire 		= 	0.25
 	cavalry_shock		=	0.25
 
 	training_fields = yes
@@ -391,7 +391,7 @@ technology = {
 	
 	cavalry_shock		=	0.25
 	supply_limit		= 	0.5	
-	
+	artillery_fire		=	0.3
 	enable = maharathan_cavalry		
 	enable = manchu_banner		
 	enable = african_swarm
@@ -403,7 +403,7 @@ technology = {
 	
 	#Carbine
 	maneuver_value 		= 	0.25
-
+	artillery_fire		=	0.3
 		
 	enable = swedish_gallop	
 	enable = sikh_hit_and_run
@@ -428,7 +428,7 @@ technology = {
 	#Gustavian Infantry
 	military_tactics 	= 	0.25
 	supply_limit		=	0.5
-
+	artillery_fire		=	0.3
 	fort_17th = yes
 
 	
@@ -459,6 +459,7 @@ technology = {
 	#Killing Grounds
 	
 	infantry_fire		= 	0.5
+	artillery_fire		=	0.3
 		
 	enable = swivel_cannon
 
@@ -475,6 +476,7 @@ technology = {
 	cavalry_fire		=	0.25
 	cavalry_shock		=	0.25
 	infantry_shock 		=	0.5
+	artillery_fire		=	0.4
 }
 
 technology = {
@@ -486,6 +488,7 @@ technology = {
 	cavalry_shock		=	0.25
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
+	artillery_fire		=	0.4
 	
 	combat_width = 2
 	
@@ -544,7 +547,7 @@ technology = {
 	#Covered Way
 	fort_18th	= yes	
 	military_tactics 	= 	0.25
-
+	artillery_fire		=	1.0
 	combat_width = 2
 }
 
@@ -554,7 +557,7 @@ technology = {
 	
 	#Metallurgy
 	artillery_shock 	=	0.1
-	artillery_fire		=	2.0
+	artillery_fire		=	1.0
 	
 	enable = royal_mortar	
 }
