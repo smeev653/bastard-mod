@@ -1016,7 +1016,7 @@ offensive_ideas = {
 	category = MIL
 
 	bonus = {
-		special_unit_forcelimit = 0.2
+		special_unit_forcelimit = 0.15
 		land_forcelimit_modifier = 0.15
 	}
 
