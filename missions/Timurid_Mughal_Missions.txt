@@ -9,7 +9,6 @@ tim_reconquest_persia = {
 			tag = AFG
 			tag = KHO
 			tag = FRS
-			tag = BUK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -252,7 +251,6 @@ tim_reconquest_khorasan = {
 			tag = TRS
 			tag = AFG
 			tag = KHO
-			tag = BUK
 		}
 		NOT = { has_dlc = "Dharma" }
 		NOT = { map_setup = map_setup_random }
@@ -442,7 +440,6 @@ tim_reconquest_transoxiana = {
 			tag = TRS
 			tag = AFG
 			tag = KHO
-			tag = BUK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -693,7 +690,6 @@ tim_india = {
 			tag = TRS
 			tag = AFG
 			tag = KHO
-			tag = BUK
 		}
 		NOT = { has_dlc = "Dharma" }
 		NOT = { map_setup = map_setup_random }

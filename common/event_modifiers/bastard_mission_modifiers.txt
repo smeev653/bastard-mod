@@ -329,3 +329,12 @@ X_CRI_ruthenian_dominance_cmod = {
 	governing_capacity_modifier = 0.25
 	vassal_income = 0.2
 }
+
+###shaybanids###
+silk_road_restored = {
+	trade_goods_size_modifier = 0.1
+}
+
+bukharan_slave_trade = {
+	trade_goods_size_modifier = 0.1
+}
