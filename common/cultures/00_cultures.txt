@@ -4345,6 +4345,8 @@ altaic = {
 		}
 	}
 	uzbehk = {
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = SHY
 		male_names = {
 			Abdul-Aziz Abdul-Karim Abdul-Mumin Abdul-Rahim Abdulla Abu Said Abu'l-Feiz Abu'l-Ghazi Abu'l-Khayr 
