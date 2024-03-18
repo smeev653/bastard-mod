@@ -153,6 +153,7 @@
  holland:0 "Antwerp"
  gc_south_germany_tradenode:0 "Bavaria"
  trade_company_south_germany:0 "South German Trade Company"
+ trade_company_moscow:0 "Moscow Trade Company"
  trade_company_holland:0 "Antwerp Trade Company"
 #################estate privileges################################
  bs_estate_church_one_faith_one_culture_gta:0 "Every owned province of the §Y[Root.Religion.GetName]§! faith, which is either in the §Y[Root.Culture.GetGroupName]§! culture group or has an §Yaccepted culture§!, gains '§YReligious Society§!', giving the following effects:\nLocal Unrest: §G-2.00§!"

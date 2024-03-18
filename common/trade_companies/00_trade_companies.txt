@@ -958,15 +958,15 @@ trade_company_kiev = {
 	color = { 41 28 31 }
 	
 	provinces = {
-		272 279 281 770 1937 1943 2962 277 278 1941 
-		291 298 299 2408 #sloboda_ukraine_area
-		293 297 4244 4245 #smolensk_area
-		296 300 4116 #oka_area
+		1945 289 4543 #chernigov_area
+		290 2407 4542 #east_dniepr_area
 		280 1942 1944 4247 #west_dniepr_area
-		289 290 1945 2407 #east_dniepr_area
-		292 771 4246 #White Ruthenia
-		276 4115 4242 #minsk_area
-		4538 4537 4536 4535 4545 4544 4540 4539 4542 4543 269
+		281 4540 1943 #podolia_volhynia_area
+		279 2962 4539 4538 #volhynia_area
+		278 1941 4545 #pripyat_area
+		276 4115 4242 4544 #minsk_area
+		269 277 1937 4537 #podlasie_area
+		272 770 4535 4536 #lithuania_area
 	}
 	
 	# Specific
@@ -1005,7 +1005,30 @@ trade_company_novgorod = {
 	}
 }
 
-
+trade_company_moscow = {
+	#color = { 97 126 37 }
+	
+	provinces = {
+		294 1752 4243 4248 4249 #tver_area
+		308 1753 4117 4250 #yaroslavl_area
+		307 4147 4253 #vladimir_area
+		295 4251 4252 #moscow_area
+		301 1778 4255 #ryazan_area
+		296 300 4116 #oka_area
+		1754 1956 4254 #suzdal_area
+		293 297 4244 4245 #smolensk_area
+		292 771 4246 #white_ruthenia_area
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_MOSCOW_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_MOSCOW_European_Trade_Company"
+	}
+}
 trade_company_crimea = {
 	color = { 59 158 125 }
 	
@@ -1057,12 +1080,14 @@ trade_company_kazan = {
 	color = { 202 150 172 }
 	
 	provinces = {
-		306 1079 1083 1957 #galich_area
-		2421 4265 4267 #volga_area
-		475 1965 1966 2420 2444 #bashkiria_area
 		473 1081 2423 #samara_area
-		1082 2422 4264 #kazan_area
+		2421 4265 4267 #volga_area
+		475 1965 1966 2420 2444	#bashkiria_area
+		1077 1755 1963 1964 4129 #perm_area
 		305 1962 1972 4266 #kama_area
+		1082 2422 4264 #kazan_area
+		314 4262 4263 #vologda_area
+		306 1079 1083 1957 #galich_area
 	}
 	
 	# Specific
@@ -1079,9 +1104,14 @@ trade_company_astrakhan = {
 	color = { 202 120 152 }
 	
 	provinces = {
-		288 303 465 467 469 470 474 1971 2365 2367 2366 2409 2418 2419 472 471 464 466 468 2416 2417 
+		464 466 2417 #astrakhan_area
+		2416 468 #stavropol_area
+		303 2418 2419 #saratov_area
+		288 467 1971 2409 #lower_don_area
 		302 304 2415 #tambov_area
-		425 2198 2199 2208 4306 #dagestan_area
+		469 474 2365 2367 #lower_yik_area
+		465 470 471 472 2366 #nogai_area
+		291 298 299 2408 #sloboda_ukraine_area
 	}
 	
 	# Specific
@@ -1146,9 +1176,21 @@ trade_company_siberia = {
 	color = { 147 96 77 }
 	
 	provinces = {
-		1782 1781 1071 479 1054 1059 1061 1062 1063 1064 1067 1068 1070 480 1069 1073 1074 1080 1078 1075 1076 2357 2369 2427 2428 2429 2430 2431 2432 2433 2434 2436 2437 2442 2443 2445 1072 1780 1045 2435 1051 2441 2354 716 1065 1066 
-		1060
-		4679 4686 4687 4688 4689 4690 4691 4692
+		476 2351 2353 2358 2359 #kazakhstan_area
+		477 478 2355 2360 4685 #balchasj_area
+		1080 1078 1780 2427 2441 #ural_area
+		1074 1075 1076 2369 4692 #ishim_area
+		479 2354 2357 4686 4690 #aqmola_area
+		1071 2434 4687 4688 4689 #yrtesh_area
+		480 2428 2429 2433 #ob_area
+		1068 1070 #central_siberia_area
+		1069 1072 1073 2445 4691 #kara_area
+		716 1065 1066 4679
+		1064 1067 2430 
+		2431 2432 2436 1059 1061
+		2443 1063 1062 1060 2442
+		1054 2437 1045 2435 1051
+		456 1969 2352 2361 #syr_darya_area
 	}
 	
 	# Specific
@@ -1165,9 +1207,17 @@ trade_company_samarkand = {
 	color = { 141 120 67 }
 	
 	provinces = {
-		440 441 442 444 445 453 454 455 456 457 459 476 477 1967 1969 1970 1973 461 478 2126 2370 2362 2363 2356 2364 2368 2355 2360 2361 2358 2352 2351 2353 2359 458 2125 460 2350 437 438 439 443 2349 739 2124 2127 4209 4210 
+		458 460 1967 #ferghana_area
+		457 2364 2356 #arys_area
+		455 1970 2363 #kyzylkum_area
+		444 445 2350 #merv_area
 		1968 4344 4343 #termez_area
-		4685
+		454 #samarkand_area
+		442 453 441 #transoxiana_area
+		440 1973 2362 2370 #khiva_area
+		437 438 439 443 2349 #transcaspia_area
+		739 2124 2127 4209 4210 
+		459 461 2126 2368 2125 #jetysuu_area
 	}
 	
 	# Specific
