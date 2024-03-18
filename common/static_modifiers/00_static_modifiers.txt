@@ -2039,7 +2039,8 @@ janissary_regiment = {
 }
 
 cawa_regiment = {
-	shock_damage_received = -0.05
+	shock_damage_received = -0.1
+	morale_damage_received = -0.1
 	land_attrition = -0.5
 	reinforce_speed = 0.5
 }
