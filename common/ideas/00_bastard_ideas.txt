@@ -1213,48 +1213,7 @@ SON_ideas = {
 	}
 }
 
-BUK_ideas = {
-	start = {
-		land_morale = 0.1
-		development_cost = -0.15
-	}
-	bonus = {
-		global_trade_goods_size_modifier = 0.15
-	}
-	trigger = {
-		tag = BUK
-	}
-	free = yes
-	
-	buk_jochid_patrimony = {
-		core_creation = -0.15
-		legitimacy = 0.5
-		devotion = 0.5
-		republican_tradition = 0.15
-		meritocracy = 0.5
-		horde_unity = 0.5
-	}
-	buk_naqshbandi_patronage = {
-		manpower_recovery_speed = 0.2
-	}
-	buk_mahalla_schools = {
-		technology_cost = -0.05
-	}
-	buk_the_jews_of_bukhara = {
-		artillery_cost = -0.2	
-		artillery_power = 0.15
-	}
-	buk_the_ark = {
-		production_efficiency = 0.1
-	}
-	buk_the_tower_of_death = {
-		drill_gain_modifier = 0.25
-		artillery_fire = 1
-	}
-	buk_sahih_al-bukhari = {
-		discipline = 0.05
-	}
-}
+
 PR2_ideas = {
     start = {
         global_regiment_cost = -0.05
@@ -2655,13 +2614,49 @@ TIM_ideas = {
 		technology_cost = -0.05
 	}
 	riches_of_the_silk_road = {
-		global_own_trade_power = 0.25
+		trade_efficiency = 0.1
 	}
 	reform_the_diwan = {
 		morale_damage_received = -0.1
  	}
 }
-
+BUK_ideas = {
+	start = {
+		manpower_recovery_speed = 0.2
+		leader_land_shock = 1
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = BUK
+	}
+	free = yes
+	
+	buk_jochid_patrimony = {
+		core_creation = -0.25
+		global_trade_goods_size_modifier = 0.1
+	}
+	the_mantle_of_the_great_khan = {
+		shock_damage = 0.15
+	}
+	unleash_the_tiger = {
+		fire_damage = 0.15
+	}
+	bastard_populating_the_steppes = {
+		global_manpower_modifier = 0.2
+	}
+	timurid_renaissance = {
+		technology_cost = -0.05
+	}
+	riches_of_the_silk_road = {
+		trade_efficiency = 0.1
+	}
+	buk_the_jews_of_bukhara = {
+		artillery_cost = -0.1	
+		artillery_power = 0.15
+	}
+}
 GLH_ideas = {
 	start = {
 		development_cost = -0.15
