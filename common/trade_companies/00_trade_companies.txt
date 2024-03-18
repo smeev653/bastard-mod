@@ -385,14 +385,6 @@ trade_company_north_sea = {
 trade_company_white_sea = {
 	color = { 210 46 28 }
 	
-	provinces = {
-		1955 4122 4256 4257 #arkhangelsk_area
-		313 1776 1958 4258 #pomor_area
-		314 4262 4263 #vologda_area
-		1777 4151 315 # laponia
-		1755 4129 1964 1963 # perm
-		1077
-	}
 	
 	# Specific
 	# Generic
@@ -983,16 +975,14 @@ trade_company_novgorod = {
 	color = { 97 126 37 }
 	
 	provinces = {
-		30 32 309 4124 33 34 1961 
 		274 275 1960 4148 #pskov_area
 		310 311 1959 2749 4260 #novgorod_area
-		294 1752 4243 4248 4249  #tver_area
-		301 1778 4255 #ryazan_area
-		295 4251 4252 #moscow_area
-		307 4147 4253 #vladimir_area
-		308 1753 4117 4250 #yaroslavl_area
-		1754 1956 4254 #suzdal_area
+		33 34 1961 30 #karelia_area
+		32 309 4124 #north_karelia
+		313 1776 1958 4258 #pomor_area
+		1777 4151 315 #laponia_area
 		312 4259 4261 #beloozero_area
+		1955 4122 4256 4257 #arkhangelsk_area
 	}
 	
 	# Specific
