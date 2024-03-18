@@ -177,6 +177,21 @@ declarewar = {
 			}
 		}
 	}	
+	condition = {
+		tooltip = bastard_mng_dec_mjz
+		potential = {
+			tag = MNG
+			FROM = {
+				tag = MJZ
+				NOT = {total_development = 300}
+			}
+		}
+		allow = {
+			MJZ = {
+				total_development = 300	
+			}	
+		}
+	}	
 	#condition = {
 	#	tooltip = GRAND_CRUSADE_NO_OTHER_WAR
 	#	potential = { }
