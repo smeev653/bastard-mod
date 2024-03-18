@@ -3,6 +3,7 @@ country_decisions = {
 	enthrone_timurid_prince = {
 		major = yes
 		potential = {
+			always = no
 			NOT = { has_country_flag = enthroned_a_timurid_prince }
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
@@ -103,6 +104,7 @@ country_decisions = {
 	timurid_nation = {
 		major = yes
 		potential = {
+			always = no
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_timurids_flag }
@@ -129,7 +131,6 @@ country_decisions = {
 					ai = no
 				}
 			}
-			tag = SHY
 			religion_group = muslim
 		}
 		provinces_to_highlight = {
