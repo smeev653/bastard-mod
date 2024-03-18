@@ -117,6 +117,7 @@ We_stand_alone = {
 				NOT = { is_hegemon = yes }
 				NOT = { is_colonial_nation = yes }	
 				NOT = { is_lacking_institutions = yes }
+				NOT = { is_subject_of_type = tributary_state }
 	}
 	land_morale = 0.025
 	naval_morale = 0.025
