@@ -306,10 +306,7 @@ mongol_missions_2 = {
 	mongols_central_asia = {
 		icon = mission_central_asian_city
 		required_missions = {  }
-		provinces_to_highlight = {
-			region = central_asia_region
-			NOT = { owned_by = ROOT }
-		}
+
 		position = 4
 		trigger = {
 			num_of_banners = 20
