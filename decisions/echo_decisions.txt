@@ -741,6 +741,7 @@ country_decisions = {
 	}
 	defend_the_united_provinces = {
 		potential = {
+			tag = NED
 			has_government_reform = staatse_leger_reform
 		}
 		allow = {
