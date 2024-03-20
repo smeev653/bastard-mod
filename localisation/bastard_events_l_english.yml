@@ -60,3 +60,6 @@ echo.16.a:0 "Proceed."
 
 
 #######
+ echo.19.t:0 "Peace in Our Time"
+ echo.19.d:0 "Peace has been secured and the army is no longer needed."
+ echo.19.a:0 "Ok"

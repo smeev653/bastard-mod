@@ -1698,8 +1698,8 @@ stadthalter_monarchy_reform = {
 		is_eligible_for_hre_emperor = no
 		states_general_mechanic = {
 			statists = {
-				naval_forcelimit_modifier = 0.10
-				global_trade_power = 0.05
+				naval_forcelimit_modifier = 0.25
+				global_trade_power = 0.1
 				legitimacy = -0.5
 			}
 

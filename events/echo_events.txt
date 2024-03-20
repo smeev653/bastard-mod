@@ -598,3 +598,22 @@ country_event = {
 		remove_country_modifier = Merc_payments_reneged
 	}
 }
+
+#End of the Righteous Army
+country_event = {
+	id = echo.19
+	title = echo.19.t
+	desc = echo.19.d
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+
+	trigger = {
+		is_at_war = no
+		has_country_modifier = defense_of_the_low_countries
+	}
+
+	option = {
+		name = flavor_kor.19.a
+		remove_country_modifier = defense_of_the_low_countries
+	}
+}
