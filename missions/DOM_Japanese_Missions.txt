@@ -235,11 +235,11 @@ DOM_japanse_missions_1 = {
 			4191 = { num_of_times_improved = 5 num_of_buildings_in_province = 3 }
 		}
 		effect = {
-			if = { 
-				limit = { has_dlc = "Rights of Man" NOT = { num_of_ruler_traits = { amount = 3 } } } 
-				add_ruler_personality = great_engineer_personality 
-			}
-			else = { change_ruler_stat = { type = adm amount = 1 } }
+			#if = { 
+			#	limit = { has_dlc = "Rights of Man" NOT = { num_of_ruler_traits = { amount = 3 } } } 
+			#	add_ruler_personality = great_engineer_personality 
+			#}
+			#else = { change_ruler_stat = { type = adm amount = 1 } }
 			change_government_reform_progress = 50 
 			add_government_reform = jap_gokaido_reform
 		}
@@ -707,41 +707,27 @@ DOM_japanse_missions_2_b = {
 		effect = {
 			add_army_tradition = 15
 			
-			custom_tooltip = jap_conquest_of_china_cb_tt
-			set_country_flag = access_conquest_of_china_cb_flag 
+			#custom_tooltip = jap_conquest_of_china_cb_tt
+			#set_country_flag = access_conquest_of_china_cb_flag 
 			
 			custom_tooltip = jap_dip_advisor_culture_conversion_cost_tt
 			
-			if = {
-				limit = { has_dlc = "Leviathan" }
-				custom_tooltip = jap_accept_korean_culture_lev_tt
-			}
-			else = {
-				custom_tooltip = jap_accept_korean_culture_nonlev_tt
-				tooltip = {
-					add_country_modifier = {
-						name = jap_korean_cooperation_modifier
-						duration = 9125 
-					}
-				}
-			}
+			#if = {
+			#	limit = { has_dlc = "Leviathan" }
+			#	custom_tooltip = jap_accept_korean_culture_lev_tt
+			#}
+			#else = {
+			#	custom_tooltip = jap_accept_korean_culture_nonlev_tt
+			#	tooltip = {
+			#		add_country_modifier = {
+			#			name = jap_korean_cooperation_modifier
+			#			duration = 9125 
+			#		}
+			#	}
+			#}
 			
 			hidden_effect = {
-				if = {
-					limit = {
-						accepted_culture = korean
-						has_dlc = "Leviathan" 
-					}
-					set_country_flag = enable_korean_palace_flag
-				}
-				else_if = {
-					limit = { accepted_culture = korean }
-					add_country_modifier = {
-						name = jap_korean_cooperation_modifier
-						duration = 9125 
-					}
-				}
-				else = { set_country_flag = jap_dip_advisor_culture_conversion_cost_flag }
+				 set_country_flag = jap_dip_advisor_culture_conversion_cost_flag 
 			}
 		}
 	}
@@ -1392,7 +1378,7 @@ DOM_japanse_missions_3_a = {
 				name = JAP_cadastral_surveys
 				duration = 7300
 			}
-			custom_tooltip = jap_increase_base_tax_grants_more_crown_land_tt
+			#custom_tooltip = jap_increase_base_tax_grants_more_crown_land_tt
 		}
 	}
 	
@@ -2370,7 +2356,7 @@ DOM_japanse_missions_4_d = {
 		effect = {
 			add_country_modifier = {
 				name = jap_tekkosen_modifier
-				duration = 7300
+				duration = 3650
 			}
 			add_navy_tradition = 10 
 			if = {
@@ -3074,16 +3060,16 @@ DOM_japanse_missions_5 = {
 			}
 		}
 		effect = {
-			if = {
-				limit = { has_dlc = "Cradle of Civilization" }
-				custom_tooltip = jap_army_buildings_grant_ap_tt
-			}
-			else = { 
-				add_country_modifier = {
-					name = jap_high_quality_weapons_modifier
-					duration = 9125
-				}
-			}
+			#if = {
+			#	limit = { has_dlc = "Cradle of Civilization" }
+			#	custom_tooltip = jap_army_buildings_grant_ap_tt
+			#}
+			#else = { 
+			#	add_country_modifier = {
+			#		name = jap_high_quality_weapons_modifier
+			#		duration = 9125
+			#	}
+			#}
 			
 			change_ruler_stat = {
 				type = mil
