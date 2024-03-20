@@ -86,8 +86,8 @@ X_POR_slot_3 = {
 					tier = 1
 				}
 			}
-			reset_golden_age = yes 
-			clr_country_flag = X_POR_economic_golden_age_cflag
+			#reset_golden_age = yes 
+			#clr_country_flag = X_POR_economic_golden_age_cflag
 		}
 	}
 	#Exceptional Renaissance
