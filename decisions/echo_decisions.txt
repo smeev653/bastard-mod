@@ -742,7 +742,7 @@ country_decisions = {
 	defend_the_united_provinces = {
 		potential = {
 			tag = NED
-			has_government_reform = staatse_leger_reform
+			has_reform = staatse_leger_reform
 		}
 		allow = {
 			is_at_war = yes
