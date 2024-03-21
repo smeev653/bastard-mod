@@ -645,7 +645,6 @@ country_event = { #faceting failsafe
 			is_state = yes
 			is_city = yes
 			province_without_special_goods_produced_trigger = yes
-			NOT = { province_id = 112 } #Slated to get the modifier above
 		}
 	}
 	
@@ -653,30 +652,9 @@ country_event = { #faceting failsafe
 		months = 1
 	}
 	
-	immediate = {
-		hidden_effect = {
-			151 = {
-				limit = {
-					renaissance = 100
-					OR = {
-						trade_goods = glass
-						trade_goods = gems
-					}
-					development = 15
-					is_state = yes
-					is_city = yes
-					province_without_special_goods_produced_trigger = yes
-					NOT = { province_id = 112 }
-				}
-				save_event_target_as = diamond_city
-			}
-			set_global_flag = faceting_failsafe
-		}
-	}
-	
 	option = {
 		name = echo.20.a
-		event_target:diamond_city = {
+		151 = {
 			if = {
 				limit = {
 					NOT = { trade_goods = gems }
@@ -688,5 +666,6 @@ country_event = { #faceting failsafe
 				duration = -1
 			}
 		}
+		set_global_flag = faceting_failsafe
 	}
 }
