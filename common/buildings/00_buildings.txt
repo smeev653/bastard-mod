@@ -224,7 +224,7 @@ barracks = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_manpower_modifier = 0.5
+		local_manpower_modifier = 0.4
 	}
 	bonus_modifier = {
 		local_manpower = 0.25
@@ -1245,7 +1245,7 @@ training_fields = {
 #	}
 
 	modifier = {
-		local_manpower_modifier = 1
+		local_manpower_modifier = 0.8
 	}
 	bonus_modifier = {
 		local_manpower = 0.25
@@ -2553,7 +2553,7 @@ soldier_households = {
 }
 
 impressment_offices = {
-	cost = 500
+	cost = 400
 	time = 60
 
 	build_trigger = {
@@ -2570,8 +2570,8 @@ impressment_offices = {
 	}
 
 	modifier = {
-		local_manpower_modifier = 1.5
-		local_sailors_modifier = 3
+		local_manpower_modifier = 1.2
+		local_sailors_modifier = 2.5
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
