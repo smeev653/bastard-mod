@@ -2147,6 +2147,7 @@ country_event = {
 				}
 				save_event_target_as = diamond_city
 			}
+			set_global_flag = faceting_happened
 		}
 	}
 	
