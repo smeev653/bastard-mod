@@ -2108,6 +2108,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+		ai = no
 		NOT = { has_global_flag = faceting_happened }
 		has_institution = renaissance
 		prestige = 50
