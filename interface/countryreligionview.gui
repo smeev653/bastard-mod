@@ -466,7 +466,7 @@ guiTypes = {
 		{
 			name ="convert_secondary_button"
 			quadTextureSprite = "GFX_religion_secondary_convert_button"
-			position = { x= 1800 y = 148 }
+			position = { x= 5000 y = 148 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""

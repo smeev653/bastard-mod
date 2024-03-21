@@ -4539,7 +4539,7 @@ tur_persian_conquest = {
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = caucasia_region
-				value = 20
+				value = 15
 			}
 		}
 		effect = {
