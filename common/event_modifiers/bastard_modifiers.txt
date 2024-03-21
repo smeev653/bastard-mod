@@ -61,3 +61,21 @@ defense_of_the_low_countries = {
 	hostile_attrition = 3
 	max_hostile_attrition = 3
 }
+
+bastard_dev_cost_modifier_1 = {
+	local_development_cost = -0.025
+}
+
+bastard_dev_cost_modifier_2  = {
+	local_development_cost = -0.05
+}
+
+bastard_dev_cost_modifier_3 = {
+	local_development_cost = -0.075
+}
+bastard_dev_cost_modifier_4 = {
+	local_development_cost = -0.1
+}
+bastard_dev_cost_modifier_5 = {
+	local_development_cost = -0.125
+}

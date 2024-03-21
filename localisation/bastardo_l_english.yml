@@ -62,6 +62,12 @@
  b_colony_warscore:0 "Colony"
  Merc_payments:0 "Mercenary Unrest"
  merc_payments_reneged:0 "Mercenary Payments Delayed"
+ bastard_dev_cost_modifier_1:0 "Provincial Investment I"
+ bastard_dev_cost_modifier_2:0 "Provincial Investment II"
+ bastard_dev_cost_modifier_3:0 "Provincial Investment III"
+ bastard_dev_cost_modifier_4:0 "Provincial Investment IV"
+ bastard_dev_cost_modifier_5:0 "Provincial Investment V"
+
  #Country Modifiers
  echo_por_colonist:0 "Portuguese Colonial Policy"
  desc_echo_por_colonist:0 ""
