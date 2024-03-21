@@ -632,9 +632,10 @@ country_event = { #faceting failsafe
 	trigger = {
 		ai = no
 		has_global_flag = faceting_happened
+		NOT = { has_global_flag = faceting_failsafe }
 		has_institution = renaissance
 		prestige = 50
-		any_owned_province = {
+		151 = {
 			renaissance = 100
 			OR = {
 				trade_goods = glass
@@ -654,7 +655,7 @@ country_event = { #faceting failsafe
 	
 	immediate = {
 		hidden_effect = {
-			random_owned_province = {
+			151 = {
 				limit = {
 					renaissance = 100
 					OR = {
@@ -669,6 +670,7 @@ country_event = { #faceting failsafe
 				}
 				save_event_target_as = diamond_city
 			}
+			set_global_flag = faceting_failsafe
 		}
 	}
 	
