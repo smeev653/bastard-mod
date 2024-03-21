@@ -2553,24 +2553,25 @@ soldier_households = {
 }
 
 impressment_offices = {
-	manufactory = {
-		all
-	}
+	cost = 500
+	time = 60
 
-	bonus_manufactory = { # Will apply an extra modifier if these goods
-		salt
-		fish
-		naval_supplies
-		tropical_wood
+	build_trigger = {
+			area_for_scope_province = {
+				owner = {
+					tag = ROOT
+				}
+				type = all
+				has_building = barracks
+				base_manpower = 10
+				development = 30
+				is_prosperous = yes
+			}
 	}
 
 	modifier = {
-		local_sailors = 300
-		local_manpower = 0.2	
-	}
-	bonus_modifier = {
-		local_sailors = 300
-		local_manpower = 0.2
+		local_manpower_modifier = 1.5
+		local_sailors_modifier = 3
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
