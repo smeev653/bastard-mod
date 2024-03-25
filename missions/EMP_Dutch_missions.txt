@@ -799,17 +799,6 @@ emp_ned_slot4_branch = { # Statists
 		#completed_by
 		
 		trigger = {
-			if = {
-				limit = {
-					has_estate = estate_burghers
-				}
-			
-				estate_loyalty = {
-					estate = estate_burghers
-					loyalty = 50
-				}
-			}
-			else = {
 				calc_true_if = {
 					desc = emp_ned_strengthen_the_vroedschappen_tt
 					all_owned_province = {
@@ -821,7 +810,6 @@ emp_ned_slot4_branch = { # Statists
 					}
 					amount = 5
 				}
-			}
 		}
 		effect = {
 			add_mercantilism = 2
@@ -840,6 +828,10 @@ emp_ned_slot4_branch = { # Statists
 					NOT = { has_government_attribute = has_dutch_election }
 				}
 				add_republican_tradition = 10
+			}
+			add_country_modifier = {
+				name = bastard_ned_formed
+				duration = 5475
 			}
 		}
 	}

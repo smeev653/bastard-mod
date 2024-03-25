@@ -338,3 +338,8 @@ silk_road_restored = {
 bukharan_slave_trade = {
 	trade_goods_size_modifier = 0.1
 }
+
+##netherlands##
+bastard_ned_formed = {
+	all_power_costs = -0.1
+}
