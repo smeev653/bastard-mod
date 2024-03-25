@@ -341,5 +341,5 @@ bukharan_slave_trade = {
 
 ##netherlands##
 bastard_ned_formed = {
-	all_power_costs = -0.1
+	all_power_cost = -0.1
 }

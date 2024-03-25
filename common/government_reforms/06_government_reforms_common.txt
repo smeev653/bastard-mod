@@ -3475,7 +3475,9 @@ staatse_leger_reform = {
 	custom_attributes = {
 		mercs_do_not_cost_army_professionalism = yes
 	}
-	
+	custom_attributes = {
+		has_defense_of_the_united_provinces = yes	#Can enact the righteous army
+	}
 	ai = {
 		factor = 1000
 	}
