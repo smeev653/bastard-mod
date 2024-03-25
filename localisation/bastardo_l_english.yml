@@ -314,5 +314,5 @@ black_chamber_act_2:0 "The Black Chamber Act II"
  crimean_raids:0 "Crimean Raids"
 
 ###netherlands###
-has_defense_of_the_united_provinces_yes:1 "Can use the §YDefend the United Provinces§! Decision during Defensive Wars"
+mechanic_has_defense_of_the_united_provinces_yes:1 "Can use the §YDefend the United Provinces§! Decision during Defensive Wars"
 bastard_ned_formed:0 "Birth of the United Provinces"

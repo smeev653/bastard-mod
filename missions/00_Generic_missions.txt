@@ -26,6 +26,10 @@ military_missions = { #Series name is displayed over the slot?
 					ai  = no
 					is_colonial_nation = yes
 				}
+				AND = {
+					ai  = no
+					is_colonial_nation = no
+				}
 			}
 		}
 		effect = { #This is what you get after you finished your mission.
@@ -306,6 +310,10 @@ administrative_missions = {
 				AND = {
 					ai  = no
 					is_colonial_nation = yes
+				}
+				AND = {
+					ai  = no
+					is_colonial_nation = no
 				}
 			} }
 		effect = {
