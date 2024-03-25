@@ -52,6 +52,12 @@ country_decisions = {
 			NOT = { has_country_flag = X_POR_economic_golden_age_cflag }
 		}
 		allow = {
+			OR = {
+				AND = {
+					ai  = yes
+					is_colonial_nation = no
+				}				
+			}
 			adm_power = 100
 			dip_power = 100
 			mil_power = 100
