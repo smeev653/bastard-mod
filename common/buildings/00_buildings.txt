@@ -35,6 +35,7 @@ marketplace = {
 		province_trade_power_modifier = 0.5
 	}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = marketplace
 			type = production
@@ -51,6 +52,7 @@ marketplace = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = marketplace
 			type = production
@@ -86,6 +88,7 @@ workshop = {
 		local_production_efficiency = 0.4
 	}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = workshop
 			type = production
@@ -93,6 +96,7 @@ workshop = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = workshop
 			type = production
@@ -118,6 +122,7 @@ temple = {
 		local_culture_conversion_cost = -0.1
 	}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		on_built_tax_building_effect = yes
 		on_province_tax_building_built_estate_privileges_effect = yes
 		add_development_from_building = {
@@ -170,6 +175,7 @@ temple = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		on_province_tax_building_destroyed_estate_privileges_effect = yes
 		remove_development_from_building = {
 			building = temple
@@ -233,6 +239,7 @@ barracks = {
 		livestock
 	}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		if = {
 			limit = {
 				FROM = {
@@ -264,6 +271,7 @@ barracks = {
 		}
 	}
 	on_destroyed = {
+	bastard_dev_cost_remove_from_buildings = yes
 		if = {
 			limit = {
 				FROM = {
@@ -346,6 +354,7 @@ shipyard = {
 		local_has_galleass = yes	
 	}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = shipyard
 			type = production
@@ -353,6 +362,7 @@ shipyard = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = shipyard
 			type = production
@@ -468,6 +478,7 @@ fort_15th = {
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		if = {
 			limit = {
 				FROM = { NOT = { mil_tech = 14 } has_government_attribute = on_fort_built_nobles_loyalty }
@@ -518,6 +529,7 @@ fort_15th = {
 
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		if = {
 			limit = {
 				has_province_modifier = estate_nobles_development_of_castles_mod
@@ -551,7 +563,12 @@ coastal_defence = {
 		hostile_disembark_speed = 1.0
 		block_slave_raid = yes
 	}
-	
+	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
+	}
+	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
+	}
 	ai_will_do = {
 		factor = 0
 	}
@@ -571,9 +588,10 @@ courthouse = {
 		local_governing_cost_increase = -5
 		local_friendly_movement_speed = 0.1
 		allowed_num_of_buildings = 1
-		local_development_cost = -0.05
+		#local_development_cost = -0.05
 	}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = courthouse
 			type = tax
@@ -590,6 +608,7 @@ courthouse = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = courthouse
 			type = tax
@@ -619,6 +638,7 @@ dock = {
 	}
 	
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		if = {
 			limit = {
 				FROM = {
@@ -637,6 +657,7 @@ dock = {
 	}
 	
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		if = {
 			limit = {
 				FROM = {
@@ -680,6 +701,7 @@ regimental_camp = {
 		grain
 	}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = regimental_camp
 			type = manpower
@@ -701,6 +723,7 @@ regimental_camp = {
 		}
 	}
 	on_destroyed = {
+	bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = regimental_camp
 			type = manpower
@@ -823,6 +846,7 @@ fort_16th = {
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		if = {
 			limit = {
 				FROM = { NOT = { mil_tech = 19 } has_government_attribute = on_fort_built_nobles_loyalty }
@@ -873,6 +897,7 @@ fort_16th = {
 
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		if = {
 			limit = {
 				has_province_modifier = estate_nobles_development_of_castles_mod
@@ -908,7 +933,12 @@ naval_battery = {
 		hostile_fleet_attrition = 5
 		block_slave_raid = yes
 	}
-
+	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
+	}
+	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
+	}
 	ai_will_do = {
 		factor = 0
 	}
@@ -928,6 +958,7 @@ cathedral = {
 		local_culture_conversion_cost = -0.2
 	}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		on_built_tax_building_effect = yes
 		on_province_tax_building_built_estate_privileges_effect = yes
 		add_development_from_upgrading_or_building = {
@@ -982,6 +1013,7 @@ cathedral = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		on_province_tax_building_destroyed_estate_privileges_effect = yes
 		remove_development_from_building = {
 			building = cathedral
@@ -1043,6 +1075,7 @@ university = {
 	}
 
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = university
 			type = tax
@@ -1050,6 +1083,7 @@ university = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = university
 			type = tax
@@ -1137,6 +1171,7 @@ trade_depot = {
 	}
 
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_upgrading_or_building = {
 			building = trade_depot
 			obsolete_building = marketplace
@@ -1146,6 +1181,7 @@ trade_depot = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = trade_depot
 			type = production
@@ -1180,6 +1216,7 @@ grand_shipyard = {
 	}
 
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_upgrading_or_building = {
 			building = grand_shipyard
 			obsolete_building = shipyard
@@ -1189,6 +1226,7 @@ grand_shipyard = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = grand_shipyard
 			type = production
@@ -1254,6 +1292,7 @@ training_fields = {
 		livestock
 	}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		if = {
 			limit = {
 				FROM = {
@@ -1287,6 +1326,7 @@ training_fields = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		if = {
 			limit = {
 				FROM = {
@@ -1422,6 +1462,7 @@ fort_17th = {
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		if = {
 			limit = {
 				FROM = { NOT = { mil_tech = 19 } has_government_attribute = on_fort_built_nobles_loyalty }
@@ -1472,6 +1513,7 @@ fort_17th = {
 
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		if = {
 			limit = {
 				has_province_modifier = estate_nobles_development_of_castles_mod
@@ -1509,6 +1551,7 @@ stock_exchange = {
 	}
 
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		if = {
 			limit = {
 				has_province_flag = built_dev_trade_depot
@@ -1542,6 +1585,7 @@ stock_exchange = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = stock_exchange
 			type = production
@@ -1566,6 +1610,7 @@ counting_house = {
 	}
 
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_upgrading_or_building = {
 			building = counting_house
 			obsolete_building = workshop
@@ -1575,6 +1620,7 @@ counting_house = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = counting_house
 			type = production
@@ -1607,9 +1653,10 @@ town_hall = {
 		allowed_num_of_buildings = 1
 		local_friendly_movement_speed = 0.2
 		local_governing_cost_increase = -10
-		local_development_cost = -0.05
+		#local_development_cost = -0.05
 		}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_upgrading_or_building = {
 			building = town_hall
 			obsolete_building = courthouse
@@ -1629,6 +1676,7 @@ town_hall = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = town_hall
 			type = tax
@@ -1721,6 +1769,7 @@ drydock = {
 	}
 	
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		if = {
 			limit = {
 				FROM = {
@@ -1741,6 +1790,7 @@ drydock = {
 	}
 	
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		if = {
 			limit = {
 				FROM = {
@@ -1806,6 +1856,7 @@ conscription_center = {
 		grain
 	}
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_upgrading_or_building = {
 			building = conscription_center
 			obsolete_building = regimental_camp
@@ -1829,6 +1880,7 @@ conscription_center = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = conscription_center
 			type = manpower
@@ -1959,6 +2011,7 @@ fort_18th = {
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		if = {
 			limit = {
 				FROM = { has_government_attribute = on_fort_built_nobles_loyalty }
@@ -2009,6 +2062,7 @@ fort_18th = {
 
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		if = {
 			limit = {
 				has_province_modifier = estate_nobles_development_of_castles_mod
@@ -2052,6 +2106,7 @@ wharf = {
 	}
 	onmap = yes
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = manufactory
 			type = production
@@ -2065,6 +2120,7 @@ wharf = {
 		
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = manufactory
 			type = production
@@ -2116,6 +2172,7 @@ weapons = {
 	}
 	onmap = yes
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = manufactory
 			type = production
@@ -2128,6 +2185,7 @@ weapons = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = manufactory
 			type = production
@@ -2156,6 +2214,7 @@ textile = {
 	}
 	onmap = yes
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = manufactory
 			type = production
@@ -2168,6 +2227,7 @@ textile = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = manufactory
 			type = production
@@ -2198,6 +2258,7 @@ plantations = {
 	}
 	onmap = yes
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = manufactory
 			type = production
@@ -2210,6 +2271,7 @@ plantations = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = manufactory
 			type = production
@@ -2240,6 +2302,7 @@ tradecompany = {
 	}
 	onmap = yes
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = manufactory
 			type = production
@@ -2252,6 +2315,7 @@ tradecompany = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = manufactory
 			type = production
@@ -2279,6 +2343,7 @@ farm_estate = {
 	}
 	onmap = yes
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = manufactory
 			type = production
@@ -2299,6 +2364,7 @@ farm_estate = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = manufactory 
 			type = production 
@@ -2336,6 +2402,7 @@ mills = {
 	}
 	onmap = yes
 	on_built = {
+	bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = manufactory
 			type = production
@@ -2348,6 +2415,7 @@ mills = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = manufactory
 			type = production
@@ -2382,6 +2450,7 @@ furnace = {
 	onmap = yes
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = manufactory
 			type = production
@@ -2389,6 +2458,7 @@ furnace = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = manufactory
 			type = production
@@ -2441,6 +2511,7 @@ ramparts = {
 		NOT = {has_terrain = mountain }
 	}	
 		on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_dev_from_building = {
 			building = manufactory 
 			type = manpower 
@@ -2460,6 +2531,7 @@ ramparts = {
 		}
 	}
 		on_destroyed = {
+			bastard_dev_cost_remove_from_buildings = yes
 		if = {
 			limit = { has_province_modifier = per_reinforced_defenses }
 			remove_province_modifier = per_reinforced_defenses
@@ -2504,6 +2576,7 @@ soldier_households = {
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = manufactory
 			type = production
@@ -2527,6 +2600,7 @@ soldier_households = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = manufactory
 			type = production
@@ -2576,6 +2650,7 @@ impressment_offices = {
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = impressment_offices
 			type = manpower
@@ -2588,6 +2663,7 @@ impressment_offices = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = impressment_offices
 			type = manpower
@@ -2648,6 +2724,7 @@ state_house = {
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 	on_built = {
+		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
 			building = state_house
 			type = tax
@@ -2655,6 +2732,7 @@ state_house = {
 		}
 	}
 	on_destroyed = {
+		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
 			building = state_house
 			type = tax
@@ -2681,10 +2759,10 @@ armory = {
 		development = 30
 	}
 	on_built = {
- 
+		bastard_dev_cost_add_from_buildings = yes
 	}
 	on_destroyed = {
- 
+		bastard_dev_cost_remove_from_buildings = yes
 	}
 	on_obsolete = {
 	}

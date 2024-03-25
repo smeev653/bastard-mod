@@ -250,6 +250,17 @@ bastard_dev_cost_add_from_buildings = {
 				duration = -1
 		}
 	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 6
+			NOT = {num_of_buildings_in_province = 7}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_5
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_6
+				duration = -1
+		}
+	}
 }
 
 bastard_dev_cost_remove_from_buildings = {
@@ -265,6 +276,10 @@ bastard_dev_cost_remove_from_buildings = {
 			NOT = {num_of_buildings_in_province = 2}
 		}
 		remove_province_modifier = bastard_dev_cost_modifier_2
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_1
+				duration = -1
+		}
 	}
 	if = {
 		limit = {
@@ -272,6 +287,10 @@ bastard_dev_cost_remove_from_buildings = {
 			NOT = {num_of_buildings_in_province = 3}
 		}
 		remove_province_modifier = bastard_dev_cost_modifier_3
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_2
+				duration = -1
+		}
 	}
 	if = {
 		limit = {
@@ -279,6 +298,10 @@ bastard_dev_cost_remove_from_buildings = {
 			NOT = {num_of_buildings_in_province = 4}
 		}
 		remove_province_modifier = bastard_dev_cost_modifier_4
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_3
+				duration = -1
+		}
 	}
 	if = {
 		limit = {
@@ -286,5 +309,20 @@ bastard_dev_cost_remove_from_buildings = {
 			NOT = {num_of_buildings_in_province = 5}
 		}
 		remove_province_modifier = bastard_dev_cost_modifier_5
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_4
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 5
+			NOT = {num_of_buildings_in_province = 6}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_6
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_5
+				duration = -1
+		}
 	}
 }
