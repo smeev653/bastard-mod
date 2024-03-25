@@ -73,7 +73,7 @@ country_decisions = {
 				is_core = root
 			}
 			development_in_provinces = {
-				value = 400
+				value = 300
 				region = low_countries_region
 			}
 			exists = FRA
