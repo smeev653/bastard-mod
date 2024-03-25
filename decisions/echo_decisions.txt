@@ -56,8 +56,12 @@ country_decisions = {
 				AND = {
 					ai  = yes
 					is_colonial_nation = no
-				}				
-			}
+				}
+				AND = {
+					ai  = no
+					is_colonial_nation = yes
+				}
+			}	
 			adm_power = 100
 			dip_power = 100
 			mil_power = 100
