@@ -120,7 +120,8 @@ age_of_discovery = {
 
 		ab_transfer_vassal_wargoal = {
 			modifier = {
-				diplomatic_annexation_cost = -0.2
+				can_transfer_vassal_wargoal = yes
+				can_chain_claim = yes
 			}
 			ai_will_do = {
 				factor = 10

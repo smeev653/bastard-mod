@@ -4963,7 +4963,7 @@ hab_lots_of_influence = {
 }
 
 hab_ascendancy_in_empire = {
-	diplomatic_annexation_cost = -0.1
+	diplomatic_reputation = 1
 	land_forcelimit_modifier = 0.1
 }
 

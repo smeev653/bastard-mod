@@ -577,7 +577,7 @@ influence_ideas = {
 	tribute_system = {
 		vassal_income = 0.15
 		reduced_liberty_desire = 20
-		diplomatic_annexation_cost = -0.25
+		diplomatic_annexation_cost = -0.15
 		diplomatic_upkeep = 2
 	}
 	postal_service = {
