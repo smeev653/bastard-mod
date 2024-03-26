@@ -82,3 +82,7 @@ bastard_dev_cost_modifier_5 = {
 bastard_dev_cost_modifier_6 = {
 	local_development_cost_modifier = -0.1
 }
+
+imp_ambition_timer = {
+
+}

@@ -97,6 +97,7 @@ We_stand_alone = {
 			ROOT = {
 				ai = no	
 			}	
+			NOT = { has_country_modifier = imp_ambition_timer }
 	}
 	trigger  = {
 		OR = {
@@ -195,7 +196,8 @@ War_chest = {
 		OR = {	
 			current_age = age_of_discovery
 			current_age = age_of_reformation
-		}	
+		}
+		NOT = { has_country_modifier = imp_ambition_timer }
 	}
 
 

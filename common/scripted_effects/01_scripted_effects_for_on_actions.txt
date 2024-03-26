@@ -3141,6 +3141,25 @@ on_colonist_boosting_colony_effect = {
 
 on_alliance_broken_effect = {
 	if = {
+		limit = { 
+			ai = no
+			is_at_war = yes
+			NOT = {
+				is_in_war = {
+					duration = 1825
+				}
+			}	
+			any_war_enemy_country = {
+				ai = no
+			}
+		}
+		add_country_modifier = {
+			name = imp_ambition_timer
+			duration = 1825 
+			hidden = yes 
+		}
+	}
+	if = {
 		limit = { has_country_modifier = mng_trade_access_in_china_modifier }
 		remove_country_modifier = mng_trade_access_in_china_modifier
 	}
