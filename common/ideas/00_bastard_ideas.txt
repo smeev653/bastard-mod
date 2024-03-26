@@ -40,7 +40,92 @@
 #	}
 #}
 
+CHG_ideas = {
+	start = {
+		cavalry_power = 0.20
+		harsh_treatment_cost = -0.2
+	}
+	
+	bonus = {
+		land_maintenance_modifier = -0.05
+	}
+	
+	trigger = {
+		tag = CHG
+	}
+	free = yes
+	
+	the_mountain_khanate = {
+		hostile_attrition = 0.5
+		land_attrition = -0.10
+	}
+	CHG_border_wars = {
+		land_morale = 0.05
+		manpower_recovery_speed = 0.15
+	}
+	sons_of_chagatai = {
+		diplomatic_annexation_cost = -0.15
+	}
+	CHG_chagatai_literature = {
+		prestige = 1
+	}
+	tradition_of_conquest = { #also used in horde_ideas
+		core_creation = -0.15
+	}
+	CHG_constant_scheming = {
+		diplomats = 1
+	}
+	glory_of_conquest = {
+		#global_manpower_modifier = 0.25 (effect taken in OIR idea)
+	}
+}
 
+OIR_ideas = {
+	start = {
+		cavalry_power = 0.20
+		core_creation = -0.20
+	}
+	
+	bonus = {
+		leader_land_shock = 1
+	}
+	
+	trigger = {
+		OR = {
+			tag = OIR
+			tag = ZUN
+		}
+	}
+	free = yes
+	
+	fearsome_warriors_of_tumu = {
+		leader_land_manuever = 1
+		cavalry_cost = -0.1
+	}
+	life_of_steppe_warrior = { #also used in Horde ideas, KHA_ideas
+		land_attrition = -0.20
+	}
+	the_four_oirats = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	todo_besheg_script = {
+		technology_cost = -0.05
+	}
+	OIR_great_khans_legacy = {
+		ae_impact = -0.15
+	}
+	defiance_of_the_dzungars = {
+		discipline = 0.05
+		manpower_recovery_speed = 0.15
+	}
+	glory_of_conquest = { #also used in Horde ideas, KHA_ideas and CHG_ideas
+		global_manpower_modifier = 0.15
+	}
+}
 MJZ_ideas = {
 	start = {
 		horde_unity = 0.5
@@ -1095,7 +1180,7 @@ SIC_ideas = {
 AFG_ideas = {
 	start = {
 		army_tradition = 0.5
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 	
 	bonus = {
@@ -1137,7 +1222,7 @@ AFG_ideas = {
 MUG_ideas = {
 	start = {
 		core_creation = -0.15
-		cavalry_power = 0.1
+		discipline = 0.05
 	}
 	
 	bonus = {
@@ -1150,19 +1235,19 @@ MUG_ideas = {
 	free = yes
 	
 	mansabdari_system = {
-		discipline = 0.05
+		cavalry_power = 0.1
 	}
-	control_of_the_ulema = {
-		global_unrest = -1
+	tureh = {
+		global_manpower_modifier = 0.2
 	}
 	mughal_ibadat_khana = {
-		idea_cost = -0.1
+		yearly_innovativeness = 0.33
 	}
 	an_indian_padshah = {
-		free_mil_policy = 1
+		land_morale = 0.1
 	}
 	zabt_system = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.33
 	}
 	mughal_architecture = {
 		prestige = 1
@@ -2687,7 +2772,7 @@ GLH_ideas = {
 		trade_efficiency = 0.1
 	}
 	logistics_of_khan = { #Used by horde_ideas
-		manpower_recovery_speed = 0.2
+		manpower_recovery_speed = 0.15
 	}
 	glh_populating_the_steppes = {
 		global_manpower_modifier = 0.2
