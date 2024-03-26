@@ -199,8 +199,7 @@ MCH_ideas = {
 		amount_of_banners = 0.25
 	}
 	the_manchu_alphabet = {
-		global_institution_spread = 0.05
-		stability_cost_modifier = -0.1
+		technology_cost = -0.05
 	}
 	link_with_the_mongol_dynasty = {
 		cavalry_power = 0.1
