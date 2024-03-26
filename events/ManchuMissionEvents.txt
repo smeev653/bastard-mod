@@ -301,11 +301,9 @@ country_event = {
 			every_owned_province = {
 				limit = {
 					OR = {
-						culture = khazak
 						culture = uyghur
 						culture = turkmeni
 						culture = kirgiz
-						culture = nogaybak
 					}
 				}
 				change_culture = uzbehk

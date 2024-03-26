@@ -309,7 +309,7 @@ mongol_missions_2 = {
 
 		position = 4
 		trigger = {
-			num_of_banners = 20
+			num_of_banners = 10
 		}
 		effect = {
 			persia_region = {
