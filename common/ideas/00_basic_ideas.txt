@@ -1273,7 +1273,6 @@ quantity_ideas = {
 	
 	bonus = {
 		land_forcelimit_modifier = 0.25
-		special_unit_cost_modifier = -0.25
 		num_of_pronoiars = 1
 	}
 	mass_army = {
